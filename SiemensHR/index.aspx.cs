@@ -101,7 +101,7 @@ namespace SiemensHR
                     Session["AngajatorDenumire"] = angajator.LoadInfoAngajatori().Tables[0].Rows[0]["Denumire"].ToString();
 
                     //autentificarea este de tip windows prin Active Directory
-                    if (authentication == "1")
+                    if ( authentication == "1")
                     {
                         //este preluat user-ul loginat
                         user = new WindowsPrincipal(WindowsIdentity.GetCurrent());
