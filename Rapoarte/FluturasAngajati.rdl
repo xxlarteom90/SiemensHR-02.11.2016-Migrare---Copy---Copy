@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2003/10/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <RightMargin>1in</RightMargin>
+  <Body>
+    <ReportItems>
+      <Table Name="table1">
+        <Style />
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Height>0.25in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Subreport Name="subreport1">
+                      <Style />
+                      <ReportName>Fluturas</ReportName>
+                      <Parameters>
+                        <Parameter Name="AngajatorID">
+                          <Value>=Parameters!AngajatorID.Value</Value>
+                        </Parameter>
+                        <Parameter Name="AngajatID">
+                          <Value>=Fields!AngajatID.Value</Value>
+                        </Parameter>
+                        <Parameter Name="LunaID">
+                          <Value>=Parameters!LunaID.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                    </Subreport>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Top>0.125in</Top>
+        <TableColumns>
+          <TableColumn>
+            <Width>1.66667in</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Style />
+    <Height>0.375in</Height>
+  </Body>
+  <TopMargin>1in</TopMargin>
+  <DataSources>
+    <DataSource Name="SiemensHR">
+      <rd:DataSourceID>925a19dc-ee05-4e53-ac30-1c39ad1622fd</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>data source=robavt054c;initial catalog=SiemensHR</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <Width>4.23281cm</Width>
+  <DataSets>
+    <DataSet Name="SiemensHR">
+      <Fields>
+        <Field Name="AngajatID">
+          <DataField>AngajatID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SiemensHR</DataSourceName>
+        <CommandText>SELECT     AngajatID
+FROM         AngajatFull
+WHERE     (AngajatorID = @AngajatorID)</CommandText>
+        <QueryParameters>
+          <QueryParameter Name="@AngajatorID">
+            <Value>=Parameters!AngajatorID.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <LeftMargin>1in</LeftMargin>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <rd:ReportID>93b25f15-ff93-4ff3-b4d3-38a475385387</rd:ReportID>
+  <BottomMargin>1in</BottomMargin>
+  <ReportParameters>
+    <ReportParameter Name="AngajatorID">
+      <DataType>Integer</DataType>
+      <Prompt>AngajatorID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LunaID">
+      <DataType>Integer</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>LunaID</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Language>en-US</Language>
+</Report>

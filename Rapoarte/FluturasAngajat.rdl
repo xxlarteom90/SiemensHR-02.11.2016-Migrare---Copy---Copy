@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2003/10/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <RightMargin>1in</RightMargin>
+  <Body>
+    <ReportItems>
+      <Table Name="table1">
+        <Height>0.25in</Height>
+        <Style />
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Height>0.25in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Subreport Name="subreport1">
+                      <Style />
+                      <ReportName>Fluturas</ReportName>
+                      <Parameters>
+                        <Parameter Name="AngajatorID">
+                          <Value>=Parameters!AngajatorID.Value</Value>
+                        </Parameter>
+                        <Parameter Name="AngajatID">
+                          <Value>=Parameters!AngajatID.Value</Value>
+                        </Parameter>
+                        <Parameter Name="LunaID">
+                          <Value>=Fields!LunaID.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                    </Subreport>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Top>0.25in</Top>
+        <Width>1.66667in</Width>
+        <Left>0.125in</Left>
+        <TableColumns>
+          <TableColumn>
+            <Width>1.66667in</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Style />
+    <Height>0.75in</Height>
+  </Body>
+  <TopMargin>1in</TopMargin>
+  <DataSources>
+    <DataSource Name="SiemensHR">
+      <rd:DataSourceID>ce2a1447-62f4-441b-af2b-010d4dc5e80c</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>data source=robavt054c;initial catalog=SiemensHR</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <Width>5.07937cm</Width>
+  <DataSets>
+    <DataSet Name="SiemensHR">
+      <Fields>
+        <Field Name="LunaID">
+          <DataField>LunaID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SiemensHR</DataSourceName>
+        <CommandText>SELECT     Sal_Salarii.LunaID
+FROM         Sal_Luni INNER JOIN
+                      Sal_Salarii ON Sal_Luni.LunaID = Sal_Salarii.LunaID INNER JOIN
+                      AngajatFull ON Sal_Salarii.AngajatID = AngajatFull.AngajatID
+WHERE     (Sal_Luni.LunaID &gt;= @IncLunaID) AND (Sal_Salarii.AngajatID = @AngajatID) AND (Sal_Luni.AngajatorID = @AngajatorID) AND 
+                      (Sal_Luni.LunaID &lt;= @SfLunaID)</CommandText>
+        <QueryParameters>
+          <QueryParameter Name="@IncLunaID">
+            <Value>=Parameters!IncLunaID.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@AngajatID">
+            <Value>=Parameters!AngajatID.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@AngajatorID">
+            <Value>=Parameters!AngajatorID.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@SfLunaID">
+            <Value>=Parameters!SfLunaID.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <LeftMargin>1in</LeftMargin>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <rd:ReportID>784ae0ef-e32e-450e-b342-26a0a6b45f19</rd:ReportID>
+  <BottomMargin>1in</BottomMargin>
+  <ReportParameters>
+    <ReportParameter Name="AngajatID">
+      <DataType>Integer</DataType>
+      <Prompt>AngajatID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AngajatorID">
+      <DataType>Integer</DataType>
+      <Prompt>AngajatorID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="IncLunaID">
+      <DataType>Integer</DataType>
+      <Prompt>IncLunaID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="SfLunaID">
+      <DataType>Integer</DataType>
+      <Prompt>SfLunaID</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Language>en-US</Language>
+</Report>

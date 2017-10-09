@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<Root Text="Editare angajat" Expanded="false" Link="#" Target="" OnClick="SelectTask('date_angajare')">
+
+<Options> 
+
+	<Option Text="Altele" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+	
+		<Options>
+			
+			<Option Text="Alerte speciale" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('alerte_speciale')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+		
+		</Options>
+	
+	</Option>
+	
+	
+	<Option Text="Comunicari" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+		<Options>
+		
+			<Option Text="Comunicare indexare" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('comunicare_indexare')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+
+
+			<Option Text="Comunicare indexare majorare" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('comunicare_indexare_majorare')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Comunicare majorare" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('comunicare_majorare')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+
+			<Option Text="Comunicare prima" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('comunicare_prima')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Comunicare prelungire cim" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('comunicare_prelungire_cim')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+		</Options>
+
+	</Option>
+	
+	
+	<Option Text="Date angajat" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+		<Options>
+		
+			<!--Option Text="Nivel angajat" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('nivel_angajat')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option-->
+		
+			<Option Text="Checkup - uri" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('checkupuri')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+			<Option Text="Conturi bancare" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('conturi_banca')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Date angajare" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('date_angajare')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+
+			<Option Text="Date personale" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('date_personale')" OpenDefault="Yes">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Evaluari psihologice" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('evaluari_psihologice')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Persoane in intretinere" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('pers_intretinere')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Situatie militara" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('situatie_militara')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+		</Options>
+	
+	</Option>
+	
+	
+	<Option Text="Documente angajat" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+		<Options>
+		
+			<Option Text="Adeverinta medic familie" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('adeverintaMedicDeFamilie')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+
+			<Option Text="Contract de munca" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('contract_munca')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Fisa postului" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('fisa_postului')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+		</Options>
+	
+	</Option>
+
+	
+	<Option Text="Istorice angajat" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+		<Options>	
+			
+			<Option Text="Istoric carti identitate" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_carte_identitate')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<!--<Option Text="Istoric centre cost" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_centrecost')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>-->
+			
+			<Option Text="Istoric concedii medicale" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_concedii_medicale')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric concedii odihna" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_concedii_odihna')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric intreruperi CIM" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_intreruperi_cim')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric tichete de masa" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_tichete_de_masa')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric departamente" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_departamente')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric functii" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_functii')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric legitimatii sedere" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_legitimatie_sedere')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric NIF" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_NIF')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric pasapoarte" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_pasaport')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric permise munca" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_permis_munca')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric referinte" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_referinte')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric schimbari" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_schimbari')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Istoric training" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_training')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<!-- Modified: Ionel Popa
+			<Option Text="Istoric categorii" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTask('istoric_categorii')">
+				<Options>
+				</Options>
+			</Option>
+			-->			
+	
+		</Options>
+	
+	</Option>
+	
+
+</Options>
+
+
+</Root>
+

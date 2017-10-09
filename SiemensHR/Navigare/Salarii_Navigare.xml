@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Root Text="Salarii" Expanded="false" Link="#" Target="" OnClick="">
+<Options> 
+	<!-- ___ Grupul "Administrare" ________________________________________________________________________________________________________________________________________________ -->
+	<Option Text="Administrare" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+		<Options>
+			<Option Text="Categorii salariale" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','admin_categorii')" OpenDefault="Yes">
+				<Options></Options>		
+			</Option>
+			<Option Text="Concedii medicale" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','concedii_medicale')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Inflatie lunara" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','inflatie_lunara')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Nomenclator boli" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','nomenclator_boli')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Nomenclator tipuri absente" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','nomenclator_tipuri_absente')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Nomenclator tipuri ore lucrate" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','nomenclator_tipuri_ore_lucrate')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Sarbatori legale" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','sarbatori_legale')">
+				<Options></Options>		
+			</Option>			
+			<Option Text="Tipuri retineri" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','tipuri_retineri')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Serii tichete" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','serii_tichete')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Variabile salarizare" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Administrare','constanta_salarizare')">
+				<Options></Options>		
+			</Option>
+			<!--Option Text="Fluturasi" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','trimitere_fluturasi')">
+				<Options></Options>		
+			</Option-->
+		</Options>
+	</Option>	
+	
+	<!-- ___ Grupul "Pontaj" ______________________________________________________________________________________________________________________________________________________ -->
+	<Option Text="Pontaj" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+		<Options>
+			<Option Text="Initializare luna" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','initializare_luna')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Lichidare angajat" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','lichidare_angajat')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Pontaj individual" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','pontaj_individual')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Situatie lunara angajat" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','situatie_lunara')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Retineri angajat" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','retineri_recurente_angajat')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Import" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','import')">
+				<Options></Options>		
+			</Option>
+			<Option Text="Import delegatii" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','import_delegatii')">
+				<Options></Options>		
+			</Option>
+			<!--Option Text="Fluturasi" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','trimitere_fluturasi')">
+				<Options></Options>		
+			</Option-->
+			<!--Option Text="Sincronizare date angajati" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Pontaj','sincronizare_date_angajati')">
+				<Options></Options>		
+			</Option-->
+		</Options>
+	</Option>
+	
+	<!-- ___ Grupul "Rapoarte" ______________________________________________________________________________________________________________________________________________________ -->
+	<Option Text="Rapoarte" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+		<Options>
+			<Option Text="Contributii angajator" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','contributii_angajator')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Fisier multicache" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','fisier_multicache')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Raport acces cladire" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','raport_acces')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Raport CHCM" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','raport_chcm')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Raport cursuri" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','raport_cursuri')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Raport cursuri angajati" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','raport_cursuri_angajati')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Raport cursuri angajati  - Portal" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','raport_cursuri_angajati_portal')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Stat plata detaliat" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','stat_plata_detaliat')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Stat plata functia de baza in alta parte" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','stat_plata_faraFctDeBaza')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Stat plata nescutiti de impozit" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','stat_plata_nescutiti')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Stat plata scutiti de impozit" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','stat_plata_scutiti')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Stat plata pe puncte de lucru" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','stat_plata_pePuncteDeLucru')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Tichete de masa" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','ticheteDeMasa')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Anexa la NL" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','date_lichidati')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Fisa fiscala" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','fisa_fiscala')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Declaratie unica" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratie_unica')" >
+				<Options></Options>		
+			</Option>
+			<Option Text="Rapoarte scoase din uz" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+					<Options>
+						<Option Text="Declaratie CAS A11" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratiaA11')" >
+							<Options></Options>		
+						</Option>
+						<Option Text="Declaratie CAS A12" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratiaA12')" >
+							<Options></Options>		
+						</Option>
+						<!--<Option Text="Declaratie sanatate - anexa 1" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratiaSanatateA1')" >
+							<Options></Options>		
+						</Option>
+						<Option Text="Declaratie sanatate - anexa 2" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratiaSanatateA2')" >
+							<Options></Options>		
+						</Option>-->
+						<Option Text="Declaratie sanatate - anexa 3a" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratiaSanatateA3a')" >
+							<Options></Options>		
+						</Option>
+						<Option Text="Declaratie sanatate - anexa 3b" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratiaSanatateA3b')" >
+							<Options></Options>		
+						</Option>
+						<!--<Option Text="Declaratie sanatate - anexa 3c" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratiaSanatateA3c')" >
+							<Options></Options>		
+						</Option>-->
+						<Option Text="Declaratie somaj - Cap1" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratieSomajCap1')" >
+							<Options></Options>		
+						</Option>
+						<Option Text="Declaratie somaj - Cap2" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratieSomajCap2')" >
+							<Options></Options>		
+						</Option>
+						<Option Text="Stat Inspectorat Teritorial de Munca" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','stat_itm')" >
+							<Options></Options>		
+						</Option>
+						<Option Text="Contracte Inspectorat Teritorial de Munca" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','contracte_itm')" >
+							<Options></Options>		
+						</Option>
+					</Options>
+			</Option>
+		</Options>
+	</Option>
+</Options>
+</Root>

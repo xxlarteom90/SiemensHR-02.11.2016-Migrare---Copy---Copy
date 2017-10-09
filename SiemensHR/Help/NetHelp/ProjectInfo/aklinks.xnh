@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<root>
+    <keywords>
+        <keyword name="Adaugare angajat">
+            <topics>
+                <topic url="WordDocuments/adugareangajat.htm" window="right"><![CDATA[Adaugare angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Adaugare utilizator">
+            <topics>
+                <topic url="WordDocuments/adugareutilizator.htm" window="d2hWnd_proc"><![CDATA[Adaugare utilizator]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Adeverinta medic familie">
+            <topics>
+                <topic url="WordDocuments/adeverinmedicfamilie.htm" window="d2hWnd_proc"><![CDATA[Adeverinta medic familie]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Administrare">
+            <topics>
+                <topic url="WordDocuments/administrare1.htm" window="right"><![CDATA[Administrare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Administrare Salarii">
+            <topics>
+                <topic url="WordDocuments/administrare.htm" window="right"><![CDATA[Administrare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Alerte speciale">
+            <topics>
+                <topic url="WordDocuments/alertespeciale.htm" window="d2hWnd_proc"><![CDATA[Alerte speciale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Altele - Administrare">
+            <topics>
+                <topic url="WordDocuments/altele1.htm" window="right"><![CDATA[Altele]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Altele - Angajati">
+            <topics>
+                <topic url="WordDocuments/altele.htm" window="d2hWnd_proc"><![CDATA[Altele]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa - Adeverinta medicala">
+            <topics>
+                <topic url="WordDocuments/adeverinmedical.htm" window="right"><![CDATA[Adeverinta medicala]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa - Comunicare indexare">
+            <topics>
+                <topic url="WordDocuments/comunicareindexare1.htm" window="right"><![CDATA[Comunicare indexare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa - Comunicare indexare majorare">
+            <topics>
+                <topic url="WordDocuments/comunicareindexaremajorare1.htm" window="right"><![CDATA[Comunicare indexare majorare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa - Comunicare majorare">
+            <topics>
+                <topic url="WordDocuments/comunicaremajorare1.htm" window="right"><![CDATA[Comunicare majorare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa - Comunicare prima">
+            <topics>
+                <topic url="WordDocuments/comunicareprim1.htm" window="right"><![CDATA[Comunicare prima]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa - Contract de munca">
+            <topics>
+                <topic url="WordDocuments/contractdemunc1.htm" window="right"><![CDATA[Contract de munca]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa - Fisa postului">
+            <topics>
+                <topic url="WordDocuments/fiapostului2.htm" window="right"><![CDATA[Fisa postului]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa - Nota lichidare">
+            <topics>
+                <topic url="WordDocuments/notlichidare.htm" window="right"><![CDATA[Nota lichidare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexa la NL">
+            <topics>
+                <topic url="WordDocuments/anexalanl.htm" window="d2hWnd_proc"><![CDATA[Anexa la NL]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Anexe">
+            <topics>
+                <topic url="WordDocuments/anexe.htm" window="right"><![CDATA[Anexe]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Angajati">
+            <topics>
+                <topic url="WordDocuments/angajai.htm" window="right"><![CDATA[Angajati]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Angajator">
+            <topics>
+                <topic url="WordDocuments/angajator.htm" window="right"><![CDATA[Angajator]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Angajatori">
+            <topics>
+                <topic url="WordDocuments/angajatori.htm" window="d2hWnd_proc"><![CDATA[Angajatori]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Banci">
+            <topics>
+                <topic url="WordDocuments/bnci.htm" window="d2hWnd_proc"><![CDATA[Banci]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Baza de date">
+            <topics>
+                <topic url="WordDocuments/bazadedate.htm" window="d2hWnd_proc"><![CDATA[Baza de date]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Calcularea salariilor in luna activa">
+            <topics>
+                <topic url="WordDocuments/calculareasalariilornlunaactiv.htm" window="d2hWnd_proc"><![CDATA[Calcularea salariilor în luna activa]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Case de asigurari">
+            <topics>
+                <topic url="WordDocuments/casedeasigurri.htm" window="d2hWnd_proc"><![CDATA[Case de asigurari]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Categorii salariale">
+            <topics>
+                <topic url="WordDocuments/categoriisalariale.htm" window="d2hWnd_proc"><![CDATA[Categorii salariale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Centre de cost">
+            <topics>
+                <topic url="WordDocuments/centrecost.htm" window="d2hWnd_proc"><![CDATA[Centre cost]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cerinte de sistem">
+            <topics>
+                <topic url="WordDocuments/cerinedesistem.htm" window="right"><![CDATA[Cerinte de sistem]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cerinte hardware pentru server">
+            <topics>
+                <topic url="WordDocuments/cerinehardwarepentruserver.htm" window="right"><![CDATA[Cerinte hardware pentru server]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cerinte software">
+            <topics>
+                <topic url="WordDocuments/cerinesoftware.htm" window="right"><![CDATA[Cerinte software]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Completare carnete de munca">
+            <topics>
+                <topic url="WordDocuments/completarecarnetemunc.htm" window="d2hWnd_proc"><![CDATA[Completare carnete munca]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Comunicare indexare">
+            <topics>
+                <topic url="WordDocuments/comunicareindexare.htm" window="d2hWnd_proc"><![CDATA[Comunicare indexare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Comunicare indexare majorare">
+            <topics>
+                <topic url="WordDocuments/comunicareindexaremajorare.htm" window="d2hWnd_proc"><![CDATA[Comunicare indexare majorare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Comunicare majorare">
+            <topics>
+                <topic url="WordDocuments/comunicaremajorare.htm" window="d2hWnd_proc"><![CDATA[Comunicare majorare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Comunicare prima">
+            <topics>
+                <topic url="WordDocuments/comunicareprim.htm" window="d2hWnd_proc"><![CDATA[Comunicare prima]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Comunicari">
+            <topics>
+                <topic url="WordDocuments/comunicri.htm" window="d2hWnd_proc"><![CDATA[Comunicari]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Concedii medicale">
+            <topics>
+                <topic url="WordDocuments/concediimedicale.htm" window="d2hWnd_proc"><![CDATA[Concedii medicale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Contract de munca">
+            <topics>
+                <topic url="WordDocuments/contractdemunc.htm" window="d2hWnd_proc"><![CDATA[Contract de munca]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Conturi banca">
+            <topics>
+                <topic url="WordDocuments/conturibanc.htm" window="d2hWnd_proc"><![CDATA[Conturi banca]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Cursuri">
+            <topics>
+                <topic url="WordDocuments/cursuri.htm" window="d2hWnd_proc"><![CDATA[Cursuri]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Date angajare">
+            <topics>
+                <topic url="WordDocuments/dateangajare.htm" window="d2hWnd_proc"><![CDATA[Date angajare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Date tehnice si valori limita">
+            <topics>
+                <topic url="WordDocuments/datetehniceivalorilimit.htm" window="right"><![CDATA[Date tehnice si valori limita]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Departamente">
+            <topics>
+                <topic url="WordDocuments/departamente.htm" window="d2hWnd_proc"><![CDATA[Departamente]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Dezinstalare">
+            <topics>
+                <topic url="WordDocuments/dezinstalare.htm" window="right"><![CDATA[Dezinstalare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Domenii activitate">
+            <topics>
+                <topic url="WordDocuments/domeniideactivitate.htm" window="d2hWnd_proc"><![CDATA[Domenii de activitate]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Erori de functionare">
+            <topics>
+                <topic url="WordDocuments/eroridefuncionare.htm" window="right"><![CDATA[Erori de functionare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Evolutia salariilor">
+            <topics>
+                <topic url="WordDocuments/evoluiasalariilor.htm" window="right"><![CDATA[Evolutia salariilor]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Fise fiscale">
+            <topics>
+                <topic url="WordDocuments/fisefiscale.htm" window="d2hWnd_proc"><![CDATA[Fise fiscale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Fisie multicache">
+            <topics>
+                <topic url="WordDocuments/fiiermulticache.htm" window="d2hWnd_proc"><![CDATA[Fisier multicache]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Functii">
+            <topics>
+                <topic url="WordDocuments/funcii.htm" window="d2hWnd_proc"><![CDATA[Functii]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRToolkit">
+            <topics>
+                <topic url="WordDocuments/hrtoolkithumanresourcesmanagementsystem.htm" window="right"><![CDATA[HR Toolkit - Human Resources Management System]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Cautare angajat">
+            <topics>
+                <topic url="WordDocuments/cutareangajat.htm" window="right"><![CDATA[Cautare angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Cautare avansata">
+            <topics>
+                <topic url="WordDocuments/cutareavansat.htm" window="d2hWnd_proc"><![CDATA[Cautare avansata]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Cautare rapida">
+            <topics>
+                <topic url="WordDocuments/cutarerapid1.htm" window="d2hWnd_proc"><![CDATA[Cautare rapida]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Checkup-uri">
+            <topics>
+                <topic url="WordDocuments/checkupuri.htm" window="d2hWnd_proc"><![CDATA[Checkup-uri]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Date angajat">
+            <topics>
+                <topic url="WordDocuments/dateangajat.htm" window="d2hWnd_proc"><![CDATA[Date angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Date personale">
+            <topics>
+                <topic url="WordDocuments/datepersonale.htm" window="d2hWnd_proc"><![CDATA[Date personale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Documente angajat">
+            <topics>
+                <topic url="WordDocuments/documenteangajat.htm" window="d2hWnd_proc"><![CDATA[Documente angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Editare angajat">
+            <topics>
+                <topic url="WordDocuments/editareangajat.htm" window="right"><![CDATA[Editare angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Evaluari psihologice">
+            <topics>
+                <topic url="WordDocuments/evaluripsihologice1.htm" window="d2hWnd_proc"><![CDATA[Evaluari psihologice]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Fisa postului">
+            <topics>
+                <topic url="WordDocuments/fiapostului1.htm" window="d2hWnd_proc"><![CDATA[Fisa postului]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Istoric carti identitate">
+            <topics>
+                <topic url="WordDocuments/istoriccriidentitate1.htm" window="d2hWnd_proc"><![CDATA[Istoric carti identitate]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Istoric departamente">
+            <topics>
+                <topic url="WordDocuments/istoricdepartamente.htm" window="d2hWnd_proc"><![CDATA[Istoric departamente]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Istoric functii">
+            <topics>
+                <topic url="WordDocuments/istoricfuncii1.htm" window="d2hWnd_proc"><![CDATA[Istoric functii]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Istoric referinte">
+            <topics>
+                <topic url="WordDocuments/istoricreferine1.htm" window="d2hWnd_proc"><![CDATA[Istoric referinte]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Istoric training">
+            <topics>
+                <topic url="WordDocuments/istorictraining.htm" window="d2hWnd_proc"><![CDATA[Istoric training]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="HRUser - Istorice angajat">
+            <topics>
+                <topic url="WordDocuments/istoriceangajat.htm" window="d2hWnd_proc"><![CDATA[Istorice angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Import pontaj">
+            <topics>
+                <topic url="WordDocuments/importpontaj.htm" window="d2hWnd_proc"><![CDATA[Import pontaj]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Inchiderea lunii active">
+            <topics>
+                <topic url="WordDocuments/nchiderealuniiactive.htm" window="d2hWnd_proc"><![CDATA[Închiderea lunii active]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Inflatie lunara">
+            <topics>
+                <topic url="WordDocuments/inflaielunar.htm" window="d2hWnd_proc"><![CDATA[Inflatie lunara]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Initializare luna">
+            <topics>
+                <topic url="WordDocuments/iniializarelun.htm" window="d2hWnd_proc"><![CDATA[Initializare luna]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Instalare si punere in functiune">
+            <topics>
+                <topic url="WordDocuments/instalareipunerenfunciune.htm" window="right"><![CDATA[Instalare si punere în functiune]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Instructiuni de instalare">
+            <topics>
+                <topic url="WordDocuments/instruciunideinstalare.htm" window="right"><![CDATA[Instructiuni de instalare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Introducere">
+            <topics>
+                <topic url="WordDocuments/introducere.htm" window="right"><![CDATA[Introducere]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Introducere in lucrul cu HRToolkit">
+            <topics>
+                <topic url="WordDocuments/introducerenlucrulcuhrtoolkit.htm" window="right"><![CDATA[Introducere în lucrul cu HR Toolkit]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Invaliditati">
+            <topics>
+                <topic url="WordDocuments/invaliditi.htm" window="d2hWnd_proc"><![CDATA[Invaliditati]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Istoric concedii medicale">
+            <topics>
+                <topic url="WordDocuments/istoricconcediimedicale.htm" window="d2hWnd_proc"><![CDATA[Istoric concedii medicale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Istoric concedii odihna">
+            <topics>
+                <topic url="WordDocuments/istoricconcediiodihn.htm" window="d2hWnd_proc"><![CDATA[Istoric concedii odihna]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Istoric intreruperi CIM">
+            <topics>
+                <topic url="WordDocuments/istoricntrerupericim.htm" window="d2hWnd_proc"><![CDATA[Istoric întreruperi CIM]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Istoric legitimatii sedere">
+            <topics>
+                <topic url="WordDocuments/istoriclegitimaiiedere.htm" window="d2hWnd_proc"><![CDATA[Istoric legitimatii sedere]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Istoric NIF">
+            <topics>
+                <topic url="WordDocuments/istoricnif.htm" window="d2hWnd_proc"><![CDATA[Istoric NIF]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Istoric pasapoarte">
+            <topics>
+                <topic url="WordDocuments/istoricpaapoarte.htm" window="d2hWnd_proc"><![CDATA[Istoric pasapoarte]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Istoric permise munca">
+            <topics>
+                <topic url="WordDocuments/istoricpermisemunc.htm" window="d2hWnd_proc"><![CDATA[Istoric permise munca]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Istoric schimbari">
+            <topics>
+                <topic url="WordDocuments/istoricschimbri.htm" window="d2hWnd_proc"><![CDATA[Istoric schimbari]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Judete">
+            <topics>
+                <topic url="WordDocuments/judee.htm" window="d2hWnd_proc"><![CDATA[Judete]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Lichidare angajat">
+            <topics>
+                <topic url="WordDocuments/lichidareangajat.htm" window="d2hWnd_proc"><![CDATA[Lichidare angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Majorari salariale">
+            <topics>
+                <topic url="WordDocuments/majorrisalariale.htm" window="right"><![CDATA[Majorari salariale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Managers - Checkup-uri">
+            <topics>
+                <topic url="WordDocuments/checkupuri1.htm" window="right"><![CDATA[Checkup-uri]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Managers - Contracte de munca">
+            <topics>
+                <topic url="WordDocuments/contractedemunc.htm" window="right"><![CDATA[Contracte de munca]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Modulele aplicatiei HRToolkit">
+            <topics>
+                <topic url="WordDocuments/moduleleaplicaieihrtoolkit.htm" window="right"><![CDATA[Modulele aplicatiei HR Toolkit]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Modulul Administrare nomenclatoare">
+            <topics>
+                <topic url="WordDocuments/modululadministrarenomenclatoare.htm" window="right"><![CDATA[Modulul Administrare nomenclatoare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Modulul Angajati">
+            <topics>
+                <topic url="WordDocuments/modululangajai.htm" window="right"><![CDATA[Modulul Angajati]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Modulul Managers">
+            <topics>
+                <topic url="WordDocuments/modululmanagers.htm" window="right"><![CDATA[Modulul Managers]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Modulul Recrutori">
+            <topics>
+                <topic url="WordDocuments/modululrecrutori.htm" window="right"><![CDATA[Modulul Recrutori]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Modulul Salarii">
+            <topics>
+                <topic url="WordDocuments/modululsalarii.htm" window="right"><![CDATA[Modulul Salarii]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Nomenclator boli">
+            <topics>
+                <topic url="WordDocuments/nomenclatorboli.htm" window="d2hWnd_proc"><![CDATA[Nomenclator boli]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Nomenclator tipuri absente">
+            <topics>
+                <topic url="WordDocuments/nomenclatortipuriabsene.htm" window="d2hWnd_proc"><![CDATA[Nomenclator tipuri absente]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Nomenclator tipuri ore lucrate">
+            <topics>
+                <topic url="WordDocuments/nomenclatortipuriorelucrate.htm" window="d2hWnd_proc"><![CDATA[Nomenclator tipuri ore lucrate]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Persoane in intretinere">
+            <topics>
+                <topic url="WordDocuments/persoanenntreinere.htm" window="d2hWnd_proc"><![CDATA[Persoane în întretinere]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Pontaj">
+            <topics>
+                <topic url="WordDocuments/pontaj.htm" window="right"><![CDATA[Pontaj]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Pontaj individual">
+            <topics>
+                <topic url="WordDocuments/pontajindividual.htm" window="d2hWnd_proc"><![CDATA[Pontaj individual]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Prezentare generala a aplicatiei HRToolkit">
+            <topics>
+                <topic url="WordDocuments/prezentaregeneralaaplicaieihrtoolkit.htm" window="right"><![CDATA[Prezentare generala a aplicatiei HRToolkit]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Primul angajator">
+            <topics>
+                <topic url="WordDocuments/primulangajator.htm" window="d2hWnd_proc"><![CDATA[Primul angajator]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Principii generale si instruirea utilizatorului">
+            <topics>
+                <topic url="WordDocuments/principiigeneraleiinstruireautilizatorului.htm" window="right"><![CDATA[Principii generale si instruirea utilizatorului]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Procese speciale">
+            <topics>
+                <topic url="WordDocuments/procesespeciale.htm" window="right"><![CDATA[Procese speciale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Procese standard">
+            <topics>
+                <topic url="WordDocuments/procesestandard.htm" window="right"><![CDATA[Procese standard]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Punerea in functiune">
+            <topics>
+                <topic url="WordDocuments/punereanfunciune.htm" window="right"><![CDATA[Punerea în functiune]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Rapoarte">
+            <topics>
+                <topic url="WordDocuments/rapoarte.htm" window="right"><![CDATA[Rapoarte]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport  - Stat Inspectorat Teritorial de Munca">
+            <topics>
+                <topic url="WordDocuments/statinspectoratteritorialdemunca.htm" window="d2hWnd_proc"><![CDATA[Stat Inspectorat Teritorial de Munca]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Contracte Inspectorat Teritorial de Munca">
+            <topics>
+                <topic url="WordDocuments/contracteinspectoratteritorialdemunca.htm" window="d2hWnd_proc"><![CDATA[Contracte Inspectorat Teritorial de  Munca]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Contributii angajator">
+            <topics>
+                <topic url="WordDocuments/contribuiiangajator.htm" window="d2hWnd_proc"><![CDATA[Contributii angajator]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Declaratie CAS A11">
+            <topics>
+                <topic url="WordDocuments/declaraiecasa11.htm" window="d2hWnd_proc"><![CDATA[Declaratie CAS A11]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Declaratie CAS A12">
+            <topics>
+                <topic url="WordDocuments/declaraiecasa12.htm" window="d2hWnd_proc"><![CDATA[Declaratie CAS A12]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Declaratie sanatate - anexa 3a">
+            <topics>
+                <topic url="WordDocuments/declaraiesntateanexa3a.htm" window="d2hWnd_proc"><![CDATA[Declaratie sanatate - anexa 3a]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Declaratie sanatate - anexa 3b">
+            <topics>
+                <topic url="WordDocuments/declaraiesntateanexa3b.htm" window="d2hWnd_proc"><![CDATA[Declaratie sanatate - anexa 3b]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Declaratie somaj - Cap 1">
+            <topics>
+                <topic url="WordDocuments/declaraiesomajcap1.htm" window="d2hWnd_proc"><![CDATA[Declaratie somaj - Cap 1]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Declaratie somaj - Cap 2">
+            <topics>
+                <topic url="WordDocuments/declaraiesomajcap2.htm" window="d2hWnd_proc"><![CDATA[Declaratie somaj - Cap 2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Stat de plata cu functia de baza in alta parte">
+            <topics>
+                <topic url="WordDocuments/statdeplatcufunciadebaznaltparte.htm" window="d2hWnd_proc"><![CDATA[Stat de plata cu functia de baza în alta parte]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Stat de plata detaliat">
+            <topics>
+                <topic url="WordDocuments/statdeplatdetaliat.htm" window="d2hWnd_proc"><![CDATA[Stat de plata detaliat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Stat de plata nescutiti de impozit">
+            <topics>
+                <topic url="WordDocuments/statdeplatnescutiideimpozit.htm" window="d2hWnd_proc"><![CDATA[Stat de plata nescutiti de impozit]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Stat de plata pe puncte de lucru">
+            <topics>
+                <topic url="WordDocuments/statdeplatpepunctedelucru.htm" window="d2hWnd_proc"><![CDATA[Stat de plata pe puncte de lucru]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport - Stat de plata scutiti de impozit">
+            <topics>
+                <topic url="WordDocuments/statdeplatscutiideimpozit.htm" window="d2hWnd_proc"><![CDATA[Stat de plata scutiti de impozit]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport acces cladire">
+            <topics>
+                <topic url="WordDocuments/raportaccescldire.htm" window="d2hWnd_proc"><![CDATA[Raport acces cladire]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport CHCM">
+            <topics>
+                <topic url="WordDocuments/raportchcm.htm" window="d2hWnd_proc"><![CDATA[Raport CHCM]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport cursuri">
+            <topics>
+                <topic url="WordDocuments/raportcursuri.htm" window="d2hWnd_proc"><![CDATA[Raport cursuri]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raport cursuri angajati">
+            <topics>
+                <topic url="WordDocuments/raportcursuriangajai.htm" window="d2hWnd_proc"><![CDATA[Raport cursuri angajati]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Cautare angajat">
+            <topics>
+                <topic url="WordDocuments/cutareangajat1.htm" window="right"><![CDATA[Cautare angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Cautare avansata">
+            <topics>
+                <topic url="WordDocuments/cutareavansat1.htm" window="d2hWnd_proc"><![CDATA[Cautare avansata]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Cautare rapida">
+            <topics>
+                <topic url="WordDocuments/cutarerapid.htm" window="d2hWnd_proc"><![CDATA[Cautare rapida]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Checkup-uri">
+            <topics>
+                <topic url="WordDocuments/checkupuri2.htm" window="d2hWnd_proc"><![CDATA[Checkup-uri]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Date angajat">
+            <topics>
+                <topic url="WordDocuments/dateangajat1.htm" window="d2hWnd_proc"><![CDATA[Date angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Date personale">
+            <topics>
+                <topic url="WordDocuments/datepersonale1.htm" window="d2hWnd_proc"><![CDATA[Date personale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Documente angajat">
+            <topics>
+                <topic url="WordDocuments/documenteangajat1.htm" window="d2hWnd_proc"><![CDATA[Documente angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Editare angajat">
+            <topics>
+                <topic url="WordDocuments/editareangajat1.htm" window="right"><![CDATA[Editare angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Evaluari psihologice">
+            <topics>
+                <topic url="WordDocuments/evaluripsihologice.htm" window="d2hWnd_proc"><![CDATA[Evaluari psihologice]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Fisa postului">
+            <topics>
+                <topic url="WordDocuments/fiapostului.htm" window="d2hWnd_proc"><![CDATA[Fisa postului]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Istoric carti identitate">
+            <topics>
+                <topic url="WordDocuments/istoriccriidentitate.htm" window="d2hWnd_proc"><![CDATA[Istoric carti identitate]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Istoric departamente">
+            <topics>
+                <topic url="WordDocuments/istoricdepartamente1.htm" window="d2hWnd_proc"><![CDATA[Istoric departamente]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Istoric functii">
+            <topics>
+                <topic url="WordDocuments/istoricfuncii.htm" window="d2hWnd_proc"><![CDATA[Istoric functii]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Istoric referinte">
+            <topics>
+                <topic url="WordDocuments/istoricreferine.htm" window="d2hWnd_proc"><![CDATA[Istoric referinte]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Istoric training">
+            <topics>
+                <topic url="WordDocuments/istorictraining1.htm" window="d2hWnd_proc"><![CDATA[Istoric training]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Recrutor - Istorice angajat">
+            <topics>
+                <topic url="WordDocuments/istoriceangajat1.htm" window="d2hWnd_proc"><![CDATA[Istorice angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Redeschiderea lunii anterioare">
+            <topics>
+                <topic url="WordDocuments/redeschiderealuniianterioare.htm" window="d2hWnd_proc"><![CDATA[Redeschiderea lunii anterioare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Salarii">
+            <topics>
+                <topic url="WordDocuments/salarii.htm" window="right"><![CDATA[Salarii]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Salarii angajati">
+            <topics>
+                <topic url="WordDocuments/salariiangajai.htm" window="right"><![CDATA[Salarii angajati]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Sarbatori legale">
+            <topics>
+                <topic url="WordDocuments/srbtorilegale.htm" window="d2hWnd_proc"><![CDATA[Sarbatori legale]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Schimbare parola">
+            <topics>
+                <topic url="WordDocuments/schimbareparola.htm" window="d2hWnd_proc"><![CDATA[Schimbare parola]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Setari">
+            <topics>
+                <topic url="WordDocuments/setri.htm" window="right"><![CDATA[Setari]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Situatie lunara angajat">
+            <topics>
+                <topic url="WordDocuments/situaielunarangajat.htm" window="d2hWnd_proc"><![CDATA[Situatie lunara angajat]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Situatie militara">
+            <topics>
+                <topic url="WordDocuments/situaiemilitar.htm" window="d2hWnd_proc"><![CDATA[Situatie militara]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Studii">
+            <topics>
+                <topic url="WordDocuments/studii.htm" window="d2hWnd_proc"><![CDATA[Studii]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tari">
+            <topics>
+                <topic url="WordDocuments/ri.htm" window="d2hWnd_proc"><![CDATA[Tari]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tichete de masa">
+            <topics>
+                <topic url="WordDocuments/tichetedemas.htm" window="d2hWnd_proc"><![CDATA[Tichete de masa]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tipuri rapoarte psihologice">
+            <topics>
+                <topic url="WordDocuments/tipurirapoartepsihologice.htm" window="d2hWnd_proc"><![CDATA[Tipuri rapoarte psihologice]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Tipuri retineri">
+            <topics>
+                <topic url="WordDocuments/tipurireineri.htm" window="d2hWnd_proc"><![CDATA[Tipuri retineri]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Titluri">
+            <topics>
+                <topic url="WordDocuments/titluri.htm" window="d2hWnd_proc"><![CDATA[Titluri]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Utilizatori">
+            <topics>
+                <topic url="WordDocuments/utilizatori.htm" window="right"><![CDATA[Utilizatori]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Utilizatorii aplicatiei">
+            <topics>
+                <topic url="WordDocuments/utilizatoriiaplicaiei.htm" window="right"><![CDATA[Utilizatorii aplicatiei]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Variabile salarizare - Administrare">
+            <topics>
+                <topic url="WordDocuments/variabilesalarizare.htm" window="d2hWnd_proc"><![CDATA[Variabile salarizare]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Variabile salarizare - Salarii">
+            <topics>
+                <topic url="WordDocuments/variabilesalarizare1.htm" window="d2hWnd_proc"><![CDATA[Variabile salarizare]]></topic>
+            </topics>
+        </keyword>
+    </keywords>
+    <groups />
+    <links />
+</root>

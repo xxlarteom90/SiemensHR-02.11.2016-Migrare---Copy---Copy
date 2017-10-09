@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DataSet1" targetNamespace="http://www.tempuri.org/DataSet1.xsd" xmlns:mstns="http://www.tempuri.org/DataSet1.xsd" xmlns="http://www.tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DataSet1" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Angajati">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AngajatID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="AngajatorID" type="xs:int" />
+              <xs:element name="Marca" type="xs:string" />
+              <xs:element name="NumeIntreg" type="xs:string" minOccurs="0" />
+              <xs:element name="Nume" type="xs:string" />
+              <xs:element name="Prenume" type="xs:string" />
+              <xs:element name="NumeAnterior" type="xs:string" />
+              <xs:element name="TitluID" type="xs:int" minOccurs="0" />
+              <xs:element name="Poza" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="PrenumeMama" type="xs:string" />
+              <xs:element name="PrenumeTata" type="xs:string" />
+              <xs:element name="StudiuID" type="xs:int" />
+              <xs:element name="AnAbsolvire" type="xs:short" />
+              <xs:element name="NrDiploma" type="xs:string" />
+              <xs:element name="Descriere" type="xs:string" minOccurs="0" />
+              <xs:element name="ModIncadrare" type="xs:boolean" />
+              <xs:element name="ProgramLucru" type="xs:unsignedByte" />
+              <xs:element name="Telefon" type="xs:string" minOccurs="0" />
+              <xs:element name="DataNasterii" type="xs:dateTime" />
+              <xs:element name="TaraNastereID" type="xs:int" />
+              <xs:element name="JudetNastereID" type="xs:int" />
+              <xs:element name="LocalitateNastere" type="xs:string" />
+              <xs:element name="StareCivila" type="xs:unsignedByte" />
+              <xs:element name="NrCopii" type="xs:unsignedByte" />
+              <xs:element name="Sex" type="xs:string" />
+              <xs:element name="Nationalitate" type="xs:string" />
+              <xs:element name="CNP" type="xs:long" />
+              <xs:element name="CNPAnterior" type="xs:long" />
+              <xs:element name="TipFisaFiscala" type="xs:boolean" />
+              <xs:element name="AniVechimeMunca" type="xs:unsignedByte" />
+              <xs:element name="LuniVechimeMunca" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="ZileVechimeMunca" type="xs:unsignedByte" />
+              <xs:element name="AreCardBancar" type="xs:boolean" />
+              <xs:element name="SefID" type="xs:int" minOccurs="0" />
+              <xs:element name="Activ" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SalariuBazaActual" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IndemnizatieConducereActual" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PerioadaDeterminata" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DataPanaLa" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NrContractMunca" type="xs:string" />
+              <xs:element name="DataInregContractMunca" type="xs:dateTime" />
+              <xs:element name="Invaliditate" type="xs:short" minOccurs="0" />
+              <xs:element name="CategorieID" type="xs:int" />
+              <xs:element name="Email" type="xs:string" />
+              <xs:element name="TelMunca" type="xs:string" />
+              <xs:element name="Deleted" type="xs:boolean" />
+              <xs:element name="Pensionar" type="xs:boolean" />
+              <xs:element name="AreAlteVenituri" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SolicitaDeduceri" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PermMuncaEliberat" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PermMuncaExpira" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PermSedereEliberat" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PermSedereExpira" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NrPermisMunca" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Angajati" />
+      <xs:field xpath="mstns:AngajatID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

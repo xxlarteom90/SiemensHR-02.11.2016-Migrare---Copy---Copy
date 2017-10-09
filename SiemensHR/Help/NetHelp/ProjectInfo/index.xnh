@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<indexes>
+    <item name="Adaugare angajat" id="7">
+        <topics>
+            <topic url="WordDocuments/adugareangajat.htm" window="right">Adaugare angajat</topic>
+        </topics>
+    </item>
+    <item name="Adaugare utilizator" id="8">
+        <topics>
+            <topic url="WordDocuments/adugareutilizator.htm" window="d2hWnd_proc">Adaugare utilizator</topic>
+        </topics>
+    </item>
+    <item name="Adeverinta medic familie" id="9">
+        <topics>
+            <topic url="WordDocuments/adeverinmedicfamilie.htm" window="d2hWnd_proc">Adeverinta medic familie</topic>
+        </topics>
+    </item>
+    <item name="Administrare" id="11">
+        <topics>
+            <topic url="WordDocuments/administrare1.htm" window="right">Administrare</topic>
+        </topics>
+    </item>
+    <item name="Administrare Salarii" id="12">
+        <topics>
+            <topic url="WordDocuments/administrare.htm" window="right">Administrare</topic>
+        </topics>
+    </item>
+    <item name="Alerte speciale" id="13">
+        <topics>
+            <topic url="WordDocuments/alertespeciale.htm" window="d2hWnd_proc">Alerte speciale</topic>
+        </topics>
+    </item>
+    <item name="Altele - Administrare" id="15">
+        <topics>
+            <topic url="WordDocuments/altele1.htm" window="right">Altele</topic>
+        </topics>
+    </item>
+    <item name="Altele - Angajati" id="14">
+        <topics>
+            <topic url="WordDocuments/altele.htm" window="d2hWnd_proc">Altele</topic>
+        </topics>
+    </item>
+    <item name="Anexa - Adeverinta medicala" id="10">
+        <topics>
+            <topic url="WordDocuments/adeverinmedical.htm" window="right">Adeverinta medicala</topic>
+        </topics>
+    </item>
+    <item name="Anexa - Comunicare indexare" id="41">
+        <topics>
+            <topic url="WordDocuments/comunicareindexare1.htm" window="right">Comunicare indexare</topic>
+        </topics>
+    </item>
+    <item name="Anexa - Comunicare indexare majorare" id="42">
+        <topics>
+            <topic url="WordDocuments/comunicareindexaremajorare1.htm" window="right">Comunicare indexare majorare</topic>
+        </topics>
+    </item>
+    <item name="Anexa - Comunicare majorare" id="45">
+        <topics>
+            <topic url="WordDocuments/comunicaremajorare1.htm" window="right">Comunicare majorare</topic>
+        </topics>
+    </item>
+    <item name="Anexa - Comunicare prima" id="47">
+        <topics>
+            <topic url="WordDocuments/comunicareprim1.htm" window="right">Comunicare prima</topic>
+        </topics>
+    </item>
+    <item name="Anexa - Contract de munca" id="51">
+        <topics>
+            <topic url="WordDocuments/contractdemunc1.htm" window="right">Contract de munca</topic>
+        </topics>
+    </item>
+    <item name="Anexa - Fisa postului" id="80">
+        <topics>
+            <topic url="WordDocuments/fiapostului2.htm" window="right">Fisa postului</topic>
+        </topics>
+    </item>
+    <item name="Anexa - Nota lichidare" id="130">
+        <topics>
+            <topic url="WordDocuments/notlichidare.htm" window="right">Nota lichidare</topic>
+        </topics>
+    </item>
+    <item name="Anexa la NL" id="16">
+        <topics>
+            <topic url="WordDocuments/anexalanl.htm" window="d2hWnd_proc">Anexa la NL</topic>
+        </topics>
+    </item>
+    <item name="Anexe" id="17">
+        <topics>
+            <topic url="WordDocuments/anexe.htm" window="right">Anexe</topic>
+        </topics>
+    </item>
+    <item name="Angajati" id="18">
+        <topics>
+            <topic url="WordDocuments/angajai.htm" window="right">Angajati</topic>
+        </topics>
+    </item>
+    <item name="Angajator" id="19">
+        <topics>
+            <topic url="WordDocuments/angajator.htm" window="right">Angajator</topic>
+        </topics>
+    </item>
+    <item name="Angajatori" id="20">
+        <topics>
+            <topic url="WordDocuments/angajatori.htm" window="d2hWnd_proc">Angajatori</topic>
+        </topics>
+    </item>
+    <item name="Banci" id="21">
+        <topics>
+            <topic url="WordDocuments/bnci.htm" window="d2hWnd_proc">Banci</topic>
+        </topics>
+    </item>
+    <item name="Baza de date" id="22">
+        <topics>
+            <topic url="WordDocuments/bazadedate.htm" window="d2hWnd_proc">Baza de date</topic>
+        </topics>
+    </item>
+    <item name="Calcularea salariilor in luna activa" id="23">
+        <topics>
+            <topic url="WordDocuments/calculareasalariilornlunaactiv.htm" window="d2hWnd_proc">Calcularea salariilor în luna activa</topic>
+        </topics>
+    </item>
+    <item name="Case de asigurari" id="24">
+        <topics>
+            <topic url="WordDocuments/casedeasigurri.htm" window="d2hWnd_proc">Case de asigurari</topic>
+        </topics>
+    </item>
+    <item name="Categorii salariale" id="25">
+        <topics>
+            <topic url="WordDocuments/categoriisalariale.htm" window="d2hWnd_proc">Categorii salariale</topic>
+        </topics>
+    </item>
+    <item name="Centre de cost" id="32">
+        <topics>
+            <topic url="WordDocuments/centrecost.htm" window="d2hWnd_proc">Centre cost</topic>
+        </topics>
+    </item>
+    <item name="Cerinte de sistem" id="33">
+        <topics>
+            <topic url="WordDocuments/cerinedesistem.htm" window="right">Cerinte de sistem</topic>
+        </topics>
+    </item>
+    <item name="Cerinte hardware pentru server" id="34">
+        <topics>
+            <topic url="WordDocuments/cerinehardwarepentruserver.htm" window="right">Cerinte hardware pentru server</topic>
+        </topics>
+    </item>
+    <item name="Cerinte software" id="35">
+        <topics>
+            <topic url="WordDocuments/cerinesoftware.htm" window="right">Cerinte software</topic>
+        </topics>
+    </item>
+    <item name="Completare carnete de munca" id="39">
+        <topics>
+            <topic url="WordDocuments/completarecarnetemunc.htm" window="d2hWnd_proc">Completare carnete munca</topic>
+        </topics>
+    </item>
+    <item name="Comunicare indexare" id="40">
+        <topics>
+            <topic url="WordDocuments/comunicareindexare.htm" window="d2hWnd_proc">Comunicare indexare</topic>
+        </topics>
+    </item>
+    <item name="Comunicare indexare majorare" id="43">
+        <topics>
+            <topic url="WordDocuments/comunicareindexaremajorare.htm" window="d2hWnd_proc">Comunicare indexare majorare</topic>
+        </topics>
+    </item>
+    <item name="Comunicare majorare" id="44">
+        <topics>
+            <topic url="WordDocuments/comunicaremajorare.htm" window="d2hWnd_proc">Comunicare majorare</topic>
+        </topics>
+    </item>
+    <item name="Comunicare prima" id="46">
+        <topics>
+            <topic url="WordDocuments/comunicareprim.htm" window="d2hWnd_proc">Comunicare prima</topic>
+        </topics>
+    </item>
+    <item name="Comunicari" id="48">
+        <topics>
+            <topic url="WordDocuments/comunicri.htm" window="d2hWnd_proc">Comunicari</topic>
+        </topics>
+    </item>
+    <item name="Concedii medicale" id="49">
+        <topics>
+            <topic url="WordDocuments/concediimedicale.htm" window="d2hWnd_proc">Concedii medicale</topic>
+        </topics>
+    </item>
+    <item name="Contract de munca" id="50">
+        <topics>
+            <topic url="WordDocuments/contractdemunc.htm" window="d2hWnd_proc">Contract de munca</topic>
+        </topics>
+    </item>
+    <item name="Conturi banca" id="55">
+        <topics>
+            <topic url="WordDocuments/conturibanc.htm" window="d2hWnd_proc">Conturi banca</topic>
+        </topics>
+    </item>
+    <item name="Cursuri" id="56">
+        <topics>
+            <topic url="WordDocuments/cursuri.htm" window="d2hWnd_proc">Cursuri</topic>
+        </topics>
+    </item>
+    <item name="Date angajare" id="57">
+        <topics>
+            <topic url="WordDocuments/dateangajare.htm" window="d2hWnd_proc">Date angajare</topic>
+        </topics>
+    </item>
+    <item name="Date tehnice si valori limita" id="62">
+        <topics>
+            <topic url="WordDocuments/datetehniceivalorilimit.htm" window="right">Date tehnice si valori limita</topic>
+        </topics>
+    </item>
+    <item name="Departamente" id="69">
+        <topics>
+            <topic url="WordDocuments/departamente.htm" window="d2hWnd_proc">Departamente</topic>
+        </topics>
+    </item>
+    <item name="Dezinstalare" id="70">
+        <topics>
+            <topic url="WordDocuments/dezinstalare.htm" window="right">Dezinstalare</topic>
+        </topics>
+    </item>
+    <item name="Domenii activitate" id="73">
+        <topics>
+            <topic url="WordDocuments/domeniideactivitate.htm" window="d2hWnd_proc">Domenii de activitate</topic>
+        </topics>
+    </item>
+    <item name="Erori de functionare" id="76">
+        <topics>
+            <topic url="WordDocuments/eroridefuncionare.htm" window="right">Erori de functionare</topic>
+        </topics>
+    </item>
+    <item name="Evolutia salariilor" id="79">
+        <topics>
+            <topic url="WordDocuments/evoluiasalariilor.htm" window="right">Evolutia salariilor</topic>
+        </topics>
+    </item>
+    <item name="Fise fiscale" id="83">
+        <topics>
+            <topic url="WordDocuments/fisefiscale.htm" window="d2hWnd_proc">Fise fiscale</topic>
+        </topics>
+    </item>
+    <item name="Fisie multicache" id="84">
+        <topics>
+            <topic url="WordDocuments/fiiermulticache.htm" window="d2hWnd_proc">Fisier multicache</topic>
+        </topics>
+    </item>
+    <item name="Functii" id="85">
+        <topics>
+            <topic url="WordDocuments/funcii.htm" window="d2hWnd_proc">Functii</topic>
+        </topics>
+    </item>
+    <item name="HRToolkit" id="86">
+        <topics>
+            <topic url="WordDocuments/hrtoolkithumanresourcesmanagementsystem.htm" window="right">HR Toolkit - Human Resources Management System</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Cautare angajat" id="26">
+        <topics>
+            <topic url="WordDocuments/cutareangajat.htm" window="right">Cautare angajat</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Cautare avansata" id="28">
+        <topics>
+            <topic url="WordDocuments/cutareavansat.htm" window="d2hWnd_proc">Cautare avansata</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Cautare rapida" id="30">
+        <topics>
+            <topic url="WordDocuments/cutarerapid1.htm" window="d2hWnd_proc">Cautare rapida</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Checkup-uri" id="36">
+        <topics>
+            <topic url="WordDocuments/checkupuri.htm" window="d2hWnd_proc">Checkup-uri</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Date angajat" id="58">
+        <topics>
+            <topic url="WordDocuments/dateangajat.htm" window="d2hWnd_proc">Date angajat</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Date personale" id="60">
+        <topics>
+            <topic url="WordDocuments/datepersonale.htm" window="d2hWnd_proc">Date personale</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Documente angajat" id="71">
+        <topics>
+            <topic url="WordDocuments/documenteangajat.htm" window="d2hWnd_proc">Documente angajat</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Editare angajat" id="74">
+        <topics>
+            <topic url="WordDocuments/editareangajat.htm" window="right">Editare angajat</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Evaluari psihologice" id="77">
+        <topics>
+            <topic url="WordDocuments/evaluripsihologice1.htm" window="d2hWnd_proc">Evaluari psihologice</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Fisa postului" id="81">
+        <topics>
+            <topic url="WordDocuments/fiapostului1.htm" window="d2hWnd_proc">Fisa postului</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Istoric carti identitate" id="96">
+        <topics>
+            <topic url="WordDocuments/istoriccriidentitate1.htm" window="d2hWnd_proc">Istoric carti identitate</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Istoric departamente" id="100">
+        <topics>
+            <topic url="WordDocuments/istoricdepartamente.htm" window="d2hWnd_proc">Istoric departamente</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Istoric functii" id="102">
+        <topics>
+            <topic url="WordDocuments/istoricfuncii1.htm" window="d2hWnd_proc">Istoric functii</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Istoric referinte" id="110">
+        <topics>
+            <topic url="WordDocuments/istoricreferine1.htm" window="d2hWnd_proc">Istoric referinte</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Istoric training" id="113">
+        <topics>
+            <topic url="WordDocuments/istorictraining.htm" window="d2hWnd_proc">Istoric training</topic>
+        </topics>
+    </item>
+    <item name="HRUser - Istorice angajat" id="116">
+        <topics>
+            <topic url="WordDocuments/istoriceangajat.htm" window="d2hWnd_proc">Istorice angajat</topic>
+        </topics>
+    </item>
+    <item name="Import pontaj" id="87">
+        <topics>
+            <topic url="WordDocuments/importpontaj.htm" window="d2hWnd_proc">Import pontaj</topic>
+        </topics>
+    </item>
+    <item name="Inchiderea lunii active" id="88">
+        <topics>
+            <topic url="WordDocuments/nchiderealuniiactive.htm" window="d2hWnd_proc">Închiderea lunii active</topic>
+        </topics>
+    </item>
+    <item name="Inflatie lunara" id="89">
+        <topics>
+            <topic url="WordDocuments/inflaielunar.htm" window="d2hWnd_proc">Inflatie lunara</topic>
+        </topics>
+    </item>
+    <item name="Initializare luna" id="90">
+        <topics>
+            <topic url="WordDocuments/iniializarelun.htm" window="d2hWnd_proc">Initializare luna</topic>
+        </topics>
+    </item>
+    <item name="Instalare si punere in functiune" id="91">
+        <topics>
+            <topic url="WordDocuments/instalareipunerenfunciune.htm" window="right">Instalare si punere în functiune</topic>
+        </topics>
+    </item>
+    <item name="Instructiuni de instalare" id="92">
+        <topics>
+            <topic url="WordDocuments/instruciunideinstalare.htm" window="right">Instructiuni de instalare</topic>
+        </topics>
+    </item>
+    <item name="Introducere" id="93">
+        <topics>
+            <topic url="WordDocuments/introducere.htm" window="right">Introducere</topic>
+        </topics>
+    </item>
+    <item name="Introducere in lucrul cu HRToolkit" id="94">
+        <topics>
+            <topic url="WordDocuments/introducerenlucrulcuhrtoolkit.htm" window="right">Introducere în lucrul cu HR Toolkit</topic>
+        </topics>
+    </item>
+    <item name="Invaliditati" id="95">
+        <topics>
+            <topic url="WordDocuments/invaliditi.htm" window="d2hWnd_proc">Invaliditati</topic>
+        </topics>
+    </item>
+    <item name="Istoric concedii medicale" id="98">
+        <topics>
+            <topic url="WordDocuments/istoricconcediimedicale.htm" window="d2hWnd_proc">Istoric concedii medicale</topic>
+        </topics>
+    </item>
+    <item name="Istoric concedii odihna" id="99">
+        <topics>
+            <topic url="WordDocuments/istoricconcediiodihn.htm" window="d2hWnd_proc">Istoric concedii odihna</topic>
+        </topics>
+    </item>
+    <item name="Istoric intreruperi CIM" id="105">
+        <topics>
+            <topic url="WordDocuments/istoricntrerupericim.htm" window="d2hWnd_proc">Istoric întreruperi CIM</topic>
+        </topics>
+    </item>
+    <item name="Istoric legitimatii sedere" id="106">
+        <topics>
+            <topic url="WordDocuments/istoriclegitimaiiedere.htm" window="d2hWnd_proc">Istoric legitimatii sedere</topic>
+        </topics>
+    </item>
+    <item name="Istoric NIF" id="107">
+        <topics>
+            <topic url="WordDocuments/istoricnif.htm" window="d2hWnd_proc">Istoric NIF</topic>
+        </topics>
+    </item>
+    <item name="Istoric pasapoarte" id="108">
+        <topics>
+            <topic url="WordDocuments/istoricpaapoarte.htm" window="d2hWnd_proc">Istoric pasapoarte</topic>
+        </topics>
+    </item>
+    <item name="Istoric permise munca" id="109">
+        <topics>
+            <topic url="WordDocuments/istoricpermisemunc.htm" window="d2hWnd_proc">Istoric permise munca</topic>
+        </topics>
+    </item>
+    <item name="Istoric schimbari" id="112">
+        <topics>
+            <topic url="WordDocuments/istoricschimbri.htm" window="d2hWnd_proc">Istoric schimbari</topic>
+        </topics>
+    </item>
+    <item name="Judete" id="118">
+        <topics>
+            <topic url="WordDocuments/judee.htm" window="d2hWnd_proc">Judete</topic>
+        </topics>
+    </item>
+    <item name="Lichidare angajat" id="119">
+        <topics>
+            <topic url="WordDocuments/lichidareangajat.htm" window="d2hWnd_proc">Lichidare angajat</topic>
+        </topics>
+    </item>
+    <item name="Majorari salariale" id="120">
+        <topics>
+            <topic url="WordDocuments/majorrisalariale.htm" window="right">Majorari salariale</topic>
+        </topics>
+    </item>
+    <item name="Managers - Checkup-uri" id="38">
+        <topics>
+            <topic url="WordDocuments/checkupuri1.htm" window="right">Checkup-uri</topic>
+        </topics>
+    </item>
+    <item name="Managers - Contracte de munca" id="52">
+        <topics>
+            <topic url="WordDocuments/contractedemunc.htm" window="right">Contracte de munca</topic>
+        </topics>
+    </item>
+    <item name="Modulele aplicatiei HRToolkit" id="121">
+        <topics>
+            <topic url="WordDocuments/moduleleaplicaieihrtoolkit.htm" window="right">Modulele aplicatiei HR Toolkit</topic>
+        </topics>
+    </item>
+    <item name="Modulul Administrare nomenclatoare" id="122">
+        <topics>
+            <topic url="WordDocuments/modululadministrarenomenclatoare.htm" window="right">Modulul Administrare nomenclatoare</topic>
+        </topics>
+    </item>
+    <item name="Modulul Angajati" id="123">
+        <topics>
+            <topic url="WordDocuments/modululangajai.htm" window="right">Modulul Angajati</topic>
+        </topics>
+    </item>
+    <item name="Modulul Managers" id="124">
+        <topics>
+            <topic url="WordDocuments/modululmanagers.htm" window="right">Modulul Managers</topic>
+        </topics>
+    </item>
+    <item name="Modulul Recrutori" id="125">
+        <topics>
+            <topic url="WordDocuments/modululrecrutori.htm" window="right">Modulul Recrutori</topic>
+        </topics>
+    </item>
+    <item name="Modulul Salarii" id="126">
+        <topics>
+            <topic url="WordDocuments/modululsalarii.htm" window="right">Modulul Salarii</topic>
+        </topics>
+    </item>
+    <item name="Nomenclator boli" id="127">
+        <topics>
+            <topic url="WordDocuments/nomenclatorboli.htm" window="d2hWnd_proc">Nomenclator boli</topic>
+        </topics>
+    </item>
+    <item name="Nomenclator tipuri absente" id="128">
+        <topics>
+            <topic url="WordDocuments/nomenclatortipuriabsene.htm" window="d2hWnd_proc">Nomenclator tipuri absente</topic>
+        </topics>
+    </item>
+    <item name="Nomenclator tipuri ore lucrate" id="129">
+        <topics>
+            <topic url="WordDocuments/nomenclatortipuriorelucrate.htm" window="d2hWnd_proc">Nomenclator tipuri ore lucrate</topic>
+        </topics>
+    </item>
+    <item name="Persoane in intretinere" id="131">
+        <topics>
+            <topic url="WordDocuments/persoanenntreinere.htm" window="d2hWnd_proc">Persoane în întretinere</topic>
+        </topics>
+    </item>
+    <item name="Pontaj" id="132">
+        <topics>
+            <topic url="WordDocuments/pontaj.htm" window="right">Pontaj</topic>
+        </topics>
+    </item>
+    <item name="Pontaj individual" id="133">
+        <topics>
+            <topic url="WordDocuments/pontajindividual.htm" window="d2hWnd_proc">Pontaj individual</topic>
+        </topics>
+    </item>
+    <item name="Prezentare generala a aplicatiei HRToolkit" id="134">
+        <topics>
+            <topic url="WordDocuments/prezentaregeneralaaplicaieihrtoolkit.htm" window="right">Prezentare generala a aplicatiei HRToolkit</topic>
+        </topics>
+    </item>
+    <item name="Primul angajator" id="135">
+        <topics>
+            <topic url="WordDocuments/primulangajator.htm" window="d2hWnd_proc">Primul angajator</topic>
+        </topics>
+    </item>
+    <item name="Principii generale si instruirea utilizatorului" id="136">
+        <topics>
+            <topic url="WordDocuments/principiigeneraleiinstruireautilizatorului.htm" window="right">Principii generale si instruirea utilizatorului</topic>
+        </topics>
+    </item>
+    <item name="Procese speciale" id="138">
+        <topics>
+            <topic url="WordDocuments/procesespeciale.htm" window="right">Procese speciale</topic>
+        </topics>
+    </item>
+    <item name="Procese standard" id="137">
+        <topics>
+            <topic url="WordDocuments/procesestandard.htm" window="right">Procese standard</topic>
+        </topics>
+    </item>
+    <item name="Punerea in functiune" id="139">
+        <topics>
+            <topic url="WordDocuments/punereanfunciune.htm" window="right">Punerea în functiune</topic>
+        </topics>
+    </item>
+    <item name="Rapoarte" id="140">
+        <topics>
+            <topic url="WordDocuments/rapoarte.htm" window="right">Rapoarte</topic>
+        </topics>
+    </item>
+    <item name="Raport  - Stat Inspectorat Teritorial de Munca" id="158">
+        <topics>
+            <topic url="WordDocuments/statinspectoratteritorialdemunca.htm" window="d2hWnd_proc">Stat Inspectorat Teritorial de Munca</topic>
+        </topics>
+    </item>
+    <item name="Raport - Contracte Inspectorat Teritorial de Munca" id="53">
+        <topics>
+            <topic url="WordDocuments/contracteinspectoratteritorialdemunca.htm" window="d2hWnd_proc">Contracte Inspectorat Teritorial de  Munca</topic>
+        </topics>
+    </item>
+    <item name="Raport - Contributii angajator" id="54">
+        <topics>
+            <topic url="WordDocuments/contribuiiangajator.htm" window="d2hWnd_proc">Contributii angajator</topic>
+        </topics>
+    </item>
+    <item name="Raport - Declaratie CAS A11" id="63">
+        <topics>
+            <topic url="WordDocuments/declaraiecasa11.htm" window="d2hWnd_proc">Declaratie CAS A11</topic>
+        </topics>
+    </item>
+    <item name="Raport - Declaratie CAS A12" id="64">
+        <topics>
+            <topic url="WordDocuments/declaraiecasa12.htm" window="d2hWnd_proc">Declaratie CAS A12</topic>
+        </topics>
+    </item>
+    <item name="Raport - Declaratie sanatate - anexa 3a" id="65">
+        <topics>
+            <topic url="WordDocuments/declaraiesntateanexa3a.htm" window="d2hWnd_proc">Declaratie sanatate - anexa 3a</topic>
+        </topics>
+    </item>
+    <item name="Raport - Declaratie sanatate - anexa 3b" id="66">
+        <topics>
+            <topic url="WordDocuments/declaraiesntateanexa3b.htm" window="d2hWnd_proc">Declaratie sanatate - anexa 3b</topic>
+        </topics>
+    </item>
+    <item name="Raport - Declaratie somaj - Cap 1" id="67">
+        <topics>
+            <topic url="WordDocuments/declaraiesomajcap1.htm" window="d2hWnd_proc">Declaratie somaj - Cap 1</topic>
+        </topics>
+    </item>
+    <item name="Raport - Declaratie somaj - Cap 2" id="68">
+        <topics>
+            <topic url="WordDocuments/declaraiesomajcap2.htm" window="d2hWnd_proc">Declaratie somaj - Cap 2</topic>
+        </topics>
+    </item>
+    <item name="Raport - Stat de plata cu functia de baza in alta parte" id="153">
+        <topics>
+            <topic url="WordDocuments/statdeplatcufunciadebaznaltparte.htm" window="d2hWnd_proc">Stat de plata cu functia de baza în alta parte</topic>
+        </topics>
+    </item>
+    <item name="Raport - Stat de plata detaliat" id="154">
+        <topics>
+            <topic url="WordDocuments/statdeplatdetaliat.htm" window="d2hWnd_proc">Stat de plata detaliat</topic>
+        </topics>
+    </item>
+    <item name="Raport - Stat de plata nescutiti de impozit" id="155">
+        <topics>
+            <topic url="WordDocuments/statdeplatnescutiideimpozit.htm" window="d2hWnd_proc">Stat de plata nescutiti de impozit</topic>
+        </topics>
+    </item>
+    <item name="Raport - Stat de plata pe puncte de lucru" id="156">
+        <topics>
+            <topic url="WordDocuments/statdeplatpepunctedelucru.htm" window="d2hWnd_proc">Stat de plata pe puncte de lucru</topic>
+        </topics>
+    </item>
+    <item name="Raport - Stat de plata scutiti de impozit" id="157">
+        <topics>
+            <topic url="WordDocuments/statdeplatscutiideimpozit.htm" window="d2hWnd_proc">Stat de plata scutiti de impozit</topic>
+        </topics>
+    </item>
+    <item name="Raport acces cladire" id="141">
+        <topics>
+            <topic url="WordDocuments/raportaccescldire.htm" window="d2hWnd_proc">Raport acces cladire</topic>
+        </topics>
+    </item>
+    <item name="Raport CHCM" id="142">
+        <topics>
+            <topic url="WordDocuments/raportchcm.htm" window="d2hWnd_proc">Raport CHCM</topic>
+        </topics>
+    </item>
+    <item name="Raport cursuri" id="143">
+        <topics>
+            <topic url="WordDocuments/raportcursuri.htm" window="d2hWnd_proc">Raport cursuri</topic>
+        </topics>
+    </item>
+    <item name="Raport cursuri angajati" id="144">
+        <topics>
+            <topic url="WordDocuments/raportcursuriangajai.htm" window="d2hWnd_proc">Raport cursuri angajati</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Cautare angajat" id="27">
+        <topics>
+            <topic url="WordDocuments/cutareangajat1.htm" window="right">Cautare angajat</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Cautare avansata" id="29">
+        <topics>
+            <topic url="WordDocuments/cutareavansat1.htm" window="d2hWnd_proc">Cautare avansata</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Cautare rapida" id="31">
+        <topics>
+            <topic url="WordDocuments/cutarerapid.htm" window="d2hWnd_proc">Cautare rapida</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Checkup-uri" id="37">
+        <topics>
+            <topic url="WordDocuments/checkupuri2.htm" window="d2hWnd_proc">Checkup-uri</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Date angajat" id="59">
+        <topics>
+            <topic url="WordDocuments/dateangajat1.htm" window="d2hWnd_proc">Date angajat</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Date personale" id="61">
+        <topics>
+            <topic url="WordDocuments/datepersonale1.htm" window="d2hWnd_proc">Date personale</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Documente angajat" id="72">
+        <topics>
+            <topic url="WordDocuments/documenteangajat1.htm" window="d2hWnd_proc">Documente angajat</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Editare angajat" id="75">
+        <topics>
+            <topic url="WordDocuments/editareangajat1.htm" window="right">Editare angajat</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Evaluari psihologice" id="78">
+        <topics>
+            <topic url="WordDocuments/evaluripsihologice.htm" window="d2hWnd_proc">Evaluari psihologice</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Fisa postului" id="82">
+        <topics>
+            <topic url="WordDocuments/fiapostului.htm" window="d2hWnd_proc">Fisa postului</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Istoric carti identitate" id="97">
+        <topics>
+            <topic url="WordDocuments/istoriccriidentitate.htm" window="d2hWnd_proc">Istoric carti identitate</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Istoric departamente" id="101">
+        <topics>
+            <topic url="WordDocuments/istoricdepartamente1.htm" window="d2hWnd_proc">Istoric departamente</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Istoric functii" id="103">
+        <topics>
+            <topic url="WordDocuments/istoricfuncii.htm" window="d2hWnd_proc">Istoric functii</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Istoric referinte" id="111">
+        <topics>
+            <topic url="WordDocuments/istoricreferine.htm" window="d2hWnd_proc">Istoric referinte</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Istoric training" id="114">
+        <topics>
+            <topic url="WordDocuments/istorictraining1.htm" window="d2hWnd_proc">Istoric training</topic>
+        </topics>
+    </item>
+    <item name="Recrutor - Istorice angajat" id="117">
+        <topics>
+            <topic url="WordDocuments/istoriceangajat1.htm" window="d2hWnd_proc">Istorice angajat</topic>
+        </topics>
+    </item>
+    <item name="Redeschiderea lunii anterioare" id="145">
+        <topics>
+            <topic url="WordDocuments/redeschiderealuniianterioare.htm" window="d2hWnd_proc">Redeschiderea lunii anterioare</topic>
+        </topics>
+    </item>
+    <item name="Salarii" id="146">
+        <topics>
+            <topic url="WordDocuments/salarii.htm" window="right">Salarii</topic>
+        </topics>
+    </item>
+    <item name="Salarii angajati" id="147">
+        <topics>
+            <topic url="WordDocuments/salariiangajai.htm" window="right">Salarii angajati</topic>
+        </topics>
+    </item>
+    <item name="Sarbatori legale" id="148">
+        <topics>
+            <topic url="WordDocuments/srbtorilegale.htm" window="d2hWnd_proc">Sarbatori legale</topic>
+        </topics>
+    </item>
+    <item name="Schimbare parola" id="149">
+        <topics>
+            <topic url="WordDocuments/schimbareparola.htm" window="d2hWnd_proc">Schimbare parola</topic>
+        </topics>
+    </item>
+    <item name="Setari" id="150">
+        <topics>
+            <topic url="WordDocuments/setri.htm" window="right">Setari</topic>
+        </topics>
+    </item>
+    <item name="Situatie lunara angajat" id="151">
+        <topics>
+            <topic url="WordDocuments/situaielunarangajat.htm" window="d2hWnd_proc">Situatie lunara angajat</topic>
+        </topics>
+    </item>
+    <item name="Situatie militara" id="152">
+        <topics>
+            <topic url="WordDocuments/situaiemilitar.htm" window="d2hWnd_proc">Situatie militara</topic>
+        </topics>
+    </item>
+    <item name="Studii" id="159">
+        <topics>
+            <topic url="WordDocuments/studii.htm" window="d2hWnd_proc">Studii</topic>
+        </topics>
+    </item>
+    <item name="Tari" id="160">
+        <topics>
+            <topic url="WordDocuments/ri.htm" window="d2hWnd_proc">Tari</topic>
+        </topics>
+    </item>
+    <item name="Tichete de masa" id="161">
+        <topics>
+            <topic url="WordDocuments/tichetedemas.htm" window="d2hWnd_proc">Tichete de masa</topic>
+        </topics>
+    </item>
+    <item name="Tipuri rapoarte psihologice" id="162">
+        <topics>
+            <topic url="WordDocuments/tipurirapoartepsihologice.htm" window="d2hWnd_proc">Tipuri rapoarte psihologice</topic>
+        </topics>
+    </item>
+    <item name="Tipuri retineri" id="163">
+        <topics>
+            <topic url="WordDocuments/tipurireineri.htm" window="d2hWnd_proc">Tipuri retineri</topic>
+        </topics>
+    </item>
+    <item name="Titluri" id="164">
+        <topics>
+            <topic url="WordDocuments/titluri.htm" window="d2hWnd_proc">Titluri</topic>
+        </topics>
+    </item>
+    <item name="Utilizatori" id="165">
+        <topics>
+            <topic url="WordDocuments/utilizatori.htm" window="right">Utilizatori</topic>
+        </topics>
+    </item>
+    <item name="Utilizatorii aplicatiei" id="166">
+        <topics>
+            <topic url="WordDocuments/utilizatoriiaplicaiei.htm" window="right">Utilizatorii aplicatiei</topic>
+        </topics>
+    </item>
+    <item name="Variabile salarizare - Administrare" id="167">
+        <topics>
+            <topic url="WordDocuments/variabilesalarizare.htm" window="d2hWnd_proc">Variabile salarizare</topic>
+        </topics>
+    </item>
+    <item name="Variabile salarizare - Salarii" id="168">
+        <topics>
+            <topic url="WordDocuments/variabilesalarizare1.htm" window="d2hWnd_proc">Variabile salarizare</topic>
+        </topics>
+    </item>
+</indexes>

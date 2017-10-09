@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<Root Text="Administrare" Expanded="false" Link="#" Target="" OnClick="">
+
+<Options>
+	<!-- ___ Grupul "Altele" _______________________________________________________________________________________________ -->	
+	<Option Text="Altele" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+		<Options>
+		
+			<Option Text="Banci" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('0')" >
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Case de asigurari" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('1')" >
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Judete" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('2')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Tipuri rapoarte psihologice" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('3')" >
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+
+			<Option Text="Tari" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('4')" >
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+		</Options>
+	
+	</Option>
+	
+	<!-- ___ Grupul "Angajator" ____________________________________________________________________________________________ -->
+	
+	<Option Text="Angajator" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+		<Options>
+
+			<Option Text="Angajatori" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('5')" OpenDefault="Yes">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Centre cost" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('6')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Completare carnete munca" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('7')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Departamente" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('8')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Domenii de activitate" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('9')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+		</Options>
+
+	</Option>	
+	
+	
+	<!-- ___ Grupul "Angajati" _____________________________________________________________________________________________ -->
+	
+	<Option Text="Angajati" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+		<Options>
+
+			<Option Text="Cursuri" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('10')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Functii" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('11')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+			
+			<Option Text="Invaliditati" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('12')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+					
+			<Option Text="Studii" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('13')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>	
+			
+			<Option Text="Titluri" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('14')">
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+		</Options>
+	
+	</Option>
+	
+	
+	<!-- ___ Grupul "Salarii" _________________________________________________________________________________________________ -->
+	
+	<Option Text="Salarii" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+		<Options>
+
+			<Option Text="Variabile salarizare" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('15')" >
+			
+				<Options>
+				
+				
+				</Options>		
+			
+			</Option>
+		
+		</Options>
+	
+	</Option>
+	
+	<Option Text="Utilizatori" Expanded="false" LinkText="" Link="#" Target="" OnClick="" >
+			
+		<Options>
+		
+				<Option Text="Adaugare utilizator" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('16')" >
+			
+					<Options>
+				
+				
+					</Options>		
+			
+				</Option>
+				
+				<Option Text="Schimbare parola" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('17')" >
+			
+					<Options>
+				
+				
+					</Options>		
+			
+				</Option>
+				
+				<Option Text="Utilizatori" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectTab('18')" >
+			
+					<Options>
+				
+				
+					</Options>		
+			
+				</Option>
+				
+		</Options>		
+			
+	</Option>
+	
+
+</Options>
+
+
+</Root>

@@ -1,0 +1,253 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+		<link rel="stylesheet" href="Theme/nav.css" type="text/css">
+			<style type="text/css"> body { background-image: url(); background-repeat: no-repeat; margin:0px; border-bottom: 1px solid #000000; }
+	span.D2HPreviousSelected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HPreviousUnselected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HPreviousDisabled { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Silver; }
+	span.D2HNextSelected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HNextUnselected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HNextDisabled { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Silver; }
+	span.syncTocSelected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: White; }
+	span.syncTocUnselected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.syncToc { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	</style>
+			<script language="JavaScript" src="linker.js">
+
+			</script>
+			<script language="JavaScript" src="special.js">
+
+			</script>
+			<script language="JavaScript" src="common.js">
+
+			</script>
+			<script language="JavaScript">
+
+d2hLoadScript(document, "", d2hCoupleUrl("urls.js"));
+
+var d2hFlat = true;
+
+
+
+d2hFlat = false;    
+
+       
+
+
+
+function d2hMSyncDown(whichID)
+
+{
+
+    d2hMDown(whichID, d2hFlat);
+
+    d2hSyncTocMouseDown();
+
+}
+
+
+
+function d2hMSyncUp(whichID)
+
+{
+
+    d2hMUp(whichID, d2hFlat);
+
+    d2hSyncTocMouseUp();
+
+}
+
+
+function mDown(whichID)
+{
+
+    d2hMDown(whichID, d2hFlat);
+
+}
+
+
+
+function mUp(whichID)
+
+{
+
+    d2hMUp(whichID, d2hFlat);
+
+}
+
+
+function mOut(whichID)
+{
+
+    d2hDButtonMOut(whichID, d2hFlat);
+
+}
+
+
+
+function mOver(whichID)
+
+{
+
+    d2hDButtonMOver(whichID, d2hFlat);
+
+}
+
+
+function cmd(id)
+{
+
+    d2hCommand(id, document, false, true);
+
+}
+
+
+
+function doSyncToc(bStatic)
+
+{
+
+    if (d2hactivepane() != "D2HContents")
+
+    {
+
+        frm = getFrameByName("nav_top");
+
+        if (frm)
+
+        {
+
+            doc = getFrameDocument(frm);
+
+            var stmt = bStatic ? "d2hSyncStaticToc(null,'left')" : "d2hSyncDynamicToc(null)";
+
+	        d2hCommand("D2HContents", doc, stmt, d2hFlat, g_ContentsURL);
+
+	    }
+
+	}
+
+	else
+
+	{
+
+	    if (bStatic)
+
+	        d2hSyncStaticToc(null,'left');
+
+	    else
+
+	        d2hSyncDynamicToc(null);
+
+	}
+
+}
+
+
+function onLoad()
+{
+
+
+    d2hUnselectButton(getElemById(document, "D2HSyncTocCell"));
+
+    d2hUnselectButton(getElemById(document, "D2HNextCell"));
+
+    d2hUnselectButton(getElemById(document, "D2HPreviousCell"));
+
+
+
+    var cells = new Array('D2HSyncTocCell', 'D2HNextCell', 'D2HPreviousCell');
+
+    for (var i = 0; i < cells.length; i++)
+
+    {
+
+        var elem = getElemById(document, cells[i]);
+
+        if (elem)
+
+            elem.className += "Left";
+
+    }
+
+  
+
+    d2hInitNavState();
+
+    if (typeof window.g_showNavPrev != "undefined" && typeof window.g_showNavPrev != null && typeof window.g_showNavNext != "undefined" && typeof window.g_showNavNext != null)
+
+    {
+
+        d2hSetNavState(window.g_showNavPrev, window.g_showNavNext);
+
+        window.g_showNavPrev = null;
+
+        window.g_showNavNext = null;
+
+    }
+
+}
+
+
+
+
+
+function UnselectAll()
+
+{
+
+	var cells = new Array('D2HSyncTocCell', 'D2HNextCell', 'D2HPreviousCell');
+
+	var i = 0;
+
+	for (i = 0; i < cells.length; i++)
+
+	{
+
+		var cell = getElemById(document, cells[i]);
+
+		if (cell)
+
+		{
+
+		    d2hDButtonMOut(cell);
+
+		    cell.style.border = document.body.bgColor + " 1px solid";
+
+		}
+
+	}
+
+}
+
+  
+
+
+
+			</script>
+	</head>
+	<body bgcolor="#daeafc" onload="onLoad();d2hOnTopLoad(event, 'd2hLeftBottomLayout');"
+		onmouseout="UnselectAll()">
+		<div align="left">
+			<table id="tblNavigator" border="0" cellpadding="0" cellspacing="2">
+				<tr>
+					<td nowrap class="d2hCell" id="D2HPreviousCell" onClick="cmd('D2HPrevious')" onmousedown="mDown(this)"
+						onmouseup="mUp(this)" onmouseOver="mOver(this)" onmouseOut="mOut(this)"><a href="javascript:void(0)" hidefocus style="TEXT-DECORATION:none" onBlur="mOut(d2hGetParentElement(this))"
+							onFocus="mOver(d2hGetParentElement(this))"><img src="Images/Theme/Buttons%20and%20Icons/nav_prev.gif" id="D2HPreviousImage" alt=""
+								align="absMiddle" border="0"><img src="Images/Theme/Buttons%20and%20Icons/nav_prev_d.gif" id="D2HPreviousImageClose"
+								alt="" align="absMiddle" border="0"><span class="D2HPreviousSelected" id="D2HPrevious">Anterior</span></a></td>
+					<td nowrap class="d2hCell" id="D2HNextCell" onClick="cmd('D2HNext')" onmousedown="mDown(this)"
+						onmouseup="mUp(this)" onmouseOver="mOver(this)" onmouseOut="mOut(this)"><a href="javascript:void(0)" hidefocus style="TEXT-DECORATION:none" onBlur="mOut(d2hGetParentElement(this))"
+							onFocus="mOver(d2hGetParentElement(this))"><img src="Images/Theme/Buttons%20and%20Icons/nav_next.gif" id="D2HNextImage" alt="" align="absMiddle"
+								border="0"><img src="Images/Theme/Buttons%20and%20Icons/nav_next_d.gif" id="D2HNextImageClose" alt=""
+								align="absMiddle" border="0"><span class="D2HNextSelected" id="D2HNext">Urmator</span></a></td>
+					<td nowrap id="D2HSyncTocCell" class="d2hCell" onclick="doSyncToc(false)" onmousedown="d2hMSyncDown(this)"
+						onmouseup="d2hMSyncUp(this)" onmouseOver="mOver(this)" onmouseOut="mOut(this)"><a href="javascript:void(0)" hidefocus style="TEXT-DECORATION:none" onBlur="mOut(d2hGetParentElement(this))"
+							onFocus="mOver(d2hGetParentElement(this))"><img src="Images/Theme/Buttons%20and%20Icons/nav_sync_sel.gif" id="D2HSyncTocImage" alt=""
+								align="absMiddle" border="0"><span class="syncToc" id="D2HSyncToc">Tabel&nbsp;cuprins</span></a></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

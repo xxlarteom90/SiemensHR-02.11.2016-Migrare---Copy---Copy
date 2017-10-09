@@ -1,0 +1,1 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="AdministrareMain.ascx.cs" Inherits="SiemensHR.Administrare.AdministrareMain" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>

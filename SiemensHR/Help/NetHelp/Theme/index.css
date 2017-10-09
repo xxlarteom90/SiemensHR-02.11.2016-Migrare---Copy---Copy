@@ -1,0 +1,16 @@
+<style type="text/css">
+	p	{ margin-top: 0; margin-bottom: 0; }
+	div p	{ margin-top: 0; margin-bottom: 0; }
+	body.itemlist	{ margin: 4px; background-color: transparent; 
+		background-image: url();
+		background-repeat: no-repeat; }
+	body.lookup	{ margin: 0px; padding: 0px; BORDER-BOTTOM: #000000 1px solid; background-color: transparent; 
+		background-image: url();
+		background-repeat: no-repeat; }
+    a {  font-family: Verdana; font-size: 9.75pt; font-style: normal; font-weight: normal; text-decoration:  none; color: Blue; }
+    .clsMouseOver {  font-family: Verdana; font-size: 9.75pt; font-style: normal; font-weight: normal; text-decoration:  none; color: Red; }
+    .clsCurrentTocItem {  font-family: Verdana; font-size: 9.75pt; font-style: normal; font-weight: normal; text-decoration:  none; color: Purple; }
+	.index	{ margin-left: 20px; text-indent:-0.21in; white-space:nowrap; }
+    form.clsFrmHidden { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; height:0px; display: none; visibility: hidden;}
+    .clsLookFor { font-family: verdana; font-size: 11px; white-space:nowrap;}
+</style>

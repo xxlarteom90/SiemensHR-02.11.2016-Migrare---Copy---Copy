@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>SiemensHR_Test</Name>
+  <DataSourceID>aa77b2f0-f5a3-4327-a7b4-d2a767709b14</DataSourceID>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>data source=bavc02cd;initial catalog=SiemensHR_Test</ConnectString>
+  </ConnectionProperties>
+</RptDataSource>

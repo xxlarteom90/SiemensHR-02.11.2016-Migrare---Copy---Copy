@@ -1,0 +1,2320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF142557-0984-405F-8442-56316BFEB919}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SiemensHR</RootNamespace>
+    <AssemblyName>SiemensHR</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Owc11, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC\Microsoft.Office.Interop.Owc11\11.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Owc11.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="msdatasrc, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Comunicari\pse_schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Comunicari\pse_schema.xsx">
+      <DependentUpon>pse_schema.xsd</DependentUpon>
+    </Content>
+    <Content Include="ExcelFiles\import salarii SAP.xls" />
+    <Content Include="Help\NetHelp\c1search.class" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-searchlist.jsp" />
+    <Content Include="Help\NetHelp\HTMLSearch\DOCS" />
+    <Content Include="Help\NetHelp\HTMLSearch\DOCS.TAB" />
+    <Content Include="Help\NetHelp\HTMLSearch\OFFSETS" />
+    <Content Include="Help\NetHelp\HTMLSearch\POSITIONS" />
+    <Content Include="Help\NetHelp\HTMLSearch\SCHEMA" />
+    <Content Include="Help\NetHelp\HTMLSearch\TMAP" />
+    <Content Include="Help\NetHelp\ProjectInfo\aklinks.xnh" />
+    <Content Include="Help\NetHelp\ProjectInfo\index.xnh" />
+    <Content Include="Help\NetHelp\ProjectInfo\project.npj" />
+    <Content Include="Help\NetHelp\ProjectInfo\search.xnh" />
+    <Content Include="Help\NetHelp\ProjectInfo\terms.xnh" />
+    <Content Include="Help\NetHelp\ProjectInfo\toc.xnh" />
+    <Content Include="Help\NetHelp\ProjectInfo\topics.xnh" />
+    <Content Include="Help\NetHelp\WordDocuments\Glossary.doc" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\A11.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\A11initiala.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\A12.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\Cap1.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\Cap2.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\DED_aaaa.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\FF1_aaaa.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\FF2_aaaa.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\REP_aaaa.dbf" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\Siemens.dbc" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\Siemens.DCT" />
+    <Content Include="InterfataSalarii\DeclaratiiDB\Siemens.DCX" />
+    <Content Include="InterfataSalarii\Module\Fluturas fata 2008.doc" />
+    <Content Include="InterfataSalarii\RapoarteSalarii\StatPlataTemplate.xls" />
+    <Content Include="InterfataSalarii\Templates\TemplateAngajati.xls" />
+    <Content Include="InterfataSalarii\Templates\TemplateDelegatii.xls" />
+    <Content Include="InterfataSalarii\Templates\TemplatePontaj.xls" />
+    <Content Include="InterfataSalarii\Templates\TemplateSituatieLunara.xls" />
+    <Content Include="StrongNameKey\SiemensHRKey.snk" />
+    <Content Include="Web References\edoc\Reference.map" />
+    <None Include="Web References\edoc\User.wsdl" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="WordFiles\updateasiguratiCNASanatate_model.dot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddAngajat.aspx" />
+    <Content Include="AddAngajat_end.aspx" />
+    <Content Include="Administrare\AdminAngajatori.ascx" />
+    <Content Include="Administrare\AdminAngajatoriEdit.ascx" />
+    <Content Include="Administrare\AdminBanci.ascx" />
+    <Content Include="Administrare\AdminCaseDeAsigurari.ascx" />
+    <Content Include="Administrare\AdminCentreCost.ascx" />
+    <Content Include="Administrare\AdminChangePassword.ascx" />
+    <Content Include="Administrare\AdminDepartamente.ascx" />
+    <Content Include="Administrare\AdminDepartamenteIstoricDepartamente.aspx" />
+    <Content Include="Administrare\AdminDomeniiDeActivitate.ascx" />
+    <Content Include="Administrare\AdminFunctii.ascx" />
+    <Content Include="Administrare\AdminFunctiiAddAngajat.aspx" />
+    <Content Include="Administrare\AdminInvaliditati.ascx" />
+    <Content Include="Administrare\AdminInvaliditatiAddAngajat.aspx" />
+    <Content Include="Administrare\Administrare.aspx" />
+    <Content Include="Administrare\AdministrareMain.ascx" />
+    <Content Include="Administrare\AdministrareTabs.ascx" />
+    <Content Include="Administrare\AdminJudete.ascx" />
+    <Content Include="Administrare\AdminJudeteAddAngajat.aspx" />
+    <Content Include="Administrare\AdminPrimulAngajator.aspx" />
+    <Content Include="Administrare\AdminStudii.ascx" />
+    <Content Include="Administrare\AdminStudiiAngajatiAddAngajat.aspx" />
+    <Content Include="Administrare\AdminTari.ascx" />
+    <Content Include="Administrare\AdminTariAddAngajat.aspx" />
+    <Content Include="Administrare\AdminTipuriCompletareCarnete.ascx" />
+    <Content Include="Administrare\AdminTipuriRapoarte.ascx" />
+    <Content Include="Administrare\AdminTipuriRapoarteEvaluariPsihologiceAngajat.aspx" />
+    <Content Include="Administrare\AdminTitluriAngajati.ascx" />
+    <Content Include="Administrare\AdminTitluriAngajatiAddAngajat.aspx" />
+    <Content Include="Administrare\AdminTraininguri.ascx" />
+    <Content Include="Administrare\AdminTraininguriIstoricTraininguri.aspx" />
+    <Content Include="Administrare\AdminUserParola.ascx" />
+    <Content Include="Administrare\AdminUtilizatori.ascx" />
+    <Content Include="Administrare\AdminUtilizatoriNivele.ascx" />
+    <Content Include="Administrare\AdminVariabileGlobale.ascx" />
+    <Content Include="Administrare\AdminWebConfig.ascx" />
+    <Content Include="Administrare\EditUtilizator.ascx" />
+    <Content Include="AdminMeniu.ascx" />
+    <Content Include="AdminSetari.aspx" />
+    <Content Include="AdminUserParola.aspx" />
+    <Content Include="AlerteSpeciale\AngAlerteSpeciale.ascx" />
+    <Content Include="AlerteSpeciale\AngExpiraContractLunaCurenta.ascx" />
+    <Content Include="AlerteSpeciale\AngExpiraDataMajorareStabilita.ascx" />
+    <Content Include="AlerteSpeciale\AngExpiraPasaport.ascx" />
+    <Content Include="AlerteSpeciale\AngExpiraPermisMunca.ascx" />
+    <Content Include="AlerteSpeciale\AngExpiraPermisSedere.ascx" />
+    <Content Include="AlerteSpeciale\AngExpiraRetinere.ascx" />
+    <Content Include="Comunicari\adeverintaMedicDeFamilie.ascx" />
+    <Content Include="Comunicari\adeverinta_medic.xml" />
+    <Content Include="Comunicari\comunicare indexare majorare.xml" />
+    <Content Include="Comunicari\comunicare indexare.xml" />
+    <Content Include="Comunicari\comunicare majorare.xml" />
+    <Content Include="Comunicari\comunicare prelungire cim.xml" />
+    <Content Include="Comunicari\comunicare prima.xml" />
+    <Content Include="Comunicari\comunicare.aspx" />
+    <Content Include="Comunicari\comunicare_indexare.ascx" />
+    <Content Include="Comunicari\comunicare_indexare_majorare.ascx" />
+    <Content Include="Comunicari\comunicare_majorare.ascx" />
+    <Content Include="Comunicari\comunicare_prelungire_cim.ascx" />
+    <Content Include="Comunicari\Comunicare_prima.ascx" />
+    <Content Include="Comunicari\contractMunca_b.xml" />
+    <Content Include="Comunicari\contractMunca_f.xml" />
+    <Content Include="Comunicari\contract_munca.ascx" />
+    <Content Include="Comunicari\fisa manager pr.xml" />
+    <Content Include="Comunicari\fisa postului.xml" />
+    <Content Include="Comunicari\fisa_postului.ascx" />
+    <Content Include="Comunicari\Nota de lichidare.xml" />
+    <Content Include="Declaratii\Declaratii.xml" />
+    <Content Include="EditAngajat.aspx" />
+    <Content Include="EditAngajatLeft.ascx" />
+    <Content Include="EditAngajatUp.ascx" />
+    <Content Include="EditTasks\ChangePoza.ascx" />
+    <Content Include="EditTasks\CheckupuriAngajat.ascx" />
+    <Content Include="EditTasks\ConturiBanca.ascx" />
+    <Content Include="EditTasks\EditAngajatDateAngajare.ascx">
+      <BrowseToURL>EditAngajatDateAngajare.ascx</BrowseToURL>
+    </Content>
+    <Content Include="EditTasks\EditAngajatDatePersonale.ascx" />
+    <Content Include="EditTasks\EditComboAngajatiDinCautare.ascx" />
+    <Content Include="EditTasks\EditIstoricAlerte.ascx" />
+    <Content Include="EditTasks\EvaluariPsihologiceAngajat.ascx" />
+    <Content Include="EditTasks\IstoricCartiIdentitate.ascx" />
+    <Content Include="EditTasks\IstoricConcediiMedicaleAngajat.ascx" />
+    <Content Include="EditTasks\IstoricConcediiOdihnaAngajat.ascx" />
+    <Content Include="EditTasks\IstoricDepartamente.ascx" />
+    <Content Include="EditTasks\IstoricFunctii.ascx" />
+    <Content Include="EditTasks\IstoricLegitimatiiSedere.ascx" />
+    <Content Include="EditTasks\IstoricNIFuri.ascx" />
+    <Content Include="EditTasks\IstoricPasapoarte.ascx" />
+    <Content Include="EditTasks\IstoricPermiseMunca.ascx" />
+    <Content Include="EditTasks\IstoricSchimbariDateAngajat.ascx" />
+    <Content Include="EditTasks\IstoricSuspendariCIM.ascx" />
+    <Content Include="EditTasks\IstoricTicheteDeMasa.ascx" />
+    <Content Include="EditTasks\IstoricTraininguri.ascx" />
+    <Content Include="EditTasks\NivelAngajat.ascx" />
+    <Content Include="EditTasks\PersoaneIntretinere.ascx" />
+    <Content Include="EditTasks\ReferinteAngajat.ascx" />
+    <Content Include="EditTasks\SituatiiMilitare.ascx" />
+    <Content Include="Error.htm" />
+    <Content Include="Errors.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HeaderMenu.ascx" />
+    <Content Include="Help\NetHelp\back.gif" />
+    <Content Include="Help\NetHelp\button.gif" />
+    <Content Include="Help\NetHelp\c1search.js" />
+    <Content Include="Help\NetHelp\common.js" />
+    <Content Include="Help\NetHelp\Customize\HRToolkit.JPG" />
+    <Content Include="Help\NetHelp\Customize\logo.htm" />
+    <Content Include="Help\NetHelp\Customize\poweredbydoctohelp.gif" />
+    <Content Include="Help\NetHelp\default.htm" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-index.htm" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-indexlist.htm" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-indexlookup.htm" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-search.htm" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-searchlist.asp" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-searchlist.htm" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-searchlookup.htm" />
+    <Content Include="Help\NetHelp\Help_HRToolkit-toc.htm" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_0.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_1.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_10.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_100.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_101.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_102.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_103.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_104.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_105.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_106.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_107.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_108.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_109.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_11.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_110.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_111.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_112.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_113.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_114.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_115.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_116.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_117.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_118.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_119.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_12.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_120.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_121.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_122.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_123.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_124.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_125.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_126.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_127.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_128.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_129.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_13.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_130.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_131.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_132.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_133.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_134.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_135.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_136.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_137.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_138.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_139.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_14.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_140.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_141.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_142.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_143.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_144.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_145.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_146.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_147.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_148.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_149.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_15.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_150.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_151.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_152.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_153.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_154.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_155.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_156.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_157.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_158.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_159.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_16.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_160.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_161.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_162.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_163.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_164.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_165.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_166.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_167.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_168.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_169.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_17.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_170.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_171.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_172.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_173.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_174.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_175.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_176.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_177.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_178.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_179.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_18.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_180.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_181.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_182.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_183.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_184.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_185.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_186.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_187.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_188.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_189.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_19.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_190.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_191.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_192.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_193.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_194.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_195.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_196.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_197.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_198.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_199.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_2.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_20.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_200.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_201.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_202.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_203.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_204.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_205.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_206.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_207.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_208.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_209.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_21.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_210.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_211.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_212.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_213.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_214.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_215.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_216.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_217.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_218.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_219.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_22.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_220.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_221.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_222.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_223.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_224.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_225.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_226.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_227.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_228.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_229.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_23.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_230.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_231.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_232.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_233.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_234.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_235.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_236.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_237.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_238.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_239.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_24.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_240.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_241.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_242.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_243.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_244.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_25.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_26.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_27.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_28.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_29.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_3.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_30.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_31.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_32.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_33.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_34.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_35.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_36.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_37.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_38.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_39.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_4.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_40.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_41.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_42.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_43.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_44.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_45.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_46.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_47.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_48.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_49.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_5.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_50.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_51.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_52.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_53.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_54.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_55.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_56.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_57.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_58.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_59.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_6.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_60.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_61.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_62.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_63.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_64.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_65.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_66.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_67.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_68.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_69.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_7.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_70.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_71.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_72.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_73.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_74.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_75.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_76.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_77.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_78.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_79.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_8.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_80.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_81.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_82.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_83.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_84.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_85.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_86.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_87.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_88.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_89.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_9.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_90.png" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_91.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_92.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_93.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_94.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_95.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_96.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_97.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_98.jpg" />
+    <Content Include="Help\NetHelp\ImagesExt\image9_99.jpg" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\closed.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\closed_xp.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\mssearch.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_idx.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_idx_sel.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_next.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_next_d.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_prev.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_prev_d.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_search.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_search_sel.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_sync.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_sync_sel.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_toc.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\nav_toc_sel.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\open.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\open_xp.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\synctoc.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\topic.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\Buttons and Icons\topic_xp.gif" />
+    <Content Include="Help\NetHelp\Images\Theme\ImageList.txt" />
+    <Content Include="Help\NetHelp\linker.js" />
+    <Content Include="Help\NetHelp\LinksExt\C1H_HTML.css" />
+    <Content Include="Help\NetHelp\LinksExt\Help_HRToolkit.css" />
+    <Content Include="Help\NetHelp\platform.js" />
+    <Content Include="Help\NetHelp\properties.xml" />
+    <Content Include="Help\NetHelp\special.js" />
+    <Content Include="Help\NetHelp\Theme\index.css" />
+    <Content Include="Help\NetHelp\Theme\lf.css" />
+    <Content Include="Help\NetHelp\Theme\nav.css" />
+    <Content Include="Help\NetHelp\Theme\popupmenu.css" />
+    <Content Include="Help\NetHelp\Theme\search.css" />
+    <Content Include="Help\NetHelp\Theme\toc.css" />
+    <Content Include="Help\NetHelp\urls.js" />
+    <Content Include="Help\NetHelp\WEB-INF\lib\c1searchengine.jar" />
+    <Content Include="Help\NetHelp\WEB-INF\lib\jsearch.jar" />
+    <Content Include="Help\NetHelp\windows.js" />
+    <Content Include="Help\NetHelp\WordDocuments\adaugareutilizator.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\adeverinmedical.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\adeverinmedicfamilie.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\administrare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\administrare1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\administrareaaplicaiei.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\adugareangajat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\adugareutilizator.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\alertespeciale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\altele.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\altele1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\anexalanl.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\anexe.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\angajai.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\angajator.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\angajatori.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\bazadedate.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\bnci.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\calculareasalariilornlunaactiv.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\casedeasigurri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\categoriisalariale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\centrecost.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cerinedesistem.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cerinehardware.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cerinehardwarepentruserver.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cerinesoftware.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\checkupuri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\checkupuri1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\checkupuri2.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\completarecarnetemunc.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicareindexare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicareindexare1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicareindexaremajorare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicareindexaremajorare1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicaremajorare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicaremajorare1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicareprim.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicareprim1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\comunicri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\concediimedicale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\contractdemunc.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\contractdemunc1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\contractedemunc.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\contracteinspectoratteritorialdemunca.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\contribuiiangajator.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\conturibanc.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cursuri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cutareangajat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cutareangajat1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cutareavansat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cutareavansat1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cutarerapid.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\cutarerapid1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\dateangajare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\dateangajat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\dateangajat1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\datepersonale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\datepersonale1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\datetehniceivalorilimit.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\declaraiecasa11.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\declaraiecasa12.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\declaraiesntateanexa3a.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\declaraiesntateanexa3b.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\declaraiesomajcap1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\declaraiesomajcap2.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\departamente.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\dezinstalare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\documenteangajat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\documenteangajat1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\domeniideactivitate.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\editareangajat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\editareangajat1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\eroridefuncionare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\evaluripsihologice.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\evaluripsihologice1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\evoluiasalarii.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\evoluiasalariilor.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\fiapostului.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\fiapostului1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\fiapostului2.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\fiiermulticache.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\fisefiscale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\fluturai.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\funcii.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\hrtoolkithumanresourcesmanagementsystem.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\inflaielunar.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\iniializarelun.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\instalareipunerenfunciune.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\instruciunideinstalare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\introducere.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\introducerenlucrulcuhrtoolkit.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\invaliditi.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoriccentrecost.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricconcediimedicale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricconcediiodihn.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoriccriidentitate.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoriccriidentitate1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricdepartamente.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricdepartamente1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoriceangajat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoriceangajat1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricfuncii.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricfuncii1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoriclegitimaiiedere.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricnif.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricntrerupericim.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricpaapoarte.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricpermisemunc.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricreferine.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricreferine1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istoricschimbri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istorictraining.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\istorictraining1.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\judee.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\lichidareangajat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\majorrisalariale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\majorrisalarii.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\mesajedeeroare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\modificaresalariudencadrarenormindemnizaiedeconducereinvalidiatesaucategoriedencadrare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\moduleleaplicaieihrtoolkit.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\modululadministrare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\modululadministrarenomenclatoare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\modululangajai.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\modululmanagers.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\modululrecrutori.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\modululsalarii.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\nchiderealuniiactive.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\nomenclatorboli.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\nomenclatortipuriabsene.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\nomenclatortipuriorelucrate.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\notlichidare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\persoanenntreinere.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\pontaj.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\pontajindividual.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\prezentaregeneralaaplicaieihrtoolkit.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\primulangajator.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\principiigeneraleiinstruireautilizatorului.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\procesespeciale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\procesestandard.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\punereanfunciune.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\rapoarte.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\rapoartepersonalizate.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\raportaccescldire.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\raportchcm.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\raportcursuri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\raportcursuriangajai.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\redeschiderealuniianterioare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\ri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\salarii.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\salariiangajai.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\schimbareparola.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\setri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\situaielunarangajat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\situaiemilitar.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\srbtorilegale.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\statdeplatcufunciadebaznaltparte.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\statdeplatdetaliat.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\statdeplatnescutiideimpozit.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\statdeplatpepunctedelucru.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\statdeplatscutiideimpozit.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\statinspectoratteritorialdemunca.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\studii.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\tichetedemas.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\tipurirapoartepsihologice.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\tipurireineri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\titluri.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\utilizatori.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\utilizatoriiaplicaiei.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\variabilesalarizare.htm" />
+    <Content Include="Help\NetHelp\WordDocuments\variabilesalarizare1.htm" />
+    <Content Include="Help\NetHelp\_contextIds.js" />
+    <Content Include="Help\NetHelp\_d2h_ctxt_help.htm" />
+    <Content Include="Help\NetHelp\_d2h_keyword_links.htm" />
+    <Content Include="Help\NetHelp\_d2h_theme_nav.htm" />
+    <Content Include="Help\NetHelp\_d2h_theme_nav_left_bottom.htm" />
+    <Content Include="Help\NetHelp\_d2h_theme_nav_left_top.htm" />
+    <Content Include="home.aspx" />
+    <Content Include="images\1x1.gif" />
+    <Content Include="images\arrow_closed.gif" />
+    <Content Include="images\arrow_opened.gif" />
+    <Content Include="images\bp.gif" />
+    <Content Include="images\checkMark.gif" />
+    <Content Include="images\colt-header.gif" />
+    <Content Include="images\colt-tab.gif" />
+    <Content Include="images\colt-tab1.gif" />
+    <Content Include="images\dreapta-header-normal.gif" />
+    <Content Include="images\dreapta-header-small.gif" />
+    <Content Include="images\fill-header-normal.gif" />
+    <Content Include="images\fill-header-small.gif" />
+    <Content Include="images\fill-menu.gif" />
+    <Content Include="images\fill-tab1.gif" />
+    <Content Include="images\fillcolt-tab.gif" />
+    <Content Include="images\gears_ani.gif" />
+    <Content Include="images\header-line.gif" />
+    <Content Include="images\header1.gif" />
+    <Content Include="images\linie-task.gif" />
+    <Content Include="images\mb_exit.gif" />
+    <Content Include="images\puncte.gif" />
+    <Content Include="images\puncte1.gif" />
+    <Content Include="images\separator-tab.gif" />
+    <Content Include="images\stanga-header-normal.gif" />
+    <Content Include="images\stanga-header-small.gif" />
+    <Content Include="index.aspx" />
+    <Content Include="InterfataSalarii\AdminCategoriiAngajati_AddAngajat.aspx" />
+    <Content Include="InterfataSalarii\js\Menus.js" />
+    <Content Include="InterfataSalarii\js\ScriptCallback.js" />
+    <Content Include="InterfataSalarii\js\xmlsig.vbs" />
+    <Content Include="InterfataSalarii\js\xmlSign.xml" />
+    <Content Include="InterfataSalarii\Module\Admin_CategoriiAngajati.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_InflatieLunara.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_NomenclatorBoli.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_NomenclatorConcediiMed.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_NomenclatorSarbatoriLegale.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_NomenclatorSeriiTichete.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_NomenclatorTipAbsente.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_NomenclatorTipOreLucrate.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_TipuriRetineri.ascx" />
+    <Content Include="InterfataSalarii\Module\Admin_VariabileGlobale.ascx" />
+    <Content Include="InterfataSalarii\Module\Fluturasi.ascx" />
+    <Content Include="InterfataSalarii\Module\ImportDelegatii.ascx" />
+    <Content Include="InterfataSalarii\Module\ImportPontaj.ascx" />
+    <Content Include="InterfataSalarii\Module\InitializareLuna.ascx" />
+    <Content Include="InterfataSalarii\Module\LichidareAngajat.ascx" />
+    <Content Include="InterfataSalarii\Module\MainSalarii.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\js\Intervale.js" />
+    <Content Include="InterfataSalarii\Module\Pontaj\js\jsCode.js" />
+    <Content Include="InterfataSalarii\Module\Pontaj\js\jsUpMenuCode.js" />
+    <Content Include="InterfataSalarii\Module\Pontaj\js\tree.js" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\HeaderMenu.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\Interval.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\IntervalAbsente.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\Intervale.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\IntervalIntreruperiContract.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\IntervalOreNestandard.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\PageHeader.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\TimeStamp.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\Module\UserInfo.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\PontajModule.ascx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\utils\Calendar.aspx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\utils\ShowCheckUp.aspx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\utils\ShowIcon.aspx" />
+    <Content Include="InterfataSalarii\Module\Pontaj\utils\ShowPicture.aspx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_AccesCladire.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_CHCM.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_ContracteItm.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_ContributiiAngajator.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_Cursuri.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_CursuriAngajati.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_CursuriAngajatiPortal.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DateLichidare.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratiaA11.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratiaA12.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA1.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA2.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3a.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3b.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3c.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratieSomajCap1.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratieSomajCap2.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_DeclaratieUnica.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_FiseFiscale.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_FiseFiscaleXml.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_FisierMulticache.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_FluturasAngajat.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_StatDePlata.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_StatDePlataFaraFctDeBaza.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_StatDePlataNescutitiDeImpozit.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_StatDePlataPePuncteDeLucru.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_StatDePlataScutitiDeImpozit.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_StatItm.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_TicheteDeMasa.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_TicheteMasa.ascx" />
+    <Content Include="InterfataSalarii\Module\RetineriAngajat.ascx" />
+    <Content Include="InterfataSalarii\Module\SalariiHeaderMenu.ascx" />
+    <Content Include="InterfataSalarii\Module\SalariiLunaLucru.ascx" />
+    <Content Include="InterfataSalarii\Module\Salarii_Administrare.ascx" />
+    <Content Include="InterfataSalarii\Module\Salarii_Pontaj.ascx" />
+    <Content Include="InterfataSalarii\Module\Salarii_Rapoarte.ascx" />
+    <Content Include="InterfataSalarii\Module\SincronizareDateAngajati.ascx" />
+    <Content Include="InterfataSalarii\Module\SituatieLunaraAngajat.ascx" />
+    <Content Include="InterfataSalarii\Module\SituatieLunaraAngajati.ascx" />
+    <Content Include="InterfataSalarii\Module\TrimitereFluturasi.ascx" />
+    <Content Include="InterfataSalarii\Salarii.aspx" />
+    <Content Include="InterfataSalarii\ShowMessage.aspx" />
+    <Content Include="InterfataSalarii\Templates\DecUnica.xml" />
+    <Content Include="InterfataSalarii\Templates\FisaFiscala.xml" />
+    <Content Include="InterfataSalarii\Templates\logImport.txt" />
+    <Content Include="InterfataSalarii\Templates\RezultateImport.txt" />
+    <Content Include="js\jsCode.js" />
+    <Content Include="js\jsUpMenuCode.js" />
+    <Content Include="js\navigation_tree.js" />
+    <Content Include="js\tree.js" />
+    <Content Include="Managers\MakeChart.aspx" />
+    <Content Include="Managers\Managers.aspx" />
+    <Content Include="Managers\ManagersOptions.ascx" />
+    <Content Include="Managers\ManagersOptions_Checkup.ascx" />
+    <Content Include="Managers\ManagersOptions_ContrMunca.ascx" />
+    <Content Include="Managers\ManagersOptions_DataMajorare.ascx" />
+    <Content Include="Managers\ManagersOptions_EvolutieSal.ascx" />
+    <Content Include="Managers\ManagersOptions_EvSalAngDept.ascx" />
+    <Content Include="Managers\MO_CheckupRaport.ascx" />
+    <Content Include="Managers\MO_ContrMuncaRaport.ascx" />
+    <Content Include="Managers\MO_DataMajorareRaport.ascx" />
+    <Content Include="Navigare\Administrare_Navigare.xml" />
+    <Content Include="Navigare\EditAngajat_LeftNavigation.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Navigare\EditAngajat_LeftNavigation_Recrutori.xml" />
+    <Content Include="Navigare\Salarii_Navigare.xml" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\SiemensHR.csproj.FileListAbsolute.txt" />
+    <Content Include="PageHeader.ascx" />
+    <Content Include="Recrutori\EditAngajat_Recrutori.aspx" />
+    <Content Include="Recrutori\HeaderMenu_Recrutori.ascx" />
+    <Content Include="Recrutori\Recrutori.aspx" />
+    <Content Include="Recrutori\SearchAngajatiList_Recrutori.aspx" />
+    <Content Include="SearchAngajati.aspx" />
+    <Content Include="SearchAngajatiList.aspx" />
+    <Content Include="Setup_Web.xml" />
+    <Content Include="StyleHR.css" />
+    <Content Include="Unauthorized.aspx" />
+    <Content Include="Unauthorized.htm" />
+    <Content Include="utils\Calendar.aspx" />
+    <Content Include="utils\ShowCheckUp.aspx" />
+    <Content Include="utils\ShowIcon.aspx" />
+    <Content Include="utils\ShowPicture.aspx" />
+    <None Include="Web References\edoc\User.disco" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAngajat.aspx.cs">
+      <DependentUpon>AddAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAngajat_end.aspx.cs">
+      <DependentUpon>AddAngajat_end.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminAngajatori.ascx.cs">
+      <DependentUpon>AdminAngajatori.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminAngajatoriEdit.ascx.cs">
+      <DependentUpon>AdminAngajatoriEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminBanci.ascx.cs">
+      <DependentUpon>AdminBanci.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminCaseDeAsigurari.ascx.cs">
+      <DependentUpon>AdminCaseDeAsigurari.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminCentreCost.ascx.cs">
+      <DependentUpon>AdminCentreCost.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminChangePassword.ascx.cs">
+      <DependentUpon>AdminChangePassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminDepartamente.ascx.cs">
+      <DependentUpon>AdminDepartamente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminDepartamenteIstoricDepartamente.aspx.cs">
+      <DependentUpon>AdminDepartamenteIstoricDepartamente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminDomeniiDeActivitate.ascx.cs">
+      <DependentUpon>AdminDomeniiDeActivitate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminFunctii.ascx.cs">
+      <DependentUpon>AdminFunctii.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminFunctiiAddAngajat.aspx.cs">
+      <DependentUpon>AdminFunctiiAddAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminInvaliditati.ascx.cs">
+      <DependentUpon>AdminInvaliditati.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminInvaliditatiAddAngajat.aspx.cs">
+      <DependentUpon>AdminInvaliditatiAddAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\Administrare.aspx.cs">
+      <DependentUpon>Administrare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdministrareMain.ascx.cs">
+      <DependentUpon>AdministrareMain.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdministrareTabs.ascx.cs">
+      <DependentUpon>AdministrareTabs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminJudete.ascx.cs">
+      <DependentUpon>AdminJudete.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminJudeteAddAngajat.aspx.cs">
+      <DependentUpon>AdminJudeteAddAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminPrimulAngajator.aspx.cs">
+      <DependentUpon>AdminPrimulAngajator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminStudii.ascx.cs">
+      <DependentUpon>AdminStudii.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminStudiiAngajatiAddAngajat.aspx.cs">
+      <DependentUpon>AdminStudiiAngajatiAddAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTari.ascx.cs">
+      <DependentUpon>AdminTari.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTariAddAngajat.aspx.cs">
+      <DependentUpon>AdminTariAddAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTipuriCompletareCarnete.ascx.cs">
+      <DependentUpon>AdminTipuriCompletareCarnete.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTipuriRapoarte.ascx.cs">
+      <DependentUpon>AdminTipuriRapoarte.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTipuriRapoarteEvaluariPsihologiceAngajat.aspx.cs">
+      <DependentUpon>AdminTipuriRapoarteEvaluariPsihologiceAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTitluriAngajati.ascx.cs">
+      <DependentUpon>AdminTitluriAngajati.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTitluriAngajatiAddAngajat.aspx.cs">
+      <DependentUpon>AdminTitluriAngajatiAddAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTraininguri.ascx.cs">
+      <DependentUpon>AdminTraininguri.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminTraininguriIstoricTraininguri.aspx.cs">
+      <DependentUpon>AdminTraininguriIstoricTraininguri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminUserParola.ascx.cs">
+      <DependentUpon>AdminUserParola.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminUtilizatori.ascx.cs">
+      <DependentUpon>AdminUtilizatori.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminUtilizatoriNivele.ascx.cs">
+      <DependentUpon>AdminUtilizatoriNivele.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminVariabileGlobale.ascx.cs">
+      <DependentUpon>AdminVariabileGlobale.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\AdminWebConfig.ascx.cs">
+      <DependentUpon>AdminWebConfig.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrare\EditUtilizator.ascx.cs">
+      <DependentUpon>EditUtilizator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMeniu.ascx.cs">
+      <DependentUpon>AdminMeniu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSetari.aspx.cs">
+      <DependentUpon>AdminSetari.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUserParola.aspx.cs">
+      <DependentUpon>AdminUserParola.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlerteSpeciale\AngAlerteSpeciale.ascx.cs">
+      <DependentUpon>AngAlerteSpeciale.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlerteSpeciale\AngExpiraContractLunaCurenta.ascx.cs">
+      <DependentUpon>AngExpiraContractLunaCurenta.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlerteSpeciale\AngExpiraDataMajorareStabilita.ascx.cs">
+      <DependentUpon>AngExpiraDataMajorareStabilita.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlerteSpeciale\AngExpiraPasaport.ascx.cs">
+      <DependentUpon>AngExpiraPasaport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlerteSpeciale\AngExpiraPermisMunca.ascx.cs">
+      <DependentUpon>AngExpiraPermisMunca.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlerteSpeciale\AngExpiraPermisSedere.ascx.cs">
+      <DependentUpon>AngExpiraPermisSedere.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlerteSpeciale\AngExpiraRetinere.ascx.cs">
+      <DependentUpon>AngExpiraRetinere.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Classes\ListTable.cs" />
+    <Compile Include="Classes\ListTableVertical.cs" />
+    <Compile Include="Classes\TabsTable.cs" />
+    <Compile Include="Classes\Utilities.cs" />
+    <Compile Include="Classes\UtilitiesDb.cs" />
+    <Compile Include="Classes\XMLHandler.cs" />
+    <Compile Include="Comunicari\adeverintaMedicDeFamilie.ascx.cs">
+      <DependentUpon>adeverintaMedicDeFamilie.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicari\comunicare.aspx.cs">
+      <DependentUpon>comunicare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicari\comunicare_indexare.ascx.cs">
+      <DependentUpon>comunicare_indexare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicari\comunicare_indexare_majorare.ascx.cs">
+      <DependentUpon>comunicare_indexare_majorare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicari\comunicare_majorare.ascx.cs">
+      <DependentUpon>comunicare_majorare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicari\comunicare_prelungire_cim.ascx.cs">
+      <DependentUpon>comunicare_prelungire_cim.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicari\Comunicare_prima.ascx.cs">
+      <DependentUpon>Comunicare_prima.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicari\contract_munca.ascx.cs">
+      <DependentUpon>contract_munca.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicari\fisa_postului.ascx.cs">
+      <DependentUpon>fisa_postului.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAngajat.aspx.cs">
+      <DependentUpon>EditAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAngajatLeft.ascx.cs">
+      <DependentUpon>EditAngajatLeft.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAngajatUp.ascx.cs">
+      <DependentUpon>EditAngajatUp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\ChangePoza.ascx.cs">
+      <DependentUpon>ChangePoza.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\CheckupuriAngajat.ascx.cs">
+      <DependentUpon>CheckupuriAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\ConturiBanca.ascx.cs">
+      <DependentUpon>ConturiBanca.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\EditAngajatDateAngajare.ascx.cs">
+      <DependentUpon>EditAngajatDateAngajare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\EditAngajatDatePersonale.ascx.cs">
+      <DependentUpon>EditAngajatDatePersonale.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\EditComboAngajatiDinCautare.ascx.cs">
+      <DependentUpon>EditComboAngajatiDinCautare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\EditIstoricAlerte.ascx.cs">
+      <DependentUpon>EditIstoricAlerte.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\EvaluariPsihologiceAngajat.ascx.cs">
+      <DependentUpon>EvaluariPsihologiceAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricCartiIdentitate.ascx.cs">
+      <DependentUpon>IstoricCartiIdentitate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricConcediiMedicaleAngajat.ascx.cs">
+      <DependentUpon>IstoricConcediiMedicaleAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricConcediiOdihnaAngajat.ascx.cs">
+      <DependentUpon>IstoricConcediiOdihnaAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricDepartamente.ascx.cs">
+      <DependentUpon>IstoricDepartamente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricFunctii.ascx.cs">
+      <DependentUpon>IstoricFunctii.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricLegitimatiiSedere.ascx.cs">
+      <DependentUpon>IstoricLegitimatiiSedere.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricNIFuri.ascx.cs">
+      <DependentUpon>IstoricNIFuri.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricPasapoarte.ascx.cs">
+      <DependentUpon>IstoricPasapoarte.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricPermiseMunca.ascx.cs">
+      <DependentUpon>IstoricPermiseMunca.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricSchimbariDateAngajat.ascx.cs">
+      <DependentUpon>IstoricSchimbariDateAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricSuspendariCIM.ascx.cs">
+      <DependentUpon>IstoricSuspendariCIM.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricTicheteDeMasa.ascx.cs">
+      <DependentUpon>IstoricTicheteDeMasa.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\IstoricTraininguri.ascx.cs">
+      <DependentUpon>IstoricTraininguri.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\NivelAngajat.ascx.cs">
+      <DependentUpon>NivelAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\PersoaneIntretinere.ascx.cs">
+      <DependentUpon>PersoaneIntretinere.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\ReferinteAngajat.ascx.cs">
+      <DependentUpon>ReferinteAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTasks\SituatiiMilitare.ascx.cs">
+      <DependentUpon>SituatiiMilitare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errors.aspx.cs">
+      <DependentUpon>Errors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="HeaderMenu.ascx.cs">
+      <DependentUpon>HeaderMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\AdminCategoriiAngajati_AddAngajat.aspx.cs">
+      <DependentUpon>AdminCategoriiAngajati_AddAngajat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Classes\BaseModule.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Classes\Declaratii.cs" />
+    <Compile Include="InterfataSalarii\Classes\Definitions.cs" />
+    <Compile Include="InterfataSalarii\Module\Admin_CategoriiAngajati.ascx.cs">
+      <DependentUpon>Admin_CategoriiAngajati.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_InflatieLunara.ascx.cs">
+      <DependentUpon>Admin_InflatieLunara.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_NomenclatorBoli.ascx.cs">
+      <DependentUpon>Admin_NomenclatorBoli.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_NomenclatorConcediiMed.ascx.cs">
+      <DependentUpon>Admin_NomenclatorConcediiMed.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_NomenclatorSarbatoriLegale.ascx.cs">
+      <DependentUpon>Admin_NomenclatorSarbatoriLegale.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_NomenclatorSeriiTichete.ascx.cs">
+      <DependentUpon>Admin_NomenclatorSeriiTichete.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_NomenclatorTipAbsente.ascx.cs">
+      <DependentUpon>Admin_NomenclatorTipAbsente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_NomenclatorTipOreLucrate.ascx.cs">
+      <DependentUpon>Admin_NomenclatorTipOreLucrate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_TipuriRetineri.ascx.cs">
+      <DependentUpon>Admin_TipuriRetineri.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Admin_VariabileGlobale.ascx.cs">
+      <DependentUpon>Admin_VariabileGlobale.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Fluturasi.ascx.cs">
+      <DependentUpon>Fluturasi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\ImportDelegatii.ascx.cs">
+      <DependentUpon>ImportDelegatii.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\ImportPontaj.ascx.cs">
+      <DependentUpon>ImportPontaj.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\InitializareLuna.ascx.cs">
+      <DependentUpon>InitializareLuna.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\LichidareAngajat.ascx.cs">
+      <DependentUpon>LichidareAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\MainSalarii.ascx.cs">
+      <DependentUpon>MainSalarii.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\AbsenteAngajat.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\Admin_TipuriAbsente.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\Admin_TipuriIntervale.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\Definitions.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\IntervalAbsenteMedicaleContinuareAngajat.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\IntervaleAbsenteAngajat.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\IntervaleAngajat.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\IntervaleIntreruperiAngajat.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\ListTable.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\Login.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\ModuleLogin.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\SituatieAngajat.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Classes\Zile.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\HeaderMenu.ascx.cs">
+      <DependentUpon>HeaderMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\Interval.ascx.cs">
+      <DependentUpon>Interval.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\IntervalAbsente.ascx.cs">
+      <DependentUpon>IntervalAbsente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\Intervale.ascx.cs">
+      <DependentUpon>Intervale.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\IntervalIntreruperiContract.ascx.cs">
+      <DependentUpon>IntervalIntreruperiContract.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\IntervalOreNestandard.ascx.cs">
+      <DependentUpon>IntervalOreNestandard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\PageHeader.ascx.cs">
+      <DependentUpon>PageHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\TimeStamp.ascx.cs">
+      <DependentUpon>TimeStamp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\Module\UserInfo.ascx.cs">
+      <DependentUpon>UserInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\PontajModule.ascx.cs">
+      <DependentUpon>PontajModule.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\utils\Calendar.aspx.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\utils\ShowCheckUp.aspx.cs">
+      <DependentUpon>ShowCheckUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\utils\ShowIcon.aspx.cs">
+      <DependentUpon>ShowIcon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\utils\ShowPicture.aspx.cs">
+      <DependentUpon>ShowPicture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Pontaj\utils\Utilities.cs" />
+    <Compile Include="InterfataSalarii\Module\Pontaj\utils\UtilitiesDb.cs" />
+    <Compile Include="InterfataSalarii\Module\rapoarte_AccesCladire.ascx.cs">
+      <DependentUpon>rapoarte_AccesCladire.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_CHCM.ascx.cs">
+      <DependentUpon>rapoarte_CHCM.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_ContracteItm.ascx.cs">
+      <DependentUpon>rapoarte_ContracteItm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_ContributiiAngajator.ascx.cs">
+      <DependentUpon>rapoarte_ContributiiAngajator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_Cursuri.ascx.cs">
+      <DependentUpon>rapoarte_Cursuri.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_CursuriAngajati.ascx.cs">
+      <DependentUpon>rapoarte_CursuriAngajati.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_CursuriAngajatiPortal.ascx.cs">
+      <DependentUpon>rapoarte_CursuriAngajatiPortal.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DateLichidare.ascx.cs">
+      <DependentUpon>rapoarte_DateLichidare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratiaA11.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratiaA11.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratiaA12.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratiaA12.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA1.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratieSanatateA1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA2.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratieSanatateA2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3a.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratieSanatateA3a.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3b.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratieSanatateA3b.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3c.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratieSanatateA3c.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratieSomajCap1.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratieSomajCap1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratieSomajCap2.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratieSomajCap2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_DeclaratieUnica.ascx.cs">
+      <DependentUpon>rapoarte_DeclaratieUnica.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_FiseFiscale.ascx.cs">
+      <DependentUpon>rapoarte_FiseFiscale.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_FiseFiscaleXml.ascx.cs">
+      <DependentUpon>rapoarte_FiseFiscaleXml.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_FisierMulticache.ascx.cs">
+      <DependentUpon>rapoarte_FisierMulticache.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_FluturasAngajat.ascx.cs">
+      <DependentUpon>rapoarte_FluturasAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_StatDePlata.ascx.cs">
+      <DependentUpon>rapoarte_StatDePlata.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_StatDePlataFaraFctDeBaza.ascx.cs">
+      <DependentUpon>rapoarte_StatDePlataFaraFctDeBaza.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_StatDePlataNescutitiDeImpozit.ascx.cs">
+      <DependentUpon>rapoarte_StatDePlataNescutitiDeImpozit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_StatDePlataPePuncteDeLucru.ascx.cs">
+      <DependentUpon>rapoarte_StatDePlataPePuncteDeLucru.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_StatDePlataScutitiDeImpozit.ascx.cs">
+      <DependentUpon>rapoarte_StatDePlataScutitiDeImpozit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_StatItm.ascx.cs">
+      <DependentUpon>rapoarte_StatItm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_TicheteDeMasa.ascx.cs">
+      <DependentUpon>rapoarte_TicheteDeMasa.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_TicheteMasa.ascx.cs">
+      <DependentUpon>rapoarte_TicheteMasa.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\RetineriAngajat.ascx.cs">
+      <DependentUpon>RetineriAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\SalariiHeaderMenu.ascx.cs">
+      <DependentUpon>SalariiHeaderMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\SalariiLunaLucru.ascx.cs">
+      <DependentUpon>SalariiLunaLucru.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Salarii_Administrare.ascx.cs">
+      <DependentUpon>Salarii_Administrare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Salarii_Pontaj.ascx.cs">
+      <DependentUpon>Salarii_Pontaj.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\Salarii_Rapoarte.ascx.cs">
+      <DependentUpon>Salarii_Rapoarte.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\SincronizareDateAngajati.ascx.cs">
+      <DependentUpon>SincronizareDateAngajati.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\SituatieLunaraAngajat.ascx.cs">
+      <DependentUpon>SituatieLunaraAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\SituatieLunaraAngajati.ascx.cs">
+      <DependentUpon>SituatieLunaraAngajati.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\TrimitereFluturasi.ascx.cs">
+      <DependentUpon>TrimitereFluturasi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Salarii.aspx.cs">
+      <DependentUpon>Salarii.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\ShowMessage.aspx.cs">
+      <DependentUpon>ShowMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\MakeChart.aspx.cs">
+      <DependentUpon>MakeChart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\Managers.aspx.cs">
+      <DependentUpon>Managers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\ManagersOptions.ascx.cs">
+      <DependentUpon>ManagersOptions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\ManagersOptions_Checkup.ascx.cs">
+      <DependentUpon>ManagersOptions_Checkup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\ManagersOptions_ContrMunca.ascx.cs">
+      <DependentUpon>ManagersOptions_ContrMunca.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\ManagersOptions_DataMajorare.ascx.cs">
+      <DependentUpon>ManagersOptions_DataMajorare.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\ManagersOptions_EvolutieSal.ascx.cs">
+      <DependentUpon>ManagersOptions_EvolutieSal.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\ManagersOptions_EvSalAngDept.ascx.cs">
+      <DependentUpon>ManagersOptions_EvSalAngDept.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\MO_CheckupRaport.ascx.cs">
+      <DependentUpon>MO_CheckupRaport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\MO_ContrMuncaRaport.ascx.cs">
+      <DependentUpon>MO_ContrMuncaRaport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Managers\MO_DataMajorareRaport.ascx.cs">
+      <DependentUpon>MO_DataMajorareRaport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="PageHeader.ascx.cs">
+      <DependentUpon>PageHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recrutori\EditAngajat_Recrutori.aspx.cs">
+      <DependentUpon>EditAngajat_Recrutori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recrutori\HeaderMenu_Recrutori.ascx.cs">
+      <DependentUpon>HeaderMenu_Recrutori.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recrutori\Recrutori.aspx.cs">
+      <DependentUpon>Recrutori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recrutori\SearchAngajatiList_Recrutori.aspx.cs">
+      <DependentUpon>SearchAngajatiList_Recrutori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchAngajati.aspx.cs">
+      <DependentUpon>SearchAngajati.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchAngajatiList.aspx.cs">
+      <DependentUpon>SearchAngajatiList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Unauthorized.aspx.cs">
+      <DependentUpon>Unauthorized.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="utils\Calendar.aspx.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="utils\ShowCheckUp.aspx.cs">
+      <DependentUpon>ShowCheckUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="utils\ShowIcon.aspx.cs">
+      <DependentUpon>ShowIcon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="utils\ShowPicture.aspx.cs">
+      <DependentUpon>ShowPicture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web References\edoc\Reference.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddAngajat.aspx.resx">
+      <DependentUpon>AddAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAngajat_end.aspx.resx">
+      <DependentUpon>AddAngajat_end.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminAngajatori.ascx.resx">
+      <DependentUpon>AdminAngajatori.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminAngajatoriEdit.ascx.resx">
+      <DependentUpon>AdminAngajatoriEdit.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminBanci.ascx.resx">
+      <DependentUpon>AdminBanci.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminCaseDeAsigurari.ascx.resx">
+      <DependentUpon>AdminCaseDeAsigurari.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminCentreCost.ascx.resx">
+      <DependentUpon>AdminCentreCost.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminChangePassword.ascx.resx">
+      <DependentUpon>AdminChangePassword.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminDepartamente.ascx.resx">
+      <DependentUpon>AdminDepartamente.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminDepartamenteIstoricDepartamente.aspx.resx">
+      <DependentUpon>AdminDepartamenteIstoricDepartamente.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminDomeniiDeActivitate.ascx.resx">
+      <DependentUpon>AdminDomeniiDeActivitate.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminFunctii.ascx.resx">
+      <DependentUpon>AdminFunctii.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminFunctiiAddAngajat.aspx.resx">
+      <DependentUpon>AdminFunctiiAddAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminInvaliditati.ascx.resx">
+      <DependentUpon>AdminInvaliditati.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminInvaliditatiAddAngajat.aspx.resx">
+      <DependentUpon>AdminInvaliditatiAddAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\Administrare.aspx.resx">
+      <DependentUpon>Administrare.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdministrareMain.ascx.resx">
+      <DependentUpon>AdministrareMain.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdministrareTabs.ascx.resx">
+      <DependentUpon>AdministrareTabs.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminJudete.ascx.resx">
+      <DependentUpon>AdminJudete.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminJudeteAddAngajat.aspx.resx">
+      <DependentUpon>AdminJudeteAddAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminPrimulAngajator.aspx.resx">
+      <DependentUpon>AdminPrimulAngajator.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminStudii.ascx.resx">
+      <DependentUpon>AdminStudii.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminStudiiAngajatiAddAngajat.aspx.resx">
+      <DependentUpon>AdminStudiiAngajatiAddAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTari.ascx.resx">
+      <DependentUpon>AdminTari.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTariAddAngajat.aspx.resx">
+      <DependentUpon>AdminTariAddAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTipuriCompletareCarnete.ascx.resx">
+      <DependentUpon>AdminTipuriCompletareCarnete.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTipuriRapoarte.ascx.resx">
+      <DependentUpon>AdminTipuriRapoarte.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTipuriRapoarteEvaluariPsihologiceAngajat.aspx.resx">
+      <DependentUpon>AdminTipuriRapoarteEvaluariPsihologiceAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTitluriAngajati.ascx.resx">
+      <DependentUpon>AdminTitluriAngajati.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTitluriAngajatiAddAngajat.aspx.resx">
+      <DependentUpon>AdminTitluriAngajatiAddAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTraininguri.ascx.resx">
+      <DependentUpon>AdminTraininguri.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminTraininguriIstoricTraininguri.aspx.resx">
+      <DependentUpon>AdminTraininguriIstoricTraininguri.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminUserParola.ascx.resx">
+      <DependentUpon>AdminUserParola.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminUtilizatori.ascx.resx">
+      <DependentUpon>AdminUtilizatori.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminUtilizatoriNivele.ascx.resx">
+      <DependentUpon>AdminUtilizatoriNivele.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminVariabileGlobale.ascx.resx">
+      <DependentUpon>AdminVariabileGlobale.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\AdminWebConfig.ascx.resx">
+      <DependentUpon>AdminWebConfig.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare\EditUtilizator.ascx.resx">
+      <DependentUpon>EditUtilizator.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMeniu.ascx.resx">
+      <DependentUpon>AdminMeniu.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSetari.aspx.resx">
+      <DependentUpon>AdminSetari.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUserParola.aspx.resx">
+      <DependentUpon>AdminUserParola.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlerteSpeciale\AngAlerteSpeciale.ascx.resx">
+      <DependentUpon>AngAlerteSpeciale.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlerteSpeciale\AngExpiraContractLunaCurenta.ascx.resx">
+      <DependentUpon>AngExpiraContractLunaCurenta.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlerteSpeciale\AngExpiraDataMajorareStabilita.ascx.resx">
+      <DependentUpon>AngExpiraDataMajorareStabilita.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlerteSpeciale\AngExpiraPasaport.ascx.resx">
+      <DependentUpon>AngExpiraPasaport.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlerteSpeciale\AngExpiraPermisMunca.ascx.resx">
+      <DependentUpon>AngExpiraPermisMunca.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlerteSpeciale\AngExpiraPermisSedere.ascx.resx">
+      <DependentUpon>AngExpiraPermisSedere.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlerteSpeciale\AngExpiraRetinere.ascx.resx">
+      <DependentUpon>AngExpiraRetinere.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\adeverintaMedicDeFamilie.ascx.resx">
+      <DependentUpon>adeverintaMedicDeFamilie.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\comunicare.aspx.resx">
+      <DependentUpon>comunicare.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\comunicare_indexare.ascx.resx">
+      <DependentUpon>comunicare_indexare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\comunicare_indexare_majorare.ascx.resx">
+      <DependentUpon>comunicare_indexare_majorare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\comunicare_majorare.ascx.resx">
+      <DependentUpon>comunicare_majorare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\comunicare_prelungire_cim.ascx.resx">
+      <DependentUpon>comunicare_prelungire_cim.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\Comunicare_prima.ascx.resx">
+      <DependentUpon>Comunicare_prima.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\contract_munca.ascx.resx">
+      <DependentUpon>contract_munca.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comunicari\fisa_postului.ascx.resx">
+      <DependentUpon>fisa_postului.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAngajat.aspx.resx">
+      <DependentUpon>EditAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAngajatLeft.ascx.resx">
+      <DependentUpon>EditAngajatLeft.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAngajatUp.ascx.resx">
+      <DependentUpon>EditAngajatUp.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\ChangePoza.ascx.resx">
+      <DependentUpon>ChangePoza.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\CheckupuriAngajat.ascx.resx">
+      <DependentUpon>CheckupuriAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\ConturiBanca.ascx.resx">
+      <DependentUpon>ConturiBanca.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\EditAngajatDateAngajare.ascx.resx">
+      <DependentUpon>EditAngajatDateAngajare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\EditAngajatDatePersonale.ascx.resx">
+      <DependentUpon>EditAngajatDatePersonale.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\EditComboAngajatiDinCautare.ascx.resx">
+      <DependentUpon>EditComboAngajatiDinCautare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\EditIstoricAlerte.ascx.resx">
+      <DependentUpon>EditIstoricAlerte.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\EvaluariPsihologiceAngajat.ascx.resx">
+      <DependentUpon>EvaluariPsihologiceAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricCartiIdentitate.ascx.resx">
+      <DependentUpon>IstoricCartiIdentitate.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricConcediiMedicaleAngajat.ascx.resx">
+      <DependentUpon>IstoricConcediiMedicaleAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricConcediiOdihnaAngajat.ascx.resx">
+      <DependentUpon>IstoricConcediiOdihnaAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricDepartamente.ascx.resx">
+      <DependentUpon>IstoricDepartamente.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricFunctii.ascx.resx">
+      <DependentUpon>IstoricFunctii.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricLegitimatiiSedere.ascx.resx">
+      <DependentUpon>IstoricLegitimatiiSedere.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricNIFuri.ascx.resx">
+      <DependentUpon>IstoricNIFuri.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricPasapoarte.ascx.resx">
+      <DependentUpon>IstoricPasapoarte.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricPermiseMunca.ascx.resx">
+      <DependentUpon>IstoricPermiseMunca.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricSchimbariDateAngajat.ascx.resx">
+      <DependentUpon>IstoricSchimbariDateAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricSuspendariCIM.ascx.resx">
+      <DependentUpon>IstoricSuspendariCIM.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricTicheteDeMasa.ascx.resx">
+      <DependentUpon>IstoricTicheteDeMasa.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\IstoricTraininguri.ascx.resx">
+      <DependentUpon>IstoricTraininguri.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\NivelAngajat.ascx.resx">
+      <DependentUpon>NivelAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\PersoaneIntretinere.ascx.resx">
+      <DependentUpon>PersoaneIntretinere.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\ReferinteAngajat.ascx.resx">
+      <DependentUpon>ReferinteAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTasks\SituatiiMilitare.ascx.resx">
+      <DependentUpon>SituatiiMilitare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errors.aspx.resx">
+      <DependentUpon>Errors.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeaderMenu.ascx.resx">
+      <DependentUpon>HeaderMenu.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.aspx.resx">
+      <DependentUpon>home.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="index.aspx.resx">
+      <DependentUpon>index.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\AdminCategoriiAngajati_AddAngajat.aspx.resx">
+      <DependentUpon>AdminCategoriiAngajati_AddAngajat.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_CategoriiAngajati.ascx.resx">
+      <DependentUpon>Admin_CategoriiAngajati.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_InflatieLunara.ascx.resx">
+      <DependentUpon>Admin_InflatieLunara.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_NomenclatorBoli.ascx.resx">
+      <DependentUpon>Admin_NomenclatorBoli.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_NomenclatorConcediiMed.ascx.resx">
+      <DependentUpon>Admin_NomenclatorConcediiMed.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_NomenclatorSarbatoriLegale.ascx.resx">
+      <DependentUpon>Admin_NomenclatorSarbatoriLegale.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_NomenclatorSeriiTichete.ascx.resx">
+      <DependentUpon>Admin_NomenclatorSeriiTichete.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_NomenclatorTipAbsente.ascx.resx">
+      <DependentUpon>Admin_NomenclatorTipAbsente.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_NomenclatorTipOreLucrate.ascx.resx">
+      <DependentUpon>Admin_NomenclatorTipOreLucrate.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_TipuriRetineri.ascx.resx">
+      <DependentUpon>Admin_TipuriRetineri.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Admin_VariabileGlobale.ascx.resx">
+      <DependentUpon>Admin_VariabileGlobale.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Fluturasi.ascx.resx">
+      <DependentUpon>Fluturasi.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\ImportDelegatii.ascx.resx">
+      <DependentUpon>ImportDelegatii.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\ImportPontaj.ascx.resx">
+      <DependentUpon>ImportPontaj.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\InitializareLuna.ascx.resx">
+      <DependentUpon>InitializareLuna.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\LichidareAngajat.ascx.resx">
+      <DependentUpon>LichidareAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\MainSalarii.ascx.resx">
+      <DependentUpon>MainSalarii.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\HeaderMenu.ascx.resx">
+      <DependentUpon>HeaderMenu.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\Interval.ascx.resx">
+      <DependentUpon>Interval.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\IntervalAbsente.ascx.resx">
+      <DependentUpon>IntervalAbsente.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\Intervale.ascx.resx">
+      <DependentUpon>Intervale.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\IntervalIntreruperiContract.ascx.resx">
+      <DependentUpon>IntervalIntreruperiContract.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\IntervalOreNestandard.ascx.resx">
+      <DependentUpon>IntervalOreNestandard.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\PageHeader.ascx.resx">
+      <DependentUpon>PageHeader.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\TimeStamp.ascx.resx">
+      <DependentUpon>TimeStamp.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\Module\UserInfo.ascx.resx">
+      <DependentUpon>UserInfo.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\PontajModule.ascx.resx">
+      <DependentUpon>PontajModule.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\utils\Calendar.aspx.resx">
+      <DependentUpon>Calendar.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\utils\ShowCheckUp.aspx.resx">
+      <DependentUpon>ShowCheckUp.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\utils\ShowIcon.aspx.resx">
+      <DependentUpon>ShowIcon.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Pontaj\utils\ShowPicture.aspx.resx">
+      <DependentUpon>ShowPicture.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_AccesCladire.ascx.resx">
+      <DependentUpon>rapoarte_AccesCladire.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_CHCM.ascx.resx">
+      <DependentUpon>rapoarte_CHCM.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_ContracteItm.ascx.resx">
+      <DependentUpon>rapoarte_ContracteItm.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_ContributiiAngajator.ascx.resx">
+      <DependentUpon>rapoarte_ContributiiAngajator.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_Cursuri.ascx.resx">
+      <DependentUpon>rapoarte_Cursuri.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_CursuriAngajati.ascx.resx">
+      <DependentUpon>rapoarte_CursuriAngajati.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_CursuriAngajatiPortal.ascx.resx">
+      <DependentUpon>rapoarte_CursuriAngajatiPortal.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DateLichidare.ascx.resx">
+      <DependentUpon>rapoarte_DateLichidare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratiaA11.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratiaA11.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratiaA12.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratiaA12.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA1.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratieSanatateA1.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA2.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratieSanatateA2.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3a.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratieSanatateA3a.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3b.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratieSanatateA3b.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratieSanatateA3c.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratieSanatateA3c.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratieSomajCap1.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratieSomajCap1.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratieSomajCap2.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratieSomajCap2.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_DeclaratieUnica.ascx.resx">
+      <DependentUpon>rapoarte_DeclaratieUnica.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_FiseFiscale.ascx.resx">
+      <DependentUpon>rapoarte_FiseFiscale.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_FiseFiscaleXml.ascx.resx">
+      <DependentUpon>rapoarte_FiseFiscaleXml.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_FisierMulticache.ascx.resx">
+      <DependentUpon>rapoarte_FisierMulticache.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_FluturasAngajat.ascx.resx">
+      <DependentUpon>rapoarte_FluturasAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_StatDePlata.ascx.resx">
+      <DependentUpon>rapoarte_StatDePlata.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_StatDePlataFaraFctDeBaza.ascx.resx">
+      <DependentUpon>rapoarte_StatDePlataFaraFctDeBaza.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_StatDePlataNescutitiDeImpozit.ascx.resx">
+      <DependentUpon>rapoarte_StatDePlataNescutitiDeImpozit.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_StatDePlataPePuncteDeLucru.ascx.resx">
+      <DependentUpon>rapoarte_StatDePlataPePuncteDeLucru.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_StatDePlataScutitiDeImpozit.ascx.resx">
+      <DependentUpon>rapoarte_StatDePlataScutitiDeImpozit.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_StatItm.ascx.resx">
+      <DependentUpon>rapoarte_StatItm.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_TicheteDeMasa.ascx.resx">
+      <DependentUpon>rapoarte_TicheteDeMasa.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_TicheteMasa.ascx.resx">
+      <DependentUpon>rapoarte_TicheteMasa.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\RetineriAngajat.ascx.resx">
+      <DependentUpon>RetineriAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\SalariiHeaderMenu.ascx.resx">
+      <DependentUpon>SalariiHeaderMenu.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\SalariiLunaLucru.ascx.resx">
+      <DependentUpon>SalariiLunaLucru.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Salarii_Administrare.ascx.resx">
+      <DependentUpon>Salarii_Administrare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Salarii_Pontaj.ascx.resx">
+      <DependentUpon>Salarii_Pontaj.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\Salarii_Rapoarte.ascx.resx">
+      <DependentUpon>Salarii_Rapoarte.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\SincronizareDateAngajati.ascx.resx">
+      <DependentUpon>SincronizareDateAngajati.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\SituatieLunaraAngajat.ascx.resx">
+      <DependentUpon>SituatieLunaraAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\SituatieLunaraAngajati.ascx.resx">
+      <DependentUpon>SituatieLunaraAngajati.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\TrimitereFluturasi.ascx.resx">
+      <DependentUpon>TrimitereFluturasi.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Salarii.aspx.resx">
+      <DependentUpon>Salarii.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\ShowMessage.aspx.resx">
+      <DependentUpon>ShowMessage.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\MakeChart.aspx.resx">
+      <DependentUpon>MakeChart.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\Managers.aspx.resx">
+      <DependentUpon>Managers.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\ManagersOptions.ascx.resx">
+      <DependentUpon>ManagersOptions.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\ManagersOptions_Checkup.ascx.resx">
+      <DependentUpon>ManagersOptions_Checkup.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\ManagersOptions_ContrMunca.ascx.resx">
+      <DependentUpon>ManagersOptions_ContrMunca.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\ManagersOptions_DataMajorare.ascx.resx">
+      <DependentUpon>ManagersOptions_DataMajorare.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\ManagersOptions_EvolutieSal.ascx.resx">
+      <DependentUpon>ManagersOptions_EvolutieSal.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\ManagersOptions_EvSalAngDept.ascx.resx">
+      <DependentUpon>ManagersOptions_EvSalAngDept.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\MO_CheckupRaport.ascx.resx">
+      <DependentUpon>MO_CheckupRaport.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\MO_ContrMuncaRaport.ascx.resx">
+      <DependentUpon>MO_ContrMuncaRaport.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managers\MO_DataMajorareRaport.ascx.resx">
+      <DependentUpon>MO_DataMajorareRaport.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageHeader.ascx.resx">
+      <DependentUpon>PageHeader.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recrutori\EditAngajat_Recrutori.aspx.resx">
+      <DependentUpon>EditAngajat_Recrutori.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recrutori\HeaderMenu_Recrutori.ascx.resx">
+      <DependentUpon>HeaderMenu_Recrutori.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recrutori\Recrutori.aspx.resx">
+      <DependentUpon>Recrutori.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recrutori\SearchAngajatiList_Recrutori.aspx.resx">
+      <DependentUpon>SearchAngajatiList_Recrutori.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchAngajati.aspx.resx">
+      <DependentUpon>SearchAngajati.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchAngajatiList.aspx.resx">
+      <DependentUpon>SearchAngajatiList.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unauthorized.aspx.resx">
+      <DependentUpon>Unauthorized.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="utils\Calendar.aspx.resx">
+      <DependentUpon>Calendar.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="utils\ShowCheckUp.aspx.resx">
+      <DependentUpon>ShowCheckUp.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="utils\ShowIcon.aspx.resx">
+      <DependentUpon>ShowIcon.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="utils\ShowPicture.aspx.resx">
+      <DependentUpon>ShowPicture.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="Checkup\" />
+    <Folder Include="Declaratii\Config\" />
+    <Folder Include="EvaluarePsihologica\" />
+    <Folder Include="Help\NetHelp\AKLinks\" />
+    <Folder Include="Help\NetHelp\HTMLDocuments\" />
+    <Folder Include="images\_vti_cnf\" />
+    <Folder Include="InterfataSalarii\Templates\Bulk\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="SetupFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{f9f18a20-f1d1-4795-a9e8-eed0caf6d120}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ErrHandler\ErrHandler.csproj">
+      <Project>{cadc3e8d-a49a-4f79-ac8a-a7c935daff86}</Project>
+      <Name>ErrHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReportViewer\ReportViewer.csproj">
+      <Project>{b91c931a-720c-4a12-949a-4665d12b0ec8}</Project>
+      <Name>ReportViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Salaries.Business\Salaries.Business.csproj">
+      <Project>{8431a8a5-9336-4ef2-9770-03661cb36010}</Project>
+      <Name>Salaries.Business</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Salaries.Configuration\Salaries.Configuration.csproj">
+      <Project>{ccf0ab2c-7147-491a-a70e-96771ea7c498}</Project>
+      <Name>Salaries.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Salaries.Data\Salaries.Data.csproj">
+      <Project>{aad608ab-608d-4ac8-b2ef-e0d45b1e353c}</Project>
+      <Name>Salaries.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{00000205-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MSComctlLib">
+      <Guid>{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62781</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62781/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

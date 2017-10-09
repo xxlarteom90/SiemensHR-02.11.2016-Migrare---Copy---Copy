@@ -1,0 +1,125 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+		<link rel="stylesheet" href="Theme/nav.css" type="text/css">
+			<style type="text/css"> body { background-image: url(); background-repeat: no-repeat; margin:0px; border-bottom: 1px solid #000000; }
+	span.D2HContentsSelected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: White; }
+	span.D2HContentsUnselected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HContentsRollover { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HIndexSelected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: White; }
+	span.D2HIndexUnselected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HIndexRollover { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HSearchSelected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: White; }
+	span.D2HSearchUnselected { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	span.D2HSearchRollover { font-family: Verdana; font-size: 8.25pt; font-style: normal; font-weight: normal; text-decoration: none; color: Black; }
+	</style>
+			<script language="JavaScript" src="linker.js">
+
+			</script>
+			<script language="JavaScript" src="special.js">
+
+			</script>
+			<script language="JavaScript" src="common.js">
+
+			</script>
+			<script language="JavaScript">
+
+d2hLoadScript(document, "", d2hCoupleUrl("urls.js"));
+
+function onLoad()
+
+{
+
+
+
+    cmd('D2HContents');
+
+
+
+
+
+    var elem = getElemById(document, 'D2HContentsCell');
+
+    if (elem != null)
+
+        elem.className += "Left";
+
+    elem = getElemById(document, 'D2HIndexCell');
+
+    if (elem != null)
+
+        elem.className += "Left";
+
+    elem = getElemById(document, 'D2HSearchCell');       
+
+    if (elem != null)
+
+        elem.className += "Left";
+
+       
+
+}
+
+
+
+
+
+function mOut(whichID)
+
+{
+
+    d2hSButtonMOut(whichID);
+
+}
+
+function mOver(whichID)
+
+{
+
+    d2hSButtonMOver(whichID);
+
+}
+
+function cmd(id, href)
+
+{
+
+    d2hCommand(id, null, null, null, href);
+
+}
+
+       
+
+
+
+			</script>
+	</head>
+	<body bgcolor="#daeafc" onload="onLoad();d2hOnTopLoad(event, 'd2hMainLayout');">
+		<table id="tblMiddle" class="d2h_cust" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr class="d2h_cust">
+				<td class="d2h_cust">
+					<div align="left">
+						<table id="tblNavigator" border="0" cellpadding="0" cellspacing="2">
+							<tr>
+								<td class="d2hCell" id="D2HContentsCell" onClick="mOut(this);cmd('D2HContents', g_ContentsURL)"
+									onFocus="mOver(this)" onBlur="mOut(this)" onmouseOver="mOver(this)" onmouseOut="mOut(this)"><a href="javascript:void(0)" hidefocus style="TEXT-DECORATION:none" onBlur="mOut(d2hGetParentElement(this))"
+										onFocus="mOver(d2hGetParentElement(this))"><img src="Images/Theme/Buttons%20and%20Icons/nav_toc_sel.gif" id="D2HContentsImage" alt=""
+											align="absMiddle" border="0"><span class="D2HContentsSelected" id="D2HContents">Cuprins</span></a></td>
+								<td class="d2hCell" id="D2HIndexCell" onClick="mOut(this);cmd('D2HIndex', g_IndexURL)"
+									onFocus="mOver(this)" onBlur="mOut(this)" onmouseOver="mOver(this)" onmouseOut="mOut(this)"><a href="javascript:void(0)" hidefocus style="TEXT-DECORATION:none" onBlur="mOut(d2hGetParentElement(this))"
+										onFocus="mOver(d2hGetParentElement(this))"><img src="Images/Theme/Buttons%20and%20Icons/nav_idx.gif" id="D2HIndexImage" alt="" align="absMiddle"
+											border="0"><span class="D2HIndexUnselected" id="D2HIndex">Index</span></a></td>
+								<td class="d2hCell" id="D2HSearchCell" onClick="mOut(this);cmd('D2HSearch', g_SearchURL)"
+									onFocus="mOver(this)" onBlur="mOut(this)" onmouseOver="mOver(this)" onmouseOut="mOut(this)"><a href="javascript:void(0)" hidefocus style="TEXT-DECORATION:none" onBlur="mOut(d2hGetParentElement(this))"
+										onFocus="mOver(d2hGetParentElement(this))"><img src="Images/Theme/Buttons%20and%20Icons/nav_search.gif" id="D2HSearchImage" alt=""
+											align="absMiddle" border="0"><span class="D2HSearchUnselected" id="D2HSearch">Cautare</span></a></td>
+							</tr>
+						</table>
+					</div>
+				</td>
+				<td align="right" class="d2h_cust"><a href="http://www.doctohelp.com" target="logownd"><img style="MARGIN: 0px 2px 0px 0px" src="Customize/HRToolkit.JPG" border="0" hspace="0"
+							vspace="0" width="147" height="20" alt=""></a></td>
+			</tr>
+		</table>
+	</body>
+</html>

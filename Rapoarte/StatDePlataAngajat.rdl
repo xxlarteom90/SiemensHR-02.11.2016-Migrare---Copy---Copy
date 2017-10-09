@@ -1,0 +1,2637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2003/10/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <RightMargin>1in</RightMargin>
+  <Body>
+    <ReportItems>
+      <Table Name="table1">
+        <Height>2.46825cm</Height>
+        <ZIndex>1</ZIndex>
+        <Style />
+        <Header>
+          <TableRows>
+            <TableRow>
+              <Height>1.21825cm</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox1">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>107</ZIndex>
+                      <rd:DefaultName>textbox1</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Nr. Crt.</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox5">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>106</ZIndex>
+                      <rd:DefaultName>textbox5</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Luna</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox13">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>105</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <rd:DefaultName>textbox13</rd:DefaultName>
+                      <Value>Functia</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox10">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>104</ZIndex>
+                      <rd:DefaultName>textbox10</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Salar incad.</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox16">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>103</ZIndex>
+                      <rd:DefaultName>textbox16</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Ind cond</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox25">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>102</ZIndex>
+                      <rd:DefaultName>textbox25</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Zi lucr</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox28">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>101</ZIndex>
+                      <rd:DefaultName>textbox28</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Ore  l tot</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox22">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>100</ZIndex>
+                      <rd:DefaultName>textbox22</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Ore 100</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox61">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>99</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Zi Ev</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox62">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>98</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Zi in</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox63">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>97</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Zi ne</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox64">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>96</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Zi CO</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox65">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>95</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>CB int</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox66">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>94</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>CB CAS</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox67">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>93</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Sume ore</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox68">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>92</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Sume sup 100%</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox69">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>91</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Sume ev.deos.</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox70">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>90</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Emerg. serv.</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox31">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>89</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Indemn cond</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox32">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>88</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Alte drept</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox33">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>87</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Concediu Odihna</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox34">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>86</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Conc. boal intrep</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox35">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>85</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Conc. boal C.A.S.</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox36">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>84</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Venit brut</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox37">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>83</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Aj. som. 1%</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox38">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>82</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>CAS 9.5%</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox39">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>81</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>San 6.5% angajat</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox40">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>80</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Chelt. prof.</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox91">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>79</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Venit net</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox92">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>78</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Deducere personala</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox93">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>77</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Deducere suplim</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox94">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>76</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Baza cal impozit</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox95">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>75</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Impozit salar</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox96">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>74</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Diverse</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox97">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>73</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Avans CO</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox19">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>8pt</FontSize>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>72</ZIndex>
+                      <rd:DefaultName>textbox19</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Rest pl. salar</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Height>0.5cm</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox4">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>35</ZIndex>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=RowNumber(Nothing)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Data_1">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>34</ZIndex>
+                      <rd:DefaultName>Data_1</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Data.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Functie">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>33</ZIndex>
+                      <rd:DefaultName>Functie</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Functie.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="SalariuIncadrare">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>32</ZIndex>
+                      <rd:DefaultName>SalariuIncadrare</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!SalariuIncadrare.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox17">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>31</ZIndex>
+                      <rd:DefaultName>textbox17</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="ZileLucrate">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>30</ZIndex>
+                      <rd:DefaultName>ZileLucrate</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!ZileLucrate.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="NrOreLucrate">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>29</ZIndex>
+                      <rd:DefaultName>NrOreLucrate</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!NrOreLucrate.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="NrOreSup100_">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>28</ZIndex>
+                      <rd:DefaultName>NrOreSup100_</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!NrOreSup100_.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox71">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>27</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!ZileEvDeosebit.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox72">
+                      <ZIndex>26</ZIndex>
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!ZileInvoire.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox73">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>25</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox74">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>24</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!TotalConcediuOdihna.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox75">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>23</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox76">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>22</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox77">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>21</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!SumaOreLucrate.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox78">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>20</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!SumaOreSup100_.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox79">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>19</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!SumaEvenimDeosebit.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox80">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>18</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!EmergencyService.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox41">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>17</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!IndemnizCoducere.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox42">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>16</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!AlteDrepturi.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="SumaConcediuOdihna">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>15</ZIndex>
+                      <rd:DefaultName>SumaConcediuOdihna</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!SumaConcediuOdihna.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox44">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>14</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox45">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>13</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox46">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>12</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!VenitBrut.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox47">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>11</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!AjutorSomaj.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox48">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>10</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!CASAngajat.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox49">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>9</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!ContribSanPers.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox50">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>8</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!CheltProfesionale.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox98">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>7</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!VenitNet.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox99">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>6</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!DeducerePersonala.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox100">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!DeducereSuplimentara.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox101">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!BCImpozit.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox102">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Impozit.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox103">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!AlteRetineri.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox104">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Avans.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="RestPlata">
+                      <Style>
+                        <PaddingLeft>1.8pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <rd:DefaultName>RestPlata</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!RestPlata.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <DataSetName>SiemensHR</DataSetName>
+        <Top>0.95238cm</Top>
+        <Width>21.46553in</Width>
+        <Footer>
+          <TableRows>
+            <TableRow>
+              <Height>0.75cm</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>71</ZIndex>
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox14">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>70</ZIndex>
+                      <rd:DefaultName>textbox14</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox15">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>69</ZIndex>
+                      <rd:DefaultName>textbox15</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox12">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>68</ZIndex>
+                      <rd:DefaultName>textbox12</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox18">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>67</ZIndex>
+                      <rd:DefaultName>textbox18</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox27">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>66</ZIndex>
+                      <rd:DefaultName>textbox27</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox30">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>65</ZIndex>
+                      <rd:DefaultName>textbox30</rd:DefaultName>
+                      <Value />
+                      <CanGrow>true</CanGrow>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox24">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>64</ZIndex>
+                      <rd:DefaultName>textbox24</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox81">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>63</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox82">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>62</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox83">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>61</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox84">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>60</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox85">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>59</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox86">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>58</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox87">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>57</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox88">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>56</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox89">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>55</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox90">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>54</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox51">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>53</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox52">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>52</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox53">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>51</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox54">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>50</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox55">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>49</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox56">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>48</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox57">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>47</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox58">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>46</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox59">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>45</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox60">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>44</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox105">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>43</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox106">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>42</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox107">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>41</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox108">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>40</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox109">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>39</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox110">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>38</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox111">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>37</ZIndex>
+                      <Value />
+                      <CanGrow>true</CanGrow>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox21">
+                      <Style>
+                        <PaddingLeft>0.5pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>0.5pt</PaddingBottom>
+                        <PaddingTop>0.5pt</PaddingTop>
+                        <PaddingRight>0.5pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>36</ZIndex>
+                      <rd:DefaultName>textbox21</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Footer>
+        <Left>0.63492cm</Left>
+        <TableColumns>
+          <TableColumn>
+            <Width>1.04345cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.99902cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.99951cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.99951cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.78258cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.78258cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.78258cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.78258cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.78258cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.78258cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.78258cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.99902cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.99902cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.99902cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.99902cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.7cm</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+      <Table Name="table2">
+        <Height>0.63492cm</Height>
+        <Style />
+        <Header>
+          <TableRows>
+            <TableRow>
+              <Height>0.63492cm</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="NumeAngajator_1">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <rd:DefaultName>NumeAngajator_1</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!NumeAngajator.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="NumeIntreg_1">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <rd:DefaultName>NumeIntreg_1</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!NumeIntreg.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox11">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <rd:DefaultName>textbox11</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>STAT PLATA CONTRACT DE MUNCA R100</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox20">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Courier New</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <DataSetName>SiemensHR</DataSetName>
+        <Width>25.23016cm</Width>
+        <Left>3.80952cm</Left>
+        <TableColumns>
+          <TableColumn>
+            <Width>9.20635cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>7.61905cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>6.5cm</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.90476cm</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Style />
+    <Height>1.375in</Height>
+  </Body>
+  <TopMargin>1in</TopMargin>
+  <DataSources>
+    <DataSource Name="SiemensHR">
+      <rd:DataSourceID>e7c0beef-09b3-431f-b752-8a4bba4fea9a</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>data source=robavt054c;initial catalog=SiemensHR</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <Width>60.94304cm</Width>
+  <DataSets>
+    <DataSet Name="SiemensHR">
+      <Fields>
+        <Field Name="ZileLucrate">
+          <DataField>ZileLucrate</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="NrOreLucrate">
+          <DataField>NrOreLucrate</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="NrOreSup100_">
+          <DataField>NrOreSup100%</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="ZileEvDeosebit">
+          <DataField>ZileEvDeosebit</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ZileInvoire">
+          <DataField>ZileInvoire</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="TotalConcediuOdihna">
+          <DataField>TotalConcediuOdihna</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="EmergencyService">
+          <DataField>EmergencyService</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="SporActivSupl">
+          <DataField>SporActivSupl</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="IndemnizCoducere">
+          <DataField>IndemnizCoducere</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="PrimeSpeciale">
+          <DataField>PrimeSpeciale</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="AlteDrepturi">
+          <DataField>AlteDrepturi</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="VenitBrut">
+          <DataField>VenitBrut</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="AjutorSomaj">
+          <DataField>AjutorSomaj</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="CASAngajat">
+          <DataField>CASAngajat</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ContribSanPers">
+          <DataField>ContribSanPers</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="CheltProfesionale">
+          <DataField>CheltProfesionale</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="DeducerePersonala">
+          <DataField>DeducerePersonala</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="DeducereSuplimentara">
+          <DataField>DeducereSuplimentara</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="BCImpozit">
+          <DataField>BCImpozit</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="Impozit">
+          <DataField>Impozit</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="Avans">
+          <DataField>Avans</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="TotalRetineri">
+          <DataField>TotalRetineri</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="AlteRetineri">
+          <DataField>AlteRetineri</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="RestPlata">
+          <DataField>RestPlata</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="SumaOreLucrate">
+          <DataField>SumaOreLucrate</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="SumaOreSup100_">
+          <DataField>SumaOreSup100%</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="SumaEvenimDeosebit">
+          <DataField>SumaEvenimDeosebit</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="SumaOreInvoire">
+          <DataField>SumaOreInvoire</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="SumaConcediuOdihna">
+          <DataField>SumaConcediuOdihna</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="Functie">
+          <DataField>Functie</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Nume">
+          <DataField>Nume</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Prenume">
+          <DataField>Prenume</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SalariuIncadrare">
+          <DataField>SalariuIncadrare</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="NumeAngajator">
+          <DataField>NumeAngajator</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NumeIntreg">
+          <DataField>NumeIntreg</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Data">
+          <DataField>Data</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="VenitNet">
+          <DataField>VenitNet</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SiemensHR</DataSourceName>
+        <CommandText>SELECT     Sal_Salarii.NrOreLucrate / AngajatFull.ProgramLucru AS ZileLucrate, Sal_Salarii.NrOreLucrate, Sal_Salarii.[NrOreSup100%], 
+                      CAST(Sal_Salarii.NrOreLucrateCondDeoseb / AngajatFull.ProgramLucru AS bigint) AS ZileEvDeosebit, 
+                      Sal_Salarii.NrOreInvoire / AngajatFull.ProgramLucru AS ZileInvoire, 
+                      Sal_Salarii.NrOreConcediuOdihna / AngajatFull.ProgramLucru AS TotalConcediuOdihna, CAST(Sal_Salarii.EmergencyService AS bigint) 
+                      AS EmergencyService, CAST(Sal_Salarii.SporActivSupl AS bigint) AS SporActivSupl, CAST(Sal_Salarii.IndemnizCoducere AS bigint) 
+                      AS IndemnizCoducere, CAST(Sal_Salarii.PrimeSpeciale AS bigint) AS PrimeSpeciale, CAST(Sal_Salarii.AlteDrepturi AS bigint) AS AlteDrepturi, 
+                      CAST(Sal_Salarii.VenitBrut AS bigint) AS VenitBrut, CAST(Sal_Salarii.AjutorSomaj AS bigint) AS AjutorSomaj, CAST(Sal_Salarii.CASAngajat AS bigint) 
+                      AS CASAngajat, CAST(Sal_Salarii.ContribSanPers AS bigint) AS ContribSanPers, CAST(Sal_Salarii.CheltProfesionale AS bigint) AS CheltProfesionale, 
+                      CAST(Sal_Salarii.DeducerePersonala AS bigint) AS DeducerePersonala, CAST(Sal_Salarii.DeducereSuplimentara AS bigint) AS DeducereSuplimentara, 
+                      CAST(Sal_Salarii.BCImpozit AS bigint) AS BCImpozit, CAST(Sal_Salarii.Impozit AS bigint) AS Impozit, CAST(Sal_Salarii.Avans AS bigint) AS Avans, 
+                      CAST(Sal_Salarii.TotalRetineri AS bigint) AS TotalRetineri, CAST(Sal_Salarii.AlteRetineri AS bigint) AS AlteRetineri, CAST(Sal_Salarii.RestPlata AS bigint) 
+                      AS RestPlata, CAST(Sal_Salarii.SumaOreLucrate AS bigint) AS SumaOreLucrate, CAST(Sal_Salarii.[SumaOreSup100%] AS bigint) AS [SumaOreSup100%],
+                       CAST(Sal_Salarii.SumaOreLucrateCondDeoseb AS bigint) AS SumaEvenimDeosebit, CAST(Sal_Salarii.SumaOreInvoire AS bigint) AS SumaOreInvoire, 
+                      CAST(Sal_Salarii.SumaConcediuOdihna AS bigint) AS SumaConcediuOdihna, Functii.Nume AS Functie, AngajatFull.Nume, AngajatFull.Prenume, 
+                      CAST(Sal_Salarii.SalariuIncadrare AS bigint) AS SalariuIncadrare, AngajatFull.NumeAngajator, AngajatFull.NumeIntreg, CONVERT(nvarchar, 
+                      Sal_Luni.Data, 104) AS Data, Sal_Salarii.VenitNet
+FROM         Sal_Luni INNER JOIN
+                      Sal_Salarii ON Sal_Luni.LunaID = Sal_Salarii.LunaID INNER JOIN
+                      AngajatFull ON Sal_Salarii.AngajatID = AngajatFull.AngajatID LEFT OUTER JOIN
+                      Functii ON AngajatFull.FunctieID = Functii.FunctieID
+WHERE     (Sal_Salarii.LunaID &gt;= @IncLunaID) AND (AngajatFull.AngajatorID = @AngajatorID) AND (Sal_Salarii.AngajatID = @AngajatID) AND 
+                      (Sal_Salarii.LunaID &lt;= @SfLunaID)</CommandText>
+        <QueryParameters>
+          <QueryParameter Name="@IncLunaID">
+            <Value>=Parameters!IncLunaID.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@AngajatorID">
+            <Value>=Parameters!AngajatorID.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@AngajatID">
+            <Value>=Parameters!AngajatID.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@SfLunaID">
+            <Value>=Parameters!SfLunaID.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <LeftMargin>1in</LeftMargin>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <rd:ReportID>12504308-3d77-4168-9b47-7df9bd1a9387</rd:ReportID>
+  <BottomMargin>1in</BottomMargin>
+  <ReportParameters>
+    <ReportParameter Name="AngajatorID">
+      <DataType>Integer</DataType>
+      <Prompt>AngajatorID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AngajatID">
+      <DataType>Integer</DataType>
+      <Prompt>AngajatID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="IncLunaID">
+      <DataType>Integer</DataType>
+      <Prompt>IncLunaID</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="SfLunaID">
+      <DataType>Integer</DataType>
+      <Prompt>SfLunaID</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Language>en-US</Language>
+</Report>

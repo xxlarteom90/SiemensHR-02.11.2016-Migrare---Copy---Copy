@@ -1,0 +1,13 @@
+body.itemlist { font-family:verdana; margin: 4px; 
+background-color: transparent; 
+background-image: url(); 
+background-repeat: no-repeat; }
+body.lookup	{ margin: 0px; padding: 0px; BORDER-BOTTOM: #000000 1px solid; background-color: transparent; 
+background-image: url();
+background-repeat: no-repeat; }
+a {  font-family: Verdana; font-size: 9.75pt; font-style: normal; font-weight: normal; text-decoration:  none; color: Blue; }
+.clsMouseOver {  font-family: Verdana; font-size: 9.75pt; font-style: normal; font-weight: normal; text-decoration:  none; color: Red; }
+.clsCurrentTocItem {  font-family: Verdana; font-size: 9.75pt; font-style: normal; font-weight: normal; text-decoration:  none; color: Purple; }
+div.clsSearchResultItem { margin: 1px;}
+.clsSearchFor { font-family: verdana; font-size: 11px; }
+form.clsFrmHidden { margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; height:0px; display: none; visibility: hidden;}

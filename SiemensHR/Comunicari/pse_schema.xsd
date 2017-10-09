@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by
+Erorius Deleleanu (ABC SRL) -->
+
+<xs:schema targetNamespace="http://schemas.pse.siemens.ro/SiemensHR"
+elementFormDefault="qualified"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:eps="http://schemas.pse.siemens.ro/SiemensHR">
+
+      <xs:element name="Numar">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="NumeManagerHR">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="IspectorResurseUmane">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="InspResUmaneNrTel">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+	
+	  <xs:element name="InspResUmaneMail">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="NrZileCOSupl">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="CASangajator">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="CASangajat">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="TipPerioadaAng">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="TipFisaFiscala">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="AngLocalitate">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="ManagerHR">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="Marca">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="DataInregistrarii">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+	
+	  <xs:element name="DataInceperii">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+	
+	  <xs:element name="ProcentIndexare">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+	  <xs:element name="AnCurent">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="TrimAnterior">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+
+      <xs:element name="Adresare">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Nume">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Prenume">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="ProgramLucruFrac">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+	
+      <xs:element name="ProgramOrePeSapt">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+	      
+      <xs:element name="ProgramLucru">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+			
+	  <xs:element name="NrContractMunca">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="NrZileCO">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+     
+      <xs:element name="Sporuri">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="DetermNrLuni">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+          
+      <xs:element name="NedetDataAngDeLa">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+	  <xs:element name="EchIndProtectie">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="EchIndLucru">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="ProgramOrePeSaptFrac">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="AlteClauze">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="AlteAdaosuri">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="AlteDrepturi">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="PerProba">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="AlimDeProtectie">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="MatIgiSan">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="AdresaJudet">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="AdresaLocaliate">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="AdresaStr">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="AdresaNr">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="AdresaBl">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	 <xs:element name="AdresaSc">
+	    	<xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+			
+	  <xs:element name="AdresaAp">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="BuletinSerie">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+		
+	 <xs:element name="BuletinNr">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+     
+     <xs:element name="BuletinElibDe">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="BuletinDataElib">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="CNP">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="PermisMuncaSeria">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="PermisMuncaDinData">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="DataAngDeLa">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="DataAngPanaLa">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+         
+      <xs:element name="Titlu">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Departament">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="SumaPrima">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="LunaCurenta">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+   	<xs:element name="NumeFunctie">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+	
+	<xs:element name="NumeSef">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Conducere1">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Functie1">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Conducere2">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Functie2">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="NumeAngajator">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="AngAdresaStr">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="AngAdresaNr">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+     <xs:element name="AngAdresaBl">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+     <xs:element name="AngAdresaSc">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+			
+	  <xs:element name="AngAdresaAp">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+     
+      <xs:element name="AngAdresaLocalitate">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="AngAdresaJudet">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+	  <xs:element name="NrInregORC">
+			<xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+	  <xs:element name="CUI">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>      
+      
+      <xs:element name="AngTelFax">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+   	  <xs:element name="AngZiSalar">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="SumaMajorare">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="SumaMajorareSB">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="SumaMajorareIC">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="SalariuBrut">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="SalariuBrutSB">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="SalariuBrutIC">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="FunctieConducere">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <!-- Dovlecel Vlad - pt comunicarea specifica lichidarii-->
+      <xs:element name="NrInregistrare">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <!-- <xs:element name="DataInregistrarii">
+           <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>-->
+	
+      <xs:element name="DenumireAngajator">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="DataLichidare">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="NrArticol">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="SerieCarnetMunca">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <!--<xs:element name="NumeFunctie">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>-->
+	
+	  <xs:element name="NrZileConcediuMedPlatit">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="NrZileConcediuFaraPlata">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="NrZileDiferentaConcediuOdihna">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="NrZileDisponibileConcediuOdihna">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="NrZileEfectuateConcediuOdihna">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  </xs:restriction>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="NumeLuna">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="AvansDecontare">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Abonamente">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="TicheteMasa">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="EchipamentLucru">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="Laptop">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="TelefonServiciu">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="ObiecteInventar">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="Carti">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="CDuri">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+
+      </xs:element>
+      
+      <xs:element name="DurataNedeterminata">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="DurataDeterminata">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="DurataNormaIntreaga">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="DurataNormaFractionara">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="TitluAdresare">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="CIText">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="PasaportText">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+      <xs:element name="PermisMuncaText">
+            <xs:simpleType>
+                  <xs:restriction base="xs:string"/>
+            </xs:simpleType>
+      </xs:element>
+      
+</xs:schema>
+
+ 
+
+ 

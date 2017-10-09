@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<declaratie205 luna="" an="" d_rec="" nume_declar="" prenume_declar="" functie_declar="" cui="" den="" adresa="" telefon="" fax="" mail="" totalPlata_A="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="mfp:anaf:dgti:d205:declaratie:v1">
+  <sect_II tip_venit="" nrben="" Tcastig="" Tpierd="" Tbaza="" Timp=""/>
+  <benef id_inreg="" tip_venit1="" den1="" cif1="" tip_salAB="" tip_plata="" tip_functie="" vbrut="" dedu_pers="" dedu_alte="" baza1="" imp1="" />
+</declaratie205>
