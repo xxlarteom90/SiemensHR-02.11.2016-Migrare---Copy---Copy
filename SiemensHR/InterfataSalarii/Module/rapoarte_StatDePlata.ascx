@@ -52,9 +52,9 @@
 	
 	
 function Outline()
-{
+	{
 
-	window.event.returnValue=0	
+    window.event.returnValue = 0;
 
 	//Expand or collapse if a list item is clicked.
 	var open = event.srcElement;
@@ -175,7 +175,7 @@ function checkParent(src,dest)
 		<td>&nbsp; <A class="NormalGreenBold" onkeypress="Outline()" onclick="Outline()" href="#">
 				Optiuni</A>
 			<div class="collapsed" id="ExpCol">
-				<TABLE id="Table1" style="WIDTH: 745px; HEIGHT: 166px" cellSpacing="1" cellPadding="1"
+				<table id="Table1" style="width: 745px; height: 166px" cellSpacing="1" cellPadding="1"
 					width="745" align="center" border="0">
 					<TBODY>
 						<TR>
@@ -212,7 +212,7 @@ function checkParent(src,dest)
 							</TD>
 						</TR>
 					</TBODY>
-				</TABLE>
+				</table>
 				<INPUT id="HiddenMask" type="hidden" runat="server">
 			</div>
 		</td>

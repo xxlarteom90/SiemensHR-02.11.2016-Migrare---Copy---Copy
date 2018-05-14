@@ -45,7 +45,7 @@ function eNedeterminata()
 							<tr>
 								<TD class="NormalGreenBold">Data generarii:</TD>
 								<TD><asp:textbox style="CURSOR: hand" id="txtDataGenerarii" onclick="ShowCalendar(this,'')" runat="server"
-										CssClass="NormalEditBoxuri" MaxLength="10" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
+										CssClass="NormalEditBoxuri" MaxLength="10" ReadOnly="False"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
 									<asp:requiredfieldvalidator id="reqDataGenerarii" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati data generarii!"
 										ControlToValidate="txtDataGenerarii"><</asp:requiredfieldvalidator></TD>
 							</tr>
@@ -68,10 +68,10 @@ function eNedeterminata()
 								<td>
 								<td><LABEL id="labDeLa">De la:</LABEL>
 									<asp:textbox style="CURSOR: hand" id="txtDataDeLa" onclick="ShowCalendar(this,'')" runat="server"
-										CssClass="NormalEditBoxuri" MaxLength="10" ReadOnly="True" Width="70px" Height="18px" Enabled="False"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
+										CssClass="NormalEditBoxuri" MaxLength="10" ReadOnly="False" Width="70px" Height="18px" Enabled="False"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
 									<LABEL id="labPanaLa">Pana la:</LABEL>
 									<asp:textbox style="CURSOR: hand" id="txtDataPanaLa" onclick="ShowCalendar(this,'')" runat="server"
-										CssClass="NormalEditBoxuri" MaxLength="10" ReadOnly="True" Width="70px" Height="18px" Enabled="False"></asp:textbox><SPAN id="spanReq" class="CommentRedBold">*
+										CssClass="NormalEditBoxuri" MaxLength="10" ReadOnly="False" Width="70px" Height="18px" Enabled="False"></asp:textbox><SPAN id="spanReq" class="CommentRedBold">*
 										<asp:requiredfieldvalidator id="requiredDataPanaLa" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati data expirarii contractului!"
 											ControlToValidate="txtDataPanaLa"><</asp:requiredfieldvalidator></SPAN></SPAN><asp:requiredfieldvalidator id="requiredDataDeLa" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati data inceperii contractului!"
 										ControlToValidate="txtDataDeLa"><</asp:requiredfieldvalidator></td>

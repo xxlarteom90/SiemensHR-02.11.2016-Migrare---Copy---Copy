@@ -15,7 +15,7 @@
 							<TD class="NormalGreenBold">Data inregistrarii:</TD>
 							<TD>
 								<asp:textbox id="txtDataInregistrarii" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-									CssClass="NormalEditBoxuri" ReadOnly="True"></asp:textbox>
+									CssClass="NormalEditBoxuri" ReadOnly="False"></asp:textbox>
 								<asp:Label id="lblDataInteg" runat="server" Font-Size="Smaller" ForeColor="Red">*</asp:Label>
 								<asp:RequiredFieldValidator id="vldDataInreg" runat="server" ControlToValidate="txtDataInregistrarii" ErrorMessage="Trebuie sa introduceti data inregistrarii!"><</asp:RequiredFieldValidator>
 								<asp:RegularExpressionValidator id="vldNrCom" runat="server" Font-Size="Smaller" ErrorMessage="Numar comunicare invalid!"

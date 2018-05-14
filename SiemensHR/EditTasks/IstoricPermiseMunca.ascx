@@ -129,7 +129,7 @@ var arTabs = new Array('tableIstoricPermiseMunca', 'tableAdaugaPermiseMunca');
 							<tr>
 								<TD class="NormalGreenBold">Data eliberarii:</TD>
 								<TD><asp:textbox id="txtPermisMuncaDataEliberare" style="CURSOR: hand" onclick="ShowCalendar(this,'')"
-										runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span class="CommentRedBold">*</span>
+										runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span class="CommentRedBold">*</span>
 									<asp:RequiredFieldValidator id="requiredDataEliberarii" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati data eliberarii!"
 										ControlToValidate="txtPermisMuncaDataEliberare"><</asp:RequiredFieldValidator>
 								</TD>
@@ -140,7 +140,7 @@ var arTabs = new Array('tableIstoricPermiseMunca', 'tableAdaugaPermiseMunca');
 							<tr>
 								<TD class="NormalGreenBold">Valabil pana la:</TD>
 								<TD><asp:textbox id="txtPermisMuncaDataExpirare" style="CURSOR: hand" onclick="ShowCalendar(this,'')"
-										runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span class="CommentRedBold">*</span>
+										runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span class="CommentRedBold">*</span>
 									<asp:RequiredFieldValidator id="requiredDataExpirare" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati data de expirare!"
 										ControlToValidate="txtPermisMuncaDataExpirare"><</asp:RequiredFieldValidator>
 								</TD>

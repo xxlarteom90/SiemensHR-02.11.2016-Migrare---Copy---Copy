@@ -89,7 +89,7 @@ var arTabs = new Array('tableReferinta', 'tableAdaugaReferinta');
 							<TR>
 								<TD class="NormalGreenBold">Data</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtData" style="CURSOR: hand; TEXT-ALIGN: center" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-										runat="server" CssClass="NormalEditBoxuri" ReadOnly="True" size="10"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ControlToValidate="txtData" ErrorMessage="Completati campul data !"
+										runat="server" CssClass="NormalEditBoxuri" size="10"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ControlToValidate="txtData" ErrorMessage="Completati campul data !"
 										CssClass="AlertRedBold"><</asp:requiredfieldvalidator></TD>
 							</TR>
 							<tr>

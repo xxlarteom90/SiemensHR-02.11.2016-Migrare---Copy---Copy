@@ -816,7 +816,9 @@
     <Content Include="InterfataSalarii\Module\TrimitereFluturasi.ascx" />
     <Content Include="InterfataSalarii\Salarii.aspx" />
     <Content Include="InterfataSalarii\ShowMessage.aspx" />
-    <Content Include="InterfataSalarii\Templates\DecUnica.xml" />
+    <Content Include="InterfataSalarii\Templates\DecUnica.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="InterfataSalarii\Templates\FisaFiscala.xml" />
     <Content Include="InterfataSalarii\Templates\logImport.txt" />
     <Content Include="InterfataSalarii\Templates\RezultateImport.txt" />
@@ -2209,6 +2211,7 @@
     <Folder Include="bin\" />
     <Folder Include="Checkup\" />
     <Folder Include="Declaratii\Config\" />
+    <Folder Include="Error\" />
     <Folder Include="EvaluarePsihologica\" />
     <Folder Include="Help\NetHelp\AKLinks\" />
     <Folder Include="Help\NetHelp\HTMLDocuments\" />

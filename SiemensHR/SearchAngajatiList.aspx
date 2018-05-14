@@ -21,8 +21,8 @@
 	    //var values = obj.childNodes[1].innerText;
 
 	    //document.location = "EditAngajat.aspx?id=" + obj.childNodes(1).innerText;
-	  
-	    var x = obj.childNodes[2];
+	    //var x = obj.childNodes[1];
+	    var x = obj.children[1];
 	    if (x.innerText !== undefined) {
 	        document.location= "EditAngajat.aspx?id=" + x.innerText;
 	    }

@@ -51,7 +51,7 @@ namespace SiemensHR.InterfataSalarii.Module
 			{
 				this.angajatDDL.SelectedValue = this.GetAngajat().ToString();
 			}
-			catch
+			catch(Exception ex)
 			{
 				if (this.angajatDDL.Items.Count > 0)
 				{

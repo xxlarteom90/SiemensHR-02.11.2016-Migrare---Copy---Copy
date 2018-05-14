@@ -135,7 +135,7 @@ function FillFunctieCombo( functieText, functieValoare)
 							<TR>
 								<TD class="NormalGreenBold">Data inceput activitate:</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtDataStart" style="CURSOR: hand; TEXT-ALIGN: center" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ErrorMessage="Completati data de incepere a activitati!"
+										runat="server" CssClass="NormalEditBoxuri" size="10"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ErrorMessage="Completati data de incepere a activitati!"
 										ControlToValidate="txtDataStart" CssClass="AlertRedBold"><</asp:requiredfieldvalidator></TD>
 							</TR>
 							<tr>

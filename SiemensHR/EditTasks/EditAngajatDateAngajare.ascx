@@ -950,10 +950,10 @@ function DataKeyPressed(elem)
 												<br>
 												<label id="labDeLa">De la:</label>
 												<asp:textbox id="txtDataDeLa" style="CURSOR: hand" onclick="onClickDataDeLa(); ShowCalendar(this,'')"
-													runat="server" CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" ReadOnly="True" Height="15px"></asp:textbox><span class="CommentRedBold">*</span>
+													runat="server" CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="15px"></asp:textbox><span class="CommentRedBold">*</span>
 												<label id="labPanaLa">Pana la:</label>
 												<asp:textbox id="txtDataPanaLa" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-													CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" ReadOnly="True" Height="15px"></asp:textbox><span class="CommentRedBold" id="spanReq">*
+													CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" ReadOnly="False" Height="15px"></asp:textbox><span class="CommentRedBold" id="spanReq">*
 													<asp:requiredfieldvalidator id="requiredDataPanaLa" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati data expirarii contractului!"
 														ControlToValidate="txtDataPanaLa"><</asp:requiredfieldvalidator></span></SPAN><asp:requiredfieldvalidator id="requiredDataDeLa" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati data inceperii contractului!"
 													ControlToValidate="txtDataDeLa"><</asp:requiredfieldvalidator><asp:label id="lblLichidat" runat="server" CssClass="CommentRedBold"></asp:label></td>
@@ -1045,7 +1045,7 @@ function DataKeyPressed(elem)
 										<tr>
 											<TD class="NormalGreenBold">Data inregistrarii contractului:</TD>
 											<TD><asp:textbox id="txtDataInreg" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-													CssClass="NormalEditBoxuri" MaxLength="2" Width="100px" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
+													CssClass="NormalEditBoxuri" MaxLength="2" Width="100px" ReadOnly="False"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
 												<asp:requiredfieldvalidator style="Z-INDEX: 0" id="reqFieldValDataInregistrareContract" runat="server" CssClass="AlertRedBold"
 													ControlToValidate="txtDataInreg" ErrorMessage="Completati Data inregistrarii contractului!"><</asp:requiredfieldvalidator><span class="CommentRedBold"></span></TD>
 										</tr>
@@ -1094,7 +1094,7 @@ function DataKeyPressed(elem)
 														<td><asp:textbox id="txtSumaMajorare" runat="server" CssClass="NormalEditBoxuri" MaxLength="11" Width="100px">0</asp:textbox></td>
 														<td>Data:</td>
 														<td><asp:textbox id="txtDataPlanificareMajorare" style="CURSOR: hand" onclick="ShowCalendar(this,'')"
-																runat="server" CssClass="NormalEditBoxuri" MaxLength="2" Width="70px" ReadOnly="True"></asp:textbox><asp:comparevalidator id="Comparevalidator5" runat="server" CssClass="AlertRedBold" ErrorMessage="Suma majorare - Introduceti o suma corecta!"
+																runat="server" CssClass="NormalEditBoxuri" MaxLength="2" Width="70px" ReadOnly="False"></asp:textbox><asp:comparevalidator id="Comparevalidator5" runat="server" CssClass="AlertRedBold" ErrorMessage="Suma majorare - Introduceti o suma corecta!"
 																ControlToValidate="txtSumaMajorare" Type="Double" Operator="DataTypeCheck"><</asp:comparevalidator></td>
 													</tr>
 												</table>
@@ -1264,7 +1264,7 @@ function DataKeyPressed(elem)
 										<TR>
 											<TD class="NormalGreenBold">Data emiterii:</TD>
 											<TD><asp:textbox id="txtCMDataEmiterii" style="TEXT-ALIGN: center; CURSOR: hand" onclick="ShowCalendar(this,'')"
-													runat="server" CssClass="NormalEditBoxuri" Width="100px" ReadOnly="True"></asp:textbox></TD>
+													runat="server" CssClass="NormalEditBoxuri" Width="100px" ReadOnly="False"></asp:textbox></TD>
 										</TR>
 										<tr>
 											<td class="GreenSeparator" colSpan="2"><IMG height="1" src="../images/1x1.gif"></td>
@@ -1481,8 +1481,8 @@ function DataKeyPressed(elem)
 							</tr>
 							<tr>
 								<td align="center" colSpan="2" height="50">&nbsp;
-									<asp:button id="butSaveAngajat" onmouseover="MouseOverButton(this)" onmouseout="MouseOutButton(this)"
-										runat="server" cssclass="ButtonStyle" Text="Salveaza date"></asp:button><asp:validationsummary id="ValidationSummary2" runat="server" ShowMessageBox="True" ShowSummary="False"></asp:validationsummary></td>
+									<asp:Button ID="butSaveAngajat" onmouseover="MouseOverButton(this)" onmouseout="MouseOutButton(this)"
+                                        runat="server" CssClass="ButtonStyle" Text="Salveaza date"></asp:Button><asp:validationsummary id="ValidationSummary2" runat="server" ShowMessageBox="True" ShowSummary="False"></asp:validationsummary></td>
 							</tr>
 						</TABLE>
 						<INPUT id="txtHiddenPunctLucru" runat="server"> <INPUT id="txtHiddenPunctLucruVechi" name="txtHiddenPunctLucruVechi" runat="server">

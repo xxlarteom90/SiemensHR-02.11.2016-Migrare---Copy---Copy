@@ -110,7 +110,7 @@ var arTabs = new Array('tableIstoricAlerte', 'tableAdaugaAlerta');
 								<TD class="NormalGreenBold">Data expirarii:</TD>
 								<TD>
 									<asp:textbox id="txtDataExpirare" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-										CssClass="NormalEditBoxuri" ReadOnly="True"></asp:textbox>
+										CssClass="NormalEditBoxuri" ReadOnly="False"></asp:textbox>
 									<span class="CommentRedBold">*</span>
 									<asp:RequiredFieldValidator id="vldDataExpirarii" runat="server" ErrorMessage="Trebuie sa completati data expirarii!"
 										ControlToValidate="txtDataExpirare" CssClass="AlertRedBold"><</asp:RequiredFieldValidator>

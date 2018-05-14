@@ -7,7 +7,8 @@
 
         //Artiom Modificat 03.04.2017
 	    //document.location = "InterfataSalarii/Salarii.aspx?Tab=Pontaj&Option=retineri_recurente_angajat&node=Element_025&idAng=" + obj.childNodes(1).innerText;
-	    var x = obj.childNodes[1];
+	    //var x = obj.childNodes[2];
+	    var x = obj.children[1];
 	    if(x.innerText !== undefined)
 	    {
 	        document.location = "InterfataSalarii/Salarii.aspx?Tab=Pontaj&Option=retineri_recurente_angajat&node=Element_025&idAng=" + x.innerText;

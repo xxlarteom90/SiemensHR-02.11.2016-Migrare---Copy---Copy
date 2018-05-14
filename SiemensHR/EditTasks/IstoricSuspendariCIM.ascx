@@ -112,7 +112,7 @@ var arTabs = new Array('tableIstoricSuspendariCIM', 'tableAdaugaSuspendareCIM');
 				<TR>
 					<TD class="NormalGreenBold" style="HEIGHT: 1px">Data de inceput:</TD>
 					<TD style="HEIGHT: 1px"><asp:textbox id="txtDataStart" runat="server" CssClass="NormalEditBoxuri" Width="150px" style="CURSOR: hand"
-							onclick="ShowCalendar(this,'')" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*
+							onclick="ShowCalendar(this,'')" ReadOnly="False"></asp:textbox><SPAN class="CommentRedBold">*
 							<asp:requiredfieldvalidator id="Requiredfieldvalidator1" runat="server" CssClass="AlertRedBold" ControlToValidate="txtDataStart"
 								ErrorMessage="Completati data de inceput!"><</asp:requiredfieldvalidator></SPAN></TD>
 				</TR>
@@ -122,7 +122,7 @@ var arTabs = new Array('tableIstoricSuspendariCIM', 'tableAdaugaSuspendareCIM');
 				<TR>
 					<TD class="NormalGreenBold" style="HEIGHT: 4px">Data de sfarsit:</TD>
 					<TD style="HEIGHT: 4px"><asp:textbox id="txtDataEnd" runat="server" CssClass="NormalEditBoxuri" Width="150px" style="CURSOR: hand"
-							onclick="ShowCalendar(this,'')" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*
+							onclick="ShowCalendar(this,'')" ReadOnly="False"></asp:textbox><SPAN class="CommentRedBold">*
 							<asp:requiredfieldvalidator id="Requiredfieldvalidator2" runat="server" CssClass="AlertRedBold" ControlToValidate="txtDataEnd"
 								ErrorMessage="Completati data de sfarsit!"><</asp:requiredfieldvalidator></SPAN></TD>
 				</TR>

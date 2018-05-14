@@ -1,5 +1,5 @@
 <%@ Register TagPrefix="uc1" TagName="PageHeader" Src="PageHeader.ascx" %>
-<%@ Page language="c#" Codebehind="AddAngajat.aspx.cs" AutoEventWireup="false" Inherits="SiemensHR.WebForm1" %>
+<%@ Page language="c#" Codebehind="AddAngajat.aspx.cs" AutoEventWireup="false" Inherits="SiemensHR.WebForm1" EnableEventValidation="false" ValidateRequest="false"%>
 <%@ Register TagPrefix="uc1" TagName="HeaderMenu" Src="HeaderMenu.ascx" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <HTML>
@@ -1313,7 +1313,7 @@ function lstDepartamentChanged()
 													ErrorMessage="Numele anterior nu poate sa contina caractere invalide: <>()';&quot;\" ValidationExpression="^[^>|(|)|<|'|&quot;|;|\\]*$"><</asp:regularexpressionvalidator>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 												Data schimbarii numelui:
 												<asp:textbox style="Z-INDEX: 0; CURSOR: hand" id="txtDataSchimbariiNumelui" onclick="ShowCalendar(this,'')"
-													runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox>&nbsp;&nbsp;&nbsp;</TD>
+													runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox>&nbsp;&nbsp;&nbsp;</TD>
 										</TR>
 										<tr>
 											<td class="GreenSeparator" colSpan="2"><IMG src="images/1x1.gif" height="1"></td>
@@ -1692,10 +1692,10 @@ function lstDepartamentChanged()
 												<br>
 												<label id="labDeLa">De la:</label>
 												<asp:textbox style="CURSOR: hand" id="txtDataDeLa" onclick="Form1.radioDa.checked = true; Form1.radioNu.checked = false; AscundeControaleVenituriBrute(); ShowCalendar(this,'');"
-													runat="server" CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="0px" ReadOnly="true"></asp:textbox><span id="spanReqDeLa" class="CommentRedBold">*
+													runat="server" CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="17px" ReadOnly="true"></asp:textbox><span id="spanReqDeLa" class="CommentRedBold">*
 												</span><label id="labPanaLa" runat="server">Pana la:</label>
 												<asp:textbox style="CURSOR: hand" id="txtDataPanaLa" onclick="ShowCalendar(this,'')" runat="server"
-													CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="0px" ReadOnly="True"></asp:textbox><span id="spanReq" class="CommentRedBold">*
+													CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="17px" ReadOnly="False"></asp:textbox><span id="spanReq" class="CommentRedBold">*
 													<asp:requiredfieldvalidator id="requiredDataPanaLa" runat="server" CssClass="AlertRedBold" ControlToValidate="txtDataPanaLa"
 														ErrorMessage="Completati data expirarii contractului!"><</asp:requiredfieldvalidator><asp:requiredfieldvalidator id="requiredDataDeLa" runat="server" CssClass="AlertRedBold" ControlToValidate="txtDataDeLa"
 														ErrorMessage="Completati data inceperii contractului!"><</asp:requiredfieldvalidator></span></td>
@@ -1764,7 +1764,7 @@ function lstDepartamentChanged()
 										<tr>
 											<TD class="NormalGreenBold">Data inregistrarii contractului:</TD>
 											<TD><asp:textbox style="CURSOR: hand" id="txtDataInreg" onclick="ShowCalendar(this,'')" runat="server"
-													CssClass="NormalEditBoxuri" MaxLength="2" Width="100px" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
+													CssClass="NormalEditBoxuri" MaxLength="2" Width="100px" ReadOnly="False"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
 												<asp:requiredfieldvalidator style="Z-INDEX: 0" id="reqFieldValDataInregistrareContract" runat="server" CssClass="AlertRedBold"
 													ErrorMessage="Completati o valoare pentru Data inregistrarii contractului!" ControlToValidate="txtDataInreg"><      </asp:requiredfieldvalidator><span class="CommentRedBold"></span></TD>
 										</tr>
@@ -1844,7 +1844,7 @@ function lstDepartamentChanged()
 														<td><asp:textbox id="txtSumaMajorare" runat="server" CssClass="NormalEditBoxuri" MaxLength="9" Width="100px">0</asp:textbox></td>
 														<td>Data:</td>
 														<td><asp:textbox style="CURSOR: hand" id="txtDataPlanificareMajorare" onclick="ShowCalendar(this,'')"
-																runat="server" CssClass="NormalEditBoxuri" MaxLength="2" Width="70px" ReadOnly="True"></asp:textbox><asp:comparevalidator id="Comparevalidator5" runat="server" CssClass="AlertRedBold" ControlToValidate="txtSumaMajorare"
+																runat="server" CssClass="NormalEditBoxuri" MaxLength="2" Width="70px" ReadOnly="False"></asp:textbox><asp:comparevalidator id="Comparevalidator5" runat="server" CssClass="AlertRedBold" ControlToValidate="txtSumaMajorare"
 																ErrorMessage="Suma majorare - Introduceti o suma corecta!" Type="Double" Operator="DataTypeCheck"><</asp:comparevalidator></td>
 													</tr>
 												</table>
@@ -1906,7 +1906,7 @@ function lstDepartamentChanged()
 										<TR>
 											<TD class="NormalGreenBold">Data emiterii:</TD>
 											<TD><asp:textbox style="CURSOR: hand" id="txtCMDataEmiterii" onclick="ShowCalendar(this,'')" runat="server"
-													CssClass="NormalEditBoxuri" Width="100px" ReadOnly="True"></asp:textbox></TD>
+													CssClass="NormalEditBoxuri" Width="100px" ReadOnly="False"></asp:textbox></TD>
 										</TR>
 										<tr>
 											<td class="GreenSeparator" colSpan="4"><IMG src="images/1x1.gif" height="1"></td>
@@ -2060,7 +2060,7 @@ function lstDepartamentChanged()
 													<TR>
 														<TD class="NormalGreenBold">Data Nasterii:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtDataNasterii" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="0px" ReadOnly="True"></asp:textbox><span id="spanDataNasterii" class="CommentRedBold" runat="server">*</span>
+																CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="17px" ReadOnly="False"></asp:textbox><span id="spanDataNasterii" class="CommentRedBold" runat="server">*</span>
 															<asp:requiredfieldvalidator id="requiredDataNasterii" runat="server" CssClass="AlertRedBold" ControlToValidate="txtDataNasterii"
 																ErrorMessage="Completati data nasterii!"><</asp:requiredfieldvalidator></TD>
 													</TR>
@@ -2129,8 +2129,8 @@ function lstDepartamentChanged()
 													</tr>
 													<tr>
 														<td class="NormalGreenBold">CNP anterior:</td>
-														<TD><asp:textbox id="txtCNPAnterior" runat="server" CssClass="NormalEditBoxuri" MaxLength="13" Width="140px"></asp:textbox><asp:customvalidator id="Customvalidator1" runat="server" CssClass="AlertRedBold" ControlToValidate="txtCNPAnterior"
-																ErrorMessage="CNP nu e valid!" ClientValidationFunction="CheckCNP"><</asp:customvalidator></TD>
+														<TD><asp:textbox id="txtCNPAnterior" runat="server" CssClass="NormalEditBoxuri" MaxLength="13" Width="140px"></asp:textbox><asp:CustomValidator ID="Customvalidator1" runat="server" CssClass="AlertRedBold" ControlToValidate="txtCNPAnterior"
+                                                                ErrorMessage="CNP nu e valid!" ClientValidationFunction="CheckCNP"><</asp:CustomValidator></TD>
 													</tr>
 													<tr>
 														<td class="GreenSeparator" colSpan="2"><IMG src="images/1x1.gif" height="1"></td>
@@ -2165,7 +2165,7 @@ function lstDepartamentChanged()
 													<TR>
 														<TD class="NormalGreenBold">Data eliberarii:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtCIDataEliberarii" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span id="spanDataEliberareBI" class="CommentRedBold" runat="server">*</span>
+																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span id="spanDataEliberareBI" class="CommentRedBold" runat="server">*</span>
 														</TD>
 													</TR>
 													<tr>
@@ -2174,7 +2174,7 @@ function lstDepartamentChanged()
 													<TR>
 														<TD class="NormalGreenBold">Valabil pana la:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtCIValabilPanaLa" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span id="spanDataExpirareBI" class="CommentRedBold" runat="server">*</span>
+																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span id="spanDataExpirareBI" class="CommentRedBold" runat="server">*</span>
 														</TD>
 													</TR>
 												</table>
@@ -2218,7 +2218,7 @@ function lstDepartamentChanged()
 													<tr>
 														<TD class="NormalGreenBold">Data eliberarii:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtPASDataEliberarii" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span id="spanDataEliberarePasaport" class="CommentRedBold" runat="server">*</span>
+																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span id="spanDataEliberarePasaport" class="CommentRedBold" runat="server">*</span>
 														</TD>
 													</tr>
 													<tr>
@@ -2227,7 +2227,7 @@ function lstDepartamentChanged()
 													<tr>
 														<TD class="NormalGreenBold">Valabil pana la:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtPASValabilPanaLa" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span id="spanDataExpirarePasaport" class="CommentRedBold" runat="server">*</span>
+																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span id="spanDataExpirarePasaport" class="CommentRedBold" runat="server">*</span>
 														</TD>
 													</tr>
 												</table>
@@ -2263,7 +2263,7 @@ function lstDepartamentChanged()
 													<tr>
 														<TD class="NormalGreenBold">Data eliberarii:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtPermisMuncaDataEliberare" onclick="ShowCalendar(this,'')"
-																runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span id="spanDataEliberarePermisMunca" class="CommentRedBold" runat="server">*</span>
+																runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span id="spanDataEliberarePermisMunca" class="CommentRedBold" runat="server">*</span>
 														</TD>
 													</tr>
 													<tr>
@@ -2272,7 +2272,7 @@ function lstDepartamentChanged()
 													<tr>
 														<TD class="NormalGreenBold">Valabil pana la:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtPermisMuncaDataExpirare" onclick="ShowCalendar(this,'')"
-																runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span id="spanDataExpirarePermisMunca" class="CommentRedBold" runat="server">*</span>
+																runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span id="spanDataExpirarePermisMunca" class="CommentRedBold" runat="server">*</span>
 														</TD>
 													</tr>
 												</table>
@@ -2308,7 +2308,7 @@ function lstDepartamentChanged()
 													<tr>
 														<TD class="NormalGreenBold">Data eliberarii:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtLegitimatieSedereDataEliberare" onclick="ShowCalendar(this,'')"
-																runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span id="spanDataEliberareLegitimatieSedere" class="CommentRedBold" runat="server">*</span>
+																runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span id="spanDataEliberareLegitimatieSedere" class="CommentRedBold" runat="server">*</span>
 														</TD>
 													</tr>
 													<tr>
@@ -2317,7 +2317,7 @@ function lstDepartamentChanged()
 													<tr>
 														<TD class="NormalGreenBold">Valabil pana la:</TD>
 														<TD><asp:textbox style="CURSOR: hand" id="txtLegitimatieSedereDataExpirare" onclick="ShowCalendar(this,'')"
-																runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span id="spanDataExpirareLegitimatieSedere" class="CommentRedBold" runat="server">*</span>
+																runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span id="spanDataExpirareLegitimatieSedere" class="CommentRedBold" runat="server">*</span>
 														</TD>
 													</tr>
 												</table>
@@ -2487,7 +2487,7 @@ function lstDepartamentChanged()
 														<tr>
 															<TD class="NormalGreenBold">Data expirarii:</TD>
 															<TD><asp:textbox style="CURSOR: hand" id="txtDataExpirare" onclick="ShowCalendar(this,'')" runat="server"
-																	CssClass="NormalEditBoxuri" Width="113px" ReadOnly="True"></asp:textbox><span class="CommentRedBold">*</span>
+																	CssClass="NormalEditBoxuri" Width="113px" ReadOnly="False"></asp:textbox><span class="CommentRedBold">*</span>
 															</TD>
 														</tr>
 														<tr>

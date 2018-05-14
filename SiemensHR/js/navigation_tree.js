@@ -157,13 +157,16 @@ function RenderNode()
 	var exp = "";
 	var chld_aux="";
 	var OnClickAux = "";
+	var OnHrefAux = "";
 	
 	if (IsLeafNode(this.NodeID) || IsRootNode(this.NodeID))
 	{
+	    //OnHrefAux = "javascript:document.getElementById('LastSelectedNodeID').value='" + this.NodeID + "';getMenuNode('" + this.NodeID + "').Toggle();" + this.OnClick;
 		OnClickAux="onclick=document.getElementById('LastSelectedNodeID').value='"+this.NodeID+"';getMenuNode('"+this.NodeID+"').Toggle();"+this.OnClick;
 	}
 	else
 	{
+	    //OnHrefAux = "javascript:getMenuNode('" + this.NodeID + "').Toggle();"
 		OnClickAux="onclick=getMenuNode('"+this.NodeID+"').Toggle();"
 	}
 
@@ -197,13 +200,15 @@ function RenderNode()
 	var linkClass=LEAF_class;
 	if (IsRootNode(this.NodeID)) linkClass=ROOT_class;
 
-	var toggle = exp_pre+"&nbsp;<a href=# onclick=getMenuNode('"+this.NodeID+"').Toggle() class='"+linkClass+"'>"+exp+"</a>";
+	var toggle = exp_pre+"&nbsp;<a href=javascript:getMenuNode('"+this.NodeID+"').Toggle() class='"+linkClass+"'>"+exp+"</a>";
 	var text = this.LinkText;
 
 	if (this.Link!=null)
 	{
-	    //text = "<a "+OnClickAux+" href='"+this.Link+"' class='"+linkClass+"' target="+this.Target+" >"+text+"</a>";
-	    text = "<a " + " href='" + this.Link + "' class='" + linkClass + "' target=" + this.Target + " >" + text + "</a>";
+	    text = "<a "+OnClickAux+" href='"+this.Link+"' class='"+linkClass+"' target="+this.Target+" >"+text+"</a>";
+
+	    //text = "<a " + " href='" + OnHrefAux+ "' class='" + linkClass + "' target=" + this.Target + " >" + text + "</a>";
+	    //text = "<a " + " href='" + this.Link + "' class='" + linkClass + "' target=" + this.Target + " >" + text + "</a>";
 	}
 
 	var theClass;

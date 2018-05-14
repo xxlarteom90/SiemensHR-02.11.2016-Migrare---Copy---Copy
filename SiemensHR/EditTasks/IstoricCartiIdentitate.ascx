@@ -170,7 +170,7 @@ var arTabs = new Array('tableIstoricCartiIdentitate', 'tableAdaugaCartiIdentitat
 							<TR>
 								<TD class="NormalGreenBold">Data eliberarii:</TD>
 								<TD><asp:textbox id="txtCIDataEliberarii" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-										Width="150px" CssClass="NormalEditBoxuri" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*
+										Width="150px" CssClass="NormalEditBoxuri"></asp:textbox><SPAN class="CommentRedBold">*
 										<asp:requiredfieldvalidator id="Requiredfieldvalidator1" runat="server" ErrorMessage="Completati data eliberarii!"
 											ControlToValidate="txtCIDataEliberarii" CssClass="AlertRedBold"><</asp:requiredfieldvalidator></SPAN></TD>
 							</TR>
@@ -180,7 +180,7 @@ var arTabs = new Array('tableIstoricCartiIdentitate', 'tableAdaugaCartiIdentitat
 							<TR>
 								<TD class="NormalGreenBold">Valabil pana la:</TD>
 								<TD><asp:textbox id="txtCIValabilPanaLa" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-										Width="150px" CssClass="NormalEditBoxuri" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*
+										Width="150px" CssClass="NormalEditBoxuri"></asp:textbox><SPAN class="CommentRedBold">*
 										<asp:requiredfieldvalidator id="Requiredfieldvalidator2" runat="server" ErrorMessage="Completati data valabilitatii!"
 											ControlToValidate="txtCIValabilPanaLa" CssClass="AlertRedBold"><</asp:requiredfieldvalidator></SPAN></TD>
 							</TR>

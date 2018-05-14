@@ -574,7 +574,7 @@ function FillJudetCombo( judetText, judetValoare)
 													ErrorMessage="Numele anterior nu poate sa contina caractere invalide: <>()';&quot;\" ValidationExpression="^[^>|(|)|<|'|&quot;|;|\\]*$"><</asp:regularexpressionvalidator>&nbsp;&nbsp;&nbsp;&nbsp;Data 
 												schimbarii numelui: &nbsp;
 												<asp:textbox style="Z-INDEX: 0; CURSOR: hand" id="txtDataSchimbariiNumelui" onclick="ShowCalendar(this,'')"
-													runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox></TD>
+													runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox></TD>
 										</TR>
 										<tr>
 											<td class="GreenSeparator" colSpan="2"><IMG height="1" src="../images/1x1.gif"></td>
@@ -878,7 +878,7 @@ function FillJudetCombo( judetText, judetValoare)
 										<TR>
 											<TD class="NormalGreenBold">Data Nasterii:</TD>
 											<TD><asp:textbox id="txtDataNasterii" style="CURSOR: hand" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-													runat="server" CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="0px" ReadOnly="True"></asp:textbox><span class="CommentRedBold">*</span>
+													runat="server" CssClass="NormalEditBoxuri" MaxLength="10" Width="70px" Height="17px" ReadOnly="True"></asp:textbox><span class="CommentRedBold">*</span>
 												<asp:requiredfieldvalidator id="requiredDataNasterii" runat="server" CssClass="AlertRedBold" ControlToValidate="txtDataNasterii"
 													ErrorMessage="Completati data nasterii!"><</asp:requiredfieldvalidator></TD>
 										</TR>
@@ -979,7 +979,7 @@ function FillJudetCombo( judetText, judetValoare)
 													<TR>
 														<TD class="NormalGreenBold">Data eliberarii:</TD>
 														<TD><asp:textbox id="txtCIDataEliberarii" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox></TD>
+																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox></TD>
 													</TR>
 													<tr>
 														<td class="GreenSeparator" colSpan="2"><IMG height="1" src="images/1x1.gif"></td>
@@ -987,7 +987,7 @@ function FillJudetCombo( judetText, judetValoare)
 													<TR>
 														<TD class="NormalGreenBold">Valabil pana la:</TD>
 														<TD><asp:textbox id="txtCIValabilPanaLa" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox></TD>
+																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox></TD>
 													</TR>
 												</table>
 											</td>
@@ -1024,7 +1024,7 @@ function FillJudetCombo( judetText, judetValoare)
 													<tr>
 														<TD class="NormalGreenBold">Data eliberarii:</TD>
 														<TD><asp:textbox id="txtPASDataEliberarii" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox></TD>
+																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox></TD>
 													</tr>
 													<tr>
 														<td class="GreenSeparator" colSpan="2"><IMG height="1" src="images/1x1.gif"></td>
@@ -1032,7 +1032,7 @@ function FillJudetCombo( judetText, judetValoare)
 													<tr>
 														<TD class="NormalGreenBold">Valabil pana la:</TD>
 														<TD><asp:textbox id="txtPASValabilPanaLa" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox></TD>
+																CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox></TD>
 													</tr>
 												</table>
 											</td>

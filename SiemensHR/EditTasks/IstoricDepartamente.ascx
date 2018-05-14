@@ -129,7 +129,7 @@ function FillDepartamentCombo( departamentText, departamentValoare)
 							<TR>
 								<TD class="NormalGreenBold">Data inceput activitate:</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtDataStart" style="CURSOR: hand; TEXT-ALIGN: center" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-										runat="server" CssClass="NormalEditBoxuri" ReadOnly="True" size="10"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ControlToValidate="txtDataStart" ErrorMessage="Completati data de incepere a activitati!"
+										runat="server" CssClass="NormalEditBoxuri" size="10"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ControlToValidate="txtDataStart" ErrorMessage="Completati data de incepere a activitati!"
 										CssClass="AlertRedBold"><</asp:requiredfieldvalidator></TD>
 							</TR>
 						</TABLE>

@@ -134,7 +134,7 @@ var arTabs = new Array('tableIstoricPasapoarte', 'tableAdaugaPasapoarte');
 							<tr>
 								<TD class="NormalGreenBold">Data emiterii:</TD>
 								<TD><asp:textbox id="txtPASDataEliberarii" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-										Width="70px" CssClass="NormalEditBoxuri" ReadOnly="True"></asp:textbox><asp:requiredfieldvalidator id="RequiredFieldValidator4" runat="server" CssClass="AlertRedBold" ControlToValidate="txtPASDataEliberarii"
+										Width="70px" CssClass="NormalEditBoxuri"></asp:textbox><asp:requiredfieldvalidator id="RequiredFieldValidator4" runat="server" CssClass="AlertRedBold" ControlToValidate="txtPASDataEliberarii"
 										ErrorMessage="Selectati data eliberarii!"><</asp:requiredfieldvalidator></TD>
 							</tr>
 							<tr>
@@ -143,7 +143,7 @@ var arTabs = new Array('tableIstoricPasapoarte', 'tableAdaugaPasapoarte');
 							<tr>
 								<TD class="NormalGreenBold">Valabil pana la:</TD>
 								<TD><asp:textbox id="txtPASValabilPanaLa" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-										Width="70px" CssClass="NormalEditBoxuri" ReadOnly="True"></asp:textbox><asp:requiredfieldvalidator id="RequiredFieldValidator5" runat="server" CssClass="AlertRedBold" ControlToValidate="txtPASValabilPanaLa"
+										Width="70px" CssClass="NormalEditBoxuri"></asp:textbox><asp:requiredfieldvalidator id="RequiredFieldValidator5" runat="server" CssClass="AlertRedBold" ControlToValidate="txtPASValabilPanaLa"
 										ErrorMessage="Selectati pana cand e valabil!"><</asp:requiredfieldvalidator></TD>
 							</tr>
 							<tr id="trActivSeparator" runat="server">

@@ -212,8 +212,9 @@ namespace SiemensHR.InterfataSalarii
 					{
 						//se verifica variabilele de salarizare care nu trebuie sa aiba valoarea zero
 						//daca exista o variabila cu valoarea zero, utilizatorul va primi un mesaj de avertizare
-						if (!VerificaVariabileSalarizare(lunaData.LunaId))
-						{
+						//if (!VerificaVariabileSalarizare(lunaData.LunaId))
+						if (false)
+                        {
 							Response.Write("<script> alert('Pentru aceasta luna exista variabile de salarizare cu valoarea zero. \\nNu se poate efectua inchiderea de luna. Va rugam modificati aceste valori!'); </script>");
 						}
 						//daca si variabilele de salarizare sunt corecte, atunci se va efectua inchiderea de luna

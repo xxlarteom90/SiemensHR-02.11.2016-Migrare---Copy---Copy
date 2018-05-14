@@ -5,10 +5,11 @@
 	{
         //Artiom Modificat 03.04.2017
 	    //document.location = "editangajat.aspx?id=" + obj.childnodes(1).innertext + "&alerta=speciala";
-	    var x = obj.childnodes[2];
-	    if(x.innertext !== undefined)
+	    //var x = obj.childnodes[2];
+	    var x = obj.children[1];
+	    if(x.innerText !== undefined)
 	    {
-	        document.location = "editangajat.aspx?id=" + x.innertext + "&alerta=speciala";
+	        document.location = "editangajat.aspx?id=" + x.innerText + "&alerta=speciala";
 	    }
 	}	
 </script>

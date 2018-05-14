@@ -32,7 +32,7 @@ function SelectMenuOption(index)
 
 
     if (ary.length>5) tmpPath = "../";	
-	document.location = tmpPath + arLinks[index];
+	document.location = "/" + tmpPath + arLinks[index];
 }
 
 //Adaugat:		Oprescu Claudia

@@ -113,7 +113,7 @@
 							<TR>
 								<TD class="NormalGreenBold">Data efectuarii:</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtDataEfectuarii" style="CURSOR: hand; TEXT-ALIGN: center" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-										runat="server" CssClass="NormalEditBoxuri" ReadOnly="True" size="10"></asp:textbox></TD>
+										runat="server" CssClass="NormalEditBoxuri" size="10"></asp:textbox></TD>
 							</TR>
 							<tr>
 								<td class="GreenSeparator" colSpan="2"><IMG height="1" src="../images/1x1.gif"></td>
@@ -121,7 +121,7 @@
 							<TR>
 								<TD class="NormalGreenBold">Data&nbsp;urmatorului:</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtDataUrmatorului" style="CURSOR: hand; TEXT-ALIGN: center" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-										runat="server" CssClass="NormalEditBoxuri" ReadOnly="True" size="10"></asp:textbox><INPUT id="CheckupID" type="hidden" name="Hidden1" runat="server">
+										runat="server" CssClass="NormalEditBoxuri" size="10"></asp:textbox><INPUT id="CheckupID" type="hidden" name="Hidden1" runat="server">
 									<span class="CommentRedBold">*</span><asp:requiredfieldvalidator id="requiredDataEnd" runat="server" ErrorMessage="Completati data de sfarsit a activitati!"
 										ControlToValidate="txtDataUrmatorului" CssClass="AlertRedBold"><</asp:requiredfieldvalidator></TD>
 							</TR>
@@ -146,8 +146,9 @@
 					</td>
 				</tr>
 				<tr id="addButtonsLine">
-					<td align="center" height="100%"><asp:button id="btnAdauga" onmouseover="MouseOverButton(this)" onmouseout="MouseOutButton(this)"
-							runat="server" CssClass="ButtonStyle" Text="  Salveaza date   "></asp:button></td>
+					<td align="center" height="100%">
+                        <asp:Button ID="btnAdauga" onmouseover="MouseOverButton(this)" onmouseout="MouseOutButton(this)"
+                            runat="server" CssClass="ButtonStyle" Text="  Salveaza date   "></asp:Button></td>
 				<tr id="editButtonsLine">
 					<td align="center" height="24" style="HEIGHT: 24px"><asp:button id="btnModifica" onmouseover="MouseOverButton(this)" onmouseout="MouseOutButton(this)"
 							runat="server" CssClass="ButtonStyle" Text="  Modifica date  "></asp:button>&nbsp;

@@ -130,7 +130,7 @@ var arTabs = new Array('tableIstoricLegitimatiiSedere', 'tableAdaugaLegitimatiiS
 							<tr>
 								<TD class="NormalGreenBold">Data eliberarii:</TD>
 								<TD><asp:textbox id="txtLegitimatieSedereDataEliberare" style="CURSOR: hand" onclick="ShowCalendar(this,'')"
-										runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span class="CommentRedBold">*</span>
+										runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span class="CommentRedBold">*</span>
 									<asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server" ErrorMessage="Selectati data eliberarii!"
 										ControlToValidate="txtLegitimatieSedereDataEliberare" CssClass="AlertRedBold"><</asp:RequiredFieldValidator>
 								</TD>
@@ -141,7 +141,7 @@ var arTabs = new Array('tableIstoricLegitimatiiSedere', 'tableAdaugaLegitimatiiS
 							<tr>
 								<TD class="NormalGreenBold">Valabil pana la:</TD>
 								<TD><asp:textbox id="txtLegitimatieSedereDataExpirare" style="CURSOR: hand" onclick="ShowCalendar(this,'')"
-										runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True"></asp:textbox><span class="CommentRedBold">*</span>
+										runat="server" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False"></asp:textbox><span class="CommentRedBold">*</span>
 									<asp:RequiredFieldValidator id="RequiredFieldValidator5" runat="server" ErrorMessage="Selectati pana cand e valabil!"
 										ControlToValidate="txtLegitimatieSedereDataExpirare" CssClass="AlertRedBold"><</asp:RequiredFieldValidator>
 								</TD>

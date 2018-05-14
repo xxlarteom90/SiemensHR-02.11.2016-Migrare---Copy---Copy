@@ -230,7 +230,7 @@ function FillTrainingCombo2( trainingText, trainingValoare)
 							<TR>
 								<TD class="NormalGreenBold">Data inceput activitate:</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtDataStart" style="CURSOR: hand; TEXT-ALIGN: center" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ErrorMessage="Completati data de incepere a activitati!"
+										runat="server" CssClass="NormalEditBoxuri" size="10"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ErrorMessage="Completati data de incepere a activitati!"
 										ControlToValidate="txtDataStart" CssClass="AlertRedBold"><</asp:requiredfieldvalidator></TD>
 							</TR>
 							<tr>
@@ -239,7 +239,7 @@ function FillTrainingCombo2( trainingText, trainingValoare)
 							<TR>
 								<TD class="NormalGreenBold">Data&nbsp;sfarsit activitate:</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtDataEnd" style="CURSOR: hand; TEXT-ALIGN: center" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True"></asp:textbox><INPUT id="IstoricTrainingID" type="hidden" name="Hidden1" runat="server"><asp:requiredfieldvalidator id="requiredDataEnd" runat="server" ErrorMessage="Completati data de sfarsit a activitati!"
+										runat="server" CssClass="NormalEditBoxuri" size="10"></asp:textbox><INPUT id="IstoricTrainingID" type="hidden" name="Hidden1" runat="server"><asp:requiredfieldvalidator id="requiredDataEnd" runat="server" ErrorMessage="Completati data de sfarsit a activitati!"
 										ControlToValidate="txtDataEnd" CssClass="AlertRedBold"><</asp:requiredfieldvalidator></TD>
 							</TR>
 						</TABLE>

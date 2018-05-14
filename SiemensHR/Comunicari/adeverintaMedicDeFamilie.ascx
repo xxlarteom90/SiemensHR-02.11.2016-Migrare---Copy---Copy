@@ -15,7 +15,7 @@
 							<TD class="NormalGreenBold" style="WIDTH: 242px">Data inregistrarii:</TD>
 							<TD>
 								<asp:textbox id="txtDataInregistrarii" style="CURSOR: hand" onclick="ShowCalendar(this,'')" runat="server"
-									CssClass="NormalEditBoxuri" ReadOnly="True"></asp:textbox>
+									CssClass="NormalEditBoxuri" ReadOnly="False"></asp:textbox>
 								<asp:Label id="lblDataInteg" runat="server" Font-Size="Smaller" ForeColor="Red">*</asp:Label>
 								<asp:RequiredFieldValidator id="vldDataInreg" runat="server" ControlToValidate="txtDataInregistrarii" ErrorMessage="Trebuie sa completati data inregistrarii!"><</asp:RequiredFieldValidator>
 							</TD>

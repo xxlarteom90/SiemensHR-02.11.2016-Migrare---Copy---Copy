@@ -27,7 +27,7 @@
 				<TR>
 					<TD class="NormalGreenBold">Data intrarii in evidenta:</TD>
 					<TD><asp:textbox id="txtDataIntrareEvidenta" style="CURSOR: hand; TEXT-ALIGN: center" onclick="ShowCalendar(this,'')"
-							runat="server" CssClass="NormalEditBoxuri" Width="100px" ReadOnly="True"></asp:textbox><span class="CommentRedBold">*</span>
+							runat="server" CssClass="NormalEditBoxuri" Width="100px" ReadOnly="False"></asp:textbox><span class="CommentRedBold">*</span>
 						<asp:RequiredFieldValidator id="requiredProgramLucru" runat="server" ErrorMessage="Completati data intrari in evidenta!"
 							ControlToValidate="txtDataIntrareEvidenta" CssClass="AlertRedBold"><</asp:RequiredFieldValidator></TD>
 				</TR>

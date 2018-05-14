@@ -392,15 +392,15 @@
 																			<tr>
 																				<td class="NormalGreenBold" id="tdDataFixaSearch" runat="server">
 																					<!-- Optiunea 1--> Data:&nbsp;<asp:textbox id="txtDataAngajatiSearch" style="CURSOR: hand" onclick="ShowCalendar(this,'')"
-																						runat="server" MaxLength="10" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True" Height="0px"></asp:textbox></td>
+																						runat="server" MaxLength="10" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False" Height="0px"></asp:textbox></td>
 																				<td class="NormalGreenBold" id="tdLunaSearch" runat="server">
 																					<!-- Optiunea 2--> Luna:&nbsp;<asp:dropdownlist id="lstLunaAngajatiSearch" CssClass="SelectStyle" Runat="server"></asp:dropdownlist>
 																					&nbsp;&nbsp;&nbsp;Anul:&nbsp;<asp:dropdownlist id="lstAnAngajatiSearch" CssClass="SelectStyle" Runat="server"></asp:dropdownlist></td>
 																				<td class="NormalGreenBold" id="tdIntervalSearch" runat="server">
 																					<!-- Optiunea 3--> Interval:&nbsp;<asp:textbox id="txtDataStartAngajatiSearch" style="CURSOR: hand" onclick="ShowCalendar(this,'')"
-																						runat="server" MaxLength="10" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True" Height="0px"></asp:textbox>
+																						runat="server" MaxLength="10" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False" Height="0px"></asp:textbox>
 																					&nbsp;-&nbsp;<asp:textbox id="txtDataEndAngajatiSearch" style="CURSOR: hand" onclick="ShowCalendar(this,'')"
-																						runat="server" MaxLength="10" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="True" Height="0px"></asp:textbox>
+																						runat="server" MaxLength="10" CssClass="NormalEditBoxuri" Width="70px" ReadOnly="False" Height="0px"></asp:textbox>
 																					<!-- Optiunea 4 --></td>
 																			</tr>
 																		</table>

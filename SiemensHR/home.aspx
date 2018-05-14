@@ -24,7 +24,8 @@
 
                 //Artiom Modificat 03.04.2017  
 			    //document.location = "EditAngajat.aspx?id=" + obj.childNodes(1).innerText;  
-			    var x = obj.childNodes[2];
+			    //var x = obj.childNodes[1];
+			    var x = obj.children[1];
 			    if (x.innerText !== undefined)
 			    {
 			        document.location = "EditAngajat.aspx?id=" + x.innerText;

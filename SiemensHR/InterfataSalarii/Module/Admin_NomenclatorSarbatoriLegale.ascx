@@ -88,7 +88,7 @@ var arTabs = new Array('tableIstoricFunctii', 'tableAdaugaFunctie');
 							<TR>
 								<TD class="NormalGreenBold">Data:</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtAddDateSarbatoriLegale" style="CURSOR: hand; TEXT-ALIGN: center" onclick="ShowCalendar(this,'..//')"
-										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*</SPAN><asp:requiredfieldvalidator id="requiredData" runat="server" CssClass="AlertRedBold" ControlToValidate="txtAddDateSarbatoriLegale"
+										runat="server" CssClass="NormalEditBoxuri" size="10"></asp:textbox><SPAN class="CommentRedBold">*</SPAN><asp:requiredfieldvalidator id="requiredData" runat="server" CssClass="AlertRedBold" ControlToValidate="txtAddDateSarbatoriLegale"
 										ErrorMessage="Trebuie sa selectati data sarbatorii!"><</asp:requiredfieldvalidator></TD>
 							</TR>
 							<tr>

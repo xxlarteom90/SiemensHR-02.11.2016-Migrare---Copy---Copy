@@ -177,7 +177,7 @@ function FillCategorieCombo( categorieIncadrareText, categorieIncadrareValoare)
 										ControlToValidate="txtSalariuBaza"><</asp:requiredfieldvalidator><asp:comparevalidator id="CompareValidator1" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati corect suma pentru salariul de baza!"
 										ControlToValidate="txtSalariuBaza" ValueToCompare="0" Operator="GreaterThanEqual" Type="Currency"><</asp:comparevalidator></TD>
 								<td class="NormalGreenBold"><asp:textbox id="txtDataStartSalariuBaza" style="TEXT-ALIGN: center; CURSOR: hand" onclick="ShowCalendar(this,'')"
-										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True"></asp:textbox></td>
+										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="False"></asp:textbox></td>
 								<TD class="NormalGreenBold"></TD>
 							</TR>
 							<tr>
@@ -190,7 +190,7 @@ function FillCategorieCombo( categorieIncadrareText, categorieIncadrareValoare)
 										ControlToValidate="txtIndemnizatieConducere"><</asp:requiredfieldvalidator><asp:comparevalidator id="CompareValidator2" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati corect suma pentru indemnizatie de conducere!"
 										ControlToValidate="txtIndemnizatieConducere" ValueToCompare="0" Operator="GreaterThanEqual" Type="Currency"><</asp:comparevalidator></TD>
 								<td class="NormalGreenBold"><asp:textbox id="txtDataStartIndemnizatieConducere" style="TEXT-ALIGN: center; CURSOR: hand"
-										onclick="ShowCalendar(this,'')" runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True"></asp:textbox></td>
+										onclick="ShowCalendar(this,'')" runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="False"></asp:textbox></td>
 								<TD class="NormalGreenBold"></TD>
 							</TR>
 							<tr>

@@ -135,7 +135,7 @@ function FillTipRaportCombo( raportText, raportValoare)
 							<TR>
 								<TD class="NormalGreenBold">Data efectuarii:</TD>
 								<TD class="NormalGreenBold"><asp:textbox id="txtData" style="CURSOR: hand; TEXT-ALIGN: center" onclick="if (TipUtilizator == 'Recrutor') { ShowCalendar(this,'../'); } else { ShowCalendar(this,''); }"
-										runat="server" ReadOnly="True" size="10" CssClass="NormalEditBoxuri"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ControlToValidate="txtData" ErrorMessage="Completati data de efectuare a evaluarii !"
+										runat="server" ReadOnly="False" size="10" CssClass="NormalEditBoxuri"></asp:textbox><asp:requiredfieldvalidator id="requiredDataStart" runat="server" ControlToValidate="txtData" ErrorMessage="Completati data de efectuare a evaluarii !"
 										CssClass="AlertRedBold"><</asp:requiredfieldvalidator></TD>
 							</TR>
 							<tr>

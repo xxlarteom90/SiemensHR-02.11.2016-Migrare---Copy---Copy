@@ -78,9 +78,9 @@ namespace SiemensHR.utils
 		{
 			Response.Write("<script>");
 			Response.Write("if (typeof(window.opener.lastDateFieldSelected)=='object')");
-			Response.Write("{");
-			Response.Write("window.opener.lastDateFieldSelected.value = '" + Calendar1.SelectedDate.Day + 
-			"." + Calendar1.SelectedDate.Month + "." + Calendar1.SelectedDate.Year + "';");
+            Response.Write("{");
+            Response.Write("window.opener.lastDateFieldSelected.value = '" + Calendar1.SelectedDate.Day +
+            "." + Calendar1.SelectedDate.Month + "." + Calendar1.SelectedDate.Year + "';");
 			Response.Write("window.close();");
 			Response.Write("}");
 			Response.Write("</script>");
@@ -88,6 +88,7 @@ namespace SiemensHR.utils
 
 		private void Calendar1_VisibleMonthChanged(object sender, MonthChangedEventArgs  e)
 		{
+
 			lstMonth.SelectedValue = e.NewDate.Month.ToString();	
 			lstYear.SelectedValue = e.NewDate.Year.ToString();
 		}

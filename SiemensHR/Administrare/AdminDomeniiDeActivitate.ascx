@@ -68,7 +68,7 @@ function SelectLine(id,activ)
 							<table class="tabBackground" id="Table3" cellSpacing="1" cellPadding="0" width="100%" border="0">
 								<TR>
 									<TD class="NormalGreenBold" style="WIDTH: 83px">Cod CAEN:&nbsp;</TD>
-									<TD>&nbsp;<asp:textbox id="txtCod" runat="server" size="50" CssClass="NormalEditBoxuri" MaxLength="6" Height="0px"
+									<TD>&nbsp;<asp:textbox id="txtCod" runat="server" size="50" CssClass="NormalEditBoxuri" MaxLength="6" Height="17px"
 											Width="278px"></asp:textbox><SPAN class="CommentRedBold">*
 											<asp:requiredfieldvalidator id="requiredCod" runat="server" CssClass="AlertRedBold" ErrorMessage="Completati codul!"
 												ControlToValidate="txtCod"><</asp:requiredfieldvalidator><asp:regularexpressionvalidator id="regularCod" runat="server" CssClass="AlertRedBold" ErrorMessage="Codul necesita valoare numerica!"

@@ -188,7 +188,7 @@ function StergeRetinereClick()
 				<TR>
 					<TD class="NormalGreenBold" style="WIDTH: 196px; HEIGHT: 1px">Denumire&nbsp;retinere:</TD>
 					<TD style="HEIGHT: 1px"><SPAN class="CommentRedBold">
-							<asp:TextBox id="txtRetinere" runat="server" Width="297px" ReadOnly="True" CssClass="NormalEditBoxuri"></asp:TextBox><SPAN class="CommentRedBold"><SPAN class="CommentRedBold"><SPAN class="CommentRedBold">
+							<asp:TextBox id="txtRetinere" runat="server" Width="297px" CssClass="NormalEditBoxuri"></asp:TextBox><SPAN class="CommentRedBold"><SPAN class="CommentRedBold"><SPAN class="CommentRedBold">
 										<asp:regularexpressionvalidator id="vldRegExprDescriere" runat="server" CssClass="AlertRedBold" ErrorMessage="Denumirea retinerii nu poate contine caractere invalide: : <>()';&quot;\"
 											ControlToValidate="txtRetinere" ValidationExpression="^[^>|(|)|<|'|&quot;|;|\\]*$"><</asp:regularexpressionvalidator></SPAN></SPAN></SPAN></SPAN></TD>
 				</TR>
@@ -200,7 +200,7 @@ function StergeRetinereClick()
 						<P>Luna&nbsp;inceput: (prima zi a lunii)</P>
 					</TD>
 					<TD style="HEIGHT: 1px">&nbsp;<asp:textbox id="txtDataStart" style="CURSOR: hand" onclick="ShowCalendar(this,'../')" runat="server"
-							CssClass="NormalEditBoxuri" Width="150px" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*
+							CssClass="NormalEditBoxuri" Width="150px"></asp:textbox><SPAN class="CommentRedBold">*
 							<asp:requiredfieldvalidator id="Requiredfieldvalidator1" runat="server" CssClass="AlertRedBold" ControlToValidate="txtDataStart"
 								ErrorMessage="Completati data de inceput!"><</asp:requiredfieldvalidator></SPAN></TD>
 				</TR>
@@ -211,7 +211,7 @@ function StergeRetinereClick()
 					<TD class="NormalGreenBold" style="WIDTH: 196px; HEIGHT: 4px">Luna sfarsit: (ultima 
 						zi a lunii)</TD>
 					<TD style="HEIGHT: 4px">&nbsp;<asp:textbox id="txtDataEnd" style="CURSOR: hand" onclick="ShowCalendar(this,'../')" runat="server"
-							CssClass="NormalEditBoxuri" Width="150px" ReadOnly="True"></asp:textbox><SPAN class="CommentRedBold">*
+							CssClass="NormalEditBoxuri" Width="150px"></asp:textbox><SPAN class="CommentRedBold">*
 							<asp:requiredfieldvalidator id="Requiredfieldvalidator2" runat="server" CssClass="AlertRedBold" ControlToValidate="txtDataEnd"
 								ErrorMessage="Completati data de sfarsit!"><</asp:requiredfieldvalidator></SPAN></TD>
 				</TR>

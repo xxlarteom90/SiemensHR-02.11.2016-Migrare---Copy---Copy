@@ -5,7 +5,8 @@
 	{
         //Artiom Modificat 03.04.2017
 	    //document.location = "EditAngajat.aspx?id=" + obj.childNodes(1).innerText+"&alerta=permis_sedere";
-	    var x = obj.childNodes[2];
+	    //obj.childNodes[1]
+	    var x = obj.children[1];
 	    if (x.innerText !== undefined)
 	    {
 	        document.location = "EditAngajat.aspx?id=" + x.innerText+"&alerta=permis_sedere";
