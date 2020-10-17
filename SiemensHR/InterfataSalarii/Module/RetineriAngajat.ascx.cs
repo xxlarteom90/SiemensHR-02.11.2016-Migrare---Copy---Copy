@@ -269,11 +269,11 @@ namespace SiemensHR.InterfataSalarii.Module
 
 				//string[] ar_OnClickParam = { AngajatID.ToString(), "IdRetinere", "AngajatID", "DataInceput", "DataSfarsit", "Valoare", "Alerta"};
 				//string[] ar_OnClickParamType = { "const", "dataset", "dataset", "dataset", "dataset"};
-				//string[] ar_OnClickParam = { "IdRetinere", "AngajatID", "TipRetinere", "DenumireRetinere", "DataInceput", "DataSfarsit", "Valoare", "Alerta"};
-				//string[] ar_OnClickParamType = { "dataset", "dataset", "dataset", "dataset", "dataset", "dataset", "dataset", "dataset"};
+				string[] ar_OnClickParam = { "IdRetinere", "AngajatID", "TipRetinere", "DenumireRetinere", "DataInceput", "DataSfarsit", "Valoare", "Alerta"};
+				string[] ar_OnClickParamType = { "dataset", "dataset", "dataset", "dataset", "dataset", "dataset", "dataset", "dataset"};
 			
-				//objListTable.OnclickParams = ar_OnClickParam;
-				//objListTable.OnclickParamsType = ar_OnClickParamType;
+				objListTable.OnclickParams = ar_OnClickParam;
+				objListTable.OnclickParamsType = ar_OnClickParamType;
 				objListTable.OnclickJSMethod = "SelectSuspendareCIM";
 
 				objListTable.DrawListTableWithoutDigits();

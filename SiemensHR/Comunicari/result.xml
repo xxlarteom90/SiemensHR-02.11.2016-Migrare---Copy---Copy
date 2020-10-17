@@ -158,7 +158,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>3221312</w:t>
+            <w:t>546454</w:t>
           </w:r>
         </ns0:NrInregistrare>
         <w:r>
@@ -190,7 +190,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>2 ianuarie 2018</w:t>
+            <w:t>8 mai 2018</w:t>
           </w:r>
         </ns0:DataInregistrarii>
       </w:p>
@@ -246,7 +246,7 @@
             <w:rPr>
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>SIEMENS CONVERGENCE CREATORS SRL</w:t>
+            <w:t>ATOS CONVERGENCE CREATORS SRL</w:t>
           </w:r>
         </ns0:DenumireAngajator>
         <w:r>
@@ -262,7 +262,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>24 ianuarie 2018</w:t>
+            <w:t>23 mai 2018</w:t>
           </w:r>
         </ns0:DataLichidare>
         <w:r>
@@ -278,7 +278,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>54ds</w:t>
+            <w:t>45yt</w:t>
           </w:r>
         </ns0:NrArticol>
         <w:r>
@@ -478,7 +478,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>SIEMENS CONVERGENCE CREATORS SRL</w:t>
+            <w:t>ATOS CONVERGENCE CREATORS SRL</w:t>
           </w:r>
         </ns0:DenumireAngajator>
         <w:r>
@@ -532,7 +532,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>SIEMENS CONVERGENCE CREATORS SRL</w:t>
+            <w:t>ATOS CONVERGENCE CREATORS SRL</w:t>
           </w:r>
         </ns0:DenumireAngajator>
         <w:r>
@@ -548,7 +548,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>4</w:t>
+            <w:t>8</w:t>
           </w:r>
         </ns0:NrZileDiferentaConcediuOdihna>
         <w:r>
@@ -564,7 +564,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>30</w:t>
+            <w:t>37</w:t>
           </w:r>
         </ns0:NrZileDisponibileConcediuOdihna>
         <w:r>
@@ -580,7 +580,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>26</w:t>
+            <w:t>29</w:t>
           </w:r>
         </ns0:NrZileEfectuateConcediuOdihna>
         <w:r>
@@ -596,7 +596,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>-</w:t>
+            <w:t>iunie 2018</w:t>
           </w:r>
         </ns0:NumeLuna>
         <w:r>
@@ -629,7 +629,7 @@
               <w:sz w:val="22" />
               <w:lang w:val="RO" />
             </w:rPr>
-            <w:t>SIEMENS CONVERGENCE CREATORS SRL</w:t>
+            <w:t>ATOS CONVERGENCE CREATORS SRL</w:t>
           </w:r>
         </ns0:DenumireAngajator>
         <w:r>
@@ -1606,7 +1606,7 @@
                     <w:sz w:val="22" />
                     <w:lang w:val="RO" />
                   </w:rPr>
-                  <w:t>SIMIONESCU ALEXANDER</w:t>
+                  <w:t> </w:t>
                 </w:r>
               </ns0:Conducere1>
             </w:p>
@@ -1641,7 +1641,7 @@
                     <w:sz w:val="22" />
                     <w:lang w:val="RO" />
                   </w:rPr>
-                  <w:t>REINISCH EVA</w:t>
+                  <w:t> </w:t>
                 </w:r>
               </ns0:Conducere2>
             </w:p>
@@ -1700,7 +1700,7 @@
                     <w:sz w:val="22" />
                     <w:lang w:val="RO" />
                   </w:rPr>
-                  <w:t>DirectorEconomic</w:t>
+                  <w:t> </w:t>
                 </w:r>
               </ns0:Functie2>
             </w:p>

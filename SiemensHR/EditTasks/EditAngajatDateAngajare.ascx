@@ -844,7 +844,7 @@ function DataKeyPressed(elem)
 										</tr>
 										<tr>
 											<td class="NormalGreenBold" style="HEIGHT: 12px">Casa de asigurari:</td>
-											<td><asp:dropdownlist id="lstCasaDeAsigurari" runat="server" CssClass="SelectStyle" Width="300px" onchange="CaseDeAsigChanged(this);"></asp:dropdownlist></td>
+											<td><asp:dropdownlist id="lstCasaDeAsigurari" runat="server" CssClass="SelectStyle" Width="300px" onchange="CaseDeAsigChanged(this);" EnableTheming="False"></asp:dropdownlist></td>
 										</tr>
 										<tr>
 											<td class="GreenSeparator" style="HEIGHT: 1px" colSpan="2"><IMG height="1" src="../images/1x1.gif"></td>

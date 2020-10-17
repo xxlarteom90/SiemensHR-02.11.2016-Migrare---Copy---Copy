@@ -1231,9 +1231,11 @@ function lstDepartamentChanged()
 		</script>
 		<form id="Form1" encType="multipart/form-data" method="post" runat="server">
 			<table border="0" cellSpacing="0" cellPadding="0" width="100%" align="center">
-				<tr>
-					<td style="WIDTH: 1990px"><uc1:pageheader id="PageHeader1" runat="server"></uc1:pageheader></td>
-				</tr>
+                <tr>
+                    <td style="width: 1990px">
+                        <uc1:PageHeader ID="PageHeader1" runat="server"></uc1:PageHeader>
+                    </td>
+                </tr>
 				<tr>
 					<td style="WIDTH: 1990px" align="center"><uc1:headermenu id="HeaderMenu1" runat="server"></uc1:headermenu></td>
 				</tr>

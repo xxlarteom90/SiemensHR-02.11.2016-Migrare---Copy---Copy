@@ -1,0 +1,1285 @@
+<?xml version="1.0"?>
+<declaratieUnica luna_r="8" an_r="2018" d_rec="0" nume_declar="OPREA" prenume_declar="ANA" functie_declar="Contabil sef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="mfp:anaf:dgti:declaratie_unica:declaratie:v3">
+  <angajator cif="13783400" rgCom="J08/335/2001" caen="6201" den="ATOS CONVERGENCE CREATORS SRL" adrSoc="Brasov, str.Mihail Kogalniceanu, nr.21, bl.C6, sc., et., ap." telSoc="0268409100" faxSoc="0268409103" mailSoc="helpdesk-hr.ro.pse@siemens.com" casaAng="BV" datCAM="1" totalPlata_A="1094925">
+    <angajatorA A_codOblig="480" A_codBugetar="20470300XX" A_datorat="64873" A_deductibil="0" A_plata="64873" />
+    <angajatorA A_codOblig="432" A_codBugetar="5503XXXXXX" A_datorat="284365" A_deductibil="0" A_plata="284365" />
+    <angajatorA A_codOblig="412" A_codBugetar="5503XXXXXX" A_datorat="711477" A_deductibil="0" A_plata="711477" />
+    <angajatorA A_codOblig="602" A_codBugetar="5503XXXXXX" A_datorat="34210" A_deductibil="0" A_plata="34210" />
+    <angajatorB B_cnp="241" B_sanatate="242" B_pensie="241" B_sal="242" B_brutSalarii="2849392" />
+    <angajatorC1 C1_11="2843526" C1_12="5329" C1_13="0" C1_21="0" C1_22="0" C1_23="0" C1_31="0" C1_32="0" C1_33="0" C1_T1="2843526" C1_T2="5329" C1_T="0" C1_T3="0" C1_5="0" C1_7="0" />
+    <angajatorC2 C2_11="4" C2_12="22" C2_13="14" C2_14="8" C2_15="5866" C2_16="3317" C2_21="0" C2_22="0" C2_24="0" C2_26="0" C2_31="3" C2_32="54" C2_34="54" C2_36="16923" C2_41="0" C2_42="0" C2_44="0" C2_46="0" C2_51="2" C2_52="31" C2_54="31" C2_56="13616" C2_T6="33856" C2_10="33856" C2_140="33856" />
+    <angajatorC3 C3_11="0" C3_12="0" C3_13="0" C3_14="0" C3_21="0" C3_22="0" C3_23="0" C3_24="0" C3_31="0" C3_32="0" C3_33="0" C3_34="0" C3_41="0" C3_42="0" C3_43="0" C3_44="0" C3_total="0" C3_suma="0" />
+    <angajatorC4 C4_baza="2883248" C4_ct="64873" />
+    <angajatorD D2="0" D3="0" />
+    <angajatorE1 E1_venit="0" E1_baza="0" />
+    <angajatorE2 E2_11="0" E2_12="0" E2_14="0" E2_16="0" E2_21="0" E2_22="0" E2_24="0" E2_26="0" E2_31="0" E2_32="0" E2_34="0" E2_36="0" E2_41="0" E2_42="0" E2_44="0" E2_46="0" E2_51="0" E2_52="0" E2_54="0" E2_56="0" E2_66="0" E2_10="0" />
+    <angajatorE3 E3_11="0" E3_12="0" E3_13="0" E3_14="0" E3_21="0" E3_22="0" E3_23="0" E3_24="0" E3_31="0" E3_32="0" E3_33="0" E3_34="0" E3_41="0" E3_42="0" E3_43="0" E3_44="0" E3_total="0" E3_suma="0" />
+    <angajatorE4 E4_aj_nr="0" E4_aj_suma="0" />
+    <angajatorF1 F1_suma="33839" F1_deplata="33839" />
+    <angajatorF2 F2_cif="38006612" F2_id="2" F2_suma="371" F2_deplata="371" />
+  </angajator>
+  <asigurat cnpAsig="1920417081662" idAsig="1" numeAsig="ABORDIOAIE" prenAsig="GEORGE-ALEXANDRU" dataAng="19.08.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5278" A_6="176" A_7="0" A_8="22" A_9="5278" A_11="5278" A_12="528" A_13="5278" A_14="1320" />
+    <asiguratE1 E1_1="5278" E1_2="1848" E1_3="0" E1_4="0" E1_5="0" E1_6="3430" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5278" E3_9="1848" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="3430" E3_15="0" E3_16="3430" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820510011862" idAsig="2" numeAsig="ALDEA" prenAsig="DAN" dataAng="08.11.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10995" A_6="176" A_7="0" A_8="22" A_9="10995" A_11="10995" A_12="1100" A_13="10995" A_14="2749" />
+    <asiguratE1 E1_1="10995" E1_2="3849" E1_3="0" E1_4="0" E1_5="0" E1_6="7374" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10995" E3_9="3849" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="7374" E3_15="0" E3_16="7072" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1830130081817" idAsig="3" numeAsig="ALDEA" prenAsig="MIHAI" dataAng="18.07.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9779" A_6="176" A_7="0" A_8="22" A_9="9779" A_11="9779" A_12="978" A_13="9779" A_14="2445" />
+    <asiguratE1 E1_1="9779" E1_2="3423" E1_3="0" E1_4="0" E1_5="0" E1_6="6440" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9779" E3_9="3423" E3_10="84" E3_11="0" E3_12="0" E3_13="0" E3_14="6440" E3_15="0" E3_16="6245" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2930318125790" idAsig="4" numeAsig="AMARANDEI" prenAsig="ALINA-MARIA" dataAng="02.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6488" A_6="176" A_7="0" A_8="22" A_9="6488" A_11="6488" A_12="649" A_13="6488" A_14="1622" />
+    <asiguratE1 E1_1="6488" E1_2="2271" E1_3="0" E1_4="0" E1_5="0" E1_6="4481" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6488" E3_9="2271" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="4481" E3_15="0" E3_16="4217" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2581213080011" idAsig="5" numeAsig="ANGHELESCU" prenAsig="MARILENA-CRISTINA" dataAng="04.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12339" A_6="176" A_7="0" A_8="22" A_9="12339" A_11="12339" A_12="1234" A_13="12339" A_14="3085" />
+    <asiguratE1 E1_1="12339" E1_2="4319" E1_3="0" E1_4="0" E1_5="0" E1_6="8164" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12339" E3_9="4319" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="8164" E3_15="0" E3_16="7983" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2741223084477" idAsig="6" numeAsig="ANTAL" prenAsig="MONIKA" dataAng="06.09.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7590" A_6="160" A_7="16" A_8="20" A_9="7590" A_11="7590" A_12="759" A_13="7590" A_14="1898" />
+    <asiguratE1 E1_1="7590" E1_2="2657" E1_3="0" E1_4="0" E1_5="0" E1_6="5077" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7590" E3_9="2657" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="5077" E3_15="0" E3_16="4896" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2800901330559" idAsig="7" numeAsig="ANTONIU" prenAsig="MIHAELA-ADRIANA" dataAng="01.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9060" A_6="176" A_7="0" A_8="22" A_9="9060" A_11="9060" A_12="906" A_13="9060" A_14="2265" />
+    <asiguratE1 E1_1="9060" E1_2="3171" E1_3="0" E1_4="0" E1_5="0" E1_6="6057" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9060" E3_9="3171" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="6057" E3_15="0" E3_16="5852" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1601130080018" idAsig="8" numeAsig="APOSTOL" prenAsig="CONSTANTIN" dataAng="01.12.2003" casaSn="BV" asigCI="1" asigSO="2">
+    <coAsigurati tip="S" cnp="2630924323910" nume="APOSTOL" prenume="GABRIELA" />
+    <asiguratB1 B1_1="1" B1_2="1" B1_3="N" B1_4="8" B1_5="6943" B1_6="176" B1_7="0" B1_8="0" B1_9="0" B1_10="6943" B1_15="22">
+      <asiguratB11 B11_1="2" B11_3="0" B11_42="0" B11_43="0" B11_6="0" B11_71="0" />
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="22" B2_3="0" B2_4="0" B2_5="6943" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="0" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="0" B3_7="0" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="0" B3_13="0" />
+    <asiguratB4 B4_1="22" B4_2="0" B4_3="6943" B4_5="6943" B4_6="694" B4_7="6943" B4_8="1736" B4_14="6943" />
+    <asiguratE1 E1_1="6943" E1_2="2430" E1_3="2" E1_4="0" E1_5="0" E1_6="4741" E1_7="474" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="6943" E3_9="2430" E3_10="228" E3_11="2" E3_12="0" E3_13="0" E3_14="4741" E3_15="474" E3_16="3957" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2820318080067" idAsig="9" numeAsig="ARADAVOAICEI" prenAsig="ALINA" dataAng="19.07.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6215" A_6="176" A_7="0" A_8="22" A_9="6215" A_11="6215" A_12="622" A_13="6215" A_14="1554" />
+    <asiguratE1 E1_1="6215" E1_2="2176" E1_3="0" E1_4="0" E1_5="0" E1_6="4243" E1_7="424" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6215" E3_9="2176" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="4243" E3_15="424" E3_16="3467" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2950828080029" idAsig="10" numeAsig="ARDELEAN" prenAsig="ADELINA-IONELA" dataAng="17.07.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8632" A_6="176" A_7="0" A_8="22" A_9="8632" A_11="8632" A_12="863" A_13="8632" A_14="2158" />
+    <asiguratE1 E1_1="8632" E1_2="3021" E1_3="0" E1_4="0" E1_5="0" E1_6="5815" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8632" E3_9="3021" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="5815" E3_15="0" E3_16="5611" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2811212080086" idAsig="11" numeAsig="ARDELEANU" prenAsig="CRISTINA-MARIA" dataAng="18.10.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="40683" A_6="176" A_7="0" A_8="22" A_9="40683" A_11="40683" A_12="4068" A_13="40683" A_14="10171" />
+    <asiguratE1 E1_1="40683" E1_2="14239" E1_3="0" E1_4="0" E1_5="0" E1_6="26660" E1_7="2666" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="40683" E3_9="14239" E3_10="216" E3_11="0" E3_12="0" E3_13="0" E3_14="26660" E3_15="2666" E3_16="23728" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1830129260018" idAsig="12" numeAsig="ARDES" prenAsig="MIHAI" dataAng="23.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11242" A_6="176" A_7="0" A_8="22" A_9="11242" A_11="11242" A_12="1124" A_13="11242" A_14="2811" />
+    <asiguratE1 E1_1="11242" E1_2="3935" E1_3="0" E1_4="0" E1_5="0" E1_6="7463" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11242" E3_9="3935" E3_10="156" E3_11="0" E3_12="0" E3_13="0" E3_14="7463" E3_15="0" E3_16="7307" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1781101141031" idAsig="13" numeAsig="ARGHIRE" prenAsig="GEORGE-CONSTANTIN" dataAng="01.08.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="15371" A_6="176" A_7="0" A_8="22" A_9="15371" A_11="15371" A_12="1537" A_13="15371" A_14="3843" />
+    <asiguratE1 E1_1="15371" E1_2="5380" E1_3="0" E1_4="0" E1_5="0" E1_6="10255" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="15371" E3_9="5380" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="10255" E3_15="0" E3_16="9991" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1940806080049" idAsig="14" numeAsig="BACSO" prenAsig="MIHAI" dataAng="11.06.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="4823" A_6="176" A_7="0" A_8="22" A_9="4823" A_11="4823" A_12="482" A_13="4823" A_14="1206" />
+    <asiguratE1 E1_1="4823" E1_2="1688" E1_3="0" E1_4="0" E1_5="0" E1_6="3399" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="4823" E3_9="1688" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="3399" E3_15="0" E3_16="3135" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1900217226735" idAsig="15" numeAsig="BADEA" prenAsig="TEODOR-PAVEL" dataAng="06.06.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratB1 B1_1="1" B1_2="0" B1_3="N" B1_4="8" B1_5="10216" B1_6="176" B1_7="0" B1_8="0" B1_9="0" B1_10="10216" B1_15="19">
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="19" B2_3="0" B2_4="0" B2_5="9138" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="3" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="3" B3_7="1078" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="1078" B3_13="0" />
+    <asiguratB4 B4_1="19" B4_2="0" B4_3="10216" B4_5="9138" B4_6="914" B4_7="10216" B4_8="2300" B4_14="10216" />
+    <asiguratD D_1="CCMAK" D_2="3252022" D_5="20.08.2018" D_6="20.08.2018" D_7="22.08.2018" D_9="01" D_10="1" D_13="482973" D_14="3" D_15="0" D_16="3" D_17="59435" D_18="124" D_19="479.31" D_20="1078" D_21="0" D_23="01" />
+    <asiguratE1 E1_1="10216" E1_2="3214" E1_3="0" E1_4="0" E1_5="0" E1_6="7229" E1_7="0" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="10216" E3_9="3214" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="7229" E3_15="0" E3_16="7001" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1840417340931" idAsig="16" numeAsig="BADOI" prenAsig="CRISTIAN" dataAng="19.02.2007" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13847" A_6="176" A_7="0" A_8="22" A_9="13847" A_11="13847" A_12="1385" A_13="13847" A_14="3462" />
+    <asiguratE1 E1_1="13847" E1_2="4847" E1_3="0" E1_4="0" E1_5="0" E1_6="9264" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13847" E3_9="4847" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="9264" E3_15="0" E3_16="8963" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2910807124936" idAsig="17" numeAsig="BALAN" prenAsig="ALEXANDRA-DIANA" dataAng="03.01.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11975" A_6="176" A_7="0" A_8="22" A_9="11975" A_11="11975" A_12="1198" A_13="11975" A_14="2994" />
+    <asiguratE1 E1_1="11975" E1_2="4192" E1_3="0" E1_4="0" E1_5="0" E1_6="8047" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11975" E3_9="4192" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8047" E3_15="0" E3_16="7783" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1840104080121" idAsig="18" numeAsig="BALAN" prenAsig="TITUS-CONSTANTIN" dataAng="01.10.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="36649" A_6="176" A_7="0" A_8="22" A_9="36649" A_11="36649" A_12="3665" A_13="36649" A_14="9162" />
+    <asiguratE2 E2_1="36649" E2_2="12827" E2_3="23822" E2_4="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="2" E3_4="P" E3_8="36649" E3_9="12827" E3_10="0" E3_14="23822" E3_15="0" E3_16="23711" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2950616294737" idAsig="19" numeAsig="BANA" prenAsig="MARIA-ROXANA" dataAng="01.06.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="P4" A_4="8" A_5="3481" A_6="88" A_7="0" A_8="22" A_9="3481" A_11="3481" A_12="348" A_13="3481" A_14="870" />
+    <asiguratE1 E1_1="3481" E1_2="1218" E1_3="0" E1_4="0" E1_5="0" E1_6="2395" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="3481" E3_9="1218" E3_10="132" E3_11="0" E3_12="0" E3_13="0" E3_14="2395" E3_15="0" E3_16="2263" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2940824080021" idAsig="20" numeAsig="BARBU" prenAsig="IULIA-ANDA" dataAng="09.01.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="3916" A_6="176" A_7="0" A_8="22" A_9="3916" A_11="3916" A_12="392" A_13="3916" A_14="979" />
+    <asiguratE1 E1_1="3916" E1_2="1371" E1_3="0" E1_4="0" E1_5="0" E1_6="2809" E1_7="281" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="3916" E3_9="1371" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="2809" E3_15="281" E3_16="2264" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1870921081824" idAsig="21" numeAsig="BELEAUA" prenAsig="ANDREI-DAN" dataAng="17.01.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10922" A_6="176" A_7="0" A_8="22" A_9="10922" A_11="10922" A_12="1092" A_13="10922" A_14="2731" />
+    <asiguratE1 E1_1="10922" E1_2="3823" E1_3="0" E1_4="0" E1_5="0" E1_6="7363" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10922" E3_9="3823" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7363" E3_15="0" E3_16="7099" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1920523080044" idAsig="22" numeAsig="BENGA" prenAsig="DANIEL-MIHAI" dataAng="02.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6265" A_6="176" A_7="0" A_8="22" A_9="6265" A_11="6265" A_12="627" A_13="6265" A_14="1566" />
+    <asiguratE1 E1_1="6265" E1_2="2193" E1_3="0" E1_4="0" E1_5="0" E1_6="4300" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6265" E3_9="2193" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="4300" E3_15="0" E3_16="4072" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790927085037" idAsig="23" numeAsig="BENGA" prenAsig="DORINA-CRISTINA" dataAng="26.06.2013" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratB1 B1_1="1" B1_2="0" B1_3="N" B1_4="8" B1_5="9884" B1_6="0" B1_7="176" B1_8="0" B1_9="0" B1_10="0" B1_15="0">
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="0" B2_3="0" B2_4="0" B2_5="0" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="22" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="22" B3_7="9884" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="0" B3_13="9884" />
+    <asiguratB4 B4_1="0" B4_2="0" B4_3="0" B4_5="0" B4_6="0" B4_7="9884" B4_8="115" B4_14="9884" />
+    <asiguratD D_1="CCMAK" D_2="3488234" D_3="CCMAK" D_4="3488205" D_5="01.08.2018" D_6="01.08.2018" D_7="31.08.2018" D_9="15" D_10="1" D_13="769452" D_14="0" D_15="22" D_16="22" D_17="74281" D_18="124" D_19="599.04" D_20="0" D_21="9884" D_23="RM" />
+    <asiguratE1 E1_1="9884" E1_2="115" E1_3="0" E1_4="0" E1_5="0" E1_6="0" E1_7="0" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="9884" E3_9="115" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="0" E3_15="0" E3_16="9769" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2670713416031" idAsig="24" numeAsig="BILCU" prenAsig="ELENA-IULIANA" dataAng="15.10.2013" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7406" A_6="176" A_7="0" A_8="22" A_9="7406" A_11="7406" A_12="741" A_13="7406" A_14="1852" />
+    <asiguratE1 E1_1="7406" E1_2="2593" E1_3="0" E1_4="0" E1_5="0" E1_6="4993" E1_7="499" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7406" E3_9="2593" E3_10="180" E3_11="0" E3_12="0" E3_13="0" E3_14="4993" E3_15="499" E3_16="4314" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2940526142381" idAsig="25" numeAsig="BIRLA" prenAsig="PETRUTA" dataAng="01.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5135" A_6="176" A_7="0" A_8="22" A_9="5135" A_11="5135" A_12="514" A_13="5135" A_14="1284" />
+    <asiguratE1 E1_1="5135" E1_2="1798" E1_3="0" E1_4="0" E1_5="0" E1_6="3481" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5135" E3_9="1798" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="3481" E3_15="0" E3_16="3337" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1730512080033" idAsig="26" numeAsig="BIRTA" prenAsig="LEVENTE-EDWARD" dataAng="03.05.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8573" A_6="176" A_7="0" A_8="22" A_9="8573" A_11="8573" A_12="857" A_13="8573" A_14="2143" />
+    <asiguratE1 E1_1="8573" E1_2="3000" E1_3="0" E1_4="0" E1_5="0" E1_6="5741" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8573" E3_9="3000" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="5741" E3_15="0" E3_16="5486" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1680311264371" idAsig="27" numeAsig="BIRTON" prenAsig="MIHALY" dataAng="11.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11110" A_6="176" A_7="0" A_8="22" A_9="11110" A_11="11110" A_12="1111" A_13="11110" A_14="2778" />
+    <asiguratE1 E1_1="11110" E1_2="3889" E1_3="0" E1_4="0" E1_5="0" E1_6="7365" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11110" E3_9="3889" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="7365" E3_15="0" E3_16="7221" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2870901082560" idAsig="28" numeAsig="BITA" prenAsig="ANCA-MARIANA" dataAng="10.01.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7737" A_6="176" A_7="0" A_8="22" A_9="7737" A_11="7737" A_12="774" A_13="7737" A_14="1934" />
+    <asiguratE1 E1_1="7737" E1_2="2708" E1_3="0" E1_4="0" E1_5="0" E1_6="5293" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7737" E3_9="2708" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5293" E3_15="0" E3_16="4955" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2960423045352" idAsig="29" numeAsig="BLAJ" prenAsig="RAFAELA" dataAng="08.08.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="1931" A_6="136" A_7="0" A_8="17" A_9="1931" A_11="1931" A_12="193" A_13="1931" A_14="483" />
+    <asiguratE1 E1_1="1931" E1_2="676" E1_3="0" E1_4="220" E1_5="0" E1_6="1239" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="1931" E3_9="676" E3_10="204" E3_11="0" E3_12="220" E3_13="0" E3_14="1239" E3_15="0" E3_16="1255" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1880608080035" idAsig="30" numeAsig="BOGHIU" prenAsig="ANDREI-MARIAN" dataAng="12.12.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="20392" A_6="176" A_7="0" A_8="22" A_9="20392" A_11="20392" A_12="2039" A_13="20392" A_14="5098" />
+    <asiguratE1 E1_1="20392" E1_2="7137" E1_3="0" E1_4="0" E1_5="0" E1_6="13495" E1_7="1350" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="20392" E3_9="7137" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="13495" E3_15="1350" E3_16="11905" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1891128080133" idAsig="31" numeAsig="BOLOCAN" prenAsig="ALEXANDRU-STEFAN" dataAng="27.02.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13913" A_6="176" A_7="0" A_8="22" A_9="13913" A_11="13913" A_12="1391" A_13="13913" A_14="3478" />
+    <asiguratE1 E1_1="13913" E1_2="4869" E1_3="0" E1_4="0" E1_5="0" E1_6="9248" E1_7="925" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13913" E3_9="4869" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="9248" E3_15="925" E3_16="7119" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930316080048" idAsig="32" numeAsig="BOLOG-GROSS" prenAsig="CHRISTIAN" dataAng="31.07.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7207" A_6="176" A_7="0" A_8="22" A_9="7207" A_11="7207" A_12="721" A_13="7207" A_14="1802" />
+    <asiguratE1 E1_1="7207" E1_2="2523" E1_3="0" E1_4="0" E1_5="0" E1_6="4816" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7207" E3_9="2523" E3_10="132" E3_11="0" E3_12="0" E3_13="0" E3_14="4816" E3_15="0" E3_16="4684" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2821230080055" idAsig="33" numeAsig="BORICEANU" prenAsig="ANDA" dataAng="07.11.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6357" A_6="176" A_7="0" A_8="22" A_9="6357" A_11="6357" A_12="636" A_13="6357" A_14="1589" />
+    <asiguratE1 E1_1="6357" E1_2="2225" E1_3="1" E1_4="0" E1_5="0" E1_6="4360" E1_7="436" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6357" E3_9="2225" E3_10="228" E3_11="1" E3_12="0" E3_13="0" E3_14="4360" E3_15="436" E3_16="3510" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2970408394968" idAsig="34" numeAsig="BOSIE" prenAsig="GEORGIANA-GABRIELA" dataAng="16.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="P4" A_4="8" A_5="2022" A_6="88" A_7="0" A_8="22" A_9="2022" A_11="2022" A_12="202" A_13="2022" A_14="506" />
+    <asiguratE1 E1_1="2022" E1_2="708" E1_3="0" E1_4="200" E1_5="0" E1_6="1216" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="2022" E3_9="708" E3_10="102" E3_11="0" E3_12="200" E3_13="0" E3_14="1216" E3_15="0" E3_16="1314" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2900325134141" idAsig="35" numeAsig="BOTEZ" prenAsig="RALUCA" dataAng="14.03.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9357" A_6="176" A_7="0" A_8="22" A_9="9357" A_11="9357" A_12="936" A_13="9357" A_14="2339" />
+    <asiguratE1 E1_1="9357" E1_2="3275" E1_3="0" E1_4="0" E1_5="0" E1_6="6250" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9357" E3_9="3275" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="6250" E3_15="0" E3_16="6045" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1800818080075" idAsig="36" numeAsig="BUCSA" prenAsig="SEBASTIAN" dataAng="17.12.2007" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9178" A_6="176" A_7="0" A_8="22" A_9="9178" A_11="9178" A_12="918" A_13="9178" A_14="2295" />
+    <asiguratE1 E1_1="9178" E1_2="3213" E1_3="0" E1_4="0" E1_5="0" E1_6="6205" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9178" E3_9="3213" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="6205" E3_15="0" E3_16="5857" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780511081973" idAsig="37" numeAsig="BUDAI" prenAsig="CONSTANTIN" dataAng="15.02.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10879" A_6="176" A_7="0" A_8="22" A_9="10879" A_11="10879" A_12="1088" A_13="10879" A_14="2720" />
+    <asiguratE1 E1_1="10879" E1_2="3808" E1_3="1" E1_4="0" E1_5="0" E1_6="7275" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10879" E3_9="3808" E3_10="204" E3_11="1" E3_12="0" E3_13="0" E3_14="7275" E3_15="0" E3_16="7034" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1850510295327" idAsig="38" numeAsig="BURGHIU" prenAsig="MARIUS-FLORIN" dataAng="04.07.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10170" A_6="176" A_7="0" A_8="22" A_9="10170" A_11="10170" A_12="1017" A_13="10170" A_14="2543" />
+    <asiguratE1 E1_1="10170" E1_2="3560" E1_3="0" E1_4="0" E1_5="0" E1_6="6778" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10170" E3_9="3560" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="6778" E3_15="0" E3_16="6536" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1880322080063" idAsig="39" numeAsig="BUTA" prenAsig="IOAN-BOGDAN" dataAng="01.09.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9750" A_6="176" A_7="0" A_8="22" A_9="9750" A_11="9750" A_12="975" A_13="9750" A_14="2438" />
+    <asiguratE1 E1_1="9750" E1_2="3413" E1_3="0" E1_4="0" E1_5="0" E1_6="6601" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9750" E3_9="3413" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="6601" E3_15="0" E3_16="6226" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820501081828" idAsig="40" numeAsig="BUTUCEA" prenAsig="RADU-CORNEL" dataAng="01.02.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8672" A_6="176" A_7="0" A_8="22" A_9="8672" A_11="8672" A_12="867" A_13="8672" A_14="2168" />
+    <asiguratE1 E1_1="8672" E1_2="3035" E1_3="0" E1_4="0" E1_5="0" E1_6="5865" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8672" E3_9="3035" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="5865" E3_15="0" E3_16="5563" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790327123139" idAsig="41" numeAsig="CACIOR-SALISTEAN" prenAsig="ADRIANA-MONICA" dataAng="01.07.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="19413" A_6="176" A_7="0" A_8="22" A_9="19413" A_11="19413" A_12="1941" A_13="19413" A_14="4853" />
+    <asiguratE1 E1_1="19413" E1_2="6794" E1_3="1" E1_4="0" E1_5="0" E1_6="12859" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="19413" E3_9="6794" E3_10="240" E3_11="1" E3_12="0" E3_13="0" E3_14="12859" E3_15="0" E3_16="12564" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1830118394435" idAsig="42" numeAsig="CALIN" prenAsig="BOGDAN-IONUT" dataAng="16.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7580" A_6="176" A_7="0" A_8="22" A_9="7580" A_11="7580" A_12="758" A_13="7580" A_14="1895" />
+    <asiguratE1 E1_1="7580" E1_2="2653" E1_3="1" E1_4="0" E1_5="0" E1_6="5191" E1_7="519" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7580" E3_9="2653" E3_10="264" E3_11="1" E3_12="0" E3_13="0" E3_14="5191" E3_15="519" E3_16="4260" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1700308080075" idAsig="43" numeAsig="CARBUNE" prenAsig="SILVIU-VIOREL" dataAng="01.09.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="17782" A_6="176" A_7="0" A_8="22" A_9="17782" A_11="17782" A_12="1778" A_13="17782" A_14="4446" />
+    <asiguratE1 E1_1="17782" E1_2="6224" E1_3="0" E1_4="0" E1_5="0" E1_6="11762" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="17782" E3_9="6224" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="11762" E3_15="0" E3_16="11447" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1941217080046" idAsig="44" numeAsig="CARDIS" prenAsig="MIHAIL" dataAng="31.07.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6351" A_6="176" A_7="0" A_8="22" A_9="6351" A_11="6351" A_12="635" A_13="6351" A_14="1588" />
+    <asiguratE1 E1_1="6351" E1_2="2223" E1_3="0" E1_4="0" E1_5="0" E1_6="4248" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6351" E3_9="2223" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="4248" E3_15="0" E3_16="4091" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780907080029" idAsig="45" numeAsig="CAZAC" prenAsig="LUCIAN" dataAng="01.09.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12455" A_6="176" A_7="0" A_8="22" A_9="12455" A_11="12455" A_12="1246" A_13="12455" A_14="3114" />
+    <asiguratE1 E1_1="12455" E1_2="4360" E1_3="0" E1_4="0" E1_5="0" E1_6="8335" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12455" E3_9="4360" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="8335" E3_15="0" E3_16="8048" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2941006080026" idAsig="46" numeAsig="CENUSE" prenAsig="ADRIANA-ELENA" dataAng="19.07.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11109" A_6="176" A_7="0" A_8="22" A_9="11109" A_11="11109" A_12="1111" A_13="11109" A_14="2777" />
+    <asiguratE1 E1_1="11109" E1_2="3888" E1_3="0" E1_4="0" E1_5="0" E1_6="7485" E1_7="749" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11109" E3_9="3888" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7485" E3_15="749" E3_16="6472" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1870608080037" idAsig="47" numeAsig="CERCHEZ" prenAsig="CALIN-RADU" dataAng="04.10.2010" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13065" A_6="176" A_7="0" A_8="22" A_9="13065" A_11="13065" A_12="1307" A_13="13065" A_14="3266" />
+    <asiguratE1 E1_1="13065" E1_2="4573" E1_3="0" E1_4="0" E1_5="0" E1_6="8756" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13065" E3_9="4573" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8756" E3_15="0" E3_16="8492" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1960418080068" idAsig="48" numeAsig="CHELEMEN " prenAsig="CODRUT-ANDREI" dataAng="08.08.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="1931" A_6="136" A_7="0" A_8="17" A_9="1931" A_11="1931" A_12="193" A_13="1931" A_14="483" />
+    <asiguratE1 E1_1="1931" E1_2="676" E1_3="0" E1_4="220" E1_5="0" E1_6="1239" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="1931" E3_9="676" E3_10="204" E3_11="0" E3_12="220" E3_13="0" E3_14="1239" E3_15="0" E3_16="1255" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1810503080137" idAsig="49" numeAsig="CIOBANU" prenAsig="CIPRIAN" dataAng="06.12.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <coAsigurati tip="S" cnp="2820419080071" nume="CIOBANU" prenume="Cristina" />
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10837" A_6="176" A_7="0" A_8="22" A_9="10837" A_11="10837" A_12="1084" A_13="10837" A_14="2709" />
+    <asiguratE1 E1_1="10837" E1_2="3793" E1_3="1" E1_4="0" E1_5="0" E1_6="7248" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10837" E3_9="3793" E3_10="204" E3_11="1" E3_12="0" E3_13="0" E3_14="7248" E3_15="0" E3_16="7044" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1911224134191" idAsig="50" numeAsig="CIOBANU" prenAsig="STEFAN-EUGEN" dataAng="01.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="2611" A_6="176" A_7="0" A_8="22" A_9="2611" A_11="2611" A_12="261" A_13="2611" A_14="653" />
+    <asiguratE1 E1_1="2611" E1_2="914" E1_3="0" E1_4="80" E1_5="0" E1_6="1881" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="2611" E3_9="914" E3_10="264" E3_11="0" E3_12="80" E3_13="0" E3_14="1881" E3_15="0" E3_16="1697" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1800512262500" idAsig="51" numeAsig="CODARCEA" prenAsig="CRISTIAN-MIRCEA" dataAng="13.03.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <coAsigurati tip="S" cnp="2830307262508" nume="CODARCEA" prenume="Camelia-Victorita" />
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9567" A_6="176" A_7="0" A_8="22" A_9="9567" A_11="9567" A_12="957" A_13="9567" A_14="2392" />
+    <asiguratE1 E1_1="9567" E1_2="3349" E1_3="1" E1_4="0" E1_5="0" E1_6="6362" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9567" E3_9="3349" E3_10="144" E3_11="1" E3_12="0" E3_13="0" E3_14="6362" E3_15="0" E3_16="6144" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1800123051161" idAsig="52" numeAsig="COMAN" prenAsig="CALIN" dataAng="04.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10957" A_6="176" A_7="0" A_8="22" A_9="10957" A_11="10957" A_12="1096" A_13="10957" A_14="2739" />
+    <asiguratE1 E1_1="10957" E1_2="3835" E1_3="1" E1_4="0" E1_5="0" E1_6="7230" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10957" E3_9="3835" E3_10="108" E3_11="1" E3_12="0" E3_13="0" E3_14="7230" E3_15="0" E3_16="7122" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790322330775" idAsig="53" numeAsig="COMAN" prenAsig="COZMIN-CONSTANTIN" dataAng="19.01.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12429" A_6="176" A_7="0" A_8="22" A_9="12429" A_11="12429" A_12="1243" A_13="12429" A_14="3107" />
+    <asiguratE1 E1_1="12429" E1_2="4350" E1_3="0" E1_4="0" E1_5="0" E1_6="8343" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12429" E3_9="4350" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8343" E3_15="0" E3_16="7931" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1940308045371" idAsig="54" numeAsig="COMANICI" prenAsig="IONUT" dataAng="03.10.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8614" A_6="176" A_7="0" A_8="22" A_9="8614" A_11="8614" A_12="861" A_13="8614" A_14="2154" />
+    <asiguratE1 E1_1="8614" E1_2="3015" E1_3="0" E1_4="0" E1_5="0" E1_6="5863" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8614" E3_9="3015" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5863" E3_15="0" E3_16="5599" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1810710080078" idAsig="55" numeAsig="CONSTANTIN" prenAsig="BOGDAN ADRIAN" dataAng="04.09.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10829" A_6="176" A_7="0" A_8="22" A_9="10829" A_11="10829" A_12="1083" A_13="10829" A_14="2707" />
+    <asiguratE1 E1_1="10829" E1_2="3790" E1_3="0" E1_4="0" E1_5="0" E1_6="7303" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10829" E3_9="3790" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7303" E3_15="0" E3_16="7039" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1940825080081" idAsig="56" numeAsig="CORBOS" prenAsig="PAUL-SABIN" dataAng="21.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10222" A_6="176" A_7="0" A_8="22" A_9="10222" A_11="10222" A_12="1022" A_13="10222" A_14="2556" />
+    <asiguratE1 E1_1="10222" E1_2="3578" E1_3="0" E1_4="0" E1_5="0" E1_6="6848" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10222" E3_9="3578" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="6848" E3_15="0" E3_16="4644" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1821229313704" idAsig="57" numeAsig="CORDEA" prenAsig="CORNELIU-GEORGE" dataAng="10.12.2010" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="17731" A_6="176" A_7="0" A_8="22" A_9="17731" A_11="17731" A_12="1773" A_13="17731" A_14="4433" />
+    <asiguratE1 E1_1="17731" E1_2="6206" E1_3="0" E1_4="0" E1_5="0" E1_6="11765" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="17731" E3_9="6206" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="11765" E3_15="0" E3_16="11414" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1880330090036" idAsig="58" numeAsig="COVEI" prenAsig="ALEXANDRU" dataAng="03.01.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13770" A_6="176" A_7="0" A_8="22" A_9="13770" A_11="13770" A_12="1377" A_13="13770" A_14="3443" />
+    <asiguratE1 E1_1="13770" E1_2="4820" E1_3="0" E1_4="0" E1_5="0" E1_6="9202" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13770" E3_9="4820" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="9202" E3_15="0" E3_16="8913" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790430131237" idAsig="59" numeAsig="CRACIUN" prenAsig="CATALIN" dataAng="23.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13055" A_6="176" A_7="0" A_8="22" A_9="13055" A_11="13055" A_12="1306" A_13="13055" A_14="3264" />
+    <asiguratE1 E1_1="13055" E1_2="4570" E1_3="1" E1_4="0" E1_5="0" E1_6="8749" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13055" E3_9="4570" E3_10="264" E3_11="1" E3_12="0" E3_13="0" E3_14="8749" E3_15="0" E3_16="8374" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2770507080044" idAsig="60" numeAsig="CRISMAREANU" prenAsig="GIANINA" dataAng="01.03.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10810" A_6="176" A_7="0" A_8="22" A_9="10810" A_11="10810" A_12="1081" A_13="10810" A_14="2703" />
+    <asiguratE1 E1_1="10810" E1_2="3784" E1_3="1" E1_4="0" E1_5="0" E1_6="7026" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10810" E3_9="3784" E3_10="0" E3_11="1" E3_12="0" E3_13="0" E3_14="7026" E3_15="0" E3_16="7026" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930515080018" idAsig="61" numeAsig="CRISTEA " prenAsig="ROBERT-CRISTIAN" dataAng="22.12.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6289" A_6="176" A_7="0" A_8="22" A_9="6289" A_11="6289" A_12="629" A_13="6289" A_14="1572" />
+    <asiguratE1 E1_1="6289" E1_2="2201" E1_3="0" E1_4="0" E1_5="0" E1_6="4232" E1_7="423" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6289" E3_9="2201" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="4232" E3_15="423" E3_16="3665" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1841206080113" idAsig="62" numeAsig="CRISTOLOVEAN" prenAsig="NICOLAE" dataAng="01.05.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8565" A_6="176" A_7="0" A_8="22" A_9="8565" A_11="8565" A_12="857" A_13="8565" A_14="2141" />
+    <asiguratE1 E1_1="8565" E1_2="2998" E1_3="0" E1_4="0" E1_5="0" E1_6="5795" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8565" E3_9="2998" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="5795" E3_15="0" E3_16="5493" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1740318083466" idAsig="63" numeAsig="CRISTOLOVEAN" prenAsig="PETRU-ALEXE" dataAng="28.11.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12564" A_6="176" A_7="0" A_8="22" A_9="12564" A_11="12564" A_12="1256" A_13="12564" A_14="3141" />
+    <asiguratE1 E1_1="12564" E1_2="4397" E1_3="0" E1_4="0" E1_5="0" E1_6="8359" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12564" E3_9="4397" E3_10="192" E3_11="0" E3_12="0" E3_13="0" E3_14="8359" E3_15="0" E3_16="7959" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1860410284592" idAsig="64" numeAsig="CRIVINEANU" prenAsig="DUMITRU-CATALIN" dataAng="14.09.2010" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8688" A_6="176" A_7="0" A_8="22" A_9="8688" A_11="8688" A_12="869" A_13="8688" A_14="2172" />
+    <asiguratE1 E1_1="8688" E1_2="3041" E1_3="0" E1_4="0" E1_5="0" E1_6="5779" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8688" E3_9="3041" E3_10="132" E3_11="0" E3_12="0" E3_13="0" E3_14="5779" E3_15="0" E3_16="5647" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820818284545" idAsig="65" numeAsig="CURPEN" prenAsig="RADU" dataAng="30.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratB1 B1_1="1" B1_2="0" B1_3="N" B1_4="8" B1_5="10860" B1_6="176" B1_7="0" B1_8="0" B1_9="0" B1_10="10860" B1_15="17">
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="17" B2_3="0" B2_4="0" B2_5="8321" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="5" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="5" B3_7="2539" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="2539" B3_13="0" />
+    <asiguratB4 B4_1="17" B4_2="0" B4_3="10860" B4_5="8321" B4_6="832" B4_7="10860" B4_8="2106" B4_14="10860" />
+    <asiguratD D_1="CCMAK" D_2="3898231" D_5="27.08.2018" D_6="27.08.2018" D_7="31.08.2018" D_9="06" D_10="1" D_11="135" D_13="003966" D_14="5" D_15="0" D_16="5" D_17="62961" D_18="124" D_19="507.75" D_20="2539" D_21="0" D_23="06" />
+    <asiguratE1 E1_1="10860" E1_2="2938" E1_3="0" E1_4="0" E1_5="0" E1_6="8126" E1_7="0" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="10860" E3_9="2938" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="8126" E3_15="0" E3_16="7922" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1690127080102" idAsig="66" numeAsig="CURTU" prenAsig="IULIAN" dataAng="20.06.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5483" A_6="176" A_7="0" A_8="22" A_9="5483" A_11="5483" A_12="548" A_13="5483" A_14="1371" />
+    <asiguratE1 E1_1="5483" E1_2="1919" E1_3="0" E1_4="0" E1_5="0" E1_6="3828" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5483" E3_9="1919" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="3828" E3_15="0" E3_16="3564" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780130151785" idAsig="67" numeAsig="DAN" prenAsig="OVIDIU-GABRIEL" dataAng="01.08.2002" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="50371" A_6="176" A_7="0" A_8="22" A_9="50371" A_11="50371" A_12="5037" A_13="50371" A_14="12593" />
+    <asiguratE1 E1_1="50371" E1_2="17630" E1_3="0" E1_4="0" E1_5="0" E1_6="32861" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="50371" E3_9="17630" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="32861" E3_15="0" E3_16="32667" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1800808080029" idAsig="68" numeAsig="DANES" prenAsig="BOGDAN" dataAng="20.03.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11119" A_6="176" A_7="0" A_8="22" A_9="11119" A_11="11119" A_12="1112" A_13="11119" A_14="2780" />
+    <asiguratE1 E1_1="11119" E1_2="3892" E1_3="0" E1_4="0" E1_5="0" E1_6="7479" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11119" E3_9="3892" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="7479" E3_15="0" E3_16="7153" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2811109081838" idAsig="69" numeAsig="DAVIDESCU" prenAsig="CRISTINA-MIHAELA" dataAng="01.12.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7991" A_6="176" A_7="0" A_8="22" A_9="7991" A_11="7991" A_12="799" A_13="7991" A_14="1998" />
+    <asiguratE1 E1_1="7991" E1_2="2797" E1_3="0" E1_4="0" E1_5="0" E1_6="5398" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7991" E3_9="2797" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="5398" E3_15="0" E3_16="5083" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1890923141813" idAsig="70" numeAsig="DEMETER" prenAsig="ARON" dataAng="22.04.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5977" A_6="176" A_7="0" A_8="22" A_9="5977" A_11="5977" A_12="598" A_13="5977" A_14="1494" />
+    <asiguratE1 E1_1="5977" E1_2="2092" E1_3="0" E1_4="0" E1_5="0" E1_6="4137" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5977" E3_9="2092" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="4137" E3_15="0" E3_16="3885" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2800622080140" idAsig="71" numeAsig="DEMETER" prenAsig="MELINDA" dataAng="01.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10439" A_6="176" A_7="0" A_8="22" A_9="10439" A_11="10439" A_12="1044" A_13="10439" A_14="2610" />
+    <asiguratE1 E1_1="10439" E1_2="3654" E1_3="0" E1_4="0" E1_5="0" E1_6="7001" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10439" E3_9="3654" E3_10="216" E3_11="0" E3_12="0" E3_13="0" E3_14="7001" E3_15="0" E3_16="6785" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930130090034" idAsig="72" numeAsig="DINU" prenAsig="SORIN" dataAng="03.04.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7538" A_6="176" A_7="0" A_8="22" A_9="7538" A_11="7538" A_12="754" A_13="7538" A_14="1885" />
+    <asiguratE1 E1_1="7538" E1_2="2639" E1_3="0" E1_4="0" E1_5="0" E1_6="5163" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7538" E3_9="2639" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5163" E3_15="0" E3_16="4899" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2700707384205" idAsig="73" numeAsig="DIRVAREANU" prenAsig="MIHAELA-ELENA" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="16796" A_6="176" A_7="0" A_8="22" A_9="16796" A_11="16796" A_12="1680" A_13="16796" A_14="4199" />
+    <asiguratE1 E1_1="16796" E1_2="5879" E1_3="0" E1_4="0" E1_5="0" E1_6="11145" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="16796" E3_9="5879" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="11145" E3_15="0" E3_16="10917" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930106045352" idAsig="74" numeAsig="DOMOCOS" prenAsig="MIHAI-VALENTIN" dataAng="20.02.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8124" A_6="176" A_7="0" A_8="22" A_9="8124" A_11="8124" A_12="812" A_13="8124" A_14="2031" />
+    <asiguratE1 E1_1="8124" E1_2="2843" E1_3="0" E1_4="0" E1_5="0" E1_6="5533" E1_7="553" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8124" E3_9="2843" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="5533" E3_15="553" E3_16="4728" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1830926080057" idAsig="75" numeAsig="DONCA" prenAsig="ALEXANDRU-RADU" dataAng="29.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7378" A_6="176" A_7="0" A_8="22" A_9="7378" A_11="7378" A_12="738" A_13="7378" A_14="1845" />
+    <asiguratE1 E1_1="7378" E1_2="2583" E1_3="0" E1_4="0" E1_5="0" E1_6="5047" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7378" E3_9="2583" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="5047" E3_15="0" E3_16="4795" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1880827295327" idAsig="76" numeAsig="DRAGAN" prenAsig="DRAGOS-STEFAN" dataAng="03.10.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5218" A_6="176" A_7="0" A_8="22" A_9="5218" A_11="5218" A_12="522" A_13="5218" A_14="1305" />
+    <asiguratE1 E1_1="5218" E1_2="1827" E1_3="0" E1_4="0" E1_5="0" E1_6="3643" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5218" E3_9="1827" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="3643" E3_15="0" E3_16="3391" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2950123081662" idAsig="77" numeAsig="DRAGUT" prenAsig="IONELA" dataAng="01.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratB1 B1_1="1" B1_2="0" B1_3="N" B1_4="8" B1_5="1793" B1_6="0" B1_7="176" B1_8="0" B1_9="0" B1_10="0" B1_15="0">
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="0" B2_3="0" B2_4="0" B2_5="0" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="22" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="22" B3_7="1793" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="0" B3_13="1793" />
+    <asiguratB4 B4_1="0" B4_2="0" B4_3="0" B4_5="0" B4_6="0" B4_7="1793" B4_8="115" B4_14="1793" />
+    <asiguratD D_1="CCMAL" D_2="0361411" D_3="CCMAK" D_4="3760114" D_5="01.08.2018" D_6="01.08.2018" D_7="31.08.2018" D_9="08" D_10="1" D_13="658527" D_14="0" D_15="22" D_16="22" D_17="11888" D_18="124" D_19="95.88" D_20="0" D_21="1793" D_23="08" />
+    <asiguratE1 E1_1="1793" E1_2="115" E1_3="0" E1_4="250" E1_5="0" E1_6="0" E1_7="0" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="1793" E3_9="115" E3_10="0" E3_11="0" E3_12="250" E3_13="0" E3_14="0" E3_15="0" E3_16="1678" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2820909082203" idAsig="78" numeAsig="DUMITRESCU" prenAsig="FLAVIA-BIANCA" dataAng="01.10.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14547" A_6="176" A_7="0" A_8="22" A_9="14547" A_11="14547" A_12="1455" A_13="14547" A_14="3637" />
+    <asiguratE1 E1_1="14547" E1_2="5092" E1_3="0" E1_4="0" E1_5="0" E1_6="9635" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14547" E3_9="5092" E3_10="180" E3_11="0" E3_12="0" E3_13="0" E3_14="9635" E3_15="0" E3_16="8418" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1690701080107" idAsig="79" numeAsig="DUMITRESCU" prenAsig="SILVIU-RAZVAN" dataAng="14.11.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14099" A_6="176" A_7="0" A_8="22" A_9="14099" A_11="14099" A_12="1410" A_13="14099" A_14="3525" />
+    <asiguratE2 E2_1="14099" E2_2="4935" E2_3="9164" E2_4="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="2" E3_4="P" E3_8="14099" E3_9="4935" E3_10="0" E3_14="9164" E3_15="0" E3_16="9090" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2811231080041" idAsig="80" numeAsig="DUMITRU" prenAsig="EDITH-MIHAELA" dataAng="04.07.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13206" A_6="176" A_7="0" A_8="22" A_9="13206" A_11="13206" A_12="1321" A_13="13206" A_14="3302" />
+    <asiguratE1 E1_1="13206" E1_2="4623" E1_3="1" E1_4="0" E1_5="0" E1_6="8727" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13206" E3_9="4623" E3_10="144" E3_11="1" E3_12="0" E3_13="0" E3_14="8727" E3_15="0" E3_16="8546" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1800207036686" idAsig="81" numeAsig="DUMITRU" prenAsig="MARIUS-CATALIN" dataAng="13.10.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="16839" A_6="176" A_7="0" A_8="22" A_9="16839" A_11="16839" A_12="1684" A_13="16839" A_14="4210" />
+    <asiguratE1 E1_1="16839" E1_2="5894" E1_3="0" E1_4="0" E1_5="0" E1_6="11137" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="16839" E3_9="5894" E3_10="192" E3_11="0" E3_12="0" E3_13="0" E3_14="11137" E3_15="0" E3_16="10908" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1860218080013" idAsig="82" numeAsig="FARTADE" prenAsig="PAUL" dataAng="01.07.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6635" A_6="176" A_7="0" A_8="22" A_9="6635" A_11="6635" A_12="664" A_13="6635" A_14="1659" />
+    <asiguratE1 E1_1="6635" E1_2="2323" E1_3="0" E1_4="0" E1_5="0" E1_6="4552" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6635" E3_9="2323" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="4552" E3_15="0" E3_16="4312" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1721128082416" idAsig="83" numeAsig="FATU" prenAsig="ADRIAN" dataAng="06.06.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7629" A_6="176" A_7="0" A_8="22" A_9="7629" A_11="7629" A_12="763" A_13="7629" A_14="1907" />
+    <asiguratE1 E1_1="7629" E1_2="2670" E1_3="0" E1_4="0" E1_5="0" E1_6="5103" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7629" E3_9="2670" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="5103" E3_15="0" E3_16="4848" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1831002080010" idAsig="84" numeAsig="FERENCZ" prenAsig="BOGDAN" dataAng="06.05.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9102" A_6="176" A_7="0" A_8="22" A_9="9102" A_11="9102" A_12="910" A_13="9102" A_14="2276" />
+    <asiguratE1 E1_1="9102" E1_2="3186" E1_3="0" E1_4="0" E1_5="0" E1_6="6180" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9102" E3_9="3186" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="6180" E3_15="0" E3_16="5842" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790119332144" idAsig="85" numeAsig="FERENCZ" prenAsig="ELISABETA-PETRINA" dataAng="01.08.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8938" A_6="176" A_7="0" A_8="22" A_9="8938" A_11="8938" A_12="894" A_13="8938" A_14="2235" />
+    <asiguratE1 E1_1="8938" E1_2="3129" E1_3="0" E1_4="0" E1_5="0" E1_6="6073" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8938" E3_9="3129" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="6073" E3_15="0" E3_16="2809" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2931102080039" idAsig="86" numeAsig="FILIP" prenAsig="OANA" dataAng="01.03.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5844" A_6="176" A_7="0" A_8="22" A_9="5844" A_11="5844" A_12="584" A_13="5844" A_14="1461" />
+    <asiguratE1 E1_1="5844" E1_2="2045" E1_3="0" E1_4="0" E1_5="0" E1_6="4063" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5844" E3_9="2045" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="4063" E3_15="0" E3_16="3762" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2800803080174" idAsig="87" numeAsig="FRANCU" prenAsig="IULIANA-ALINA" dataAng="01.11.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10574" A_6="176" A_7="0" A_8="22" A_9="10574" A_11="10574" A_12="1057" A_13="10574" A_14="2644" />
+    <asiguratE1 E1_1="10574" E1_2="3701" E1_3="0" E1_4="0" E1_5="0" E1_6="7065" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10574" E3_9="3701" E3_10="192" E3_11="0" E3_12="0" E3_13="0" E3_14="7065" E3_15="0" E3_16="3373" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820105055096" idAsig="88" numeAsig="GARBA" prenAsig="MIHAI" dataAng="29.04.2008" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14672" A_6="176" A_7="0" A_8="22" A_9="14672" A_11="14672" A_12="1467" A_13="14672" A_14="3668" />
+    <asiguratE1 E1_1="14672" E1_2="5135" E1_3="0" E1_4="0" E1_5="0" E1_6="9657" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14672" E3_9="5135" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="9657" E3_15="0" E3_16="9463" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2920726082563" idAsig="89" numeAsig="GAROIU" prenAsig="OANA-ELENA" dataAng="23.02.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6801" A_6="176" A_7="0" A_8="22" A_9="6801" A_11="6801" A_12="680" A_13="6801" A_14="1700" />
+    <asiguratE1 E1_1="6801" E1_2="2380" E1_3="0" E1_4="0" E1_5="0" E1_6="4589" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6801" E3_9="2380" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="4589" E3_15="0" E3_16="4421" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2860622080027" idAsig="90" numeAsig="GODRI" prenAsig="IZABELLA" dataAng="01.11.2013" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5962" A_6="176" A_7="0" A_8="22" A_9="5962" A_11="5962" A_12="596" A_13="5962" A_14="1491" />
+    <asiguratE1 E1_1="5962" E1_2="2087" E1_3="0" E1_4="0" E1_5="0" E1_6="4079" E1_7="408" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5962" E3_9="2087" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="4079" E3_15="408" E3_16="3467" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1921116080043" idAsig="91" numeAsig="GOHOREANU" prenAsig="BOGDAN" dataAng="23.02.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="15000" A_6="176" A_7="0" A_8="22" A_9="15000" A_11="15000" A_12="1500" A_13="15000" A_14="3750" />
+    <asiguratE1 E1_1="15000" E1_2="5250" E1_3="0" E1_4="0" E1_5="0" E1_6="9750" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="15000" E3_9="5250" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="9750" E3_15="0" E3_16="9676" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790123193789" idAsig="92" numeAsig="GRAMA" prenAsig="CATALIN" dataAng="01.09.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13285" A_6="176" A_7="0" A_8="22" A_9="13285" A_11="13285" A_12="1329" A_13="13285" A_14="3321" />
+    <asiguratE1 E1_1="13285" E1_2="4650" E1_3="0" E1_4="0" E1_5="0" E1_6="8779" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13285" E3_9="4650" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="8779" E3_15="0" E3_16="8598" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930731045357" idAsig="93" numeAsig="GRIGORE" prenAsig="STEFAN" dataAng="04.09.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5674" A_6="176" A_7="0" A_8="22" A_9="5674" A_11="5674" A_12="567" A_13="5674" A_14="1419" />
+    <asiguratE1 E1_1="5674" E1_2="1986" E1_3="0" E1_4="0" E1_5="0" E1_6="3892" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5674" E3_9="1986" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="3892" E3_15="0" E3_16="3688" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2900731080012" idAsig="94" numeAsig="HADADE" prenAsig="ANCA VICTORIA" dataAng="02.02.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9393" A_6="176" A_7="0" A_8="22" A_9="9393" A_11="9393" A_12="939" A_13="9393" A_14="2348" />
+    <asiguratE1 E1_1="9393" E1_2="3287" E1_3="0" E1_4="0" E1_5="0" E1_6="6358" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9393" E3_9="3287" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="6358" E3_15="0" E3_16="6106" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2840823244036" idAsig="95" numeAsig="HALAUCA" prenAsig="LAURA-MIHAELA" dataAng="08.07.2013" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11476" A_6="176" A_7="0" A_8="22" A_9="11476" A_11="11476" A_12="1148" A_13="11476" A_14="2869" />
+    <asiguratE1 E1_1="11476" E1_2="4017" E1_3="0" E1_4="0" E1_5="0" E1_6="7687" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11476" E3_9="4017" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="7687" E3_15="0" E3_16="7459" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1850312060595" idAsig="96" numeAsig="HAPCA" prenAsig="VASILE-HORATIU" dataAng="30.07.2007" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="18610" A_6="176" A_7="0" A_8="22" A_9="18610" A_11="18610" A_12="1861" A_13="18610" A_14="4653" />
+    <asiguratE1 E1_1="18610" E1_2="6514" E1_3="0" E1_4="0" E1_5="0" E1_6="12336" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="18610" E3_9="6514" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="12336" E3_15="0" E3_16="11985" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2740923312956" idAsig="97" numeAsig="HERBAN" prenAsig="ANAMARIA" dataAng="03.07.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13434" A_6="176" A_7="0" A_8="22" A_9="13434" A_11="13434" A_12="1343" A_13="13434" A_14="3359" />
+    <asiguratE1 E1_1="13434" E1_2="4702" E1_3="1" E1_4="0" E1_5="0" E1_6="8876" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13434" E3_9="4702" E3_10="144" E3_11="1" E3_12="0" E3_13="0" E3_14="8876" E3_15="0" E3_16="8732" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1751019224501" idAsig="98" numeAsig="HOCIUNG" prenAsig="RADU-MIRCEA" dataAng="24.02.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9521" A_6="176" A_7="0" A_8="22" A_9="9521" A_11="9521" A_12="952" A_13="9521" A_14="2380" />
+    <asiguratE1 E1_1="9521" E1_2="3332" E1_3="0" E1_4="0" E1_5="0" E1_6="6393" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9521" E3_9="3332" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="6393" E3_15="0" E3_16="6078" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1761012080057" idAsig="99" numeAsig="HOMORACEANU" prenAsig="ADELIN-MARIAN" dataAng="01.08.2002" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="18503" A_6="176" A_7="0" A_8="22" A_9="18503" A_11="18503" A_12="1850" A_13="18503" A_14="4626" />
+    <asiguratE1 E1_1="18503" E1_2="6476" E1_3="0" E1_4="0" E1_5="0" E1_6="12135" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="18503" E3_9="6476" E3_10="108" E3_11="0" E3_12="0" E3_13="0" E3_14="12135" E3_15="0" E3_16="11767" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790817335035" idAsig="100" numeAsig="HOMORACEANU" prenAsig="CARMEN" dataAng="15.07.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7283" A_6="176" A_7="0" A_8="22" A_9="7283" A_11="7283" A_12="728" A_13="7283" A_14="1821" />
+    <asiguratE1 E1_1="7283" E1_2="2549" E1_3="0" E1_4="0" E1_5="0" E1_6="4842" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7283" E3_9="2549" E3_10="108" E3_11="0" E3_12="0" E3_13="0" E3_14="4842" E3_15="0" E3_16="4697" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1831125080021" idAsig="101" numeAsig="IFTENI" prenAsig="ADRIAN-STELIAN" dataAng="03.03.2008" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12917" A_6="176" A_7="0" A_8="22" A_9="12917" A_11="12917" A_12="1292" A_13="12917" A_14="3229" />
+    <asiguratE1 E1_1="12917" E1_2="4521" E1_3="0" E1_4="0" E1_5="0" E1_6="8480" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12917" E3_9="4521" E3_10="84" E3_11="0" E3_12="0" E3_13="0" E3_14="8480" E3_15="0" E3_16="8248" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1741107040088" idAsig="102" numeAsig="ILIESCU" prenAsig="MIHAI-IULIAN" dataAng="03.05.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11008" A_6="176" A_7="0" A_8="22" A_9="11008" A_11="11008" A_12="1101" A_13="11008" A_14="2752" />
+    <asiguratE1 E1_1="11008" E1_2="3853" E1_3="0" E1_4="0" E1_5="0" E1_6="7155" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11008" E3_9="3853" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="7155" E3_15="0" E3_16="7081" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1890111080074" idAsig="103" numeAsig="ION" prenAsig="ANDREI-COSMIN" dataAng="01.01.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="17054" A_6="176" A_7="0" A_8="22" A_9="17054" A_11="17054" A_12="1705" A_13="17054" A_14="4264" />
+    <asiguratE1 E1_1="17054" E1_2="5969" E1_3="0" E1_4="0" E1_5="0" E1_6="11349" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="17054" E3_9="5969" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="11349" E3_15="0" E3_16="11048" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1840805080015" idAsig="104" numeAsig="IONESCU" prenAsig="COSMIN-GEORGE" dataAng="01.05.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13599" A_6="176" A_7="0" A_8="22" A_9="13599" A_11="13599" A_12="1360" A_13="13599" A_14="3400" />
+    <asiguratE1 E1_1="13599" E1_2="4760" E1_3="0" E1_4="0" E1_5="0" E1_6="9019" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13599" E3_9="4760" E3_10="180" E3_11="0" E3_12="0" E3_13="0" E3_14="9019" E3_15="0" E3_16="8691" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1680607080136" idAsig="105" numeAsig="IORDACHE" prenAsig="DAN-HORIA" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10945" A_6="176" A_7="0" A_8="22" A_9="10945" A_11="10945" A_12="1095" A_13="10945" A_14="2736" />
+    <asiguratE1 E1_1="10945" E1_2="3831" E1_3="0" E1_4="0" E1_5="0" E1_6="7378" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10945" E3_9="3831" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7378" E3_15="0" E3_16="6949" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2960221297260" idAsig="106" numeAsig="IRIMIA" prenAsig="ALEXANDRA-GEORGIANA" dataAng="16.07.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="P4" A_4="8" A_5="2922" A_6="88" A_7="0" A_8="22" A_9="2922" A_11="2922" A_12="292" A_13="2922" A_14="731" />
+    <asiguratE1 E1_1="2922" E1_2="1023" E1_3="0" E1_4="20" E1_5="0" E1_6="2011" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="2922" E3_9="1023" E3_10="132" E3_11="0" E3_12="20" E3_13="0" E3_14="2011" E3_15="0" E3_16="1899" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2890206080086" idAsig="107" numeAsig="ISTRATESCU" prenAsig="RUXANDRA-IOANA" dataAng="01.08.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9986" A_6="176" A_7="0" A_8="22" A_9="9986" A_11="9986" A_12="999" A_13="9986" A_14="2497" />
+    <asiguratE1 E1_1="9986" E1_2="3496" E1_3="0" E1_4="0" E1_5="0" E1_6="6718" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9986" E3_9="3496" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="6718" E3_15="0" E3_16="6416" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1870606295600" idAsig="108" numeAsig="JALBA" prenAsig="LUCIAN" dataAng="19.07.2010" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13393" A_6="176" A_7="0" A_8="22" A_9="13393" A_11="13393" A_12="1339" A_13="13393" A_14="3348" />
+    <asiguratE1 E1_1="13393" E1_2="4687" E1_3="0" E1_4="0" E1_5="0" E1_6="8922" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13393" E3_9="4687" E3_10="216" E3_11="0" E3_12="0" E3_13="0" E3_14="8922" E3_15="0" E3_16="8706" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820806142950" idAsig="109" numeAsig="JOZSA BODNAR" prenAsig="ISTVAN" dataAng="03.11.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14211" A_6="176" A_7="0" A_8="22" A_9="14211" A_11="14211" A_12="1421" A_13="14211" A_14="3553" />
+    <asiguratE1 E1_1="14211" E1_2="4974" E1_3="0" E1_4="0" E1_5="0" E1_6="9405" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14211" E3_9="4974" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="9405" E3_15="0" E3_16="9237" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1950226080038" idAsig="110" numeAsig="KAJCSA" prenAsig="ERNO" dataAng="12.02.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="982" A_6="64" A_7="0" A_8="8" A_9="982" A_11="982" A_12="98" A_13="982" A_14="246" />
+    <asiguratE1 E1_1="982" E1_2="344" E1_3="0" E1_4="300" E1_5="0" E1_6="422" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="982" E3_9="344" E3_10="84" E3_11="0" E3_12="300" E3_13="0" E3_14="422" E3_15="0" E3_16="638" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780103190696" idAsig="111" numeAsig="KEMENES" prenAsig="ROBERT" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="15063" A_6="176" A_7="0" A_8="22" A_9="15063" A_11="15063" A_12="1506" A_13="15063" A_14="3766" />
+    <asiguratE1 E1_1="15063" E1_2="5272" E1_3="0" E1_4="0" E1_5="0" E1_6="10031" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="15063" E3_9="5272" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="10031" E3_15="0" E3_16="9791" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2880517190441" idAsig="112" numeAsig="KEMENES" prenAsig="SZENDE" dataAng="30.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6622" A_6="176" A_7="0" A_8="22" A_9="6622" A_11="6622" A_12="662" A_13="6622" A_14="1656" />
+    <asiguratE1 E1_1="6622" E1_2="2318" E1_3="0" E1_4="0" E1_5="0" E1_6="4544" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6622" E3_9="2318" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="4544" E3_15="0" E3_16="4304" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780412084451" idAsig="113" numeAsig="KISS" prenAsig="FERENC" dataAng="18.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <coAsigurati tip="S" cnp="2880312080051" nume="Kiss " prenume="Zita" />
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="50986" A_6="176" A_7="0" A_8="22" A_9="50986" A_11="50986" A_12="5099" A_13="50986" A_14="12747" />
+    <asiguratE1 E1_1="50986" E1_2="17846" E1_3="1" E1_4="0" E1_5="0" E1_6="33284" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="50986" E3_9="17846" E3_10="144" E3_11="1" E3_12="0" E3_13="0" E3_14="33284" E3_15="0" E3_16="33019" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2850801080073" idAsig="114" numeAsig="KOS" prenAsig="DANIELA" dataAng="15.08.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7465" A_6="176" A_7="0" A_8="22" A_9="7465" A_11="7465" A_12="747" A_13="7465" A_14="1866" />
+    <asiguratE1 E1_1="7465" E1_2="2613" E1_3="0" E1_4="0" E1_5="0" E1_6="5116" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7465" E3_9="2613" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5116" E3_15="0" E3_16="4778" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820113082367" idAsig="115" numeAsig="KOVACS" prenAsig="KRISZTIAN" dataAng="01.10.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14647" A_6="176" A_7="0" A_8="22" A_9="14647" A_11="14647" A_12="1465" A_13="14647" A_14="3662" />
+    <asiguratE1 E1_1="14647" E1_2="5127" E1_3="0" E1_4="0" E1_5="0" E1_6="9640" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14647" E3_9="5127" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="9640" E3_15="0" E3_16="9446" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2810711080031" idAsig="116" numeAsig="KOVACS" prenAsig="LAVINIA-ANDRA" dataAng="01.01.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9225" A_6="176" A_7="0" A_8="22" A_9="9225" A_11="9225" A_12="923" A_13="9225" A_14="2306" />
+    <asiguratE1 E1_1="9225" E1_2="3229" E1_3="0" E1_4="0" E1_5="0" E1_6="6260" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9225" E3_9="3229" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="6260" E3_15="0" E3_16="5996" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2930913080027" idAsig="117" numeAsig="LAVU" prenAsig="SARAH-LOUISE" dataAng="28.06.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9030" A_6="176" A_7="0" A_8="22" A_9="9030" A_11="9030" A_12="903" A_13="9030" A_14="2258" />
+    <asiguratE1 E1_1="9030" E1_2="3161" E1_3="0" E1_4="0" E1_5="0" E1_6="6109" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9030" E3_9="3161" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="6109" E3_15="0" E3_16="5869" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2780416131279" idAsig="118" numeAsig="LAZA" prenAsig="ANA-RAMONA" dataAng="06.03.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7956" A_6="176" A_7="0" A_8="22" A_9="7956" A_11="7956" A_12="796" A_13="7956" A_14="1989" />
+    <asiguratE1 E1_1="7956" E1_2="2785" E1_3="0" E1_4="0" E1_5="0" E1_6="5315" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7956" E3_9="2785" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="5315" E3_15="0" E3_16="5023" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2960520080016" idAsig="119" numeAsig="LAZAR" prenAsig="COSTINA" dataAng="24.02.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11459" A_6="176" A_7="0" A_8="22" A_9="11459" A_11="11459" A_12="1146" A_13="11459" A_14="2865" />
+    <asiguratE1 E1_1="11459" E1_2="4011" E1_3="0" E1_4="0" E1_5="0" E1_6="7676" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11459" E3_9="4011" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="7676" E3_15="0" E3_16="7448" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2780326243129" idAsig="120" numeAsig="LAZAR" prenAsig="MONICA-CRISTINA" dataAng="01.11.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <coAsigurati tip="S" cnp="1780730120011" nume="LAZAR" prenume="Gheorghe-Paul" />
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13092" A_6="176" A_7="0" A_8="22" A_9="13092" A_11="13092" A_12="1309" A_13="13092" A_14="3273" />
+    <asiguratE1 E1_1="13092" E1_2="4582" E1_3="1" E1_4="0" E1_5="0" E1_6="8702" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13092" E3_9="4582" E3_10="192" E3_11="1" E3_12="0" E3_13="0" E3_14="8702" E3_15="0" E3_16="8436" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1801014226718" idAsig="121" numeAsig="LEAHU" prenAsig="COSMIN-MIHAI" dataAng="16.01.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12279" A_6="176" A_7="0" A_8="22" A_9="12279" A_11="12279" A_12="1228" A_13="12279" A_14="3070" />
+    <asiguratE1 E1_1="12279" E1_2="4298" E1_3="0" E1_4="0" E1_5="0" E1_6="8197" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12279" E3_9="4298" E3_10="216" E3_11="0" E3_12="0" E3_13="0" E3_14="8197" E3_15="0" E3_16="7870" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790613030024" idAsig="122" numeAsig="LICA" prenAsig="IONUT-DANIEL" dataAng="04.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12600" A_6="176" A_7="0" A_8="22" A_9="12600" A_11="12600" A_12="1260" A_13="12600" A_14="3150" />
+    <asiguratE1 E1_1="12600" E1_2="4410" E1_3="0" E1_4="0" E1_5="0" E1_6="8394" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12600" E3_9="4410" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="8394" E3_15="0" E3_16="8190" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1900116080011" idAsig="123" numeAsig="LUCA" prenAsig="CATALIN-IOAN" dataAng="22.12.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7856" A_6="176" A_7="0" A_8="22" A_9="7856" A_11="7856" A_12="786" A_13="7856" A_14="1964" />
+    <asiguratE1 E1_1="7856" E1_2="2750" E1_3="0" E1_4="0" E1_5="0" E1_6="5106" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7856" E3_9="2750" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="5106" E3_15="0" E3_16="5106" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2850818080043" idAsig="124" numeAsig="LUNGU" prenAsig="ANDREEA" dataAng="17.07.2007" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11105" A_6="176" A_7="0" A_8="22" A_9="11105" A_11="11105" A_12="1111" A_13="11105" A_14="2776" />
+    <asiguratE1 E1_1="11105" E1_2="3887" E1_3="0" E1_4="0" E1_5="0" E1_6="7374" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11105" E3_9="3887" E3_10="156" E3_11="0" E3_12="0" E3_13="0" E3_14="7374" E3_15="0" E3_16="7218" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1641212080043" idAsig="125" numeAsig="LUNGU" prenAsig="GHEORGHE" dataAng="11.06.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6451" A_6="176" A_7="0" A_8="22" A_9="6451" A_11="6451" A_12="645" A_13="6451" A_14="1613" />
+    <asiguratE1 E1_1="6451" E1_2="2258" E1_3="0" E1_4="0" E1_5="0" E1_6="4457" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6451" E3_9="2258" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="4457" E3_15="0" E3_16="4193" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2791119080048" idAsig="126" numeAsig="MAERUT" prenAsig="IOANA-MADALINA" dataAng="01.10.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13403" A_6="176" A_7="0" A_8="22" A_9="13403" A_11="13403" A_12="1340" A_13="13403" A_14="3351" />
+    <asiguratE1 E1_1="13403" E1_2="4691" E1_3="0" E1_4="0" E1_5="0" E1_6="8976" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13403" E3_9="4691" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8976" E3_15="0" E3_16="8638" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2780101080033" idAsig="127" numeAsig="MANOLI" prenAsig="ANCA-CRISTINA" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratB1 B1_1="1" B1_2="0" B1_3="N" B1_4="8" B1_5="7514" B1_6="8" B1_7="168" B1_8="0" B1_9="0" B1_10="3357" B1_15="0">
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="0" B2_3="0" B2_4="0" B2_5="3357" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="12" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="12" B3_7="4157" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="0" B3_13="4157" />
+    <asiguratB4 B4_1="0" B4_2="0" B4_3="3357" B4_5="3357" B4_6="336" B4_7="7514" B4_8="902" B4_14="7514" />
+    <asiguratD D_1="CCMAK" D_2="3132198" D_3="CCMAK" D_4="3132111" D_5="01.08.2018" D_6="01.08.2018" D_7="19.08.2018" D_9="08" D_10="1" D_13="113181" D_14="0" D_15="12" D_16="12" D_17="50531" D_18="124" D_19="407.5" D_20="0" D_21="4157" D_23="08" />
+    <asiguratE1 E1_1="7514" E1_2="1238" E1_3="0" E1_4="0" E1_5="0" E1_6="2119" E1_7="0" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="7514" E3_9="1238" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="2119" E3_15="0" E3_16="6165" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2950803080040" idAsig="128" numeAsig="MARC" prenAsig="ADELINA-MARIA" dataAng="01.06.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="P4" A_4="8" A_5="3481" A_6="88" A_7="0" A_8="22" A_9="3481" A_11="3481" A_12="348" A_13="3481" A_14="870" />
+    <asiguratE1 E1_1="3481" E1_2="1218" E1_3="0" E1_4="0" E1_5="0" E1_6="2323" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="3481" E3_9="1218" E3_10="60" E3_11="0" E3_12="0" E3_13="0" E3_14="2323" E3_15="0" E3_16="2226" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820426080085" idAsig="129" numeAsig="MARCHIS" prenAsig="PAUL-CONSTANTIN" dataAng="01.01.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11288" A_6="176" A_7="0" A_8="22" A_9="11288" A_11="11288" A_12="1129" A_13="11288" A_14="2822" />
+    <asiguratE1 E1_1="11288" E1_2="3951" E1_3="0" E1_4="0" E1_5="0" E1_6="7457" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11288" E3_9="3951" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="7457" E3_15="0" E3_16="6383" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2940612297241" idAsig="130" numeAsig="MARCU " prenAsig="CATALINA-ELENA" dataAng="01.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6154" A_6="176" A_7="0" A_8="22" A_9="6154" A_11="6154" A_12="615" A_13="6154" A_14="1539" />
+    <asiguratE1 E1_1="6154" E1_2="2154" E1_3="0" E1_4="0" E1_5="0" E1_6="4156" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6154" E3_9="2154" E3_10="156" E3_11="0" E3_12="0" E3_13="0" E3_14="4156" E3_15="0" E3_16="4000" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2780504080052" idAsig="131" numeAsig="MARKOS" prenAsig="ILDIKO" dataAng="01.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8956" A_6="176" A_7="0" A_8="22" A_9="8956" A_11="8956" A_12="896" A_13="8956" A_14="2239" />
+    <asiguratE1 E1_1="8956" E1_2="3135" E1_3="0" E1_4="0" E1_5="0" E1_6="6013" E1_7="601" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8956" E3_9="3135" E3_10="192" E3_11="0" E3_12="0" E3_13="0" E3_14="6013" E3_15="601" E3_16="2609" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780729120766" idAsig="132" numeAsig="MARTA" prenAsig="MIHAI-STEFAN" dataAng="04.08.2008" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="15636" A_6="176" A_7="0" A_8="22" A_9="15636" A_11="15636" A_12="1564" A_13="15636" A_14="3909" />
+    <asiguratE1 E1_1="15636" E1_2="5473" E1_3="0" E1_4="0" E1_5="0" E1_6="10367" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="15636" E3_9="5473" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="10367" E3_15="0" E3_16="10089" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1870329080101" idAsig="133" numeAsig="MARTIAN" prenAsig="RAZVAN SERBAN" dataAng="26.05.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12777" A_6="176" A_7="0" A_8="22" A_9="12777" A_11="12777" A_12="1278" A_13="12777" A_14="3194" />
+    <asiguratE1 E1_1="12777" E1_2="4472" E1_3="0" E1_4="0" E1_5="0" E1_6="8569" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12777" E3_9="4472" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8569" E3_15="0" E3_16="8231" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2871213297255" idAsig="134" numeAsig="MARTIAN" prenAsig="SIMONA-ANDREEA" dataAng="03.01.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14575" A_6="176" A_7="0" A_8="22" A_9="14575" A_11="14575" A_12="1458" A_13="14575" A_14="3644" />
+    <asiguratE1 E1_1="14575" E1_2="5102" E1_3="0" E1_4="0" E1_5="0" E1_6="9737" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14575" E3_9="5102" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="9737" E3_15="0" E3_16="9362" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1920611314004" idAsig="135" numeAsig="MATE" prenAsig="TAMAS-LORINC" dataAng="02.06.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="16280" A_6="176" A_7="0" A_8="22" A_9="16280" A_11="16280" A_12="1628" A_13="16280" A_14="4070" />
+    <asiguratE1 E1_1="16280" E1_2="5698" E1_3="0" E1_4="0" E1_5="0" E1_6="10846" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="16280" E3_9="5698" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="10846" E3_15="0" E3_16="10582" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1900302294729" idAsig="136" numeAsig="MATEI" prenAsig="ALEXANDRU" dataAng="06.12.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="19039" A_6="176" A_7="0" A_8="22" A_9="19039" A_11="19039" A_12="1904" A_13="19039" A_14="4760" />
+    <asiguratE1 E1_1="19039" E1_2="6664" E1_3="0" E1_4="0" E1_5="0" E1_6="12375" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="19039" E3_9="6664" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="12375" E3_15="0" E3_16="12375" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2800213080127" idAsig="137" numeAsig="MATEI" prenAsig="IOANA-SIMONA" dataAng="23.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratB1 B1_1="1" B1_2="0" B1_3="N" B1_4="8" B1_5="9352" B1_6="40" B1_7="136" B1_8="0" B1_9="0" B1_10="2303" B1_15="2">
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="2" B2_3="0" B2_4="0" B2_5="1059" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="20" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="20" B3_7="8293" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="1244" B3_13="7049" />
+    <asiguratB4 B4_1="2" B4_2="0" B4_3="2303" B4_5="1059" B4_6="106" B4_7="9352" B4_8="369" B4_14="9352" />
+    <asiguratD D_1="CCMAK" D_2="3902895" D_5="21.08.2018" D_6="21.08.2018" D_7="31.08.2018" D_9="15" D_10="1" D_13="479636" D_14="0" D_15="9" D_16="9" D_17="68555" D_18="124" D_19="552.86" D_20="0" D_21="3732" D_23="RM" />
+    <asiguratD D_1="CCMAK" D_2="4102014" D_5="02.08.2018" D_6="02.08.2018" D_7="18.08.2018" D_9="01" D_10="2" D_13="d59874" D_14="3" D_15="8" D_16="11" D_17="68555" D_18="124" D_19="552.86" D_20="1244" D_21="3317" D_23="01" />
+    <asiguratE1 E1_1="9352" E1_2="475" E1_3="0" E1_4="0" E1_5="0" E1_6="5156" E1_7="0" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="9352" E3_9="475" E3_10="12" E3_11="0" E3_12="0" E3_13="0" E3_14="5156" E3_15="0" E3_16="8839" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1940620045371" idAsig="138" numeAsig="MICLOS" prenAsig="IOAN-ALEXANDRU" dataAng="01.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6154" A_6="176" A_7="0" A_8="22" A_9="6154" A_11="6154" A_12="615" A_13="6154" A_14="1539" />
+    <asiguratE1 E1_1="6154" E1_2="2154" E1_3="0" E1_4="0" E1_5="0" E1_6="4264" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6154" E3_9="2154" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="4264" E3_15="0" E3_16="4000" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1761127081967" idAsig="139" numeAsig="MIHAILA" prenAsig="CATALIN-VASILE" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13459" A_6="176" A_7="0" A_8="22" A_9="13459" A_11="13459" A_12="1346" A_13="13459" A_14="3365" />
+    <asiguratE1 E1_1="13459" E1_2="4711" E1_3="0" E1_4="0" E1_5="0" E1_6="8964" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13459" E3_9="4711" E3_10="216" E3_11="0" E3_12="0" E3_13="0" E3_14="8964" E3_15="0" E3_16="8748" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790714080010" idAsig="140" numeAsig="MIHAILA" prenAsig="DELIA" dataAng="01.08.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10931" A_6="176" A_7="0" A_8="22" A_9="10931" A_11="10931" A_12="1093" A_13="10931" A_14="2733" />
+    <asiguratE1 E1_1="10931" E1_2="3826" E1_3="0" E1_4="0" E1_5="0" E1_6="7309" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10931" E3_9="3826" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="7309" E3_15="0" E3_16="7105" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1760901081968" idAsig="141" numeAsig="MIHAILA" prenAsig="GEORGE-GABRIEL" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12271" A_6="176" A_7="0" A_8="22" A_9="12271" A_11="12271" A_12="1227" A_13="12271" A_14="3068" />
+    <asiguratE1 E1_1="12271" E1_2="4295" E1_3="0" E1_4="0" E1_5="0" E1_6="8240" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12271" E3_9="4295" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8240" E3_15="0" E3_16="7976" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2721001080041" idAsig="142" numeAsig="MILU" prenAsig="LAURA-FLORENTINA" dataAng="13.06.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5968" A_6="176" A_7="0" A_8="22" A_9="5968" A_11="5968" A_12="597" A_13="5968" A_14="1492" />
+    <asiguratE1 E1_1="5968" E1_2="2089" E1_3="0" E1_4="0" E1_5="0" E1_6="4131" E1_7="413" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5968" E3_9="2089" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="4131" E3_15="413" E3_16="3466" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1800625295329" idAsig="143" numeAsig="MIRZA" prenAsig="GABRIEL-ALEXANDRU" dataAng="20.03.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9442" A_6="176" A_7="0" A_8="22" A_9="9442" A_11="9442" A_12="944" A_13="9442" A_14="2361" />
+    <asiguratE1 E1_1="9442" E1_2="3305" E1_3="0" E1_4="0" E1_5="0" E1_6="6377" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9442" E3_9="3305" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="6377" E3_15="0" E3_16="6100" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2691104080050" idAsig="144" numeAsig="MITREA" prenAsig="ADINA-VOICHITA" dataAng="01.05.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5305" A_6="176" A_7="0" A_8="22" A_9="5305" A_11="5305" A_12="531" A_13="5305" A_14="1326" />
+    <asiguratE1 E1_1="5305" E1_2="1857" E1_3="0" E1_4="0" E1_5="0" E1_6="3712" E1_7="371" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5305" E3_9="1857" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="3712" E3_15="371" E3_16="3003" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2780122080045" idAsig="145" numeAsig="MOJA" prenAsig="AURA" dataAng="30.08.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratB1 B1_1="1" B1_2="0" B1_3="N" B1_4="8" B1_5="10973" B1_6="0" B1_7="176" B1_8="0" B1_9="0" B1_10="0" B1_15="0">
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="0" B2_3="0" B2_4="0" B2_5="0" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="20" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="20" B3_7="10973" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="0" B3_13="10973" />
+    <asiguratB4 B4_1="0" B4_2="0" B4_3="0" B4_5="0" B4_6="0" B4_7="10973" B4_8="105" B4_14="10973" />
+    <asiguratD D_1="CCMAK" D_2="4494273" D_3="CCMAK" D_4="3252466" D_5="01.08.2018" D_6="01.08.2018" D_7="29.08.2018" D_9="08" D_10="1" D_13="028155" D_14="0" D_15="20" D_16="20" D_17="80038" D_18="124" D_19="645.47" D_20="0" D_21="10973" D_23="08" />
+    <asiguratE1 E1_1="10973" E1_2="105" E1_3="0" E1_4="0" E1_5="0" E1_6="0" E1_7="0" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="10973" E3_9="105" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="0" E3_15="0" E3_16="10868" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2800715080024" idAsig="146" numeAsig="MOLDOVAN" prenAsig="ROXANA-MIHAELA" dataAng="10.10.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5085" A_6="176" A_7="0" A_8="22" A_9="5085" A_11="5085" A_12="509" A_13="5085" A_14="1271" />
+    <asiguratE1 E1_1="5085" E1_2="1780" E1_3="0" E1_4="0" E1_5="0" E1_6="3449" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5085" E3_9="1780" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="3449" E3_15="0" E3_16="3157" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790219044442" idAsig="147" numeAsig="MOLEAVIN" prenAsig="LUCIAN-VALENTIN" dataAng="01.10.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="38372" A_6="176" A_7="0" A_8="22" A_9="38372" A_11="38372" A_12="3837" A_13="38372" A_14="9593" />
+    <asiguratE1 E1_1="38372" E1_2="13430" E1_3="0" E1_4="0" E1_5="0" E1_6="25086" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="38372" E3_9="13430" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="25086" E3_15="0" E3_16="24905" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780502141036" idAsig="148" numeAsig="MOMOIU" prenAsig="MARIUS-MIHAI" dataAng="15.09.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <coAsigurati tip="S" cnp="2800905324824" nume="SERBAN" prenume="Aurelia-Maria" />
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11682" A_6="176" A_7="0" A_8="22" A_9="11682" A_11="11682" A_12="1168" A_13="11682" A_14="2921" />
+    <asiguratE1 E1_1="11682" E1_2="4089" E1_3="1" E1_4="0" E1_5="0" E1_6="7593" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11682" E3_9="4089" E3_10="0" E3_11="1" E3_12="0" E3_13="0" E3_14="7593" E3_15="0" E3_16="7519" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2950110044876" idAsig="149" numeAsig="MONACU" prenAsig="LARISA" dataAng="08.08.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="1931" A_6="136" A_7="0" A_8="17" A_9="1931" A_11="1931" A_12="193" A_13="1931" A_14="483" />
+    <asiguratE1 E1_1="1931" E1_2="676" E1_3="0" E1_4="220" E1_5="0" E1_6="1239" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="1931" E3_9="676" E3_10="204" E3_11="0" E3_12="220" E3_13="0" E3_14="1239" E3_15="0" E3_16="1255" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1840822080069" idAsig="150" numeAsig="MOROSANU" prenAsig="CONSTANTIN-DAN" dataAng="05.05.2008" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14169" A_6="176" A_7="0" A_8="22" A_9="14169" A_11="14169" A_12="1417" A_13="14169" A_14="3542" />
+    <asiguratE1 E1_1="14169" E1_2="4959" E1_3="0" E1_4="0" E1_5="0" E1_6="9378" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14169" E3_9="4959" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="9378" E3_15="0" E3_16="9099" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2801201262539" idAsig="151" numeAsig="MOROSANU" prenAsig="SILVIA-COSMINA" dataAng="01.08.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11452" A_6="176" A_7="0" A_8="22" A_9="11452" A_11="11452" A_12="1145" A_13="11452" A_14="2863" />
+    <asiguratE1 E1_1="11452" E1_2="4008" E1_3="0" E1_4="0" E1_5="0" E1_6="7636" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11452" E3_9="4008" E3_10="192" E3_11="0" E3_12="0" E3_13="0" E3_14="7636" E3_15="0" E3_16="7370" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1610410080146" idAsig="152" numeAsig="MUCHA" prenAsig="MIRCEA" dataAng="01.08.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11893" A_6="176" A_7="0" A_8="22" A_9="11893" A_11="11893" A_12="1189" A_13="11893" A_14="2973" />
+    <asiguratE1 E1_1="11893" E1_2="4162" E1_3="0" E1_4="0" E1_5="0" E1_6="7863" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11893" E3_9="4162" E3_10="132" E3_11="0" E3_12="0" E3_13="0" E3_14="7863" E3_15="0" E3_16="7487" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820217125835" idAsig="153" numeAsig="MURESAN" prenAsig="ADRIAN-RADU" dataAng="07.01.2015" casaSn="CJ" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12305" A_6="176" A_7="0" A_8="22" A_9="12305" A_11="12305" A_12="1231" A_13="12305" A_14="3076" />
+    <asiguratE1 E1_1="12305" E1_2="4307" E1_3="0" E1_4="0" E1_5="0" E1_6="8262" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12305" E3_9="4307" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8262" E3_15="0" E3_16="7998" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1860207080074" idAsig="154" numeAsig="NAGO" prenAsig="ALEXANDRU-MIHALY" dataAng="02.08.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11488" A_6="176" A_7="0" A_8="22" A_9="11488" A_11="11488" A_12="1149" A_13="11488" A_14="2872" />
+    <asiguratE1 E1_1="11488" E1_2="4021" E1_3="0" E1_4="0" E1_5="0" E1_6="7731" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11488" E3_9="4021" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7731" E3_15="0" E3_16="7467" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1950701080023" idAsig="155" numeAsig="NAITA" prenAsig="ALEXANDRU" dataAng="08.08.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="1931" A_6="136" A_7="0" A_8="17" A_9="1931" A_11="1931" A_12="193" A_13="1931" A_14="483" />
+    <asiguratE1 E1_1="1931" E1_2="676" E1_3="0" E1_4="220" E1_5="0" E1_6="1239" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="1931" E3_9="676" E3_10="204" E3_11="0" E3_12="220" E3_13="0" E3_14="1239" E3_15="0" E3_16="1255" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1671016080113" idAsig="156" numeAsig="NEAGU" prenAsig="GABRIEL" dataAng="30.05.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10527" A_6="176" A_7="0" A_8="22" A_9="10527" A_11="10527" A_12="1053" A_13="10527" A_14="2632" />
+    <asiguratE1 E1_1="10527" E1_2="3685" E1_3="0" E1_4="0" E1_5="0" E1_6="7022" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10527" E3_9="3685" E3_10="180" E3_11="0" E3_12="0" E3_13="0" E3_14="7022" E3_15="0" E3_16="6768" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1861013080072" idAsig="157" numeAsig="NEGHINA" prenAsig="VLAD" dataAng="16.10.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10492" A_6="176" A_7="0" A_8="22" A_9="10492" A_11="10492" A_12="1049" A_13="10492" A_14="2623" />
+    <asiguratE1 E1_1="10492" E1_2="3672" E1_3="0" E1_4="0" E1_5="0" E1_6="6988" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10492" E3_9="3672" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="6988" E3_15="0" E3_16="6820" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2950610080016" idAsig="158" numeAsig="NICOLESCU" prenAsig="ANDRADA-ELENA" dataAng="08.08.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="1931" A_6="136" A_7="0" A_8="17" A_9="1931" A_11="1931" A_12="193" A_13="1931" A_14="483" />
+    <asiguratE1 E1_1="1931" E1_2="676" E1_3="0" E1_4="220" E1_5="0" E1_6="1239" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="1931" E3_9="676" E3_10="204" E3_11="0" E3_12="220" E3_13="0" E3_14="1239" E3_15="0" E3_16="1255" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2940626080028" idAsig="159" numeAsig="NICOLESCU" prenAsig="CATALINA-MARIA" dataAng="08.08.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="1931" A_6="136" A_7="0" A_8="17" A_9="1931" A_11="1931" A_12="193" A_13="1931" A_14="483" />
+    <asiguratE1 E1_1="1931" E1_2="676" E1_3="0" E1_4="220" E1_5="0" E1_6="1239" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="1931" E3_9="676" E3_10="204" E3_11="0" E3_12="220" E3_13="0" E3_14="1239" E3_15="0" E3_16="1255" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1760925081961" idAsig="160" numeAsig="NISTOR" prenAsig="ALIN-STEFAN" dataAng="09.08.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14719" A_6="176" A_7="0" A_8="22" A_9="14719" A_11="14719" A_12="1472" A_13="14719" A_14="3680" />
+    <asiguratE1 E1_1="14719" E1_2="5152" E1_3="0" E1_4="0" E1_5="0" E1_6="9795" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14719" E3_9="5152" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="9795" E3_15="0" E3_16="9456" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1831028296613" idAsig="161" numeAsig="NISTORESCU" prenAsig="DAN-ALEXANDRU" dataAng="14.07.2008" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10321" A_6="176" A_7="0" A_8="22" A_9="10321" A_11="10321" A_12="1032" A_13="10321" A_14="2580" />
+    <asiguratE1 E1_1="10321" E1_2="3612" E1_3="0" E1_4="0" E1_5="0" E1_6="6961" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10321" E3_9="3612" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="6961" E3_15="0" E3_16="6635" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1600626400059" idAsig="162" numeAsig="NITA" prenAsig="BOGDAN-CALIN" dataAng="23.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10690" A_6="176" A_7="0" A_8="22" A_9="10690" A_11="10690" A_12="1069" A_13="10690" A_14="2673" />
+    <asiguratE1 E1_1="10690" E1_2="3742" E1_3="0" E1_4="0" E1_5="0" E1_6="7200" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10690" E3_9="3742" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="7200" E3_15="0" E3_16="6911" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930729080046" idAsig="163" numeAsig="NUTIU" prenAsig="COSMIN" dataAng="05.07.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8007" A_6="176" A_7="0" A_8="22" A_9="8007" A_11="8007" A_12="801" A_13="8007" A_14="2002" />
+    <asiguratE1 E1_1="8007" E1_2="2803" E1_3="0" E1_4="0" E1_5="0" E1_6="5468" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8007" E3_9="2803" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5468" E3_15="0" E3_16="5204" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2691009084471" idAsig="164" numeAsig="OPREA" prenAsig="ANA" dataAng="09.08.2002" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="42267" A_6="176" A_7="0" A_8="22" A_9="42267" A_11="42267" A_12="4227" A_13="42267" A_14="10567" />
+    <asiguratE1 E1_1="42267" E1_2="14794" E1_3="0" E1_4="0" E1_5="0" E1_6="27593" E1_7="2759" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="42267" E3_9="14794" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="27593" E3_15="2759" E3_16="24677" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2960723297256" idAsig="165" numeAsig="OPREA" prenAsig="MARIA-ALEXANDRA" dataAng="16.07.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="P4" A_4="8" A_5="2922" A_6="88" A_7="0" A_8="22" A_9="2922" A_11="2922" A_12="292" A_13="2922" A_14="731" />
+    <asiguratE1 E1_1="2922" E1_2="1023" E1_3="0" E1_4="20" E1_5="0" E1_6="2011" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="2922" E3_9="1023" E3_10="132" E3_11="0" E3_12="20" E3_13="0" E3_14="2011" E3_15="0" E3_16="1899" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1910422082561" idAsig="166" numeAsig="PANGA" prenAsig="GHEORGHE" dataAng="25.08.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7885" A_6="176" A_7="0" A_8="22" A_9="7885" A_11="7885" A_12="789" A_13="7885" A_14="1971" />
+    <asiguratE1 E1_1="7885" E1_2="2760" E1_3="0" E1_4="0" E1_5="0" E1_6="5389" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7885" E3_9="2760" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5389" E3_15="0" E3_16="5125" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1920827080021" idAsig="167" numeAsig="PAPOI" prenAsig="ALEXANDRU" dataAng="02.03.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7217" A_6="176" A_7="0" A_8="22" A_9="7217" A_11="7217" A_12="722" A_13="7217" A_14="1804" />
+    <asiguratE1 E1_1="7217" E1_2="2526" E1_3="0" E1_4="0" E1_5="0" E1_6="4907" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7217" E3_9="2526" E3_10="216" E3_11="0" E3_12="0" E3_13="0" E3_14="4907" E3_15="0" E3_16="4691" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1810303324866" idAsig="168" numeAsig="PARVU" prenAsig="CIPRIAN-IOAN" dataAng="10.07.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12253" A_6="176" A_7="0" A_8="22" A_9="12253" A_11="12253" A_12="1225" A_13="12253" A_14="3063" />
+    <asiguratE1 E1_1="12253" E1_2="4288" E1_3="0" E1_4="0" E1_5="0" E1_6="8085" E1_7="809" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12253" E3_9="4288" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="8085" E3_15="809" E3_16="7082" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2821117160033" idAsig="169" numeAsig="PAUNOIU" prenAsig="CORALIA-VICTORITA" dataAng="04.01.2011" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13716" A_6="176" A_7="0" A_8="22" A_9="13716" A_11="13716" A_12="1372" A_13="13716" A_14="3429" />
+    <asiguratE1 E1_1="13716" E1_2="4801" E1_3="0" E1_4="0" E1_5="0" E1_6="9083" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13716" E3_9="4801" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="9083" E3_15="0" E3_16="8878" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1900411410163" idAsig="170" numeAsig="PETRACHI" prenAsig="ARTIOM" dataAng="01.11.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5582" A_6="176" A_7="0" A_8="22" A_9="5582" A_11="5582" A_12="558" A_13="5582" A_14="1396" />
+    <asiguratE1 E1_1="5582" E1_2="1954" E1_3="0" E1_4="0" E1_5="0" E1_6="3832" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5582" E3_9="1954" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="3832" E3_15="0" E3_16="3554" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1800925080051" idAsig="171" numeAsig="PETRICA" prenAsig="GABRIEL" dataAng="16.07.2007" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7982" A_6="176" A_7="0" A_8="22" A_9="7982" A_11="7982" A_12="798" A_13="7982" A_14="1996" />
+    <asiguratE1 E1_1="7982" E1_2="2794" E1_3="0" E1_4="0" E1_5="0" E1_6="5452" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7982" E3_9="2794" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5452" E3_15="0" E3_16="5188" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2800709080038" idAsig="172" numeAsig="PODOREANU" prenAsig="RALUCA-MARIA" dataAng="01.10.2012" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8439" A_6="176" A_7="0" A_8="22" A_9="8439" A_11="8439" A_12="844" A_13="8439" A_14="2110" />
+    <asiguratE1 E1_1="8439" E1_2="2954" E1_3="0" E1_4="0" E1_5="0" E1_6="5641" E1_7="564" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8439" E3_9="2954" E3_10="156" E3_11="0" E3_12="0" E3_13="0" E3_14="5641" E3_15="564" E3_16="4884" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1890108125811" idAsig="173" numeAsig="POJAR" prenAsig="CATALIN" dataAng="22.10.2012" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9907" A_6="176" A_7="0" A_8="22" A_9="9907" A_11="9907" A_12="991" A_13="9907" A_14="2477" />
+    <asiguratE1 E1_1="9907" E1_2="3468" E1_3="0" E1_4="0" E1_5="0" E1_6="6703" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9907" E3_9="3468" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="6703" E3_15="0" E3_16="6439" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1810525080053" idAsig="174" numeAsig="POLEXA" prenAsig="RADU-FLORIN" dataAng="01.06.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="20506" A_6="176" A_7="0" A_8="22" A_9="20506" A_11="20506" A_12="2051" A_13="20506" A_14="5127" />
+    <asiguratE1 E1_1="20506" E1_2="7178" E1_3="0" E1_4="0" E1_5="0" E1_6="13520" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="20506" E3_9="7178" E3_10="192" E3_11="0" E3_12="0" E3_13="0" E3_14="13520" E3_15="0" E3_16="13254" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2910924125811" idAsig="175" numeAsig="POP" prenAsig="RALUCA-IRINA" dataAng="06.02.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10022" A_6="176" A_7="0" A_8="22" A_9="10022" A_11="10022" A_12="1002" A_13="10022" A_14="2506" />
+    <asiguratE1 E1_1="10022" E1_2="3508" E1_3="0" E1_4="0" E1_5="0" E1_6="6706" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10022" E3_9="3508" E3_10="192" E3_11="0" E3_12="0" E3_13="0" E3_14="6706" E3_15="0" E3_16="6514" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2930323080047" idAsig="176" numeAsig="POPA" prenAsig="ADELINA-EUGENIA" dataAng="16.05.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10420" A_6="176" A_7="0" A_8="22" A_9="10420" A_11="10420" A_12="1042" A_13="10420" A_14="2605" />
+    <asiguratE1 E1_1="10420" E1_2="3647" E1_3="0" E1_4="0" E1_5="0" E1_6="7037" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10420" E3_9="3647" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7037" E3_15="0" E3_16="6773" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1750505080091" idAsig="177" numeAsig="POPA" prenAsig="ALEXANDRU-STEFAN" dataAng="09.01.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="15278" A_6="176" A_7="0" A_8="22" A_9="15278" A_11="15278" A_12="1528" A_13="15278" A_14="3820" />
+    <asiguratE1 E1_1="15278" E1_2="5348" E1_3="2" E1_4="0" E1_5="0" E1_6="10026" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="15278" E3_9="5348" E3_10="96" E3_11="2" E3_12="0" E3_13="0" E3_14="10026" E3_15="0" E3_16="9782" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2781014080069" idAsig="178" numeAsig="POPA" prenAsig="NICOLETA" dataAng="01.02.2012" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8439" A_6="176" A_7="0" A_8="22" A_9="8439" A_11="8439" A_12="844" A_13="8439" A_14="2110" />
+    <asiguratE1 E1_1="8439" E1_2="2954" E1_3="0" E1_4="0" E1_5="0" E1_6="5593" E1_7="559" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8439" E3_9="2954" E3_10="108" E3_11="0" E3_12="0" E3_13="0" E3_14="5593" E3_15="559" E3_16="4815" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1910725080014" idAsig="179" numeAsig="POPA" prenAsig="OVIDIU MIHAI" dataAng="02.06.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14378" A_6="176" A_7="0" A_8="22" A_9="14378" A_11="14378" A_12="1438" A_13="14378" A_14="3595" />
+    <asiguratE1 E1_1="14378" E1_2="5033" E1_3="0" E1_4="0" E1_5="0" E1_6="9597" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14378" E3_9="5033" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="9597" E3_15="0" E3_16="9345" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2750516080040" idAsig="180" numeAsig="POPA" prenAsig="RALUCA-PAULA" dataAng="03.12.2012" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6444" A_6="176" A_7="0" A_8="22" A_9="6444" A_11="6444" A_12="644" A_13="6444" A_14="1611" />
+    <asiguratE1 E1_1="6444" E1_2="2255" E1_3="0" E1_4="0" E1_5="0" E1_6="4417" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6444" E3_9="2255" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="4417" E3_15="0" E3_16="4152" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2900122080106" idAsig="181" numeAsig="PRICOPE" prenAsig="ALEXANDRA" dataAng="17.07.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7485" A_6="176" A_7="0" A_8="22" A_9="7485" A_11="7485" A_12="749" A_13="7485" A_14="1871" />
+    <asiguratE1 E1_1="7485" E1_2="2620" E1_3="0" E1_4="0" E1_5="0" E1_6="5009" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7485" E3_9="2620" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="5009" E3_15="0" E3_16="4828" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1791016267391" idAsig="182" numeAsig="PURCAREA" prenAsig="RAUL-CIPRIAN" dataAng="03.11.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11014" A_6="176" A_7="0" A_8="22" A_9="11014" A_11="11014" A_12="1101" A_13="11014" A_14="2754" />
+    <asiguratE1 E1_1="11014" E1_2="3855" E1_3="0" E1_4="0" E1_5="0" E1_6="7315" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11014" E3_9="3855" E3_10="156" E3_11="0" E3_12="0" E3_13="0" E3_14="7315" E3_15="0" E3_16="7159" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2930701080010" idAsig="183" numeAsig="PUSCOI" prenAsig="CYNTHIA-IULIANA" dataAng="28.06.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10666" A_6="176" A_7="0" A_8="22" A_9="10666" A_11="10666" A_12="1067" A_13="10666" A_14="2667" />
+    <asiguratE1 E1_1="10666" E1_2="3734" E1_3="0" E1_4="0" E1_5="0" E1_6="7196" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10666" E3_9="3734" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7196" E3_15="0" E3_16="6932" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1721017080031" idAsig="184" numeAsig="RASNOVEANU" prenAsig="FLORIN-IONUT" dataAng="01.04.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5113" A_6="176" A_7="0" A_8="22" A_9="5113" A_11="5113" A_12="511" A_13="5113" A_14="1278" />
+    <asiguratE1 E1_1="5113" E1_2="1789" E1_3="1" E1_4="0" E1_5="0" E1_6="3516" E1_7="352" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5113" E3_9="1789" E3_10="192" E3_11="1" E3_12="0" E3_13="0" E3_14="3516" E3_15="352" E3_16="2882" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1771206080138" idAsig="185" numeAsig="ROBU" prenAsig="DAN-NICOLAE" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="P1" A_4="8" A_5="1278" A_6="22" A_7="0" A_8="22" A_9="1278" A_11="1278" A_12="128" A_13="1278" A_14="320" />
+    <asiguratE2 E2_1="1278" E2_2="448" E2_3="830" E2_4="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="2" E3_4="P" E3_8="1278" E3_9="448" E3_10="0" E3_14="830" E3_15="0" E3_16="719" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780724080104" idAsig="186" numeAsig="RUSU" prenAsig="ALEXANDRU-FLORIN" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="19913" A_6="176" A_7="0" A_8="22" A_9="19913" A_11="19913" A_12="1991" A_13="19913" A_14="4978" />
+    <asiguratE1 E1_1="19913" E1_2="6969" E1_3="0" E1_4="0" E1_5="0" E1_6="13028" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="19913" E3_9="6969" E3_10="84" E3_11="0" E3_12="0" E3_13="0" E3_14="13028" E3_15="0" E3_16="12757" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1721003080061" idAsig="187" numeAsig="SALAJAN" prenAsig="ADRIAN-GHEORGHE" dataAng="14.02.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5094" A_6="176" A_7="0" A_8="22" A_9="5094" A_11="5094" A_12="509" A_13="5094" A_14="1274" />
+    <asiguratE1 E1_1="5094" E1_2="1783" E1_3="0" E1_4="0" E1_5="0" E1_6="3419" E1_7="342" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5094" E3_9="1783" E3_10="108" E3_11="0" E3_12="0" E3_13="0" E3_14="3419" E3_15="342" E3_16="2755" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1740927080019" idAsig="188" numeAsig="SANCU" prenAsig="CIPRIAN-TEODOR" dataAng="12.09.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7880" A_6="176" A_7="0" A_8="22" A_9="7880" A_11="7880" A_12="788" A_13="7880" A_14="1970" />
+    <asiguratE1 E1_1="7880" E1_2="2758" E1_3="0" E1_4="0" E1_5="0" E1_6="5302" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7880" E3_9="2758" E3_10="180" E3_11="0" E3_12="0" E3_13="0" E3_14="5302" E3_15="0" E3_16="5085" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1911217260062" idAsig="189" numeAsig="SANDOR-POP" prenAsig="RAZVAN" dataAng="19.05.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9690" A_6="176" A_7="0" A_8="22" A_9="9690" A_11="9690" A_12="969" A_13="9690" A_14="2423" />
+    <asiguratE1 E1_1="9690" E1_2="3392" E1_3="0" E1_4="0" E1_5="0" E1_6="6562" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9690" E3_9="3392" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="6562" E3_15="0" E3_16="6298" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1920805080031" idAsig="190" numeAsig="SARBIE" prenAsig="MIRCEA-CODRUT" dataAng="24.02.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7370" A_6="176" A_7="0" A_8="22" A_9="7370" A_11="7370" A_12="737" A_13="7370" A_14="1843" />
+    <asiguratE1 E1_1="7370" E1_2="2580" E1_3="0" E1_4="0" E1_5="0" E1_6="4934" E1_7="493" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7370" E3_9="2580" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="4934" E3_15="493" E3_16="4297" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1840717080020" idAsig="191" numeAsig="SAVU" prenAsig="STEFAN" dataAng="01.07.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13282" A_6="176" A_7="0" A_8="22" A_9="13282" A_11="13282" A_12="1328" A_13="13282" A_14="3321" />
+    <asiguratE1 E1_1="13282" E1_2="4649" E1_3="0" E1_4="0" E1_5="0" E1_6="8837" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13282" E3_9="4649" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="8837" E3_15="0" E3_16="8522" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1910414080015" idAsig="192" numeAsig="SERBAN" prenAsig="GHEORGHE-MARIUS" dataAng="22.12.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8545" A_6="176" A_7="0" A_8="22" A_9="8545" A_11="8545" A_12="855" A_13="8545" A_14="2136" />
+    <asiguratE1 E1_1="8545" E1_2="2991" E1_3="0" E1_4="0" E1_5="0" E1_6="5794" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8545" E3_9="2991" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="5794" E3_15="0" E3_16="5517" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="7680924080018" idAsig="193" numeAsig="SIMIONESCU" prenAsig="ALEXANDER" dataAng="01.02.2007" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="48421" A_6="8" A_7="0" A_8="1" A_9="48421" A_11="48421" A_12="4842" A_13="48421" A_14="12105" />
+    <asiguratE1 E1_1="48421" E1_2="16947" E1_3="0" E1_4="0" E1_5="0" E1_6="31474" E1_7="3147" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="48421" E3_9="16947" E3_10="0" E3_11="0" E3_12="0" E3_13="0" E3_14="31474" E3_15="3147" E3_16="28327" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930204080078" idAsig="194" numeAsig="SOCEA" prenAsig="FABIAN-THEODOR" dataAng="01.04.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6898" A_6="176" A_7="0" A_8="22" A_9="6898" A_11="6898" A_12="690" A_13="6898" A_14="1725" />
+    <asiguratE1 E1_1="6898" E1_2="2415" E1_3="0" E1_4="0" E1_5="0" E1_6="4687" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6898" E3_9="2415" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="4687" E3_15="0" E3_16="4446" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1871028191276" idAsig="195" numeAsig="SOLYOM" prenAsig="ISTVAN" dataAng="08.03.2016" casaSn="CJ" asigCI="1" asigSO="1">
+    <coAsigurati tip="S" cnp="1660126190692" nume="SOLYOM" prenume="JANOS" />
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6772" A_6="176" A_7="0" A_8="22" A_9="6772" A_11="6772" A_12="677" A_13="6772" A_14="1693" />
+    <asiguratE1 E1_1="6772" E1_2="2370" E1_3="1" E1_4="0" E1_5="0" E1_6="4558" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6772" E3_9="2370" E3_10="156" E3_11="1" E3_12="0" E3_13="0" E3_14="4558" E3_15="0" E3_16="4402" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780715085047" idAsig="196" numeAsig="SPIRCHEZ" prenAsig="ADRIAN-NICOLAE" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="36015" A_6="176" A_7="0" A_8="22" A_9="36015" A_11="36015" A_12="3602" A_13="36015" A_14="9004" />
+    <asiguratE1 E1_1="36015" E1_2="12606" E1_3="0" E1_4="0" E1_5="0" E1_6="23673" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="36015" E3_9="12606" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="23673" E3_15="0" E3_16="23409" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1901004080077" idAsig="197" numeAsig="SPULBER" prenAsig="CATALIN-MARIAN" dataAng="01.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12345" A_6="176" A_7="0" A_8="22" A_9="12345" A_11="12345" A_12="1235" A_13="12345" A_14="3086" />
+    <asiguratE1 E1_1="12345" E1_2="4321" E1_3="0" E1_4="0" E1_5="0" E1_6="8264" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12345" E3_9="4321" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="8264" E3_15="0" E3_16="6324" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790517080011" idAsig="198" numeAsig="STAICU" prenAsig="DELIA-ELENA" dataAng="08.08.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8519" A_6="176" A_7="0" A_8="22" A_9="8519" A_11="8519" A_12="852" A_13="8519" A_14="2130" />
+    <asiguratE1 E1_1="8519" E1_2="2982" E1_3="0" E1_4="0" E1_5="0" E1_6="5789" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8519" E3_9="2982" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="5789" E3_15="0" E3_16="5426" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1620330354749" idAsig="199" numeAsig="STAN" prenAsig="ADRIAN" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9556" A_6="176" A_7="0" A_8="22" A_9="9556" A_11="9556" A_12="956" A_13="9556" A_14="2389" />
+    <asiguratE1 E1_1="9556" E1_2="3345" E1_3="0" E1_4="0" E1_5="0" E1_6="6295" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9556" E3_9="3345" E3_10="84" E3_11="0" E3_12="0" E3_13="0" E3_14="6295" E3_15="0" E3_16="6211" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2940908014660" idAsig="200" numeAsig="STANCU" prenAsig="ANA-MARIA" dataAng="01.08.2017" casaSn="CJ" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="2633" A_6="176" A_7="0" A_8="22" A_9="2633" A_11="2633" A_12="263" A_13="2633" A_14="658" />
+    <asiguratE1 E1_1="2633" E1_2="921" E1_3="0" E1_4="80" E1_5="0" E1_6="1848" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="2633" E3_9="921" E3_10="216" E3_11="0" E3_12="80" E3_13="0" E3_14="1848" E3_15="0" E3_16="1712" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2930222080067" idAsig="201" numeAsig="SURARIU" prenAsig="STEFANIA" dataAng="16.02.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="4569" A_6="176" A_7="0" A_8="22" A_9="4569" A_11="4569" A_12="457" A_13="4569" A_14="1142" />
+    <asiguratE1 E1_1="4569" E1_2="1599" E1_3="0" E1_4="0" E1_5="0" E1_6="3234" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="4569" E3_9="1599" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="3234" E3_15="0" E3_16="2896" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1690514081965" idAsig="202" numeAsig="SURDU" prenAsig="CONSTANTIN" dataAng="01.06.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="15315" A_6="176" A_7="0" A_8="22" A_9="15315" A_11="15315" A_12="1532" A_13="15315" A_14="3829" />
+    <asiguratE1 E1_1="15315" E1_2="5361" E1_3="0" E1_4="0" E1_5="0" E1_6="10110" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="15315" E3_9="5361" E3_10="156" E3_11="0" E3_12="0" E3_13="0" E3_14="10110" E3_15="0" E3_16="9880" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2710304090039" idAsig="203" numeAsig="SUROIU" prenAsig="LAURA" dataAng="01.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8278" A_6="176" A_7="0" A_8="22" A_9="8278" A_11="8278" A_12="828" A_13="8278" A_14="2070" />
+    <asiguratE1 E1_1="8278" E1_2="2898" E1_3="0" E1_4="0" E1_5="0" E1_6="5500" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8278" E3_9="2898" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="5500" E3_15="0" E3_16="5380" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1860402080094" idAsig="204" numeAsig="SVAB" prenAsig="STEFAN-ROBERT" dataAng="19.07.2010" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5912" A_6="176" A_7="0" A_8="22" A_9="5912" A_11="5912" A_12="591" A_13="5912" A_14="1478" />
+    <asiguratE1 E1_1="5912" E1_2="2069" E1_3="0" E1_4="0" E1_5="0" E1_6="4071" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5912" E3_9="2069" E3_10="228" E3_11="0" E3_12="0" E3_13="0" E3_14="4071" E3_15="0" E3_16="3806" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1921210152493" idAsig="205" numeAsig="TACHE" prenAsig="RADU-NICUSOR" dataAng="12.03.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8231" A_6="176" A_7="0" A_8="22" A_9="8231" A_11="8231" A_12="823" A_13="8231" A_14="2058" />
+    <asiguratE1 E1_1="8231" E1_2="2881" E1_3="0" E1_4="0" E1_5="0" E1_6="5614" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8231" E3_9="2881" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5614" E3_15="0" E3_16="5350" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1890623297363" idAsig="206" numeAsig="TANASE" prenAsig="CONSTANTIN-ROBERT" dataAng="03.04.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8366" A_6="176" A_7="0" A_8="22" A_9="8366" A_11="8366" A_12="837" A_13="8366" A_14="2092" />
+    <asiguratE1 E1_1="8366" E1_2="2929" E1_3="0" E1_4="0" E1_5="0" E1_6="5701" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8366" E3_9="2929" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="5701" E3_15="0" E3_16="5437" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790809080098" idAsig="207" numeAsig="TANCAU" prenAsig="DENISA-ADRIANA" dataAng="07.03.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="6220" A_6="176" A_7="0" A_8="22" A_9="6220" A_11="6220" A_12="622" A_13="6220" A_14="1555" />
+    <asiguratE1 E1_1="6220" E1_2="2177" E1_3="0" E1_4="0" E1_5="0" E1_6="4247" E1_7="425" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="6220" E3_9="2177" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="4247" E3_15="425" E3_16="3618" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1860831080017" idAsig="208" numeAsig="TAPOI" prenAsig="VASILICA-MARIUS" dataAng="03.04.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9237" A_6="176" A_7="0" A_8="22" A_9="9237" A_11="9237" A_12="924" A_13="9237" A_14="2309" />
+    <asiguratE1 E1_1="9237" E1_2="3233" E1_3="0" E1_4="0" E1_5="0" E1_6="6268" E1_7="627" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9237" E3_9="3233" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="6268" E3_15="627" E3_16="5340" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1731003080068" idAsig="209" numeAsig="TATARU" prenAsig="DAN" dataAng="07.02.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10568" A_6="176" A_7="0" A_8="22" A_9="10568" A_11="10568" A_12="1057" A_13="10568" A_14="2642" />
+    <asiguratE1 E1_1="10568" E1_2="3699" E1_3="0" E1_4="0" E1_5="0" E1_6="7013" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10568" E3_9="3699" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="7013" E3_15="0" E3_16="4258" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2940528080021" idAsig="210" numeAsig="TECIU" prenAsig="ADINA CLAUDIA" dataAng="31.07.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratB1 B1_1="1" B1_2="0" B1_3="N" B1_4="8" B1_5="10061" B1_6="176" B1_7="0" B1_8="0" B1_9="0" B1_10="10061" B1_15="19">
+    </asiguratB1>
+    <asiguratB2 B2_1="0" B2_2="19" B2_3="0" B2_4="0" B2_5="9056" B2_6="0" B2_7="0" />
+    <asiguratB3 B3_1="3" B3_2="0" B3_3="0" B3_4="0" B3_5="0" B3_6="3" B3_7="1005" B3_8="0" B3_9="0" B3_10="0" B3_11="0" B3_12="1005" B3_13="0" />
+    <asiguratB4 B4_1="19" B4_2="0" B4_3="10061" B4_5="9056" B4_6="906" B4_7="10061" B4_8="2280" B4_14="10061" />
+    <asiguratD D_1="CCMAK" D_2="2384074" D_3="CCMAK" D_4="2384073" D_5="01.08.2018" D_6="01.08.2018" D_7="03.08.2018" D_9="01" D_10="1" D_13="D60144" D_14="3" D_15="0" D_16="3" D_17="55410" D_18="124" D_19="446.85" D_20="1005" D_21="0" D_23="01" />
+    <asiguratE1 E1_1="10061" E1_2="3186" E1_3="0" E1_4="0" E1_5="0" E1_6="7043" E1_7="0" />
+    <asiguratE3 E3_1="B" E3_2="1" E3_3="1" E3_4="P" E3_8="10061" E3_9="3186" E3_10="168" E3_11="0" E3_12="0" E3_13="0" E3_14="7043" E3_15="0" E3_16="5375" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1770416080051" idAsig="211" numeAsig="TIMAR" prenAsig="CLAUDIU-CRISTIAN" dataAng="04.10.2012" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8812" A_6="176" A_7="0" A_8="22" A_9="8812" A_11="8812" A_12="881" A_13="8812" A_14="2203" />
+    <asiguratE1 E1_1="8812" E1_2="3084" E1_3="0" E1_4="0" E1_5="0" E1_6="5908" E1_7="591" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8812" E3_9="3084" E3_10="180" E3_11="0" E3_12="0" E3_13="0" E3_14="5908" E3_15="591" E3_16="5100" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2811109080078" idAsig="212" numeAsig="TITEREA" prenAsig="MIHAELA-ELISABETA" dataAng="01.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="24270" A_6="176" A_7="0" A_8="22" A_9="24270" A_11="24270" A_12="2427" A_13="24270" A_14="6068" />
+    <asiguratE1 E1_1="24270" E1_2="8495" E1_3="0" E1_4="0" E1_5="0" E1_6="16027" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="24270" E3_9="8495" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="16027" E3_15="0" E3_16="15775" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1870916080070" idAsig="213" numeAsig="TOEV" prenAsig="ANDREI" dataAng="04.10.2010" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11367" A_6="176" A_7="0" A_8="22" A_9="11367" A_11="11367" A_12="1137" A_13="11367" A_14="2842" />
+    <asiguratE1 E1_1="11367" E1_2="3979" E1_3="0" E1_4="0" E1_5="0" E1_6="7652" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11367" E3_9="3979" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7652" E3_15="0" E3_16="7388" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1800504142173" idAsig="214" numeAsig="TOHANEAN" prenAsig="ALIN" dataAng="15.02.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12360" A_6="176" A_7="0" A_8="22" A_9="12360" A_11="12360" A_12="1236" A_13="12360" A_14="3090" />
+    <asiguratE1 E1_1="12360" E1_2="4326" E1_3="0" E1_4="0" E1_5="0" E1_6="8154" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12360" E3_9="4326" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="8154" E3_15="0" E3_16="7923" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2870812081661" idAsig="215" numeAsig="TOMA" prenAsig="AURELIA RAMONA" dataAng="20.02.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8953" A_6="176" A_7="0" A_8="22" A_9="8953" A_11="8953" A_12="895" A_13="8953" A_14="2238" />
+    <asiguratE1 E1_1="8953" E1_2="3133" E1_3="0" E1_4="0" E1_5="0" E1_6="6036" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8953" E3_9="3133" E3_10="216" E3_11="0" E3_12="0" E3_13="0" E3_14="6036" E3_15="0" E3_16="5820" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2941215243822" idAsig="216" numeAsig="TOMOIAGA" prenAsig="ANCA" dataAng="17.07.2017" casaSn="CJ" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5901" A_6="176" A_7="0" A_8="22" A_9="5901" A_11="5901" A_12="590" A_13="5901" A_14="1475" />
+    <asiguratE1 E1_1="5901" E1_2="2065" E1_3="0" E1_4="0" E1_5="0" E1_6="4052" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5901" E3_9="2065" E3_10="216" E3_11="0" E3_12="0" E3_13="0" E3_14="4052" E3_15="0" E3_16="3836" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1770620011841" idAsig="217" numeAsig="TOTH" prenAsig="FRANCISC" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="10742" A_6="176" A_7="0" A_8="22" A_9="10742" A_11="10742" A_12="1074" A_13="10742" A_14="2686" />
+    <asiguratE1 E1_1="10742" E1_2="3760" E1_3="0" E1_4="0" E1_5="0" E1_6="7246" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="10742" E3_9="3760" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7246" E3_15="0" E3_16="6871" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2780912082413" idAsig="218" numeAsig="TOTH" prenAsig="MARIA-CARMEN" dataAng="01.01.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8304" A_6="176" A_7="0" A_8="22" A_9="8304" A_11="8304" A_12="830" A_13="8304" A_14="2076" />
+    <asiguratE1 E1_1="8304" E1_2="2906" E1_3="0" E1_4="0" E1_5="0" E1_6="5578" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8304" E3_9="2906" E3_10="180" E3_11="0" E3_12="0" E3_13="0" E3_14="5578" E3_15="0" E3_16="5398" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790511151835" idAsig="219" numeAsig="TRUICAN" prenAsig="ION" dataAng="13.10.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="38356" A_6="176" A_7="0" A_8="22" A_9="38356" A_11="38356" A_12="3836" A_13="38356" A_14="9589" />
+    <asiguratE1 E1_1="38356" E1_2="13425" E1_3="0" E1_4="0" E1_5="0" E1_6="25135" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="38356" E3_9="13425" E3_10="204" E3_11="0" E3_12="0" E3_13="0" E3_14="25135" E3_15="0" E3_16="24861" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1770519080035" idAsig="220" numeAsig="TUDOR" prenAsig="ADRIAN" dataAng="09.07.2007" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12220" A_6="176" A_7="0" A_8="22" A_9="12220" A_11="12220" A_12="1222" A_13="12220" A_14="3055" />
+    <asiguratE1 E1_1="12220" E1_2="4277" E1_3="0" E1_4="0" E1_5="0" E1_6="8207" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12220" E3_9="4277" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8207" E3_15="0" E3_16="7822" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1820706081810" idAsig="221" numeAsig="TUDOR" prenAsig="MARIAN" dataAng="03.04.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9817" A_6="176" A_7="0" A_8="22" A_9="9817" A_11="9817" A_12="982" A_13="9817" A_14="2454" />
+    <asiguratE1 E1_1="9817" E1_2="3436" E1_3="0" E1_4="0" E1_5="0" E1_6="6525" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9817" E3_9="3436" E3_10="144" E3_11="0" E3_12="0" E3_13="0" E3_14="6525" E3_15="0" E3_16="6233" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790611211682" idAsig="222" numeAsig="TUDOSE" prenAsig="COSTIN" dataAng="01.07.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="40982" A_6="176" A_7="0" A_8="22" A_9="40982" A_11="40982" A_12="4098" A_13="40982" A_14="10246" />
+    <asiguratE1 E1_1="40982" E1_2="14344" E1_3="1" E1_4="0" E1_5="0" E1_6="26878" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="40982" E3_9="14344" E3_10="240" E3_11="1" E3_12="0" E3_13="0" E3_14="26878" E3_15="0" E3_16="26475" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1770515080042" idAsig="223" numeAsig="URSACHE" prenAsig="CATALIN-IOAN" dataAng="01.08.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="114360" A_6="176" A_7="0" A_8="22" A_9="114360" A_11="114360" A_12="11436" A_13="114360" A_14="28590" />
+    <asiguratE1 E1_1="114360" E1_2="40026" E1_3="0" E1_4="0" E1_5="0" E1_6="74574" E1_7="7457" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="114360" E3_9="40026" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="74574" E3_15="7457" E3_16="66642" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2920623081818" idAsig="224" numeAsig="URSU" prenAsig="CRISTINA-TEODORA" dataAng="16.07.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9549" A_6="176" A_7="0" A_8="22" A_9="9549" A_11="9549" A_12="955" A_13="9549" A_14="2387" />
+    <asiguratE1 E1_1="9549" E1_2="3342" E1_3="0" E1_4="0" E1_5="0" E1_6="6471" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9549" E3_9="3342" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="6471" E3_15="0" E3_16="6207" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1920901100153" idAsig="225" numeAsig="URSU" prenAsig="RADU" dataAng="16.07.2018" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="11874" A_6="176" A_7="0" A_8="22" A_9="11874" A_11="11874" A_12="1187" A_13="11874" A_14="2969" />
+    <asiguratE1 E1_1="11874" E1_2="4156" E1_3="0" E1_4="0" E1_5="0" E1_6="7982" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="11874" E3_9="4156" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="7982" E3_15="0" E3_16="7718" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930619080039" idAsig="226" numeAsig="URSUT" prenAsig="ROBERT" dataAng="04.08.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5336" A_6="176" A_7="0" A_8="22" A_9="5336" A_11="5336" A_12="534" A_13="5336" A_14="1334" />
+    <asiguratE1 E1_1="5336" E1_2="1868" E1_3="0" E1_4="0" E1_5="0" E1_6="3708" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5336" E3_9="1868" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="3708" E3_15="0" E3_16="3468" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790220080033" idAsig="227" numeAsig="VACARIU" prenAsig="RAMONA" dataAng="14.08.2017" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9131" A_6="176" A_7="0" A_8="22" A_9="9131" A_11="9131" A_12="913" A_13="9131" A_14="2283" />
+    <asiguratE1 E1_1="9131" E1_2="3196" E1_3="0" E1_4="0" E1_5="0" E1_6="6115" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9131" E3_9="3196" E3_10="180" E3_11="0" E3_12="0" E3_13="0" E3_14="6115" E3_15="0" E3_16="5861" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790705296339" idAsig="228" numeAsig="VASILE" prenAsig="IULIAN-CIPRIAN" dataAng="01.09.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13925" A_6="176" A_7="0" A_8="22" A_9="13925" A_11="13925" A_12="1393" A_13="13925" A_14="3481" />
+    <asiguratE1 E1_1="13925" E1_2="4874" E1_3="0" E1_4="0" E1_5="0" E1_6="9147" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13925" E3_9="4874" E3_10="96" E3_11="0" E3_12="0" E3_13="0" E3_14="9147" E3_15="0" E3_16="9051" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1870815011841" idAsig="229" numeAsig="VELICEA" prenAsig="LEON" dataAng="14.03.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="13660" A_6="176" A_7="0" A_8="22" A_9="13660" A_11="13660" A_12="1366" A_13="13660" A_14="3415" />
+    <asiguratE1 E1_1="13660" E1_2="4781" E1_3="0" E1_4="0" E1_5="0" E1_6="9143" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="13660" E3_9="4781" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="9143" E3_15="0" E3_16="8879" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1730917120702" idAsig="230" numeAsig="VELIMAN" prenAsig="LUCIAN-CORNELIU" dataAng="03.04.2006" casaSn="BV" asigCI="1" asigSO="1">
+    <coAsigurati tip="S" cnp="2760913120732" nume="VELIMAN" prenume="Ioana-Cristina" />
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9376" A_6="176" A_7="0" A_8="22" A_9="9376" A_11="9376" A_12="938" A_13="9376" A_14="2344" />
+    <asiguratE1 E1_1="9376" E1_2="3282" E1_3="1" E1_4="0" E1_5="0" E1_6="6214" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9376" E3_9="3282" E3_10="120" E3_11="1" E3_12="0" E3_13="0" E3_14="6214" E3_15="0" E3_16="6040" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1780411080089" idAsig="231" numeAsig="VERES" prenAsig="CIPRIAN-FLORIN" dataAng="01.08.2001" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="16042" A_6="176" A_7="0" A_8="22" A_9="16042" A_11="16042" A_12="1604" A_13="16042" A_14="4011" />
+    <asiguratE1 E1_1="16042" E1_2="5615" E1_3="0" E1_4="0" E1_5="0" E1_6="10679" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="16042" E3_9="5615" E3_10="252" E3_11="0" E3_12="0" E3_13="0" E3_14="10679" E3_15="0" E3_16="10353" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1930809080030" idAsig="232" numeAsig="VISAN" prenAsig="RAZVAN ANDREI" dataAng="01.03.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="5844" A_6="176" A_7="0" A_8="22" A_9="5844" A_11="5844" A_12="584" A_13="5844" A_14="1461" />
+    <asiguratE1 E1_1="5844" E1_2="2045" E1_3="0" E1_4="0" E1_5="0" E1_6="4063" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="5844" E3_9="2045" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="4063" E3_15="0" E3_16="3799" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2790312082436" idAsig="233" numeAsig="VLAD" prenAsig="PAULA" dataAng="01.09.2003" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12695" A_6="176" A_7="0" A_8="22" A_9="12695" A_11="12695" A_12="1270" A_13="12695" A_14="3174" />
+    <asiguratE1 E1_1="12695" E1_2="4444" E1_3="0" E1_4="0" E1_5="0" E1_6="8443" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12695" E3_9="4444" E3_10="192" E3_11="0" E3_12="0" E3_13="0" E3_14="8443" E3_15="0" E3_16="8214" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2920218080043" idAsig="234" numeAsig="VLADAREAN" prenAsig="CHRISTINE" dataAng="02.06.2014" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="9347" A_6="176" A_7="0" A_8="22" A_9="9347" A_11="9347" A_12="935" A_13="9347" A_14="2337" />
+    <asiguratE1 E1_1="9347" E1_2="3272" E1_3="0" E1_4="0" E1_5="0" E1_6="6315" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="9347" E3_9="3272" E3_10="240" E3_11="0" E3_12="0" E3_13="0" E3_14="6315" E3_15="0" E3_16="6075" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1910716080126" idAsig="235" numeAsig="VOINA" prenAsig="RADU-NICOLAE" dataAng="13.06.2016" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="7873" A_6="176" A_7="0" A_8="22" A_9="7873" A_11="7873" A_12="787" A_13="7873" A_14="1968" />
+    <asiguratE1 E1_1="7873" E1_2="2755" E1_3="0" E1_4="0" E1_5="0" E1_6="5250" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="7873" E3_9="2755" E3_10="132" E3_11="0" E3_12="0" E3_13="0" E3_14="5250" E3_15="0" E3_16="5044" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2800519226892" idAsig="236" numeAsig="VRANCEANU" prenAsig="MARIA-LAURA" dataAng="01.10.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="8784" A_6="176" A_7="0" A_8="22" A_9="8784" A_11="8784" A_12="878" A_13="8784" A_14="2196" />
+    <asiguratE1 E1_1="8784" E1_2="3074" E1_3="0" E1_4="0" E1_5="0" E1_6="5830" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="8784" E3_9="3074" E3_10="120" E3_11="0" E3_12="0" E3_13="0" E3_14="5830" E3_15="0" E3_16="5710" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1810430046299" idAsig="237" numeAsig="VRANCEANU" prenAsig="RADU" dataAng="01.10.2004" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="28182" A_6="176" A_7="0" A_8="22" A_9="28182" A_11="28182" A_12="2818" A_13="28182" A_14="7046" />
+    <asiguratE1 E1_1="28182" E1_2="9864" E1_3="0" E1_4="0" E1_5="0" E1_6="18474" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="28182" E3_9="9864" E3_10="156" E3_11="0" E3_12="0" E3_13="0" E3_14="18474" E3_15="0" E3_16="18207" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1940912245038" idAsig="238" numeAsig="ZAHA" prenAsig="ADRIAN" dataAng="01.08.2017" casaSn="CJ" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="2611" A_6="176" A_7="0" A_8="22" A_9="2611" A_11="2611" A_12="261" A_13="2611" A_14="653" />
+    <asiguratE1 E1_1="2611" E1_2="914" E1_3="0" E1_4="80" E1_5="0" E1_6="1881" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="2611" E3_9="914" E3_10="264" E3_11="0" E3_12="80" E3_13="0" E3_14="1881" E3_15="0" E3_16="1697" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1741227080057" idAsig="239" numeAsig="ZAMFIRA" prenAsig="LUCIAN" dataAng="01.04.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="39491" A_6="176" A_7="0" A_8="22" A_9="39491" A_11="39491" A_12="3949" A_13="39491" A_14="9873" />
+    <asiguratE1 E1_1="39491" E1_2="13822" E1_3="1" E1_4="0" E1_5="0" E1_6="25909" E1_7="2591" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="39491" E3_9="13822" E3_10="240" E3_11="1" E3_12="0" E3_13="0" E3_14="25909" E3_15="2591" E3_16="20078" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="2781115070033" idAsig="240" numeAsig="ZAMFIRESCU" prenAsig="ALINA-IOANA" dataAng="01.10.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="14794" A_6="176" A_7="0" A_8="22" A_9="14794" A_11="14794" A_12="1479" A_13="14794" A_14="3699" />
+    <asiguratE1 E1_1="14794" E1_2="5178" E1_3="0" E1_4="0" E1_5="0" E1_6="9880" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="14794" E3_9="5178" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="9880" E3_15="0" E3_16="9579" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790121221150" idAsig="241" numeAsig="ZAMFIRESCU" prenAsig="BOGDAN" dataAng="01.03.2005" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="12388" A_6="176" A_7="0" A_8="22" A_9="12388" A_11="12388" A_12="1239" A_13="12388" A_14="3097" />
+    <asiguratE1 E1_1="12388" E1_2="4336" E1_3="0" E1_4="0" E1_5="0" E1_6="8316" E1_7="0" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="12388" E3_9="4336" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="8316" E3_15="0" E3_16="8015" E3_18="0" />
+  </asigurat>
+  <asigurat cnpAsig="1790202035055" idAsig="242" numeAsig="ZARAFU" prenAsig="STEFAN ADRIAN" dataAng="13.07.2015" casaSn="BV" asigCI="1" asigSO="1">
+    <asiguratA A_1="1" A_2="0" A_3="N" A_4="8" A_5="36542" A_6="176" A_7="0" A_8="22" A_9="36542" A_11="36542" A_12="3654" A_13="36542" A_14="9136" />
+    <asiguratE1 E1_1="36542" E1_2="12790" E1_3="0" E1_4="0" E1_5="0" E1_6="24016" E1_7="2402" />
+    <asiguratE3 E3_1="A" E3_2="1" E3_3="1" E3_4="P" E3_8="36542" E3_9="12790" E3_10="264" E3_11="0" E3_12="0" E3_13="0" E3_14="24016" E3_15="2402" E3_16="21222" E3_18="0" />
+  </asigurat>
+</declaratieUnica>

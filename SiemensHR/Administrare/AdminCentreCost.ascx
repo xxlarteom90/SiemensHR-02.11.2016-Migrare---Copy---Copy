@@ -71,10 +71,9 @@ function SelectCentruCost( id )
 							<table class="tabBackground" cellSpacing="1" cellPadding="0" border="0" width="100%" id="Table3">
 								<TR>
 									<TD class="NormalGreenBold">Cod:</TD>
-									<TD><asp:textbox id="txtCod" runat="server" MaxLength="6" CssClass="NormalEditBoxuri" Width="250px"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
+									<TD><asp:textbox id="txtCod" runat="server" MaxLength="10" CssClass="NormalEditBoxuri" Width="250px"></asp:textbox><SPAN class="CommentRedBold">*</SPAN>
 										<asp:requiredfieldvalidator id="requiredCod" runat="server" ControlToValidate="txtCod" ErrorMessage="Completati codul centrului de cost!"
-											CssClass="AlertRedBold"><</asp:requiredfieldvalidator><asp:regularexpressionvalidator id="regularCod" runat="server" CssClass="AlertRedBold" ControlToValidate="txtCod"
-											ErrorMessage="Codul necesita valoare numerica!" ValidationExpression="\d*">< Valoare numerica!</asp:regularexpressionvalidator></TD>
+											CssClass="AlertRedBold"></asp:requiredfieldvalidator></TD>
 								</TR>
 								<tr>
 									<td class="GreenSeparator" colSpan="2"><IMG height="1" src="images/1x1.gif"></td>

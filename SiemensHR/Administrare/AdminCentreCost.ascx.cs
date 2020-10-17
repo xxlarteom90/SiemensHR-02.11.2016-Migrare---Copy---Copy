@@ -28,7 +28,7 @@ namespace SiemensHR.Administrare
 		protected System.Web.UI.WebControls.RequiredFieldValidator requiredCod;
 		protected System.Web.UI.WebControls.TextBox txtDescriere;
 		protected System.Web.UI.HtmlControls.HtmlTableRow td_editLine;
-		protected System.Web.UI.WebControls.RegularExpressionValidator regularCod;
+		//protected System.Web.UI.WebControls.RegularExpressionValidator regularCod;
 		protected System.Web.UI.WebControls.Button btnEditCentruCost;
 		protected System.Web.UI.HtmlControls.HtmlTableRow add_buttonLine;
 		protected System.Web.UI.HtmlControls.HtmlTableRow td_addLine;
@@ -56,7 +56,7 @@ namespace SiemensHR.Administrare
 			Utilities.CreateTableHeader(headerTable, "Date identificare centru de cost", "../", "small");
 			
 			Response.Write("<script>var requiredCod = \"" + requiredCod.ClientID + "\"</script>");
-			Response.Write("<script>var regularCod = \"" + regularCod.ClientID + "\"</script>");
+			//Response.Write("<script>var regularCod = \"" + regularCod.ClientID + "\"</script>");
 			Response.Write("<script>var requiredDenumire = \"" + requiredDenumire.ClientID + "\"</script>");
 			Response.Write("<script>var regularDenumire = \"" + regularDenumire.ClientID + "\"</script>");
 			Response.Write("<script>var lblMessage = \"" + lblMessage.ClientID + "\"</script>");

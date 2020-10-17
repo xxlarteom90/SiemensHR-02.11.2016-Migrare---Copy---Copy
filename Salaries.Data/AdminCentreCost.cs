@@ -44,7 +44,7 @@ namespace Salaries.Data
 							{
 								new SqlParameter("@tip_actiune", SqlDbType.Int, 4),
 								new SqlParameter("@CentruCostID", SqlDbType.Int, 4),
-								new SqlParameter("@Cod", SqlDbType.NVarChar, 10),
+								new SqlParameter("@Cod", SqlDbType.NVarChar, 20),
 								new SqlParameter("@Nume", SqlDbType.NVarChar, 50),
 								new SqlParameter("@Descriere", SqlDbType.NVarChar, 255)
 							};

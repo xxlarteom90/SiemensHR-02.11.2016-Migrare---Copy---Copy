@@ -20,6 +20,8 @@
     <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
     <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -78,6 +81,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ClassDiagram3.cd" />
     <None Include="Comunicari\pse_schema.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -114,6 +118,8 @@
     <Content Include="InterfataSalarii\DeclaratiiDB\Siemens.DCT" />
     <Content Include="InterfataSalarii\DeclaratiiDB\Siemens.DCX" />
     <Content Include="InterfataSalarii\Module\Fluturas fata 2008.doc" />
+    <Content Include="InterfataSalarii\Module\rapoarte_AnexaSomaj.ascx" />
+    <Content Include="InterfataSalarii\Module\rapoarte_pontaj.ascx" />
     <Content Include="InterfataSalarii\RapoarteSalarii\StatPlataTemplate.xls" />
     <Content Include="InterfataSalarii\Templates\TemplateAngajati.xls" />
     <Content Include="InterfataSalarii\Templates\TemplateDelegatii.xls" />
@@ -841,8 +847,12 @@
     <Content Include="Navigare\EditAngajat_LeftNavigation.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Navigare\EditAngajat_LeftNavigation_Recrutori.xml" />
-    <Content Include="Navigare\Salarii_Navigare.xml" />
+    <Content Include="Navigare\EditAngajat_LeftNavigation_Recrutori.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Navigare\Salarii_Navigare.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\SiemensHR.csproj.FileListAbsolute.txt" />
     <Content Include="PageHeader.ascx" />
@@ -1385,6 +1395,10 @@
       <DependentUpon>rapoarte_AccesCladire.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_AnexaSomaj.ascx.cs">
+      <DependentUpon>rapoarte_AnexaSomaj.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="InterfataSalarii\Module\rapoarte_CHCM.ascx.cs">
       <DependentUpon>rapoarte_CHCM.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1467,6 +1481,10 @@
     </Compile>
     <Compile Include="InterfataSalarii\Module\rapoarte_FluturasAngajat.ascx.cs">
       <DependentUpon>rapoarte_FluturasAngajat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfataSalarii\Module\rapoarte_pontaj.ascx.cs">
+      <DependentUpon>rapoarte_pontaj.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="InterfataSalarii\Module\rapoarte_StatDePlata.ascx.cs">
@@ -2014,6 +2032,9 @@
     <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_AccesCladire.ascx.resx">
       <DependentUpon>rapoarte_AccesCladire.ascx.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_AnexaSomaj.ascx.resx">
+      <DependentUpon>rapoarte_AnexaSomaj.ascx.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_CHCM.ascx.resx">
       <DependentUpon>rapoarte_CHCM.ascx.cs</DependentUpon>
     </EmbeddedResource>
@@ -2076,6 +2097,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_FluturasAngajat.ascx.resx">
       <DependentUpon>rapoarte_FluturasAngajat.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_pontaj.ascx.resx">
+      <DependentUpon>rapoarte_pontaj.ascx.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InterfataSalarii\Module\rapoarte_StatDePlata.ascx.resx">
       <DependentUpon>rapoarte_StatDePlata.ascx.cs</DependentUpon>
@@ -2252,11 +2276,11 @@
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="ADODB">
-      <Guid>{00000205-0000-0010-8000-00AA006D2EA4}</Guid>
-      <VersionMajor>2</VersionMajor>
-      <VersionMinor>5</VersionMinor>
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>
-      <WrapperTool>primary</WrapperTool>
+      <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>

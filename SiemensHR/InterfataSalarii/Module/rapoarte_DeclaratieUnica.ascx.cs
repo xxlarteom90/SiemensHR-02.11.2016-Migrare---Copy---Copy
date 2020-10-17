@@ -15,6 +15,7 @@ using System.IO;
 using System.Collections;
 using System.Diagnostics;
 using System.Threading;
+using System.Collections.Generic;
 
 namespace SiemensHR.InterfataSalarii.Module
 {
@@ -174,7 +175,7 @@ namespace SiemensHR.InterfataSalarii.Module
                     pcastigmed = Convert.ToDouble(dr["Valoare"].ToString());
                 if (dr["Cod"].ToString().Equals("AsigPens"))
                     asigpens = Convert.ToDouble(dr["Valoare"].ToString());
-       
+
 
                 if (dr["Cod"].ToString().Equals("SMINEC"))
                     sminec = Convert.ToDouble(dr["Valoare"].ToString());
@@ -1156,15 +1157,15 @@ namespace SiemensHR.InterfataSalarii.Module
                     double min1 = b3_7 * procentPBCICAS / 100;
                     double min2 = smbeant * pcastigmed * b3_6 / nrZileLucratoareLuna * asigpens / 100;
                     double b4_8 = 0;
-                    if (min1 < min2)
+                    /*if (min1 < min2)
                     {
-                        b4_8 = Math.Round((b2_5 + b2_6 + b2_7)*procentPBCICAS / 100 + min1);
+                        b4_8 = Math.Round((b2_5 + b2_6 + b2_7) * procentPBCICAS / 100 + min1);
                     }
                     else
                     {
                         b4_8 = Math.Round((b2_5 + b2_6 + b2_7) * procentPBCICAS / 100 + min2);
-                    }
-                    nodeAsiguratB4.Attributes["B4_8"].Value = b4_8+ "";
+                    }*/
+                  
                     nodeAsiguratB4.Attributes["B4_14"].Value = Math.Round(venitBrut - ajutorDeces) + "";
                     #endregion
 
@@ -1192,9 +1193,12 @@ namespace SiemensHR.InterfataSalarii.Module
                     nodeAsigurat.RemoveChild(nodeAsiguratC);
                     #endregion
 
+                    List<string> d12_codes = new List<string>();
+
                     #region asiguratD
                     //<asiguratD D_1="" D_2="" D_3="" D_4="" D_5="" D_6="" D_7="" D_8="" D_9="" D_10="" D_11="" D_12="" D_13="" D_14="" D_15="" D_16="" D_17="" D_18="" D_19="" D_20="" D_21="" />
                     XmlNode parentConcMedical = nodeAsiguratD.ParentNode;
+                    
                     foreach (DataRow drConcMedical in dsConcediiMedicale.Tables[0].Rows)
                     {
                         string idAng = dr["AngajatID"].ToString();
@@ -1206,7 +1210,7 @@ namespace SiemensHR.InterfataSalarii.Module
                             nodeConcMedical.Attributes["D_2"].Value = drConcMedical["NumarCertificat"].ToString();
                             nodeConcMedical.Attributes["D_3"].Value = drConcMedical["SerieCertificatInitial"].ToString();
                             nodeConcMedical.Attributes["D_4"].Value = drConcMedical["NumarCertificatInitial"].ToString();
-
+                            
                             //DateTime dataAcordariiCertif = (DateTime) drConcMedical["DataAcordariiCertificat"];
                             //DateTime dataAcordariiCertif = DateTime.Now;
                             DateTime dataStart = (DateTime)drConcMedical["DataStartConc"];
@@ -1235,7 +1239,9 @@ namespace SiemensHR.InterfataSalarii.Module
                             //D_11 si D_12 nu pot fi completate simultan - pentru D_9 = 05 D_11= null
                             if (!d9.Equals("05"))
                             {
+                                string d_12 = d9;
                                 nodeConcMedical.Attributes["D_11"].Value = drConcMedical["CodUrgenta"].ToString();
+                                d12_codes.Add(d_12);
                                 nodeConcMedical.Attributes.Remove(nodeConcMedical.Attributes["D_12"]);
                             }
                             else
@@ -1243,6 +1249,7 @@ namespace SiemensHR.InterfataSalarii.Module
                                 nodeConcMedical.Attributes["D_12"].Value = drConcMedical["CodUrgenta"].ToString();
                                 nodeConcMedical.Attributes.Remove(nodeConcMedical.Attributes["D_11"]);
                             }
+
                             nodeConcMedical.Attributes["D_13"].Value = drConcMedical["NrAvizMedicExpert"].ToString();
 
                             nodeConcMedical.Attributes["D_14"].Value = drConcMedical["NrZileFirma"].ToString();
@@ -1263,7 +1270,14 @@ namespace SiemensHR.InterfataSalarii.Module
                             double mediaZilnica = Convert.ToDouble(drConcMedical["MedieZilnica"].ToString());
                             //double mediaZilnica = Convert.ToDouble(dsMz.Tables[0].Rows[0]["MediaZilnica"].ToString());
                             //nodeConcMedical.Attributes["D_19"].Value = ((string)(Math.Round(mediaZilnica, 4) + "")).Replace(",",".");
+                            //double d_17 = Double.Parse(nodeConcMedical.Attributes["D_17"].Value);
+                            //double d_18 = Double.Parse(nodeConcMedical.Attributes["D_18"].Value);
+                            //Before a fost ceea ce e mai jos Artiom Modificat
+                         
                             nodeConcMedical.Attributes["D_19"].Value = ((string)(Math.Round(mediaZilnica, 2) + "")).Replace(",", ".");
+                            // After pe data de 20.03.2019 am Modificat D_19 = D_17/D_18
+                            //double d_19 = Double.Parse(nodeConcMedical.Attributes["D_19"].Value);
+                            //      d_19 = d_17 / d_18;
 
                             double sumaCBSoc_concMedical = Convert.ToDouble(drConcMedical["SumaFirma"].ToString());
                             double sumaCBBASS_concMedical = Convert.ToDouble(drConcMedical["SumaBASS"].ToString());
@@ -1278,7 +1292,8 @@ namespace SiemensHR.InterfataSalarii.Module
                             {
                                 nodeConcMedical.Attributes["D_23"].Value = d9;
                             }
-
+                       
+                     
                             for (int i = 0; i < nodeConcMedical.Attributes.Count; i++)
                             {
                                 XmlAttribute at = nodeConcMedical.Attributes[i];
@@ -1296,10 +1311,22 @@ namespace SiemensHR.InterfataSalarii.Module
                                 c2_16 += Convert.ToDouble(nodeConcMedical.Attributes["D_21"].Value);*/
                         }
                     }
+                    
                     parentConcMedical.RemoveChild(nodeAsiguratD);
                     #endregion
 
+                    ///
+                    if (!d12_codes.Contains("08") && !d12_codes.Contains("09") && !d12_codes.Contains("15"))
+                    {
+                        b4_8 = Math.Round((b2_5 + b2_6 + b2_7) * procentPBCICAS / 100 + min1);
+                    }
+                    else 
+                    {
+                        b4_8 = Math.Round((b2_5 + b2_6 + b2_7) * procentPBCICAS / 100 + min2);
+                    }
+                      nodeAsiguratB4.Attributes["B4_8"].Value = b4_8 + "";
                 }
+                
 
                 #region asiguratE3
 
@@ -1354,6 +1381,8 @@ namespace SiemensHR.InterfataSalarii.Module
                 //Modificat Artiom
 
                 nodeAsiguratE3.Attributes["E3_18"].Value = "0";
+                //nodeAsiguratE3.Attributes["E3_19"].Value = "0";
+                //nodeAsiguratE3.Attributes["E3_21"].Value = "0";
                 #endregion
 
                 if (dr["ModIncadrare"].ToString() == "False")

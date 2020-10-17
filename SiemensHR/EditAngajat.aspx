@@ -1,4 +1,4 @@
-<%@ Page language="c#" Codebehind="EditAngajat.aspx.cs" AutoEventWireup="false" Inherits="SiemensHR.EditAngajat" %>
+<%@ Page language="c#" Codebehind="EditAngajat.aspx.cs" AutoEventWireup="false" Inherits="SiemensHR.EditAngajat" EnableEventValidation="false"%>
 <%@ Register TagPrefix="uc1" TagName="EditComboAngajatiDinCautare" Src="EditTasks/EditComboAngajatiDinCautare.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="PageHeader" Src="PageHeader.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="HeaderMenu" Src="HeaderMenu.ascx" %>

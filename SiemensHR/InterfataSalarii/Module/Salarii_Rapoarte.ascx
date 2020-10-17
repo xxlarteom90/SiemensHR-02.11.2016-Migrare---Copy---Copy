@@ -1,4 +1,7 @@
 <%@ Control Language="c#" AutoEventWireup="false" Codebehind="Salarii_Rapoarte.ascx.cs" Inherits="SiemensHR.InterfataSalarii.Module.Salarii_Rapoarte" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>
+
+
+<%@ Reference Control="~/InterfataSalarii/Module/rapoarte_ContributiiAngajator.ascx" %>
 <script>
 /*
 function SelectRapoarteOption(Option )
@@ -6,6 +9,7 @@ function SelectRapoarteOption(Option )
 	document.location = "Salarii.aspx?Tab=Rapoarte&Option=" + Option;
 }
 */
+
 </script>
 <table width="100%" cellpadding="0" cellspacing="0" height="100%">
 	<tr>

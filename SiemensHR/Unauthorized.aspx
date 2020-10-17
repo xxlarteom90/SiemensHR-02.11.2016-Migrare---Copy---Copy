@@ -17,7 +17,7 @@
 						<table cellSpacing="0" height="100%" cellPadding="0" width="100%" border="0" ID="Table5">
 							<tr>
 								<td width="100%" align="center" class="BigPageHeader">
-									<span class="BigPageHeader1">HR</span> &nbsp;Toolkit</td>
+                                    <span class="BigPageHeader1">HR &nbsp;Toolkit</span> </td>
 							</tr>
 						</table>
 					</td>

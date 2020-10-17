@@ -1,8 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
-MinimumVisualStudioVersion = 10.0.40219.1
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "RapoarteSiemensHR", "RapoarteSiemensHR.rptproj", "{4A63B99B-DCDD-4666-AF42-FCA8F5DC6515}"
 EndProject
 Global
