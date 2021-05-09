@@ -14,7 +14,7 @@
 		<TABLE id="Table4" cellSpacing="0" cellPadding="0" width="100%" border="0" height="100%">
 			<tr>
 				<td width="100%" align="center" class="BigPageHeader" height="30">
-					<span class="BigPageHeader1">HR</span> Toolkit</td>
+					<span class="BigPageHeader1">HR Toolkit</span> </td>
 				<td colspan="2" align="right" width="455"><img src="../images/header1.gif"></td>
 			</tr>
 			<tr>

@@ -1190,7 +1190,7 @@ namespace Salaries.Business
 		public int CheckDateAngajat()
 		{
 			Salaries.Data.Angajat angajat = new Salaries.Data.Angajat(settings.ConnectionString);
-			return angajat.CheckDateAngajat(angajatorId, marca, gid);
+			return angajat.CheckDateAngajat(angajatorId, marca, gid, cnp);
 		}
 		#endregion
 	

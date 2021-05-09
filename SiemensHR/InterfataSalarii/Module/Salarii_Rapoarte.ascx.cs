@@ -136,6 +136,17 @@ namespace SiemensHR.InterfataSalarii.Module
 					rapoarte_DeclaratieUnica declUnica = (rapoarte_DeclaratieUnica) LoadControl("rapoarte_DeclaratieUnica.ascx");
 					this.Center.Controls.Add(declUnica);
 					break;
+                //11.08.2014 - pontaj
+                case "pontaj":
+                    rapoarte_Pontaj pontaj = (rapoarte_Pontaj)LoadControl("rapoarte_pontaj.ascx");
+                    this.Center.Controls.Add(pontaj);
+                    break;
+
+                ////////////
+                case "anexa_somaj":
+                    rapoarte_AnexaSomaj somaj = (rapoarte_AnexaSomaj)LoadControl("rapoarte_AnexaSomaj.ascx");
+                    this.Center.Controls.Add(somaj);
+                    break;
 			}
 		}
 		#endregion

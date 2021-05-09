@@ -5,7 +5,7 @@
 			<table cellSpacing="0" height="100%" cellPadding="0" width="100%" border="0">
 				<tr>
 					<td width="100%" align="left" class="BigPageHeader">&nbsp;&nbsp;&nbsp;&nbsp; <span class="BigPageHeader1">
-							HR</span> Toolkit</td>
+							HR Toolkit</span> </td>
 				</tr>
 				<tr>
 					<td class="NormalBlueBold"><%Response.Write(Session["AngajatorDenumire"]);%></td>

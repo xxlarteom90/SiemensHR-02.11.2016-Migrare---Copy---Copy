@@ -46,19 +46,19 @@ namespace SiemensHR.Classes
 			string[] split_array = null;
 			DateTime retVal;
 			
-			if (text!="")
-			{
-				split_array = text.Split('.');
+			//if (text != "")
+			//{
+			//	split_array = text.Split('.');
 
-				if (split_array.Length==3)
-					retVal = new DateTime(Convert.ToInt32(split_array[2]), Convert.ToInt32(split_array[1]),Convert.ToInt32(split_array[0]));
-				else
-					throw new Exception("Invalid string format was past to Utilities.ConvertText2DateTime method!");
-			}
-			else
-			{
+			//	if (split_array.Length==3)
+			//		retVal = new DateTime(Convert.ToInt32(split_array[2]), Convert.ToInt32(split_array[1]),Convert.ToInt32(split_array[0]));
+			//	else
+			//		throw new Exception("Invalid string format was past to Utilities.ConvertText2DateTime method!");
+			//}
+			//else
+			//{
 				retVal = DateTime.MinValue;
-			}
+			//}
 			return retVal;
 		}
 		#endregion

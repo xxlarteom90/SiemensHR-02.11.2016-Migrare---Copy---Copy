@@ -86,7 +86,7 @@ function ChangeMotivDePlecare()
 							<TR>
 								<td class="NormalGreenBold" style="WIDTH: 225px">Data inregistrare :</td>
 								<td><asp:textbox id="txtDataInregistrare" style="CURSOR: hand; TEXT-ALIGN: center" onclick="ShowCalendar(this,'..//')"
-										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True" Width="100px"></asp:textbox><SPAN class="CommentRedBold">*</SPAN><SPAN class="CommentRedBold"></SPAN></td>
+										runat="server" CssClass="NormalEditBoxuri" size="10" Width="100px"></asp:textbox><SPAN class="CommentRedBold">*</SPAN><SPAN class="CommentRedBold"></SPAN></td>
 							</TR>
 							<tr>
 								<td class="GreenSeparator" colSpan="2"><IMG height="1" src="../images/1x1.gif"></td>
@@ -94,7 +94,7 @@ function ChangeMotivDePlecare()
 							<TR>
 								<td class="NormalGreenBold" style="WIDTH: 225px">Data lichidare :</td>
 								<td><asp:textbox id="txtDataLichidare" style="CURSOR: hand; TEXT-ALIGN: center" onclick="ShowCalendar(this,'..//')"
-										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True" Width="100px"></asp:textbox><SPAN class="CommentRedBold">*</SPAN></td>
+										runat="server" CssClass="NormalEditBoxuri" size="10" Width="100px"></asp:textbox><SPAN class="CommentRedBold">*</SPAN></td>
 							</TR>
 							<tr>
 								<td class="GreenSeparator" colSpan="2"><IMG height="1" src="../images/1x1.gif"></td>
@@ -181,7 +181,7 @@ function ChangeMotivDePlecare()
 							<TR>
 								<td class="NormalGreenBold" style="WIDTH: 225px">Luna retinere :</td>
 								<td><asp:textbox id="txtLunaRetinere" style="CURSOR: hand; TEXT-ALIGN: center" onclick="ShowCalendar(this,'..//')"
-										runat="server" CssClass="NormalEditBoxuri" size="10" ReadOnly="True" Width="100px"></asp:textbox><SPAN class="CommentRedBold"></SPAN></td>
+										runat="server" CssClass="NormalEditBoxuri" size="10" Width="100px"></asp:textbox><SPAN class="CommentRedBold"></SPAN></td>
 							</TR>
 							<tr>
 								<td class="GreenSeparator" colSpan="2"><IMG height="1" src="../images/1x1.gif"></td>

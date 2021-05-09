@@ -43,9 +43,9 @@ var arTabs = new Array('tableIstoricSuspendariCIM', 'tableAdaugaSuspendareCIM');
 	
 	function SelectSuspendareCIM( idRetinere, angajatId, tipRetinere, retinere, dataStart, dataEnd, valoare, alerta)
 	{
-		alert(eval( ctrlID+"_Form1."+ctrlID+"_ddlTipuriRetineri.options[0].value"));
-		alert(eval( ctrlID+"_Form1."+ctrlID+"_ddlTipuriRetineri.options[1].value"));
-		alert(eval( ctrlID+"_Form1."+ctrlID+"_ddlTipuriRetineri.options[2].value"));
+		//alert(eval( ctrlID+"_Form1."+ctrlID+"_ddlTipuriRetineri.options[0].value"));
+		//alert(eval( ctrlID+"_Form1."+ctrlID+"_ddlTipuriRetineri.options[1].value"));
+		//alert(eval( ctrlID+"_Form1."+ctrlID+"_ddlTipuriRetineri.options[2].value"));
 		var okDataStart = (CompareLunaAn(dataStart,LunaActivaDataStart));
 		var okDataEnd = (CompareLunaAn(dataEnd,LunaActivaDataStart));
 		
@@ -138,7 +138,7 @@ function AdaugaRetinereClick()
 {
 	document.getElementById( ActionRetinereValue ).value = "adaugaRetinere";
 	TransferDateRetinere();
-	document.getElementById( FormClientID ).submit();
+	document.getElementById( ctrlID + "_" + FormClientID ).submit();
 }
 
 //Lungu Andreea - 26.03.2010
@@ -146,7 +146,7 @@ function ModificaRetinereClick()
 {
 	document.getElementById( ActionRetinereValue ).value = "modificaRetinere";
 	TransferDateRetinere();
-	document.getElementById( FormClientID ).submit();
+	document.getElementById(ctrlID + "_" + FormClientID).submit();
 }
 
 //Lungu Andreea
@@ -156,7 +156,7 @@ function StergeRetinereClick()
 	{
 		TransferDateRetinere();
 		document.getElementById( ActionRetinereValue ).value = "stergeRetinere";
-		document.getElementById( FormClientID ).submit();
+		document.getElementById(ctrlID + "_" + FormClientID).submit();
 	}
 }
 </script>
@@ -188,7 +188,7 @@ function StergeRetinereClick()
 				<TR>
 					<TD class="NormalGreenBold" style="WIDTH: 196px; HEIGHT: 1px">Denumire&nbsp;retinere:</TD>
 					<TD style="HEIGHT: 1px"><SPAN class="CommentRedBold">
-							<asp:TextBox id="txtRetinere" runat="server" Width="297px" CssClass="NormalEditBoxuri"></asp:TextBox><SPAN class="CommentRedBold"><SPAN class="CommentRedBold"><SPAN class="CommentRedBold">
+							<asp:TextBox id="txtRetinere" runat="server" Width="297px" CssClass="NormalEditBoxuri" ReadOnly="True"></asp:TextBox><SPAN class="CommentRedBold"><SPAN class="CommentRedBold"><SPAN class="CommentRedBold">
 										<asp:regularexpressionvalidator id="vldRegExprDescriere" runat="server" CssClass="AlertRedBold" ErrorMessage="Denumirea retinerii nu poate contine caractere invalide: : <>()';&quot;\"
 											ControlToValidate="txtRetinere" ValidationExpression="^[^>|(|)|<|'|&quot;|;|\\]*$"><</asp:regularexpressionvalidator></SPAN></SPAN></SPAN></SPAN></TD>
 				</TR>
@@ -236,18 +236,19 @@ function StergeRetinereClick()
 				</TR>
 			</TABLE>
 			<TABLE cellSpacing="0" cellPadding="0" width="100%" align="center" border="0">
-				<TR id="add_line">
-					<TD align="center">&nbsp;<INPUT class="ButtonStyle" id="btnAdaugaRetinere" onmouseover="MouseOverButton(this)" onclick="AdaugaRetinereClick()"
-							onmouseout="MouseOutButton(this)" type="button" value="Adauga retinere" name="btnAdaugaRetinere" runat="server" size="20" tabindex="0"></TD>
-				</TR>
+                <tr id="add_line">
+                    <td align="center">&nbsp;<input class="ButtonStyle" id="btnAdaugaRetinere" onmouseover="MouseOverButton(this)" onclick="AdaugaRetinereClick()"
+                        onmouseout="MouseOutButton(this)" type="button" value="Adauga retinere" name="btnAdaugaRetinere" runat="server" size="20" tabindex="0"></td>
+                </tr>
 				<TR style="DISPLAY: none">
 					<TD align="center"></TD>
 				</TR>
 				<tr id="edit_line" style="DISPLAY: none">
 					<td style="HEIGHT: 81px" align="center">
-						<P class="CommentRedBold"><INPUT class="ButtonStyle" id="btnModificaRetinere" onmouseover="MouseOverButton(this)"
-								onclick="ModificaRetinereClick()" onmouseout="MouseOutButton(this)" type="button" value="Modifica retinere"
-								name="btnModificaRetinere" runat="server" size="20" tabindex="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT class="ButtonStyle" id="btnStergeRetinere" onmouseover="MouseOverButton(this)" onclick="StergeRetinereClick()"
+						<P class="CommentRedBold">
+                            <input class="ButtonStyle" id="btnModificaRetinere" onmouseover="MouseOverButton(this)"
+                                onclick="ModificaRetinereClick()" onmouseout="MouseOutButton(this)" type="button" value="Modifica retinere"
+                                name="btnModificaRetinere" runat="server" size="20" tabindex="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT class="ButtonStyle" id="btnStergeRetinere" onmouseover="MouseOverButton(this)" onclick="StergeRetinereClick()"
 								onmouseout="MouseOutButton(this)" type="button" value="Sterge retinere" name="btnStergeRetinere" runat="server" size="20" tabindex="0">&nbsp; 
 							&nbsp;&nbsp; <input class="ButtonStyle" id="btnInapoi" onmouseover="MouseOverButton(this)" onclick="BackToList()"
 								onmouseout="MouseOutButton(this)" type="button" value="  Inapoi  " size="20" tabindex="0">

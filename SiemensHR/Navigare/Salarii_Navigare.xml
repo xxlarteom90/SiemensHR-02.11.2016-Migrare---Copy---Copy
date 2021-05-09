@@ -124,7 +124,19 @@
 			<Option Text="Declaratie unica" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratie_unica')" >
 				<Options></Options>		
 			</Option>
-			<Option Text="Rapoarte scoase din uz" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
+
+      <!--Pontaj-->
+      <Option Text="Pontaj" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','pontaj')" >
+        <Options></Options>
+      </Option>
+
+      <!--Anexa nota lichidare - somaj--> 
+      <Option Text="Anexa la NL - somaj" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','anexa_somaj')" >
+        <Options></Options>
+      </Option>
+
+
+      <Option Text="Rapoarte scoase din uz" Expanded="false" LinkText="" Link="#" Target="" OnClick="">
 					<Options>
 						<Option Text="Declaratie CAS A11" Expanded="false" LinkText="" Link="#" Target="" OnClick="SelectOption('Rapoarte','declaratiaA11')" >
 							<Options></Options>		

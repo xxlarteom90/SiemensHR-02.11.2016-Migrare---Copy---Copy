@@ -17,7 +17,7 @@
 <table cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
   <tr>
     <td>
-<uc1:PageHeader id=PageHeader1 runat="server"></uc1:PageHeader></td></tr>
+        <uc1:PageHeader ID="PageHeader1" runat="server"></uc1:PageHeader></td></tr>
   <tr>
     <td align=center>
 <uc1:HeaderMenu id=HeaderMenu1 runat="server"></uc1:HeaderMenu></td></tr>
