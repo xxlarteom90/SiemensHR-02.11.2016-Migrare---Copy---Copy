@@ -1594,6 +1594,11 @@ namespace SiemensHR
 				{
 					textEroare +=" Nu se pot introduce doi angajati cu acelasi GID!";	
 				}
+				// nu se pot introduce doi angajati cu acelasi CNP  ARTIOM Petrachi 
+				if(rezultatVerificareDate == 3)
+				{
+					textEroare += "Nu se pot introduce doi angajati cu acelasi CNP!";
+				}
 				//datele sunt corecte
 				if ((verifIntrod) && (textEroare == ""))
 				{			

@@ -2448,9 +2448,12 @@ function TransferaDateDinClientInMainSituatieLunaraAngajat()
 		}
 		else
 		{
-			if ( document.getElementById( TipBoalaDDLClient ).options[ document.getElementById( TipBoalaDDLClient ).selectedIndex ].text == '06 Urgenta medico-chirurgicala' ) 
+			if (document.getElementById(TipBoalaDDLClient).options[document.getElementById(TipBoalaDDLClient).selectedIndex].text == '06 Urgenta medico-chirurgicala') {
+				document.getElementById(codUrgentaClient).style.display = '';
+			}
+			else if (document.getElementById(TipBoalaDDLClient).options[document.getElementById(TipBoalaDDLClient).selectedIndex].text == '51 Boala Infectocontagioasa pentru care se instituie masura izolarii')
 			{
-				document.getElementById( codUrgentaClient ).style.display = '';
+				document.getElementById(codUrgentaClient).style.display = '';
 			}
 			else
 			{

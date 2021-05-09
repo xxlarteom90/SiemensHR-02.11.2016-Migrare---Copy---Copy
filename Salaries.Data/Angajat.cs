@@ -732,23 +732,26 @@ namespace Salaries.Data
 		/// 2 daca gid mai exista
 		/// 0 daca datele sunt corecte
 		/// </returns>
-		public int CheckDateAngajat(int angajatorId, string marca, string gid)
+		/// Artiom Petrachi am adaugat verificare si dupa CNP daca exista in Db sa nu mai poata fi adaugat
+		public int CheckDateAngajat(int angajatorId, string marca, string gid, long cnp)
 		{
 			SqlParameter[] parameters = 
 							{
 								new SqlParameter("@AngajatorID", SqlDbType.Int, 4),
 								new SqlParameter("@Marca", SqlDbType.NVarChar, 8),
 								new SqlParameter("@Gid", SqlDbType.NVarChar, 8),
+								new SqlParameter("@Cnp", SqlDbType.Int, 16),
 								new SqlParameter("@NuExista", SqlDbType.Int, 0)
 							};
 			
 			parameters[0].Value = angajatorId;
 			parameters[1].Value = marca;
 			parameters[2].Value = gid;
-			parameters[3].Direction = ParameterDirection.Output;
+			parameters[3].Value = Convert.ToInt64(cnp.ToString());
+			parameters[4].Direction = ParameterDirection.Output;
 
 			RunProcedure("CheckDateAngajat", parameters);
-			return int.Parse(parameters[3].Value.ToString());
+			return int.Parse(parameters[4].Value.ToString());
 		}
 		#endregion
 
